@@ -1,0 +1,35 @@
+{
+  "title": "Cobertura de atestação em contratos inteligentes verificados: código e dados",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "language": "por",
+  "creators": [
+    {"name": "Munaretto, João Vitor", "affiliation": "UniSociesc"},
+    {"name": "Bezerra, Kauê Iran", "affiliation": "UniSociesc"},
+    {"name": "Gonçalves, Thalles Mageste Fouly", "affiliation": "UniSociesc"}
+  ],
+  "contributors": [
+    {"name": "Wisintainer, Bruno William", "affiliation": "UniSociesc", "type": "Supervisor"}
+  ],
+  "description": "<p>Código e dados do artigo \"Cobertura de atestação em contratos inteligentes verificados: construção de um verificador e medição das regiões de <i>bytecode</i> não cobertas pelo selo de verificação no Ethereum\", Trabalho de Conclusão de Curso de Engenharia da Computação (UniSociesc, 2026), com orientação do Prof. Bruno William Wisintainer.</p><p>Contém o verificador atesta, que recompila cada contrato com a entrada guardada no acervo do Sourcify, delimita no código de execução lido da cadeia as regiões não atestadas e emite uma certidão em JSON; os programas de sorteio e de análise; os oito contratos-controle com seus gabaritos; e as certidões da amostra de 385 contratos e as saídas citadas no artigo. O README descreve como reproduzir cada número.</p><p>Quatro arquivos grandes não estão neste arquivo compactado: as duas bases em Parquet e os dois bancos do cache, anexados à versão artigo-2026-11 no GitHub (https://github.com/DJd3str013r/TCC-2026-ENGCOMP/releases/tag/artigo-2026-11), com o SHA-256 de cada um em anexos.sha256.</p><p>Licenças: MIT para o código; Creative Commons Atribuição 4.0 Internacional (CC BY 4.0) para os dados produzidos pelo grupo. O conteúdo de terceiros guardado no cache segue as condições de origem, como explica a seção Licença do README.</p>",
+  "keywords": [
+    "Ethereum",
+    "contratos inteligentes",
+    "Solidity",
+    "Sourcify",
+    "verificação de código-fonte",
+    "bytecode",
+    "cobertura de atestação",
+    "smart contracts",
+    "source code verification"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/DJd3str013r/TCC-2026-ENGCOMP/releases/tag/artigo-2026-11",
+      "relation": "isSupplementedBy",
+      "resource_type": "dataset"
+    }
+  ],
+  "notes": "Trabalho de Conclusão de Curso de Engenharia da Computação, UniSociesc, 2026. Versão citada no artigo: artigo-2026-11."
+}

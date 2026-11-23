@@ -1,2 +1,4 @@
 # Sem conversao de fim de linha: os arquivos ficam com os mesmos bytes do estudo
 * -text
+# O modelo dos contratos-controle e Solidity, e nao Go Template
+*.tpl linguist-language=Solidity

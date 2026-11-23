@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "Para citar, use o artigo e este repositório, na versão artigo-2026-11."
+title: "Cobertura de atestação em contratos inteligentes verificados: código e dados"
+type: software
+authors:
+  - family-names: Munaretto
+    given-names: João Vitor
+    affiliation: UniSociesc
+  - family-names: Bezerra
+    given-names: Kauê Iran
+    affiliation: UniSociesc
+  - family-names: Gonçalves
+    given-names: Thalles Mageste Fouly
+    affiliation: UniSociesc
+abstract: >-
+  Código e dados do artigo "Cobertura de atestação em contratos inteligentes
+  verificados: construção de um verificador e medição das regiões de bytecode
+  não cobertas pelo selo de verificação no Ethereum", Trabalho de Conclusão de
+  Curso de Engenharia da Computação (UniSociesc, 2026), com orientação do Prof.
+  Bruno William Wisintainer. Contém o verificador atesta, os programas de
+  sorteio e de análise, os contratos-controle, as certidões da amostra de 385
+  contratos e as saídas citadas no artigo.
+repository-code: "https://github.com/DJd3str013r/TCC-2026-ENGCOMP"
+license: MIT
+version: artigo-2026-11
+date-released: 2026-11-23
+keywords:
+  - Ethereum
+  - contratos inteligentes
+  - Solidity
+  - Sourcify
+  - verificação de código-fonte
+  - bytecode
+  - cobertura de atestação
