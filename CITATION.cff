@@ -23,6 +23,14 @@ abstract: >-
 repository-code: "https://github.com/DJd3str013r/TCC-2026-ENGCOMP"
 license: MIT
 version: artigo-2026-11
+doi: 10.5281/zenodo.24455137
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24455137
+    description: "Versão artigo-2026-11 no Zenodo"
+  - type: doi
+    value: 10.5281/zenodo.24455136
+    description: "Todas as versões no Zenodo"
 date-released: 2026-11-23
 keywords:
   - Ethereum

@@ -1,5 +1,7 @@
 # Verificador de cobertura de atestação (`atesta`)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24455137.svg)](https://doi.org/10.5281/zenodo.24455137)
+
 Código e dados do artigo "Cobertura de atestação em contratos inteligentes verificados: construção de um verificador e
 medição das regiões de *bytecode* não cobertas pelo selo de verificação no Ethereum", de João Vitor Munaretto, Kauê
 Iran Bezerra e Thalles Mageste Fouly Gonçalves, com orientação do Prof. Bruno William Wisintainer (Trabalho de
@@ -281,7 +283,8 @@ Figura 2 usa a fonte Times New Roman.
 O código está sob a licença MIT, no arquivo `LICENSE`. Os dados produzidos pelo grupo (certidões, amostra, sorteio,
 gabaritos, saídas, figura e registros da execução) estão sob a licença Creative Commons Atribuição 4.0 Internacional (CC
 BY 4.0, https://creativecommons.org/licenses/by/4.0/deed.pt-br). Para citar, use o artigo e este repositório, na versão
-`artigo-2026-11`.
+`artigo-2026-11`, arquivada no Zenodo com o DOI 10.5281/zenodo.24455137 (https://doi.org/10.5281/zenodo.24455137); o DOI
+10.5281/zenodo.24455136 reúne todas as versões.
 
 Os contratos-controle declaram MIT na linha SPDX, que faz parte do código compilado e por isso não muda. As duas bases
 em Parquet e os bancos de `.cache/` derivam da exportação e da API do Sourcify e de nós JSON-RPC públicos e ficam fora
