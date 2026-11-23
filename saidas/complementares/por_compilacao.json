@@ -1,0 +1,673 @@
+{
+ "aviso": "Contagem descritiva, nao prevista na subsecao 3.8 do artigo. Nao altera as estimativas nem a decisao das hipoteses, que sao por endereco (unidade de analise da subsecao 3.2).",
+ "gerado_em_utc": "2026-11-23T02:33:51+00:00",
+ "programa": "analise/complementares/por_compilacao.py",
+ "ambiente": {
+  "python": "3.12.10",
+  "numpy": "2.5.4",
+  "duckdb": "2.0.0",
+  "scipy": "1.18.1",
+  "z": 1.959963984540054
+ },
+ "entradas": {
+  "base": {
+   "caminho": "dados/base.parquet",
+   "bytes": 968743356,
+   "sha256": "07647059d4def08cc218d7ec14a595c36d1ba62f05ab55495daf067722013833"
+  },
+  "certidoes": {
+   "pasta": "dados/certidoes",
+   "arquivos": 385,
+   "sha256_do_conjunto": "663353d3ef26106d7329ab8fd6c1fe6a97e438de55ce2d5cbf666edcf03bfce2",
+   "como": "sha256 da concatenacao, em ordem de nome, de nome + NUL + sha256(arquivo)"
+  },
+  "piloto": {
+   "pasta": "dados/piloto",
+   "contratos_processados_fora_da_amostra": 291
+  },
+  "amostra": {
+   "caminho": "dados/amostra.csv",
+   "sha256": "9e6519f8078dc756b1fcda1e6b6a5817c22eb3657e24f4c883cfbf2e4a37eaf0"
+  },
+  "resultados": {
+   "caminho": "saidas/resultados.json",
+   "sha256": "6a1d9e32c0793fa2c71d960ad3bf4ab9aa4dafb2062af3461edebc2a3ab81c49"
+  },
+  "estatistica": {
+   "caminho": "atesta/estatistica.py",
+   "sha256": "34b37490b96312cc2b30a5c15534d11a2a27a30ebcddf552f52bf09f2f1581d8",
+   "funcoes_importadas": [
+    "wilson",
+    "decisao_central",
+    "Z"
+   ]
+  }
+ },
+ "base": {
+  "enderecos": 8274941,
+  "enderecos_distintos": 8274941,
+  "compilation_id_nulos": 0,
+  "compilacoes_distintas": 892193,
+  "maximo_de_nomes_de_contrato_por_compilacao": 1,
+  "maximo_de_versoes_do_compilador_por_compilacao": 1,
+  "maior_compilacao_enderecos": 1595579,
+  "dez_mais_frequentes": {
+   "enderecos": 5855075,
+   "fracao_dos_enderecos": 0.7075669784231694,
+   "tamanho_da_decima": 129375,
+   "tamanho_da_decima_primeira": 92809,
+   "empate_na_decima": false,
+   "criterio_de_desempate": "compilation_id crescente (nao houve empate se empate_na_decima = false)",
+   "lista": [
+    {
+     "compilation_id": "16b45ac9-76ce-4f11-a40d-db20d29bba6f",
+     "enderecos": 1595579,
+     "fracao_dos_enderecos": 0.19282058929483606,
+     "contrato_compilado": "UserWallet.sol:UserWallet",
+     "compilador": "0.4.11+commit.68ef5810",
+     "sorteados": 76,
+     "positivos": 0
+    },
+    {
+     "compilation_id": "d4833885-3860-4b94-806c-7c588a6f51f4",
+     "enderecos": 1548170,
+     "fracao_dos_enderecos": 0.18709136415594987,
+     "contrato_compilado": "OwnableDelegateProxy.sol:OwnableDelegateProxy",
+     "compilador": "0.4.23+commit.124ca40d",
+     "sorteados": 62,
+     "positivos": 0
+    },
+    {
+     "compilation_id": "eda5cbc8-9733-47b2-be90-76c4b19fdca1",
+     "enderecos": 1174916,
+     "fracao_dos_enderecos": 0.14198481898541634,
+     "contrato_compilado": "Forwarder.sol:Forwarder",
+     "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+     "sorteados": 53,
+     "positivos": 0
+    },
+    {
+     "compilation_id": "06c6c223-73aa-4340-8b22-13517f3f370d",
+     "enderecos": 408767,
+     "fracao_dos_enderecos": 0.04939817697793857,
+     "contrato_compilado": "UniswapV2Pair.sol:UniswapV2Pair",
+     "compilador": "0.5.16+commit.9c3226ce",
+     "sorteados": 27,
+     "positivos": 0
+    },
+    {
+     "compilation_id": "d457cc44-bb92-4a02-9d83-306ae763fa69",
+     "enderecos": 244304,
+     "fracao_dos_enderecos": 0.029523352492785145,
+     "contrato_compilado": "contracts/proxies/GnosisSafeProxy.sol:GnosisSafeProxy",
+     "compilador": "0.7.6+commit.7338295f",
+     "sorteados": 10,
+     "positivos": 0
+    },
+    {
+     "compilation_id": "d1f0427f-b534-4482-8a62-70b92fcf0a07",
+     "enderecos": 230706,
+     "fracao_dos_enderecos": 0.027880077936507344,
+     "contrato_compilado": "GnosisSafeProxy.sol:GnosisSafeProxy",
+     "compilador": "0.7.6+commit.7338295f",
+     "sorteados": 11,
+     "positivos": 0
+    },
+    {
+     "compilation_id": "f5355ae1-dbbc-4467-87d7-cfb318b47c91",
+     "enderecos": 222094,
+     "fracao_dos_enderecos": 0.02683934544065027,
+     "contrato_compilado": "DSProxy.sol:DSProxy",
+     "compilador": "0.4.23+commit.124ca40d",
+     "sorteados": 10,
+     "positivos": 0
+    },
+    {
+     "compilation_id": "1d126408-fecb-4c89-903e-a70e78a2e10c",
+     "enderecos": 163755,
+     "fracao_dos_enderecos": 0.01978926496273508,
+     "contrato_compilado": "Deposit.sol:Deposit",
+     "compilador": "0.4.16+commit.d7661dd9",
+     "sorteados": 3,
+     "positivos": 0
+    },
+    {
+     "compilation_id": "99879121-64f7-4be8-b588-565fe284ccdf",
+     "enderecos": 137409,
+     "fracao_dos_enderecos": 0.016605435615794722,
+     "contrato_compilado": "Controller.sol:WalletProxy",
+     "compilador": "0.4.23+commit.124ca40d",
+     "sorteados": 4,
+     "positivos": 0
+    },
+    {
+     "compilation_id": "bdfefcc0-7195-4de6-9d36-4f29d4d01b35",
+     "enderecos": 129375,
+     "fracao_dos_enderecos": 0.01563455256055602,
+     "contrato_compilado": "Deed.sol:Deed",
+     "compilador": "0.4.10+commit.f0d539ae",
+     "sorteados": 4,
+     "positivos": 0
+    }
+   ]
+  },
+  "compilacao_unica": {
+   "compilacoes": 826261,
+   "fracao_das_compilacoes": 0.9261011911099952,
+   "enderecos": 826261,
+   "fracao_dos_enderecos": 0.09985098383178805
+  },
+  "faixas_de_tamanho": [
+   {
+    "faixa": "1",
+    "compilacoes": 826261,
+    "fracao_das_compilacoes": 0.9261011911099952,
+    "enderecos": 826261,
+    "fracao_dos_enderecos": 0.09985098383178805
+   },
+   {
+    "faixa": "2 a 10",
+    "compilacoes": 60237,
+    "fracao_das_compilacoes": 0.06751566084916605,
+    "enderecos": 172519,
+    "fracao_dos_enderecos": 0.02084836616961982
+   },
+   {
+    "faixa": "11 a 1.000",
+    "compilacoes": 5512,
+    "fracao_das_compilacoes": 0.006178035469903934,
+    "enderecos": 350788,
+    "fracao_dos_enderecos": 0.04239160134193102
+   },
+   {
+    "faixa": "mais de 1.000",
+    "compilacoes": 183,
+    "fracao_das_compilacoes": 0.00020511257093476412,
+    "enderecos": 6925373,
+    "fracao_dos_enderecos": 0.8369090486566612
+   }
+  ]
+ },
+ "juncao": {
+  "certidoes": 385,
+  "certidoes_processadas": 385,
+  "versoes_do_atesta_nas_certidoes": [
+   "1.7.0"
+  ],
+  "linhas_da_amostra_csv_elegiveis": 385,
+  "enderecos_das_certidoes_na_amostra_csv": 385,
+  "unidas_a_base": 385,
+  "enderecos_distintos_unidos": 385,
+  "ordem_coincide": 385,
+  "indice_base_coincide": 385,
+  "match_id_coincide_base_certidao_amostra": 385,
+  "positivos": 13,
+  "resultados_json_k_n": [
+   13,
+   385
+  ],
+  "cobre_os_385": true,
+  "confere_com_resultados_json": true
+ },
+ "sorteados": {
+  "n": 385,
+  "positivos": 13,
+  "nas_dez_mais_frequentes": {
+   "sorteados": 260,
+   "positivos": 0
+  },
+  "fora_das_dez_mais_frequentes": {
+   "sorteados": 125,
+   "positivos": 13,
+   "p": 0.104,
+   "wilson": [
+    0.061790968273115685,
+    0.16982282354387887
+   ],
+   "nota": "dominio por endereco (enderecos fora das dez compilacoes)"
+  },
+  "compilacao_unica": {
+   "sorteados": 51,
+   "positivos": 5,
+   "p": 0.09803921568627451,
+   "wilson": [
+    0.04260807310761861,
+    0.20978234681080862
+   ],
+   "nota": "sob amostragem aleatoria simples de enderecos, estes sorteados formam amostra aleatoria simples das compilacoes unicas da base"
+  },
+  "faixas_de_tamanho": [
+   {
+    "faixa": "1",
+    "sorteados": 51,
+    "positivos": 5,
+    "esperado_sob_aas": 38.4426287752384
+   },
+   {
+    "faixa": "2 a 10",
+    "sorteados": 9,
+    "positivos": 2,
+    "esperado_sob_aas": 8.02662097530363
+   },
+   {
+    "faixa": "11 a 1.000",
+    "sorteados": 26,
+    "positivos": 2,
+    "esperado_sob_aas": 16.32076651664344
+   },
+   {
+    "faixa": "mais de 1.000",
+    "sorteados": 299,
+    "positivos": 4,
+    "esperado_sob_aas": 322.2099837328145
+   }
+  ]
+ },
+ "diagnostico_da_composicao": {
+  "aviso": "Diagnostico descritivo, nao previsto na subsecao 3.8; nao altera a estimativa do artigo.",
+  "qui_quadrado_faixas": {
+   "observado": [
+    51,
+    9,
+    26,
+    299
+   ],
+   "esperado_sob_aas": [
+    38.4426287752384,
+    8.02662097530363,
+    16.32076651664344,
+    322.2099837328145
+   ],
+   "estatistica": 11.632225342217296,
+   "graus_de_liberdade": 3,
+   "p_valor": 0.008755295120304875
+  },
+  "fracao_por_endereco_pos_estratificada_pelas_faixas": {
+   "p": 0.028879282485541266,
+   "intervalo_bootstrap_mesmas_reamostragens": [
+    0.014321624046990724,
+    0.0450371846067047
+   ],
+   "reamostragens_validas": 10000,
+   "decisao_descritiva": "refutada",
+   "fracao_do_artigo": 0.033766233766233764
+  }
+ },
+ "premissa_indicador_constante_na_compilacao": {
+  "por_construcao": "Em atesta/regioes.py (delimitar), as regioes que podem ter tau = address (variavel imutavel, biblioteca, protecao de chamada) e o tipo declarado vem da saida do compilador para a entrada de compilacao guardada pelo acervo; o codigo lido da cadeia so acrescenta os blocos de metadados (tau diferente de address). Enderecos da mesma compilacao recebem, assim, o mesmo indicador, salvo se a entrada servida pelo acervo variar entre eles.",
+  "amostra": {
+   "compilacoes_distintas_na_amostra": 125,
+   "compilacoes_com_2_ou_mais_sorteados": 17,
+   "sorteados_nessas_compilacoes": 277,
+   "compilacoes_com_indicador_misto": 0,
+   "compilacoes_com_algum_positivo": 0,
+   "compilacoes_com_regioes_sem_metadados_diferentes": 0,
+   "lista": [
+    {
+     "compilation_id": "16b45ac9-76ce-4f11-a40d-db20d29bba6f",
+     "enderecos_na_base": 1595579,
+     "sorteados": 76,
+     "indicadores": [
+      0
+     ],
+     "positivos": 0,
+     "regioes_sem_metadados_identicas": true,
+     "regioes_sem_metadados": []
+    },
+    {
+     "compilation_id": "d4833885-3860-4b94-806c-7c588a6f51f4",
+     "enderecos_na_base": 1548170,
+     "sorteados": 62,
+     "indicadores": [
+      0
+     ],
+     "positivos": 0,
+     "regioes_sem_metadados_identicas": true,
+     "regioes_sem_metadados": []
+    },
+    {
+     "compilation_id": "eda5cbc8-9733-47b2-be90-76c4b19fdca1",
+     "enderecos_na_base": 1174916,
+     "sorteados": 53,
+     "indicadores": [
+      0
+     ],
+     "positivos": 0,
+     "regioes_sem_metadados_identicas": true,
+     "regioes_sem_metadados": []
+    },
+    {
+     "compilation_id": "06c6c223-73aa-4340-8b22-13517f3f370d",
+     "enderecos_na_base": 408767,
+     "sorteados": 27,
+     "indicadores": [
+      0
+     ],
+     "positivos": 0,
+     "regioes_sem_metadados_identicas": true,
+     "regioes_sem_metadados": []
+    },
+    {
+     "compilation_id": "d457cc44-bb92-4a02-9d83-306ae763fa69",
+     "enderecos_na_base": 244304,
+     "sorteados": 10,
+     "indicadores": [
+      0
+     ],
+     "positivos": 0,
+     "regioes_sem_metadados_identicas": true,
+     "regioes_sem_metadados": []
+    },
+    {
+     "compilation_id": "d1f0427f-b534-4482-8a62-70b92fcf0a07",
+     "enderecos_na_base": 230706,
+     "sorteados": 11,
+     "indicadores": [
+      0
+     ],
+     "positivos": 0,
+     "regioes_sem_metadados_identicas": true,
+     "regioes_sem_metadados": []
+    },
+    {
+     "compilation_id": "f5355ae1-dbbc-4467-87d7-cfb318b47c91",
+     "enderecos_na_base": 222094,
+     "sorteados": 10,
+     "indicadores": [
+      0
+     ],
+     "positivos": 0,
+     "regioes_sem_metadados_identicas": true,
+     "regioes_sem_metadados": []
+    },
+    {
+     "compilation_id": "1d126408-fecb-4c89-903e-a70e78a2e10c",
+     "enderecos_na_base": 163755,
+     "sorteados": 3,
+     "indicadores": [
+      0
+     ],
+     "positivos": 0,
+     "regioes_sem_metadados_identicas": true,
+     "regioes_sem_metadados": []
+    },
+    {
+     "compilation_id": "99879121-64f7-4be8-b588-565fe284ccdf",
+     "enderecos_na_base": 137409,
+     "sorteados": 4,
+     "indicadores": [
+      0
+     ],
+     "positivos": 0,
+     "regioes_sem_metadados_identicas": true,
+     "regioes_sem_metadados": []
+    },
+    {
+     "compilation_id": "bdfefcc0-7195-4de6-9d36-4f29d4d01b35",
+     "enderecos_na_base": 129375,
+     "sorteados": 4,
+     "indicadores": [
+      0
+     ],
+     "positivos": 0,
+     "regioes_sem_metadados_identicas": true,
+     "regioes_sem_metadados": []
+    },
+    {
+     "compilation_id": "625c34b1-c299-477b-baa8-40d823f8f794",
+     "enderecos_na_base": 92809,
+     "sorteados": 3,
+     "indicadores": [
+      0
+     ],
+     "positivos": 0,
+     "regioes_sem_metadados_identicas": true,
+     "regioes_sem_metadados": []
+    },
+    {
+     "compilation_id": "5a14d86e-6b59-4915-b6db-84aa98a73d1e",
+     "enderecos_na_base": 41493,
+     "sorteados": 4,
+     "indicadores": [
+      0
+     ],
+     "positivos": 0,
+     "regioes_sem_metadados_identicas": true,
+     "regioes_sem_metadados": []
+    },
+    {
+     "compilation_id": "7ac0a9a3-6a61-4c18-a6bc-3481dc0651a0",
+     "enderecos_na_base": 39700,
+     "sorteados": 2,
+     "indicadores": [
+      0
+     ],
+     "positivos": 0,
+     "regioes_sem_metadados_identicas": true,
+     "regioes_sem_metadados": []
+    },
+    {
+     "compilation_id": "97d3aaac-c6f1-43b8-94e8-fe4e4a0b6e10",
+     "enderecos_na_base": 33507,
+     "sorteados": 2,
+     "indicadores": [
+      0
+     ],
+     "positivos": 0,
+     "regioes_sem_metadados_identicas": true,
+     "regioes_sem_metadados": []
+    },
+    {
+     "compilation_id": "51458ba7-1b79-41e8-8744-742ca07eaa1c",
+     "enderecos_na_base": 19072,
+     "sorteados": 2,
+     "indicadores": [
+      0
+     ],
+     "positivos": 0,
+     "regioes_sem_metadados_identicas": true,
+     "regioes_sem_metadados": []
+    },
+    {
+     "compilation_id": "0cc1e8a8-d299-41c1-97af-3ff33095a053",
+     "enderecos_na_base": 17344,
+     "sorteados": 2,
+     "indicadores": [
+      0
+     ],
+     "positivos": 0,
+     "regioes_sem_metadados_identicas": true,
+     "regioes_sem_metadados": []
+    },
+    {
+     "compilation_id": "60f66fed-479d-4d75-931c-8c98b2617e0d",
+     "enderecos_na_base": 505,
+     "sorteados": 2,
+     "indicadores": [
+      0
+     ],
+     "positivos": 0,
+     "regioes_sem_metadados_identicas": true,
+     "regioes_sem_metadados": []
+    }
+   ]
+  },
+  "amostra_e_ensaio": {
+   "nota": "O ensaio (dados/piloto) tem contratos fora da amostra, lidos no bloco 26.290.000 e processados pelas versoes 1.0.0 a 1.2.0 (as falhas, refeitas pela 1.7.0); entra so nesta conferencia.",
+   "contratos_do_ensaio_processados": 291,
+   "versoes_no_ensaio": [
+    "1.0.0",
+    "1.1.0",
+    "1.2.0",
+    "1.7.0"
+   ],
+   "blocos_no_ensaio": [
+    26290000
+   ],
+   "contratos_do_ensaio_na_base": 291,
+   "compilacoes_com_2_ou_mais_contratos": 26,
+   "contratos_nessas_compilacoes": 512,
+   "compilacoes_com_indicador_misto": 0,
+   "compilacoes_com_algum_positivo": 1,
+   "compilacoes_com_positivo": [
+    {
+     "compilation_id": "dacb5b71-53fd-4d0e-ba61-5ce9621ab404",
+     "contratos": [
+      {
+       "origem": "amostra",
+       "endereco": "0x2d90afaeea73aa6a3313f191349ce4a9b86c7996",
+       "indicador": 1,
+       "versao": "1.7.0",
+       "contrato_compilado": "contracts/InitializedProxy.sol:InitializedProxy"
+      },
+      {
+       "origem": "ensaio",
+       "endereco": "0xe7ff0169a85848ac3e359663fb89b8e6e386bf1b",
+       "indicador": 1,
+       "versao": "1.2.0",
+       "contrato_compilado": "contracts/InitializedProxy.sol:InitializedProxy"
+      }
+     ],
+     "regioes_sem_metadados_identicas": true,
+     "regioes_sem_metadados": [
+      [
+       "immutable",
+       42,
+       32,
+       "address",
+       true,
+       "imutavel:4"
+      ],
+      [
+       "immutable",
+       123,
+       32,
+       "address",
+       true,
+       "imutavel:4"
+      ]
+     ]
+    }
+   ]
+  },
+  "como_se_confere": "Agrupam-se os contratos por compilation_id. Em cada compilacao com dois ou mais contratos, confere-se se o indicador e o mesmo e se as regioes de F(a) que nao sao de metadados (motivo, inicio, comprimento, tipo, tau_address, construto) sao identicas nas certidoes."
+ },
+ "estimador_de_razao": {
+  "aviso": "Descritivo e nao previsto na subsecao 3.8: a regra de decisao do artigo usa o intervalo de Wilson da fracao por endereco. Este intervalo e de bootstrap, sobre outra unidade.",
+  "formula": "p = soma(ind_i / c_i) / soma(1 / c_i), soma sobre os 385 sorteados; c_i = enderecos da compilacao do contrato i na base",
+  "alvo": "fracao de compilacoes da base com indicador 1, se o indicador for constante dentro da compilacao; sem essa premissa, a media, entre as compilacoes, da fracao de seus enderecos com indicador 1",
+  "numerador_soma_ind_sobre_c": 5.674919780691427,
+  "denominador_soma_1_sobre_c": 54.0886576468085,
+  "p": 0.10491885041311014,
+  "n_efetivo_kish": 56.10815888161654,
+  "compilacoes_estimadas_N_sobre_n_vezes_soma_1_sobre_c": 1162546.6254455564,
+  "compilacoes_na_base": 892193,
+  "bootstrap": {
+   "reamostragens": 10000,
+   "semente": 20261117,
+   "gerador": "numpy 2.5.4 Generator(PCG64(semente)).integers(0, n, size=(B, n))",
+   "unidades": "os 385 sorteados, na ordem do campo ordem das certidoes (ordem da permutacao do sorteio)",
+   "metodo": "percentil (numpy.percentile, interpolacao linear) nos quantis 2,5% e 97,5%",
+   "intervalo": [
+    0.03288500552446107,
+    0.18948136377080368
+   ],
+   "media_das_reamostragens": 0.10430759027371506,
+   "erro_padrao": 0.0401982619989407,
+   "estabilidade_outras_sementes": [
+    {
+     "semente": 20261118,
+     "intervalo": [
+      0.0344263843611312,
+      0.18789308556660214
+     ],
+     "decisao_descritiva": "inconclusiva"
+    },
+    {
+     "semente": 20261119,
+     "intervalo": [
+      0.03421470407757405,
+      0.18986304589648967
+     ],
+     "decisao_descritiva": "inconclusiva"
+    },
+    {
+     "semente": 20261120,
+     "intervalo": [
+      0.03231066424556464,
+      0.1893575013560062
+     ],
+     "decisao_descritiva": "inconclusiva"
+    },
+    {
+     "semente": 20261121,
+     "intervalo": [
+      0.03387201766754978,
+      0.18910079132965668
+     ],
+     "decisao_descritiva": "inconclusiva"
+    }
+   ]
+  },
+  "linearizacao_conferencia": {
+   "erro_padrao": 0.04013434029752205,
+   "intervalo_p_mais_menos_z_ep": [
+    0.026256988886692353,
+    0.1835807119395279
+   ]
+  },
+  "decisao_descritiva": "inconclusiva",
+  "pos_estratificado_conferencia": {
+   "formula": "Q1 * k_u / n_u + (1 - Q1) * soma_{c>=2}(ind/c) / soma_{c>=2}(1/c), com Q1 = compilacoes unicas / compilacoes da base (conhecido)",
+   "Q1": 0.9261011911099952,
+   "p": 0.10694227463702037,
+   "intervalo_bootstrap_mesmas_reamostragens": [
+    0.03460704850998302,
+    0.19120203270915762
+   ],
+   "reamostragens_validas": 10000,
+   "decisao_descritiva": "inconclusiva"
+  }
+ },
+ "decisao_nessa_unidade": {
+  "regra": "decisao_central de atesta/estatistica.py: refutada se u < 0,10; sustentada se l > 0,10; senao, inconclusiva",
+  "por_endereco_resultados_json": {
+   "k": 13,
+   "n": 385,
+   "p": 0.033766233766233764,
+   "wilson": [
+    0.019837533404388638,
+    0.0569070064170579
+   ],
+   "decisao": "refutada"
+  },
+  "por_compilacao_estimador_de_razao": {
+   "p": 0.10491885041311014,
+   "intervalo_bootstrap": [
+    0.03288500552446107,
+    0.18948136377080368
+   ],
+   "decisao_descritiva": "inconclusiva"
+  },
+  "por_compilacao_pos_estratificado": {
+   "p": 0.10694227463702037,
+   "intervalo_bootstrap": [
+    0.03460704850998302,
+    0.19120203270915762
+   ],
+   "decisao_descritiva": "inconclusiva"
+  },
+  "so_compilacoes_unicas_wilson": {
+   "k": 5,
+   "n": 51,
+   "p": 0.09803921568627451,
+   "wilson": [
+    0.04260807310761861,
+    0.20978234681080862
+   ],
+   "decisao_descritiva": "inconclusiva"
+  },
+  "mudaria": true,
+  "aviso": "Leitura so descritiva: a hipotese central foi decidida por endereco, pela regra fixada antes da coleta; nenhuma decisao por compilacao foi prevista."
+ }
+}

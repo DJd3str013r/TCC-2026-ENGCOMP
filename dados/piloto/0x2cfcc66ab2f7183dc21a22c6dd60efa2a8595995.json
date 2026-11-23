@@ -1,0 +1,52 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.1.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x2cfcc66ab2f7183dc21a22c6dd60efa2a8595995",
+  "bloco_referencia": 26290000,
+  "tamanho_codigo": 7583,
+  "resumo_codigo": "0xb5368d7dad7f4b1486bbeb3a1fad2c98aae54060f7aa0f645ca23f6745ba1dfc"
+ },
+ "acervo": {
+  "match_id": "13509385",
+  "grau_codigo_execucao": "parcial",
+  "compilador": "0.5.0+commit.1d4f565a",
+  "linguagem": "Solidity",
+  "contrato_compilado": "ResourceEscrow.sol:ResourceEscrow",
+  "verificado_em": "2026-01-11T03:50:24Z"
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 7583,
+  "tamanho_cadeia": 7583,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo"
+ },
+ "regioes": [
+  {
+   "inicio": 7540,
+   "comprimento": 43,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa165627a7a72305820e904d5d13a9a063188c96197146f0634a75e3ad67a3af317452b321328a5ff520029",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [],
+ "cobertura": 0.9943294210734538,
+ "bytes_nao_atestados": 43,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 3.5
+}

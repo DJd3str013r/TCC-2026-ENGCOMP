@@ -1,0 +1,175 @@
+{
+ "inicio_utc": "2026-11-18T02:23:58.741+00:00",
+ "bloco": 26296341,
+ "bloco_hex": "0x1914015",
+ "keccak256": {
+  "zeppelinos_implementacao": "0x7050c9e0f4ca769c69bd3a8ef740bc37934f8e2c036e5a723fd8ee048ed3f8c3",
+  "zeppelinos_admin": "0x10d6a54a4754c8869d6886b5f5d7fbfa5b4522237ea5c60d11bc4e7a1ff9390b",
+  "eip1822_proxiable": "0xc5f16f0fcc639fa48a6947836d9850f504798523bf8c9a3a87d5876cf622bcf7",
+  "erc1967_implementacao": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc"
+ },
+ "nos": {
+  "https://eth.drpc.org": {
+   "chainId": "0x1",
+   "hash_bloco": "0x3f17a1f32676e57461a80b819efbe1fa59a0477cc0cae6b812ae6e337b9f9570",
+   "hash_igual_ao_sorteio": true,
+   "erros": []
+  },
+  "https://1rpc.io/eth": {
+   "chainId": "0x1",
+   "hash_bloco": null,
+   "hash_igual_ao_sorteio": false,
+   "erros": [
+    "HTTP 402"
+   ]
+  },
+  "https://eth-mainnet.public.blastapi.io": {
+   "chainId": "0x1",
+   "hash_bloco": "0x3f17a1f32676e57461a80b819efbe1fa59a0477cc0cae6b812ae6e337b9f9570",
+   "hash_igual_ao_sorteio": true,
+   "erros": []
+  }
+ },
+ "leituras": {
+  "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48|zeppelinos_implementacao": {
+   "por_no": {
+    "https://eth.drpc.org": "0x00000000000000000000000043506849d7c04f9138d1a2050bbf3a0c054402dd",
+    "https://eth-mainnet.public.blastapi.io": "0x00000000000000000000000043506849d7c04f9138d1a2050bbf3a0c054402dd"
+   },
+   "nos_com_valor": 2,
+   "concordam": true,
+   "valor": "0x00000000000000000000000043506849d7c04f9138d1a2050bbf3a0c054402dd"
+  },
+  "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48|zeppelinos_admin": {
+   "por_no": {
+    "https://eth.drpc.org": "0x000000000000000000000000807a96288a1a408dbc13de2b1d087d10356395d2",
+    "https://eth-mainnet.public.blastapi.io": "0x000000000000000000000000807a96288a1a408dbc13de2b1d087d10356395d2"
+   },
+   "nos_com_valor": 2,
+   "concordam": true,
+   "valor": "0x000000000000000000000000807a96288a1a408dbc13de2b1d087d10356395d2"
+  },
+  "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48|eip1822_proxiable": {
+   "por_no": {
+    "https://eth.drpc.org": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "https://eth-mainnet.public.blastapi.io": "0x0000000000000000000000000000000000000000000000000000000000000000"
+   },
+   "nos_com_valor": 2,
+   "concordam": true,
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48|erc1967_implementacao": {
+   "por_no": {
+    "https://eth.drpc.org": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "https://eth-mainnet.public.blastapi.io": "0x0000000000000000000000000000000000000000000000000000000000000000"
+   },
+   "nos_com_valor": 2,
+   "concordam": true,
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "0x67e0524739e59ca57ac27e520ea05d14cdb6015e|zeppelinos_implementacao": {
+   "por_no": {
+    "https://eth.drpc.org": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "https://eth-mainnet.public.blastapi.io": "0x0000000000000000000000000000000000000000000000000000000000000000"
+   },
+   "nos_com_valor": 2,
+   "concordam": true,
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "0x67e0524739e59ca57ac27e520ea05d14cdb6015e|eip1822_proxiable": {
+   "por_no": {
+    "https://eth.drpc.org": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "https://eth-mainnet.public.blastapi.io": "0x0000000000000000000000000000000000000000000000000000000000000000"
+   },
+   "nos_com_valor": 2,
+   "concordam": true,
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "0x3b50805453023a91a8bf641e279401a0b23fa6f9|zeppelinos_implementacao": {
+   "por_no": {
+    "https://eth.drpc.org": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "https://eth-mainnet.public.blastapi.io": "0x0000000000000000000000000000000000000000000000000000000000000000"
+   },
+   "nos_com_valor": 2,
+   "concordam": true,
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "0x3b50805453023a91a8bf641e279401a0b23fa6f9|eip1822_proxiable": {
+   "por_no": {
+    "https://eth.drpc.org": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "https://eth-mainnet.public.blastapi.io": "0x0000000000000000000000000000000000000000000000000000000000000000"
+   },
+   "nos_com_valor": 2,
+   "concordam": true,
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000000"
+  }
+ },
+ "codigo": {
+  "implementacao": {
+   "endereco": "0x43506849d7c04f9138d1a2050bbf3a0c054402dd",
+   "nos_com_valor": 2,
+   "codigo_igual_entre_nos": true,
+   "tamanho": 23464,
+   "designador_7702": false,
+   "sha256_igual_ao_registrado_no_instantaneo": true,
+   "verificado_no_instantaneo": true
+  },
+  "admin": {
+   "endereco": "0x807a96288a1a408dbc13de2b1d087d10356395d2",
+   "nos_com_valor": 2,
+   "codigo_igual_entre_nos": true,
+   "tamanho": 0,
+   "designador_7702": false,
+   "sha256_igual_ao_registrado_no_instantaneo": null,
+   "verificado_no_instantaneo": false
+  }
+ },
+ "comparacao_com_proxies_compartimentos": {
+  "0x3b50805453023a91a8bf641e279401a0b23fa6f9|zeppelinos_implementacao": {
+   "este_programa": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "proxies_compartimentos": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "iguais": true
+  },
+  "0x3b50805453023a91a8bf641e279401a0b23fa6f9|eip1822_proxiable": {
+   "este_programa": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "proxies_compartimentos": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "iguais": true
+  },
+  "0x67e0524739e59ca57ac27e520ea05d14cdb6015e|zeppelinos_implementacao": {
+   "este_programa": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "proxies_compartimentos": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "iguais": true
+  },
+  "0x67e0524739e59ca57ac27e520ea05d14cdb6015e|eip1822_proxiable": {
+   "este_programa": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "proxies_compartimentos": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "iguais": true
+  },
+  "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48|zeppelinos_implementacao": {
+   "este_programa": "0x00000000000000000000000043506849d7c04f9138d1a2050bbf3a0c054402dd",
+   "proxies_compartimentos": "0x00000000000000000000000043506849d7c04f9138d1a2050bbf3a0c054402dd",
+   "iguais": true
+  },
+  "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48|eip1822_proxiable": {
+   "este_programa": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "proxies_compartimentos": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "iguais": true
+  },
+  "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48|erc1967_implementacao": {
+   "este_programa": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "proxies_compartimentos": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "iguais": true
+  },
+  "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48|zeppelinos_admin": {
+   "este_programa": "0x000000000000000000000000807a96288a1a408dbc13de2b1d087d10356395d2",
+   "proxies_compartimentos_admin": "0x807a96288a1a408dbc13de2b1d087d10356395d2",
+   "iguais": true
+  }
+ },
+ "leituras_iguais_as_de_proxies_compartimentos": 8,
+ "leituras_comparadas": 8,
+ "chamadas": 26,
+ "fim_utc": "2026-11-18T02:24:07.751+00:00",
+ "respostas_brutas": "dados/complementares/proxies_administrador_respostas.jsonl",
+ "lidas_da_rede_nesta_execucao": false
+}

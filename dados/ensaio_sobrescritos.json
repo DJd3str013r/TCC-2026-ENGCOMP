@@ -1,0 +1,237 @@
+{
+ "descricao": "Certidoes da 1a rodada do ensaio (verificador 1.0.0, semente 2026) sobrescritas pela 2a rodada (1.1.0), sorteada com a mesma semente: amostra/piloto.py grava dados/piloto/<endereco>.json. Identificadas pela data de criacao do arquivo, dentro da janela da 1a rodada (05:39:08 a 05:40:05 UTC), e pela versao atual da certidao; a ordem de insercao nos caches da API e do RPC confirma. A 1a rodada verificou, portanto, 80 contratos (51 certidoes restantes e estas 29). Como a 1.0.0 nao tinha reserva para versoes nightly nem para anteriores a 0.4.11, tres destas falharam nela (registradas em dados/falhas_diagnosticadas.json). Registro da conferencia dos resultados de 29/10/2026.",
+ "contratos": [
+  {
+   "endereco": "0x402d46717e88ef69826c1cf76115bb1e696d39fd",
+   "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+   "criado_utc": "2026-10-29T05:39:09+00:00",
+   "modificado_utc": "2026-10-29T05:41:45+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0xc1521f387236c3caaf3cb423457c166124cabe5b",
+   "compilador": "0.5.2+commit.1df8f40c",
+   "criado_utc": "2026-10-29T05:39:23+00:00",
+   "modificado_utc": "2026-10-29T05:41:38+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0xed6c5fe7edc128be5c1566106c85fd11fa556582",
+   "compilador": "0.4.23+commit.124ca40d",
+   "criado_utc": "2026-10-29T05:39:25+00:00",
+   "modificado_utc": "2026-10-29T05:41:38+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0x361995ec0e3923c382202d943c6d18c90e72155a",
+   "compilador": "0.4.23+commit.124ca40d",
+   "criado_utc": "2026-10-29T05:39:26+00:00",
+   "modificado_utc": "2026-10-29T05:41:51+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0x04f79fbb28d866262a1afcbbfa7f7a4bddc38ab4",
+   "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+   "criado_utc": "2026-10-29T05:39:26+00:00",
+   "modificado_utc": "2026-10-29T05:41:45+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0xc545fb1d4c3fb15760eba4ad80c7f740ecd843cf",
+   "compilador": "0.5.16+commit.9c3226ce",
+   "criado_utc": "2026-10-29T05:39:27+00:00",
+   "modificado_utc": "2026-10-29T05:41:38+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0xbb05c0b8c1aa4e1832c93f8991a8154f091c535c",
+   "compilador": "0.4.23+commit.124ca40d",
+   "criado_utc": "2026-10-29T05:39:27+00:00",
+   "modificado_utc": "2026-10-29T05:41:45+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0x6504594ccf8ce9e6751252919c9173c6841eb56c",
+   "compilador": "0.7.6+commit.7338295f",
+   "criado_utc": "2026-10-29T05:39:28+00:00",
+   "modificado_utc": "2026-10-29T05:41:45+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0xc39ae395147d5415db029357d5eccaa825e77584",
+   "compilador": "0.8.9+commit.e5eed63a",
+   "criado_utc": "2026-10-29T05:39:30+00:00",
+   "modificado_utc": "2026-10-29T05:41:45+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0x41e643a147ef3a999b9621e787b23ce776f98e87",
+   "compilador": "0.7.6+commit.7338295f",
+   "criado_utc": "2026-10-29T05:39:33+00:00",
+   "modificado_utc": "2026-10-29T05:41:46+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0xc0d469d5fa25ef2fdf0bb111e96f1f93f5b4c588",
+   "compilador": "0.8.0+commit.c7dfd78e",
+   "criado_utc": "2026-10-29T05:39:37+00:00",
+   "modificado_utc": "2026-10-29T05:41:45+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0xaf0397453142449d338f5d27d80825b44afeabff",
+   "compilador": "0.5.12+commit.7709ece9",
+   "criado_utc": "2026-10-29T05:39:38+00:00",
+   "modificado_utc": "2026-10-29T05:41:46+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0x490381f278f90abc989fcb0caf06e10a04370a5a",
+   "compilador": "0.8.0+commit.c7dfd78e",
+   "criado_utc": "2026-10-29T05:39:39+00:00",
+   "modificado_utc": "2026-10-29T05:41:50+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0x0000009a317684a5f840484357fa587aca76454c",
+   "compilador": "0.4.18+commit.9cf6e910",
+   "criado_utc": "2026-10-29T05:39:43+00:00",
+   "modificado_utc": "2026-10-29T05:41:47+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0xc8bc74cbbc02f19800dfb14c47130895afeeb360",
+   "compilador": "0.7.6+commit.7338295f",
+   "criado_utc": "2026-10-29T05:39:46+00:00",
+   "modificado_utc": "2026-10-29T05:41:52+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0x03372c383b67f3d36d95dd6658d0566e54afb343",
+   "compilador": "0.4.16+commit.d7661dd9",
+   "criado_utc": "2026-10-29T05:39:47+00:00",
+   "modificado_utc": "2026-10-29T05:41:50+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0xeb64b2c1bce4c862a2ba8203a988217b86ecbc6d",
+   "compilador": "0.7.6+commit.7338295f",
+   "criado_utc": "2026-10-29T05:39:47+00:00",
+   "modificado_utc": "2026-10-29T05:41:39+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0x040312406c130fa0fcadbddc86223937285d323f",
+   "compilador": "0.4.16+commit.d7661dd9",
+   "criado_utc": "2026-10-29T05:39:48+00:00",
+   "modificado_utc": "2026-10-29T05:41:53+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0xac1edad7ef75ee52c79598c062a392903e214f13",
+   "compilador": "0.4.23+commit.124ca40d",
+   "criado_utc": "2026-10-29T05:39:50+00:00",
+   "modificado_utc": "2026-10-29T05:41:54+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0xa811607554419977bb372fa3a2ec9bbc81575fb4",
+   "compilador": "0.8.16+commit.07a7930e",
+   "criado_utc": "2026-10-29T05:39:51+00:00",
+   "modificado_utc": "2026-10-29T05:41:52+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0xbaa2c169c17035cec8e889f6495332908af9b190",
+   "compilador": "0.4.23+commit.124ca40d",
+   "criado_utc": "2026-10-29T05:39:51+00:00",
+   "modificado_utc": "2026-10-29T05:41:55+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0x286f7eb7730580a265530ffd1c8f7f7e43d51742",
+   "compilador": "0.4.19+commit.c4cbbb05",
+   "criado_utc": "2026-10-29T05:39:52+00:00",
+   "modificado_utc": "2026-10-29T05:41:52+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0x6461331b404dd8a9230acb8a38cd6121579689b0",
+   "compilador": "0.8.20+commit.a1b79de6",
+   "criado_utc": "2026-10-29T05:39:53+00:00",
+   "modificado_utc": "2026-10-29T05:41:56+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0xc75b4e8c6cdcc22ae9d202de1b807be3366d9261",
+   "compilador": "0.5.16+commit.9c3226ce",
+   "criado_utc": "2026-10-29T05:39:53+00:00",
+   "modificado_utc": "2026-10-29T05:41:56+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0xceb286c9604c542d3cc08b41aa6c9675b078a832",
+   "compilador": "0.7.4+commit.3f05b770",
+   "criado_utc": "2026-10-29T05:39:56+00:00",
+   "modificado_utc": "2026-10-29T05:41:54+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0x4351a454b1a67328474ffc03c7adc5c7d9bb0589",
+   "compilador": "0.8.30+commit.73712a01",
+   "criado_utc": "2026-10-29T05:39:58+00:00",
+   "modificado_utc": "2026-10-29T05:41:56+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0xbf26be1d875e40fd75b7fbb1d39985d30b6965d4",
+   "compilador": "0.4.10+commit.f0d539ae",
+   "criado_utc": "2026-10-29T05:39:59+00:00",
+   "modificado_utc": "2026-10-29T05:41:56+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "falha"
+  },
+  {
+   "endereco": "0xa926c5a377d124451dd00e4f7f6b231052e5ccee",
+   "compilador": "0.4.11+commit.68ef5810",
+   "criado_utc": "2026-10-29T05:40:00+00:00",
+   "modificado_utc": "2026-10-29T05:41:58+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  },
+  {
+   "endereco": "0xc6e7e60271f0e0f8084e2210765e91702b45a10b",
+   "compilador": "0.8.18+commit.87f61d96",
+   "criado_utc": "2026-10-29T05:40:05+00:00",
+   "modificado_utc": "2026-10-29T05:41:57+00:00",
+   "versao_atual": "1.1.0",
+   "situacao_atual": "processado"
+  }
+ ]
+}

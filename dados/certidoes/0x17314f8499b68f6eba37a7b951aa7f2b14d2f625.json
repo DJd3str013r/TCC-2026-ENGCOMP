@@ -1,0 +1,392 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x17314f8499b68f6eba37a7b951aa7f2b14d2f625",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 19834,
+  "resumo_codigo": "0x451acb08f53d0c25eabbb8081ade59afc98d315d22ff5792c0a5e18b85d8eae2"
+ },
+ "acervo": {
+  "match_id": "51180397",
+  "grau_codigo_execucao": "parcial",
+  "grau_codigo_criacao": "parcial",
+  "compilador": "0.8.26+commit.8a97fa7a",
+  "linguagem": "Solidity",
+  "contrato_compilado": "src/creators/UsdcFactory.sol:UsdcFactory",
+  "verificado_em": "2026-09-17T13:45:38Z",
+  "match_id_instantaneo": 51180397,
+  "grau_instantaneo": "parcial",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 19834,
+  "tamanho_cadeia": 19834,
+  "blocos_removidos": 0,
+  "metadados_em_F": false,
+  "ajustes_dos_metadados": [],
+  "motor": "solc nativo"
+ },
+ "regioes": [
+  {
+   "inicio": 303,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12859",
+   "valor": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 383,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12295",
+   "valor": "0x000000000000000000000000000000000004444c5dc75cb358380d2e3de08a90",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 652,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12292",
+   "valor": "0x000000000000000000000000f60a4c650078e6280d1832b7556a39cb7ce669e6",
+   "tipo": "contract PoolInitializer",
+   "tau_address": true
+  },
+  {
+   "inicio": 753,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12298",
+   "valor": "0x000000000000000000000000bd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 804,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12301",
+   "valor": "0x000000000000000000000000bd31ea90b36a83616ec022a616d5d4c63160e088",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 915,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12958",
+   "valor": "0x00000000000000000000000096aca09bd91afc5e404b83686fd1dbdb36ef0fcf",
+   "tipo": "contract IController",
+   "tau_address": true
+  },
+  {
+   "inicio": 2151,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12958",
+   "valor": "0x00000000000000000000000096aca09bd91afc5e404b83686fd1dbdb36ef0fcf",
+   "tipo": "contract IController",
+   "tau_address": true
+  },
+  {
+   "inicio": 2487,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12958",
+   "valor": "0x00000000000000000000000096aca09bd91afc5e404b83686fd1dbdb36ef0fcf",
+   "tipo": "contract IController",
+   "tau_address": true
+  },
+  {
+   "inicio": 2663,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12958",
+   "valor": "0x00000000000000000000000096aca09bd91afc5e404b83686fd1dbdb36ef0fcf",
+   "tipo": "contract IController",
+   "tau_address": true
+  },
+  {
+   "inicio": 3413,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12292",
+   "valor": "0x000000000000000000000000f60a4c650078e6280d1832b7556a39cb7ce669e6",
+   "tipo": "contract PoolInitializer",
+   "tau_address": true
+  },
+  {
+   "inicio": 3476,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12292",
+   "valor": "0x000000000000000000000000f60a4c650078e6280d1832b7556a39cb7ce669e6",
+   "tipo": "contract PoolInitializer",
+   "tau_address": true
+  },
+  {
+   "inicio": 3615,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12292",
+   "valor": "0x000000000000000000000000f60a4c650078e6280d1832b7556a39cb7ce669e6",
+   "tipo": "contract PoolInitializer",
+   "tau_address": true
+  },
+  {
+   "inicio": 3778,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12958",
+   "valor": "0x00000000000000000000000096aca09bd91afc5e404b83686fd1dbdb36ef0fcf",
+   "tipo": "contract IController",
+   "tau_address": true
+  },
+  {
+   "inicio": 4135,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12958",
+   "valor": "0x00000000000000000000000096aca09bd91afc5e404b83686fd1dbdb36ef0fcf",
+   "tipo": "contract IController",
+   "tau_address": true
+  },
+  {
+   "inicio": 4506,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12958",
+   "valor": "0x00000000000000000000000096aca09bd91afc5e404b83686fd1dbdb36ef0fcf",
+   "tipo": "contract IController",
+   "tau_address": true
+  },
+  {
+   "inicio": 4643,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12958",
+   "valor": "0x00000000000000000000000096aca09bd91afc5e404b83686fd1dbdb36ef0fcf",
+   "tipo": "contract IController",
+   "tau_address": true
+  },
+  {
+   "inicio": 5018,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12958",
+   "valor": "0x00000000000000000000000096aca09bd91afc5e404b83686fd1dbdb36ef0fcf",
+   "tipo": "contract IController",
+   "tau_address": true
+  },
+  {
+   "inicio": 5172,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12958",
+   "valor": "0x00000000000000000000000096aca09bd91afc5e404b83686fd1dbdb36ef0fcf",
+   "tipo": "contract IController",
+   "tau_address": true
+  },
+  {
+   "inicio": 5782,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12295",
+   "valor": "0x000000000000000000000000000000000004444c5dc75cb358380d2e3de08a90",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 5822,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12298",
+   "valor": "0x000000000000000000000000bd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 5866,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12292",
+   "valor": "0x000000000000000000000000f60a4c650078e6280d1832b7556a39cb7ce669e6",
+   "tipo": "contract PoolInitializer",
+   "tau_address": true
+  },
+  {
+   "inicio": 5910,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12301",
+   "valor": "0x000000000000000000000000bd31ea90b36a83616ec022a616d5d4c63160e088",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 6254,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12859",
+   "valor": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 6339,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12958",
+   "valor": "0x00000000000000000000000096aca09bd91afc5e404b83686fd1dbdb36ef0fcf",
+   "tipo": "contract IController",
+   "tau_address": true
+  }
+ ],
+ "constantes": [
+  {
+   "construto": "imutavel:12859",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 2,
+   "valores": [
+    "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+   ],
+   "valores_distintos": 1,
+   "literais_no_codigo_de_criacao": [],
+   "alvos": {
+    "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+     "classe": "contrato_verificado_no_acervo",
+     "substituivel": false,
+     "erc1967_implementacao": null,
+     "erc1967_beacon": null,
+     "tamanho_codigo": 2186
+    }
+   }
+  },
+  {
+   "construto": "imutavel:12295",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 2,
+   "valores": [
+    "0x000000000004444c5dc75cb358380d2e3de08a90"
+   ],
+   "valores_distintos": 1,
+   "literais_no_codigo_de_criacao": [],
+   "alvos": {
+    "0x000000000004444c5dc75cb358380d2e3de08a90": {
+     "classe": "contrato_verificado_no_acervo",
+     "substituivel": false,
+     "erc1967_implementacao": null,
+     "erc1967_beacon": null,
+     "tamanho_codigo": 24009
+    }
+   }
+  },
+  {
+   "construto": "imutavel:12292",
+   "motivo": "immutable",
+   "tipo": "contract PoolInitializer",
+   "tau_address": true,
+   "regioes": 5,
+   "valores": [
+    "0xf60a4c650078e6280d1832b7556a39cb7ce669e6"
+   ],
+   "valores_distintos": 1,
+   "literais_no_codigo_de_criacao": [],
+   "alvos": {
+    "0xf60a4c650078e6280d1832b7556a39cb7ce669e6": {
+     "classe": "contrato_verificado_no_acervo",
+     "substituivel": false,
+     "erc1967_implementacao": null,
+     "erc1967_beacon": null,
+     "tamanho_codigo": 9983
+    }
+   }
+  },
+  {
+   "construto": "imutavel:12298",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 2,
+   "valores": [
+    "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e"
+   ],
+   "valores_distintos": 1,
+   "literais_no_codigo_de_criacao": [],
+   "alvos": {
+    "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e": {
+     "classe": "contrato_verificado_no_acervo",
+     "substituivel": false,
+     "erc1967_implementacao": null,
+     "erc1967_beacon": null,
+     "tamanho_codigo": 23877
+    }
+   }
+  },
+  {
+   "construto": "imutavel:12301",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 2,
+   "valores": [
+    "0xbd31ea90b36a83616ec022a616d5d4c63160e088"
+   ],
+   "valores_distintos": 1,
+   "literais_no_codigo_de_criacao": [],
+   "alvos": {
+    "0xbd31ea90b36a83616ec022a616d5d4c63160e088": {
+     "classe": "contrato_verificado_no_acervo",
+     "substituivel": false,
+     "erc1967_implementacao": null,
+     "erc1967_beacon": null,
+     "tamanho_codigo": 12329
+    }
+   }
+  },
+  {
+   "construto": "imutavel:12958",
+   "motivo": "immutable",
+   "tipo": "contract IController",
+   "tau_address": true,
+   "regioes": 11,
+   "valores": [
+    "0x96aca09bd91afc5e404b83686fd1dbdb36ef0fcf"
+   ],
+   "valores_distintos": 1,
+   "literais_no_codigo_de_criacao": [],
+   "alvos": {
+    "0x96aca09bd91afc5e404b83686fd1dbdb36ef0fcf": {
+     "classe": "contrato_verificado_no_acervo",
+     "substituivel": false,
+     "erc1967_implementacao": null,
+     "erc1967_beacon": null,
+     "tamanho_codigo": 7018
+    }
+   }
+  }
+ ],
+ "cobertura": 0.961278612483614,
+ "bytes_nao_atestados": 768,
+ "indicador_equacao_2": 1,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 1.8,
+ "ordem": 268
+}

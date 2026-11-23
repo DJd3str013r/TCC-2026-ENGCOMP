@@ -1,0 +1,252 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x05c35038bd55afacb4bfdf36754f75f723851afd",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 13149,
+  "resumo_codigo": "0x5be98531ddfe2a628146fed7e47090429010ede6f4f57af833860db1ea073f33"
+ },
+ "acervo": {
+  "match_id": "6460982",
+  "grau_codigo_execucao": "parcial",
+  "grau_codigo_criacao": "parcial",
+  "compilador": "0.8.17+commit.8df45f5f",
+  "linguagem": "Solidity",
+  "contrato_compilado": "AiGodfatherProtocol.sol:AiGodfatherProtocol",
+  "verificado_em": "2025-06-20T12:01:32Z",
+  "match_id_instantaneo": 6460982,
+  "grau_instantaneo": "parcial",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 13149,
+  "tamanho_cadeia": 13149,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo",
+  "ajustes_dos_metadados": [
+   "evmVersion",
+   "metadata",
+   "remappings"
+  ],
+  "motor": "solc nativo"
+ },
+ "regioes": [
+  {
+   "inicio": 1124,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1481",
+   "valor": "0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d",
+   "tipo": "contract IUniswapV2Router02",
+   "tau_address": true
+  },
+  {
+   "inicio": 1547,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1483",
+   "valor": "0x0000000000000000000000007b1f3291d9c0782d36188fe172c8fc7c89a7dc5c",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 4534,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1483",
+   "valor": "0x0000000000000000000000007b1f3291d9c0782d36188fe172c8fc7c89a7dc5c",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 6613,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1483",
+   "valor": "0x0000000000000000000000007b1f3291d9c0782d36188fe172c8fc7c89a7dc5c",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 6768,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1483",
+   "valor": "0x0000000000000000000000007b1f3291d9c0782d36188fe172c8fc7c89a7dc5c",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 6812,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1483",
+   "valor": "0x0000000000000000000000007b1f3291d9c0782d36188fe172c8fc7c89a7dc5c",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 7678,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1481",
+   "valor": "0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d",
+   "tipo": "contract IUniswapV2Router02",
+   "tau_address": true
+  },
+  {
+   "inicio": 7740,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1483",
+   "valor": "0x0000000000000000000000007b1f3291d9c0782d36188fe172c8fc7c89a7dc5c",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 10671,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1483",
+   "valor": "0x0000000000000000000000007b1f3291d9c0782d36188fe172c8fc7c89a7dc5c",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 10833,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1483",
+   "valor": "0x0000000000000000000000007b1f3291d9c0782d36188fe172c8fc7c89a7dc5c",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 10877,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1483",
+   "valor": "0x0000000000000000000000007b1f3291d9c0782d36188fe172c8fc7c89a7dc5c",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 11143,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1481",
+   "valor": "0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d",
+   "tipo": "contract IUniswapV2Router02",
+   "tau_address": true
+  },
+  {
+   "inicio": 11328,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1481",
+   "valor": "0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d",
+   "tipo": "contract IUniswapV2Router02",
+   "tau_address": true
+  },
+  {
+   "inicio": 11388,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1481",
+   "valor": "0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d",
+   "tipo": "contract IUniswapV2Router02",
+   "tau_address": true
+  },
+  {
+   "inicio": 11510,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1481",
+   "valor": "0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d",
+   "tipo": "contract IUniswapV2Router02",
+   "tau_address": true
+  },
+  {
+   "inicio": 11603,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1481",
+   "valor": "0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d",
+   "tipo": "contract IUniswapV2Router02",
+   "tau_address": true
+  },
+  {
+   "inicio": 13096,
+   "comprimento": 53,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa2646970667358221220675b7df1b2658707d20f20eaeb50a65e7b587f75e515a45843c257f48e6d836864736f6c63430008110033",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [
+  {
+   "construto": "imutavel:1481",
+   "motivo": "immutable",
+   "tipo": "contract IUniswapV2Router02",
+   "tau_address": true,
+   "regioes": 7,
+   "valores": [
+    "0x7a250d5630b4cf539739df2c5dacb4c659f2488d"
+   ],
+   "valores_distintos": 1,
+   "literais_no_codigo_de_criacao": [
+    "0x7a250d5630b4cf539739df2c5dacb4c659f2488d"
+   ],
+   "alvos": {
+    "0x7a250d5630b4cf539739df2c5dacb4c659f2488d": {
+     "classe": "contrato_verificado_no_acervo",
+     "substituivel": false,
+     "erc1967_implementacao": null,
+     "erc1967_beacon": null,
+     "tamanho_codigo": 21943
+    }
+   }
+  },
+  {
+   "construto": "imutavel:1483",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 9,
+   "valores": [
+    "0x7b1f3291d9c0782d36188fe172c8fc7c89a7dc5c"
+   ],
+   "valores_distintos": 1,
+   "literais_no_codigo_de_criacao": [],
+   "alvos": {
+    "0x7b1f3291d9c0782d36188fe172c8fc7c89a7dc5c": {
+     "classe": "contrato_verificado_no_acervo",
+     "substituivel": false,
+     "erc1967_implementacao": null,
+     "erc1967_beacon": null,
+     "tamanho_codigo": 11293
+    }
+   }
+  }
+ ],
+ "cobertura": 0.9570309529241767,
+ "bytes_nao_atestados": 565,
+ "indicador_equacao_2": 1,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 1.0,
+ "ordem": 370
+}

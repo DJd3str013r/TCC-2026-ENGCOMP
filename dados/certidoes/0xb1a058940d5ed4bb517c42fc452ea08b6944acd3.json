@@ -1,0 +1,63 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0xb1a058940d5ed4bb517c42fc452ea08b6944acd3",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 6532,
+  "resumo_codigo": "0xa1c0282e232ad06296be9fc374cf269a74b5027b1fc10d833cd9bb3e7ee4f0e6"
+ },
+ "acervo": {
+  "match_id": "6702266",
+  "grau_codigo_execucao": "parcial",
+  "grau_codigo_criacao": "parcial",
+  "compilador": "0.8.17+commit.8df45f5f",
+  "linguagem": "Solidity",
+  "contrato_compilado": "SantaSeason.sol:SantaSeason",
+  "verificado_em": "2025-07-04T12:46:57Z",
+  "match_id_instantaneo": 6702266,
+  "grau_instantaneo": "parcial",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 6532,
+  "tamanho_cadeia": 6532,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo",
+  "ajustes_dos_metadados": [
+   "evmVersion",
+   "metadata",
+   "remappings"
+  ],
+  "motor": "solc nativo"
+ },
+ "regioes": [
+  {
+   "inicio": 6479,
+   "comprimento": 53,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa2646970667358221220a8d4baf9755a308fa406c47831414e02ada0cb04c5b489655c8e7a0838fc381e64736f6c63430008110033",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [],
+ "cobertura": 0.9918860992039191,
+ "bytes_nao_atestados": 53,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.4,
+ "ordem": 142
+}

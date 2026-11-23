@@ -1,0 +1,52 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x06ccb519a2340eb2ac6a2912d123378d510f726f",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 2762,
+  "resumo_codigo": "0x57b4be51d5fbee75f9c0a16ae00f04082a114cd4d40a1fb970319cebde9cbc68"
+ },
+ "acervo": {
+  "match_id": "6462172",
+  "grau_codigo_execucao": "exata",
+  "grau_codigo_criacao": "exata",
+  "compilador": "0.8.17+commit.8df45f5f",
+  "linguagem": "Solidity",
+  "contrato_compilado": "contracts/core/assetSources/AaveAdapter.sol:AaveAdapter",
+  "verificado_em": "2025-06-20T12:22:26Z",
+  "match_id_instantaneo": 6462172,
+  "grau_instantaneo": "exata",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 2762,
+  "tamanho_cadeia": 2762,
+  "blocos_removidos": 0,
+  "metadados_em_F": false,
+  "ajustes_dos_metadados": [
+   "evmVersion",
+   "metadata",
+   "remappings"
+  ],
+  "motor": "solc nativo"
+ },
+ "regioes": [],
+ "constantes": [],
+ "cobertura": 1.0,
+ "bytes_nao_atestados": 0,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 1.4,
+ "ordem": 166
+}

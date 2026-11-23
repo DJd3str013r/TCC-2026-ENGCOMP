@@ -1,0 +1,41 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.2.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x9da8647ecabae6dd5f88487e07d6e6aaff42c9c5",
+  "bloco_referencia": 26290000,
+  "tamanho_codigo": 6363,
+  "resumo_codigo": "0xda240bd2d1405b9ad75556e8efa265ca4489ab9202e6bfe9871a24301322c8f5"
+ },
+ "acervo": {
+  "match_id": "281295",
+  "grau_codigo_execucao": "exata",
+  "compilador": "0.8.9+commit.e5eed63a",
+  "linguagem": "Solidity",
+  "contrato_compilado": "Shounen.sol:Shounen",
+  "verificado_em": "2024-08-08T11:06:56Z"
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 6363,
+  "tamanho_cadeia": 6363,
+  "blocos_removidos": 0,
+  "metadados_em_F": false
+ },
+ "regioes": [],
+ "constantes": [],
+ "cobertura": 1.0,
+ "bytes_nao_atestados": 0,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.4
+}

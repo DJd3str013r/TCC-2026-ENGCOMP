@@ -1,0 +1,82 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.2.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x49d228588f8ac83bc6edfb0329e0ef79d72161bd",
+  "bloco_referencia": 26290000,
+  "tamanho_codigo": 377,
+  "resumo_codigo": "0xa6a299728e35ae5a1dd34dcfb69e6c6b90c575cfcfc48a41bc3fda06e3be78a3"
+ },
+ "acervo": {
+  "match_id": "55953595",
+  "grau_codigo_execucao": "parcial",
+  "compilador": "0.8.28+commit.7893614a",
+  "linguagem": "Solidity",
+  "contrato_compilado": "Bridgers.sol:Bridgers",
+  "verificado_em": "2026-10-12T01:15:05Z"
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 377,
+  "tamanho_cadeia": 377,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo"
+ },
+ "regioes": [
+  {
+   "inicio": 118,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:5",
+   "valor": "0x0000000000000000000000008324cec8f7246a4be6158c6de510f4fb0f898f44",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 211,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:5",
+   "valor": "0x0000000000000000000000008324cec8f7246a4be6158c6de510f4fb0f898f44",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 324,
+   "comprimento": 53,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa2646970667358221220ab9e5717dcc05487db91129370e43abc0eb559f5f88acf5b22b6ec9eda787d8764736f6c634300081c0033",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [
+  {
+   "construto": "imutavel:5",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 2,
+   "valores": [
+    "0x8324cec8f7246a4be6158c6de510f4fb0f898f44"
+   ],
+   "valores_distintos": 1
+  }
+ ],
+ "cobertura": 0.6896551724137931,
+ "bytes_nao_atestados": 117,
+ "indicador_equacao_2": 1,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 24.7
+}

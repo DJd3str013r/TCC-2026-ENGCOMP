@@ -1,0 +1,1373 @@
+{
+ "z": 1.959963984540054,
+ "sorteio": {
+  "bloco_referencia": 26296341,
+  "hash_bloco": "0x3f17a1f32676e57461a80b819efbe1fa59a0477cc0cae6b812ae6e337b9f9570",
+  "data_bloco_utc": "2026-10-29T05:35:35+00:00",
+  "semente": "28537464679715336892671698908302805048116497283507949601477229022537809106288",
+  "gerador": "numpy 2.5.4 PCG64, permutation(N)",
+  "registrado_em": "2026-10-29T05:48:52+00:00",
+  "N_base": 8274941,
+  "examinados": 385,
+  "elegiveis": 385,
+  "excluidos": 0,
+  "exclusoes_por_motivo": {}
+ },
+ "base": {
+  "mainnet_implantacoes": 8372084,
+  "verificacoes_vigentes_mainnet": 8280991,
+  "enderecos_com_verificacao_vigente": 8280900,
+  "por_linguagem": [
+   [
+    "solidity",
+    8275059
+   ],
+   [
+    "vyper",
+    5712
+   ],
+   [
+    "yul",
+    123
+   ],
+   [
+    "fe",
+    6
+   ]
+  ],
+  "solidity_sem_correspondencia_execucao": 118,
+  "base": 8274941,
+  "base_por_grau": [
+   [
+    false,
+    7350722
+   ],
+   [
+    true,
+    924219
+   ]
+  ],
+  "base_grau_sourcify": [
+   [
+    "perfect",
+    false,
+    1
+   ],
+   [
+    "perfect",
+    true,
+    924219
+   ],
+   [
+    "partial",
+    false,
+    7350721
+   ]
+  ],
+  "enderecos_verificados_qualquer": 8281136
+ },
+ "amostra": {
+  "examinados": 385,
+  "elegiveis": 385,
+  "processados": 385,
+  "perdas": [],
+  "tamanho_planejado": 385,
+  "por_grau": {
+   "parcial": 337,
+   "exata": 48
+  }
+ },
+ "hipotese_central": {
+  "k": 13,
+  "n": 385,
+  "p": 0.033766233766233764,
+  "l": 0.019837533404388638,
+  "u": 0.0569070064170579,
+  "semiamplitude": 0.01853473650633463,
+  "limiar": 0.1,
+  "decisao": "refutada",
+  "perdas": 0,
+  "sensibilidade": {},
+  "decisao_firme": true
+ },
+ "hipotese_secundaria": {
+  "parcial": {
+   "k": 6,
+   "n": 337,
+   "p": 0.017804154302670624,
+   "ic": [
+    0.008184707147291529,
+    0.03829279261316988
+   ],
+   "sorteados": 337,
+   "amplitude": 0.030108085465878353
+  },
+  "exata": {
+   "k": 7,
+   "n": 48,
+   "p": 0.14583333333333334,
+   "ic": [
+    0.07248249326603709,
+    0.27167176524746284
+   ],
+   "sorteados": 48,
+   "amplitude": 0.19918927198142575
+  },
+  "delta": -0.12802917903066272,
+  "L": -0.2542347443207169,
+  "U": -0.05187059423290974,
+  "decisao": "refutada",
+  "decisao_firme": true
+ },
+ "cobertura": {
+  "total": {
+   "n": 385,
+   "minimo": 0.16129032258064513,
+   "q1": 0.9211009174311926,
+   "mediana": 0.9614695340501792,
+   "q3": 0.990121155638397,
+   "maximo": 1.0
+  },
+  "parcial": {
+   "n": 337,
+   "minimo": 0.16129032258064513,
+   "q1": 0.9211009174311926,
+   "mediana": 0.9483173076923077,
+   "q3": 0.9717847769028871,
+   "maximo": 1.0,
+   "motivos_do_minimo": [
+    "cborAuxdata"
+   ]
+  },
+  "exata": {
+   "n": 48,
+   "minimo": 0.7366255144032922,
+   "q1": 1.0,
+   "mediana": 1.0,
+   "q3": 1.0,
+   "maximo": 1.0,
+   "motivos_do_minimo": [
+    "immutable"
+   ]
+  },
+  "contratos_com_cobertura_1": 44,
+  "cobertura_1_por_grau": {
+   "exata": 39,
+   "parcial": 5
+  },
+  "bytes_nao_atestados": {
+   "n": 385,
+   "minimo": 0.0,
+   "q1": 43.0,
+   "mediana": 43.0,
+   "q3": 52.0,
+   "maximo": 3072.0
+  }
+ },
+ "regioes": {
+  "imutaveis_address_por_tipo": {
+   "address": 17,
+   "contrato_ou_interface": 20
+  },
+  "positivos_so_por_tipo_nao_address": 1,
+  "regioes_por_motivo": {
+   "cborAuxdata": 331,
+   "immutable": 256,
+   "library": 4
+  },
+  "contratos_com_motivo": {
+   "cborAuxdata": 331,
+   "immutable": 15,
+   "library": 1
+  },
+  "bytes_por_motivo": {
+   "cborAuxdata": 15147,
+   "immutable": 8192,
+   "library": 80
+  },
+  "contratos_sem_regiao": 44,
+  "constantes_por_motivo_e_tau": {
+   "immutable|address": 37,
+   "immutable|outro": 39,
+   "library|address": 1
+  },
+  "imutaveis_por_tau": {
+   "address": 37,
+   "outro": 39
+  },
+  "combinacoes_de_motivos": {
+   "cborAuxdata": 325,
+   "nenhuma": 44,
+   "cborAuxdata+immutable": 5,
+   "immutable": 10,
+   "cborAuxdata+library": 1
+  },
+  "constantes_com_valores_distintos": []
+ },
+ "alvos": {
+  "por_valor": {
+   "endereco_nulo": 2,
+   "proprio_contrato": 3,
+   "conta_sem_codigo": 1,
+   "conta_externa_com_delegacao": 0,
+   "contrato_verificado_no_acervo": 31,
+   "contrato_sem_verificacao_no_acervo": 1
+  },
+  "por_contrato": {
+   "endereco_nulo": 1,
+   "proprio_contrato": 3,
+   "conta_sem_codigo": 1,
+   "conta_externa_com_delegacao": 0,
+   "contrato_verificado_no_acervo": 11,
+   "contrato_sem_verificacao_no_acervo": 1
+  },
+  "enderecos_distintos_com_codigo": 31,
+  "substituivel": {
+   "contrato_verificado_no_acervo": {
+    "com_codigo": 31,
+    "substituiveis": 0
+   },
+   "proprio_contrato": {
+    "com_codigo": 3,
+    "substituiveis": 0
+   },
+   "contrato_sem_verificacao_no_acervo": {
+    "com_codigo": 1,
+    "substituiveis": 0
+   }
+  },
+  "contratos_positivos": 13,
+  "positivos_so_nulo_ou_proprio": 1,
+  "classe_por_motivo": {
+   "immutable|contrato_verificado_no_acervo": 30,
+   "immutable|endereco_nulo": 2,
+   "immutable|proprio_contrato": 3,
+   "immutable|conta_sem_codigo": 1,
+   "library|contrato_verificado_no_acervo": 1,
+   "immutable|contrato_sem_verificacao_no_acervo": 1
+  }
+ },
+ "autorreferencia": {
+  "total": {
+   "positivos": 13,
+   "so_nulo_ou_proprio": 1,
+   "n": 385,
+   "positivos_sem_triviais": 12,
+   "p_sem_triviais": 0.03116883116883117,
+   "ic_sem_triviais": [
+    0.017918151156735798,
+    0.05368290420689151
+   ]
+  },
+  "parcial": {
+   "positivos": 6,
+   "so_nulo_ou_proprio": 0,
+   "n": 337,
+   "positivos_sem_triviais": 6,
+   "p_sem_triviais": 0.017804154302670624,
+   "ic_sem_triviais": [
+    0.008184707147291529,
+    0.03829279261316988
+   ]
+  },
+  "exata": {
+   "positivos": 7,
+   "so_nulo_ou_proprio": 1,
+   "n": 48,
+   "positivos_sem_triviais": 6,
+   "p_sem_triviais": 0.125,
+   "ic_sem_triviais": [
+    0.05857051438571979,
+    0.2470045828638683
+   ]
+  },
+  "secundaria_sem_triviais": {
+   "delta": -0.10719584569732937,
+   "L": -0.229579063514813,
+   "U": -0.03767850355311099,
+   "decisao": "refutada"
+  }
+ },
+ "compiladores_por_grau": {
+  "parcial": {
+   "0.4.x": 232,
+   "0.8.x": 35,
+   "0.6.5 a 0.7.x": 22,
+   "0.5.0 a 0.6.4": 46,
+   "anterior a 0.4": 2
+  },
+  "exata": {
+   "0.8.x": 31,
+   "0.6.5 a 0.7.x": 15,
+   "0.4.x": 1,
+   "0.5.0 a 0.6.4": 1
+  }
+ },
+ "indicador_por_grau_e_era": {
+  "exata|a partir de 0.6.5": {
+   "n": 46,
+   "positivos": 7
+  },
+  "exata|antes de 0.6.5": {
+   "n": 2,
+   "positivos": 0
+  },
+  "parcial|a partir de 0.6.5": {
+   "n": 57,
+   "positivos": 5
+  },
+  "parcial|antes de 0.6.5": {
+   "n": 280,
+   "positivos": 1
+  },
+  "positivos_antes_de_0.6.5_por_motivo": {
+   "library": 1
+  },
+  "delta_a_partir_de_0.6.5": -0.06445461479786424,
+  "a_partir_de_0.6.5_juntos": {
+   "k": 12,
+   "n": 103,
+   "p": 0.11650485436893204,
+   "ic": [
+    0.06791546266112922,
+    0.1926711965627854
+   ]
+  },
+  "newcombe_a_partir_de_0.6.5": [
+   -0.20368256858902326,
+   0.06279967748813475
+  ]
+ },
+ "extremos": {
+  "menor_cobertura": [
+   {
+    "endereco": "0x73b6e45c3d4ef160dd7bed6551b154919c382b4a",
+    "cobertura": 0.16129032258064513,
+    "tamanho": 62,
+    "bytes_nao_atestados": 52,
+    "grau": "parcial",
+    "compilador": "0.5.12+commit.7709ece9",
+    "motivos": [
+     "cborAuxdata"
+    ]
+   },
+   {
+    "endereco": "0x8cf4292328ca32757eb1106d3ef30c60932e907b",
+    "cobertura": 0.5094339622641509,
+    "tamanho": 106,
+    "bytes_nao_atestados": 52,
+    "grau": "parcial",
+    "compilador": "0.5.15+commit.6a57276f",
+    "motivos": [
+     "cborAuxdata"
+    ]
+   },
+   {
+    "endereco": "0xe242bc938a51927d336c958b089e7c768d56b2ac",
+    "cobertura": 0.5222222222222221,
+    "tamanho": 90,
+    "bytes_nao_atestados": 43,
+    "grau": "parcial",
+    "compilador": "0.4.24+commit.e67f0147",
+    "motivos": [
+     "cborAuxdata"
+    ]
+   }
+  ],
+  "mais_bytes": [
+   {
+    "endereco": "0xae0f58c408514e60cc6d844cc80965aeab4bf6ff",
+    "cobertura": 0.8676888620897579,
+    "tamanho": 23218,
+    "bytes_nao_atestados": 3072,
+    "grau": "exata",
+    "compilador": "0.8.11+commit.d7f03943",
+    "motivos": [
+     "immutable"
+    ]
+   },
+   {
+    "endereco": "0x2305027c7d83b33b34ec217d22ffc240d39c59cc",
+    "cobertura": 0.9467218149801384,
+    "tamanho": 24419,
+    "bytes_nao_atestados": 1301,
+    "grau": "parcial",
+    "compilador": "0.8.19+commit.7dd6d404",
+    "motivos": [
+     "cborAuxdata",
+     "immutable"
+    ]
+   },
+   {
+    "endereco": "0x40f1cb91325dd8ef24dfac085c9ba46ea309e5e2",
+    "cobertura": 0.9574300354749704,
+    "tamanho": 20296,
+    "bytes_nao_atestados": 864,
+    "grau": "exata",
+    "compilador": "0.7.1+commit.f4a555be",
+    "motivos": [
+     "immutable"
+    ]
+   }
+  ]
+ },
+ "confronto_acervo": {
+  "coincide": 385,
+  "divergem": 0,
+  "divergencias": [],
+  "match_id_coincide": {
+   "True": 385
+  },
+  "metadados_em_F_por_grau": {
+   "parcial|True": 331,
+   "exata|False": 48,
+   "parcial|False": 6
+  },
+  "posicoes_metadados": {
+   "acervo": 331,
+   "nao_usadas": 54
+  }
+ },
+ "metadados_parciais": {
+  "por_situacao": {
+   "sem_bloco": 4,
+   "sem_resumo": 2
+  },
+  "contratos": [
+   {
+    "endereco": "0xee0506638cbc9a0b949ab195d2da476ccc784b49",
+    "compilador": "0.3.6+commit.3fc68da5",
+    "bloco": "sem_bloco",
+    "blocos_removidos": 0
+   },
+   {
+    "endereco": "0x17314f8499b68f6eba37a7b951aa7f2b14d2f625",
+    "compilador": "0.8.26+commit.8a97fa7a",
+    "bloco": "sem_resumo",
+    "blocos_removidos": 0
+   },
+   {
+    "endereco": "0x765fc4a49dc4fff7c30d4ca64df8652a61672a3e",
+    "compilador": "0.1.3+commit.028f561d",
+    "bloco": "sem_bloco",
+    "blocos_removidos": 0
+   },
+   {
+    "endereco": "0xb067e798f81c1007730225e4933026e4b95af409",
+    "compilador": "0.4.2+commit.af6afb04",
+    "bloco": "sem_bloco",
+    "blocos_removidos": 0
+   },
+   {
+    "endereco": "0x535a4fac62be60f26b05565c3290122e89ed77ba",
+    "compilador": "0.8.28+commit.7893614a",
+    "bloco": "sem_bloco",
+    "blocos_removidos": 1
+   },
+   {
+    "endereco": "0x783a434532ee94667979213af1711505e8bfe374",
+    "compilador": "0.8.15+commit.e14f2714",
+    "bloco": "sem_resumo",
+    "blocos_removidos": 0
+   }
+  ]
+ },
+ "menores_coberturas": {
+  "limite": 0.6,
+  "n": 7,
+  "so_metadados": true,
+  "graus": {
+   "parcial": 7
+  },
+  "tamanho_min": 62,
+  "tamanho_max": 130,
+  "fracao_metadados_min": 0.40310077519379844,
+  "fracao_metadados_max": 0.8387096774193549,
+  "parciais_com_metadados_acima_da_metade": 1
+ },
+ "codigo_de_criacao": {
+  "por_grau": {
+   "exata|exata": 46,
+   "parcial|parcial": 315,
+   "sem|exata": 2,
+   "sem|parcial": 22
+  },
+  "valores_no_codigo_fonte": [
+   "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+   "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+   "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+  ],
+  "literais_lista": [
+   "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+   "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+   "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+  ],
+  "com_correspondencia_de_criacao": 361,
+  "mesmo_grau": 361,
+  "positivos": 13,
+  "positivos_com_correspondencia_de_criacao": 13,
+  "positivos_mesmo_grau": 13,
+  "valores": 38,
+  "literais": 3,
+  "contratos_com_literal": 2,
+  "positivos_com_valor_fora_dos_dois_confrontos": 12,
+  "p": 0.03116883116883117,
+  "ic": [
+   0.017918151156735798,
+   0.05368290420689151
+  ],
+  "enderecos_fora": [
+   "0xc420b590f4d06c74afbd7f30a9c0b67bca6aeffe",
+   "0x40f1cb91325dd8ef24dfac085c9ba46ea309e5e2",
+   "0x2d90afaeea73aa6a3313f191349ce4a9b86c7996",
+   "0xb677fa3dd5c2c0472f7520b48aa3f642f9c4af11",
+   "0x2305027c7d83b33b34ec217d22ffc240d39c59cc",
+   "0x95ec567b7bc3e5aa7c581b44dc3028fa417c297f",
+   "0xae0f58c408514e60cc6d844cc80965aeab4bf6ff",
+   "0x17314f8499b68f6eba37a7b951aa7f2b14d2f625",
+   "0x32dafdb716dcd5dd799369a62d9d660ca6bc855f",
+   "0x56ab918a1b58fbfd8ab3d0fd85970195ab714628",
+   "0x7a4523a9349a99ac16d1484728e82eab6eda027f",
+   "0x05c35038bd55afacb4bfdf36754f75f723851afd"
+  ]
+ },
+ "motores": {
+  "solc nativo|exata": 48,
+  "solc nativo|parcial": 275,
+  "soljson|parcial": 62,
+  "soljson_por_causa": {
+   "nightly_ou_anterior_a_0.4.11": 60,
+   "sem_binario_da_versao_exata": 2
+  },
+  "soljson_sem_binario_versoes": [
+   "0.5.11+commit.c082d0b4"
+  ]
+ },
+ "historico": {
+  "ensaio": {
+   "1.0.0": {
+    "contratos": 80,
+    "falhas": {
+     "P-12": 1,
+     "P-08": 11,
+     "P-09": 2
+    }
+   },
+   "1.1.0": {
+    "contratos": 80,
+    "falhas": {
+     "P-09": 2,
+     "P-16": 1
+    }
+   },
+   "1.2.0": {
+    "contratos": 160,
+    "falhas": {}
+   }
+  },
+  "ensaio_contratos": 291,
+  "ensaio_refeitos": {
+   "1.7.0": {
+    "processado": 14
+   }
+  },
+  "ensaio_contratos_com_falha": 16,
+  "ensaio_com_falha_processados_na_segunda_rodada": 2,
+  "ensaio_bloco": [
+   26290000
+  ],
+  "ensaio_falhas_corrigidas_antes_do_sorteio": 14,
+  "ensaio_falhas_corrigidas_depois_do_sorteio": 2,
+  "regioes_esperadas_por_versao": {
+   "1.0.0": [
+    [
+     16,
+     12
+    ]
+   ],
+   "1.1.0": [
+    [
+     16,
+     12
+    ]
+   ],
+   "1.2.0": [
+    [
+     16,
+     12
+    ]
+   ],
+   "1.3.0": [
+    [
+     16,
+     12
+    ]
+   ],
+   "1.4.0": [
+    [
+     16,
+     12
+    ]
+   ],
+   "1.5.0": [
+    [
+     16,
+     12
+    ]
+   ],
+   "1.6.0": [
+    [
+     16,
+     12
+    ]
+   ],
+   "1.7.0": [
+    [
+     18,
+     14
+    ]
+   ]
+  },
+  "vp_igual_ao_esperado_em_todas": true,
+  "validacoes_por_versao": {
+   "1.0.0": 2,
+   "1.1.0": 2,
+   "1.2.0": 2,
+   "1.3.0": 2,
+   "1.4.0": 2,
+   "1.5.0": 2,
+   "1.6.0": 2,
+   "1.7.0": 2
+  },
+  "validacoes_depois_da_ultima_rodada": 1,
+  "validacoes_todas_aprovadas": true,
+  "validacoes_sem_fp_fn": true,
+  "rodadas_amostra": [
+   {
+    "verificador": "1.3.0",
+    "processados": 381,
+    "contratos": 385,
+    "inicio": "2026-10-29T06:11:32Z",
+    "falhas": {
+     "P-11": 3,
+     "P-12": 1
+    },
+    "falhas_por_compilador": [
+     "0.3.6+commit.3fc68da5",
+     "0.8.35+commit.47b9dedd",
+     "0.1.3+commit.028f561d",
+     "0.4.2+commit.af6afb04"
+    ]
+   },
+   {
+    "verificador": "1.5.0",
+    "processados": 384,
+    "contratos": 385,
+    "inicio": "2026-10-29T06:16:56Z",
+    "falhas": {
+     "P-14": 1
+    },
+    "falhas_por_compilador": [
+     "0.5.14+commit.1f1aaa4"
+    ]
+   },
+   {
+    "verificador": "1.6.0",
+    "processados": 385,
+    "contratos": 385,
+    "inicio": "2026-10-29T06:18:24Z",
+    "falhas": {},
+    "falhas_por_compilador": []
+   },
+   {
+    "verificador": "1.7.0",
+    "processados": 385,
+    "contratos": 385,
+    "inicio": "2026-10-29T07:49:05Z",
+    "falhas": {},
+    "falhas_por_compilador": []
+   }
+  ]
+ },
+ "conferencia_dois_ultimos_bytes": {
+  "coincide": 331,
+  "diverge": 0
+ },
+ "validacao": {
+  "rodadas": 16,
+  "ultima": {
+   "quando": "2026-10-29T07:48:37+00:00",
+   "verificador": "1.7.0",
+   "compilador_controles": "0.8.37+commit.f401782d",
+   "ajustes": {
+    "optimizer": {
+     "enabled": true,
+     "runs": 200
+    },
+    "evmVersion": "cancun"
+   },
+   "rede": "py-evm em memoria (Cancun)",
+   "bloco": 9,
+   "enderecos": {
+    "chamada+": "0x248e85939e48cA12A20CdF80E60D9e3d380cA7f9",
+    "imutavel+": "0x3d6970e3d1860d8f243dea36c11e2a7c66987a5b",
+    "imutavel-": "0x2bea3833344507da3019f46dd77a67b34738bc67",
+    "chamada-": "0x3a989ab956ead3ae653a0da4d1b280829882169b",
+    "biblioteca+": "0xea8d94123f55efced3c47c6b94e3a27733889101",
+    "biblioteca-": "0xf660e5ab1cf0ec7fb0b4cc1eace444a78f7d70f4",
+    "metadados+": "0xcc4c548df31767a3da2d06dd6f7c4be112457e7e",
+    "metadados-": "0xd0e2105ab025bd19229668044fef3f80d9660675"
+   },
+   "por_motivo": {
+    "immutable": {
+     "VP": 14,
+     "FP": 0,
+     "FN": 0,
+     "P": 1.0,
+     "R": 1.0
+    },
+    "library": {
+     "VP": 2,
+     "FP": 0,
+     "FN": 0,
+     "P": 1.0,
+     "R": 1.0
+    },
+    "callProtection": {
+     "VP": 1,
+     "FP": 0,
+     "FN": 0,
+     "P": 1.0,
+     "R": 1.0
+    },
+    "cborAuxdata": {
+     "VP": 1,
+     "FP": 0,
+     "FN": 0,
+     "P": 1.0,
+     "R": 1.0
+    }
+   },
+   "tau_divergente": [],
+   "tipo_divergente": [],
+   "tipos_conferidos": [
+    "Endereco (sobre address)",
+    "EnderecoPagavel (sobre address payable)",
+    "address",
+    "address payable",
+    "contract Alvo",
+    "contract IAlvo",
+    "uint256"
+   ],
+   "aprovado": true,
+   "regioes_esperadas": {
+    "chamada+": 1,
+    "imutavel+": 14,
+    "imutavel-": 0,
+    "chamada-": 0,
+    "biblioteca+": 2,
+    "biblioteca-": 0,
+    "metadados+": 1,
+    "metadados-": 0
+   }
+  },
+  "rodadas_depois_da_ultima_medicao": 1,
+  "historico": [
+   {
+    "quando": "2026-10-29T05:33:13+00:00",
+    "verificador": "1.0.0",
+    "aprovado": true,
+    "por_motivo": {
+     "immutable": {
+      "VP": 12,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "library": {
+      "VP": 2,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "callProtection": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "cborAuxdata": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     }
+    }
+   },
+   {
+    "quando": "2026-10-29T05:34:52+00:00",
+    "verificador": "1.0.0",
+    "aprovado": true,
+    "por_motivo": {
+     "immutable": {
+      "VP": 12,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "library": {
+      "VP": 2,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "callProtection": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "cborAuxdata": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     }
+    }
+   },
+   {
+    "quando": "2026-10-29T05:41:18+00:00",
+    "verificador": "1.1.0",
+    "aprovado": true,
+    "por_motivo": {
+     "immutable": {
+      "VP": 12,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "library": {
+      "VP": 2,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "callProtection": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "cborAuxdata": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     }
+    }
+   },
+   {
+    "quando": "2026-10-29T05:41:23+00:00",
+    "verificador": "1.1.0",
+    "aprovado": true,
+    "por_motivo": {
+     "immutable": {
+      "VP": 12,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "library": {
+      "VP": 2,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "callProtection": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "cborAuxdata": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     }
+    }
+   },
+   {
+    "quando": "2026-10-29T05:42:25+00:00",
+    "verificador": "1.2.0",
+    "aprovado": true,
+    "por_motivo": {
+     "immutable": {
+      "VP": 12,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "library": {
+      "VP": 2,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "callProtection": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "cborAuxdata": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     }
+    }
+   },
+   {
+    "quando": "2026-10-29T05:42:30+00:00",
+    "verificador": "1.2.0",
+    "aprovado": true,
+    "por_motivo": {
+     "immutable": {
+      "VP": 12,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "library": {
+      "VP": 2,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "callProtection": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "cborAuxdata": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     }
+    }
+   },
+   {
+    "quando": "2026-10-29T06:10:18+00:00",
+    "verificador": "1.3.0",
+    "aprovado": true,
+    "por_motivo": {
+     "immutable": {
+      "VP": 12,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "library": {
+      "VP": 2,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "callProtection": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "cborAuxdata": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     }
+    }
+   },
+   {
+    "quando": "2026-10-29T06:10:22+00:00",
+    "verificador": "1.3.0",
+    "aprovado": true,
+    "por_motivo": {
+     "immutable": {
+      "VP": 12,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "library": {
+      "VP": 2,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "callProtection": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "cborAuxdata": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     }
+    }
+   },
+   {
+    "quando": "2026-10-29T06:15:29+00:00",
+    "verificador": "1.4.0",
+    "aprovado": true,
+    "por_motivo": {
+     "immutable": {
+      "VP": 12,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "library": {
+      "VP": 2,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "callProtection": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "cborAuxdata": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     }
+    }
+   },
+   {
+    "quando": "2026-10-29T06:15:33+00:00",
+    "verificador": "1.4.0",
+    "aprovado": true,
+    "por_motivo": {
+     "immutable": {
+      "VP": 12,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "library": {
+      "VP": 2,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "callProtection": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "cborAuxdata": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     }
+    }
+   },
+   {
+    "quando": "2026-10-29T06:16:35+00:00",
+    "verificador": "1.5.0",
+    "aprovado": true,
+    "por_motivo": {
+     "immutable": {
+      "VP": 12,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "library": {
+      "VP": 2,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "callProtection": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "cborAuxdata": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     }
+    }
+   },
+   {
+    "quando": "2026-10-29T06:16:39+00:00",
+    "verificador": "1.5.0",
+    "aprovado": true,
+    "por_motivo": {
+     "immutable": {
+      "VP": 12,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "library": {
+      "VP": 2,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "callProtection": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "cborAuxdata": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     }
+    }
+   },
+   {
+    "quando": "2026-10-29T06:18:19+00:00",
+    "verificador": "1.6.0",
+    "aprovado": true,
+    "por_motivo": {
+     "immutable": {
+      "VP": 12,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "library": {
+      "VP": 2,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "callProtection": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "cborAuxdata": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     }
+    }
+   },
+   {
+    "quando": "2026-10-29T06:18:23+00:00",
+    "verificador": "1.6.0",
+    "aprovado": true,
+    "por_motivo": {
+     "immutable": {
+      "VP": 12,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "library": {
+      "VP": 2,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "callProtection": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "cborAuxdata": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     }
+    }
+   },
+   {
+    "quando": "2026-10-29T07:48:26+00:00",
+    "verificador": "1.7.0",
+    "aprovado": true,
+    "por_motivo": {
+     "immutable": {
+      "VP": 14,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "library": {
+      "VP": 2,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "callProtection": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "cborAuxdata": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     }
+    }
+   },
+   {
+    "quando": "2026-10-29T07:48:37+00:00",
+    "verificador": "1.7.0",
+    "aprovado": true,
+    "por_motivo": {
+     "immutable": {
+      "VP": 14,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "library": {
+      "VP": 2,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "callProtection": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "cborAuxdata": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     }
+    }
+   },
+   {
+    "quando": "2026-10-29T08:08:43+00:00",
+    "verificador": "1.7.0",
+    "aprovado": true,
+    "por_motivo": {
+     "immutable": {
+      "VP": 14,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "library": {
+      "VP": 2,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "callProtection": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "cborAuxdata": {
+      "VP": 1,
+      "FP": 0,
+      "FN": 0,
+      "P": 1.0,
+      "R": 1.0
+     }
+    }
+   }
+  ]
+ }
+}

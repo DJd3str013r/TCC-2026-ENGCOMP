@@ -1,0 +1,177 @@
+{
+ "descricao": "Diagnostico de cada falha do instrumento (subsecao 3.5): rodada em que ocorreu, problemas de PROBLEMAS.md que a causaram e versao do verificador que a corrigiu. Lido por analise/analisar.py.",
+ "amostra": {
+  "0xee0506638cbc9a0b949ab195d2da476ccc784b49": {
+   "rodada": "1.3.0",
+   "causas": [
+    "P-11"
+   ],
+   "corrigida_em": "1.4.0"
+  },
+  "0x765fc4a49dc4fff7c30d4ca64df8652a61672a3e": {
+   "rodada": "1.3.0",
+   "causas": [
+    "P-11"
+   ],
+   "corrigida_em": "1.4.0"
+  },
+  "0xb067e798f81c1007730225e4933026e4b95af409": {
+   "rodada": "1.3.0",
+   "causas": [
+    "P-11"
+   ],
+   "corrigida_em": "1.4.0"
+  },
+  "0x58603d583e768787ad4a0d6e6bc8adba3d9b90e1": {
+   "rodada": "1.3.0",
+   "causas": [
+    "P-12"
+   ],
+   "corrigida_em": "1.5.0"
+  },
+  "0xacc1de5035f4520ef4f7f8ff0ba21c1fb06762c7": {
+   "rodada": "1.5.0",
+   "causas": [
+    "P-14"
+   ],
+   "corrigida_em": "1.6.0"
+  }
+ },
+ "ensaio": {
+  "0x1c67a4ddf4fff5bfc2d0f4188116726ff7916a36": {
+   "rodada": "1.0.0",
+   "compilador": "0.8.31+commit.fd3a2265",
+   "causas": [
+    "P-12"
+   ],
+   "corrigida_em": "1.5.0"
+  },
+  "0x1cdfef201da877044e541a41f0bc398442e8a7c1": {
+   "rodada": "1.0.0",
+   "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+   "causas": [
+    "P-08"
+   ],
+   "corrigida_em": "1.1.0"
+  },
+  "0x2d0292d88ff50b58df0496284a739afe71ff2153": {
+   "rodada": "1.0.0",
+   "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+   "causas": [
+    "P-08"
+   ],
+   "corrigida_em": "1.1.0"
+  },
+  "0x36232de5efa5890ec3136d0219f6f63edd746943": {
+   "rodada": "1.0.0",
+   "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+   "causas": [
+    "P-08"
+   ],
+   "corrigida_em": "1.1.0"
+  },
+  "0x379fcfdb89626540f888b1e54e8015b89f504461": {
+   "rodada": "1.0.0",
+   "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+   "causas": [
+    "P-08"
+   ],
+   "corrigida_em": "1.1.0"
+  },
+  "0x3b6f7dd27b3987ea11fd51b703f28bcbdc0b46a4": {
+   "rodada": "1.0.0",
+   "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+   "causas": [
+    "P-08"
+   ],
+   "corrigida_em": "1.1.0"
+  },
+  "0x5366f8666aae8104b8b9a627fdbbf8c4f30c6456": {
+   "rodada": "1.0.0",
+   "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+   "causas": [
+    "P-08"
+   ],
+   "corrigida_em": "1.1.0"
+  },
+  "0x7d2d16e52458567a415871754e04df532e532687": {
+   "rodada": "1.0.0",
+   "compilador": "0.4.10+commit.f0d539ae",
+   "causas": [
+    "P-09"
+   ],
+   "corrigida_em": "1.2.0"
+  },
+  "0x9abc41608b2915e367dc5f5cc09e59a27ac8eb1e": {
+   "rodada": "1.0.0",
+   "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+   "causas": [
+    "P-08"
+   ],
+   "corrigida_em": "1.1.0"
+  },
+  "0xbf26be1d875e40fd75b7fbb1d39985d30b6965d4": {
+   "rodada": "1.1.0",
+   "compilador": "0.4.10+commit.f0d539ae",
+   "causas": [
+    "P-09"
+   ],
+   "corrigida_em": "1.2.0",
+   "rodadas": [
+    "1.0.0",
+    "1.1.0"
+   ],
+   "certidao": "certidao da 1.0.0 sobrescrita pela 2a rodada (dados/ensaio_sobrescritos.json); falhou de novo na 1.1.0"
+  },
+  "0xddce2f8204036393846b171b6a984da6edf13f60": {
+   "rodada": "1.1.0",
+   "compilador": "0.3.5+commit.5f97274",
+   "causas": [
+    "P-16"
+   ],
+   "corrigida_em": "1.7.0"
+  },
+  "0xe2662e075d7336d1f1385ac091bcd9e6d35fd34b": {
+   "rodada": "1.1.0",
+   "compilador": "0.4.10+commit.f0d539ae",
+   "causas": [
+    "P-09"
+   ],
+   "corrigida_em": "1.2.0"
+  },
+  "0xebecb8fac2f54ad67fd515c3864728ebe5a9b01b": {
+   "rodada": "1.0.0",
+   "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+   "causas": [
+    "P-08"
+   ],
+   "corrigida_em": "1.1.0"
+  },
+  "0xf804896356c01a24a71e7de0d61a39f7a7179814": {
+   "rodada": "1.0.0",
+   "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+   "causas": [
+    "P-08"
+   ],
+   "corrigida_em": "1.1.0"
+  },
+  "0x402d46717e88ef69826c1cf76115bb1e696d39fd": {
+   "rodada": "1.0.0",
+   "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+   "causas": [
+    "P-08"
+   ],
+   "corrigida_em": "1.1.0",
+   "certidao": "certidao da 1.0.0 sobrescrita pela 2a rodada (dados/ensaio_sobrescritos.json), que o processou com a 1.1.0"
+  },
+  "0x04f79fbb28d866262a1afcbbfa7f7a4bddc38ab4": {
+   "rodada": "1.0.0",
+   "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+   "causas": [
+    "P-08"
+   ],
+   "corrigida_em": "1.1.0",
+   "certidao": "certidao da 1.0.0 sobrescrita pela 2a rodada (dados/ensaio_sobrescritos.json), que o processou com a 1.1.0"
+  }
+ }
+}

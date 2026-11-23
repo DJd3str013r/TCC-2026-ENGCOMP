@@ -1,0 +1,142 @@
+[
+ {
+  "endereco": "0x1c67a4ddf4fff5bfc2d0f4188116726ff7916a36",
+  "compilador": "0.8.31+commit.fd3a2265",
+  "versao_original": "1.0.0",
+  "causa_original": "FalhaInstrumento: comprimentos diferentes: recompilado 323 x cadeia 297",
+  "situacao": "processado",
+  "causa": null,
+  "motor": "solc nativo",
+  "coincide": true
+ },
+ {
+  "endereco": "0x1cdfef201da877044e541a41f0bc398442e8a7c1",
+  "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "versao_original": "1.0.0",
+  "causa_original": "ErroCompilacao: versao nightly sem binario oficial: 0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "situacao": "processado",
+  "causa": null,
+  "motor": "soljson",
+  "coincide": true
+ },
+ {
+  "endereco": "0x2d0292d88ff50b58df0496284a739afe71ff2153",
+  "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "versao_original": "1.0.0",
+  "causa_original": "ErroCompilacao: versao nightly sem binario oficial: 0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "situacao": "processado",
+  "causa": null,
+  "motor": "soljson",
+  "coincide": true
+ },
+ {
+  "endereco": "0x36232de5efa5890ec3136d0219f6f63edd746943",
+  "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "versao_original": "1.0.0",
+  "causa_original": "ErroCompilacao: versao nightly sem binario oficial: 0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "situacao": "processado",
+  "causa": null,
+  "motor": "soljson",
+  "coincide": true
+ },
+ {
+  "endereco": "0x379fcfdb89626540f888b1e54e8015b89f504461",
+  "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "versao_original": "1.0.0",
+  "causa_original": "ErroCompilacao: versao nightly sem binario oficial: 0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "situacao": "processado",
+  "causa": null,
+  "motor": "soljson",
+  "coincide": true
+ },
+ {
+  "endereco": "0x3b6f7dd27b3987ea11fd51b703f28bcbdc0b46a4",
+  "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "versao_original": "1.0.0",
+  "causa_original": "ErroCompilacao: versao nightly sem binario oficial: 0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "situacao": "processado",
+  "causa": null,
+  "motor": "soljson",
+  "coincide": true
+ },
+ {
+  "endereco": "0x5366f8666aae8104b8b9a627fdbbf8c4f30c6456",
+  "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "versao_original": "1.0.0",
+  "causa_original": "ErroCompilacao: versao nightly sem binario oficial: 0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "situacao": "processado",
+  "causa": null,
+  "motor": "soljson",
+  "coincide": true
+ },
+ {
+  "endereco": "0x7d2d16e52458567a415871754e04df532e532687",
+  "compilador": "0.4.10+commit.f0d539ae",
+  "versao_original": "1.0.0",
+  "causa_original": "ErroCompilacao: solc saiu com 1: unrecognised option '--standard-json'\r\n",
+  "situacao": "processado",
+  "causa": null,
+  "motor": "soljson",
+  "coincide": true
+ },
+ {
+  "endereco": "0x9abc41608b2915e367dc5f5cc09e59a27ac8eb1e",
+  "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "versao_original": "1.0.0",
+  "causa_original": "ErroCompilacao: versao nightly sem binario oficial: 0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "situacao": "processado",
+  "causa": null,
+  "motor": "soljson",
+  "coincide": true
+ },
+ {
+  "endereco": "0xbf26be1d875e40fd75b7fbb1d39985d30b6965d4",
+  "compilador": "0.4.10+commit.f0d539ae",
+  "versao_original": "1.1.0",
+  "causa_original": "ErroCompilacao: solc nativo saiu com 1: unrecognised option '--standard-json'\r\n",
+  "situacao": "processado",
+  "causa": null,
+  "motor": "soljson",
+  "coincide": true
+ },
+ {
+  "endereco": "0xddce2f8204036393846b171b6a984da6edf13f60",
+  "compilador": "0.3.5+commit.5f97274",
+  "versao_original": "1.1.0",
+  "causa_original": "ErroCompilacao: versao 0.3.5+commit.5f97274 ausente das listas oficiais (windows e soljson)",
+  "situacao": "processado",
+  "causa": null,
+  "motor": "soljson",
+  "coincide": true
+ },
+ {
+  "endereco": "0xe2662e075d7336d1f1385ac091bcd9e6d35fd34b",
+  "compilador": "0.4.10+commit.f0d539ae",
+  "versao_original": "1.1.0",
+  "causa_original": "ErroCompilacao: solc nativo saiu com 1: unrecognised option '--standard-json'\r\n",
+  "situacao": "processado",
+  "causa": null,
+  "motor": "soljson",
+  "coincide": true
+ },
+ {
+  "endereco": "0xebecb8fac2f54ad67fd515c3864728ebe5a9b01b",
+  "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "versao_original": "1.0.0",
+  "causa_original": "ErroCompilacao: versao nightly sem binario oficial: 0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "situacao": "processado",
+  "causa": null,
+  "motor": "soljson",
+  "coincide": true
+ },
+ {
+  "endereco": "0xf804896356c01a24a71e7de0d61a39f7a7179814",
+  "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "versao_original": "1.0.0",
+  "causa_original": "ErroCompilacao: versao nightly sem binario oficial: 0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "situacao": "processado",
+  "causa": null,
+  "motor": "soljson",
+  "coincide": true
+ }
+]

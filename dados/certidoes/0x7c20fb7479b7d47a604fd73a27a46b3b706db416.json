@@ -1,0 +1,63 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x7c20fb7479b7d47a604fd73a27a46b3b706db416",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 4308,
+  "resumo_codigo": "0x48ad8f068e0704a0f1f93549e1e37a7560c93336f2d0e991bc443374f57bcc7a"
+ },
+ "acervo": {
+  "match_id": "9633349",
+  "grau_codigo_execucao": "parcial",
+  "grau_codigo_criacao": "parcial",
+  "compilador": "0.8.30+commit.73712a01",
+  "linguagem": "Solidity",
+  "contrato_compilado": "Dapphub.sol:Dapphub",
+  "verificado_em": "2025-10-25T18:20:07Z",
+  "match_id_instantaneo": 9633349,
+  "grau_instantaneo": "parcial",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 4308,
+  "tamanho_cadeia": 4308,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo",
+  "ajustes_dos_metadados": [
+   "evmVersion",
+   "metadata",
+   "remappings"
+  ],
+  "motor": "solc nativo"
+ },
+ "regioes": [
+  {
+   "inicio": 4255,
+   "comprimento": 53,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa2646970667358221220f054b35b70d5b07d26e7503f750bf80f9d707d2e7d368ea22cae02d68404035464736f6c634300081e0033",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [],
+ "cobertura": 0.9876973073351903,
+ "bytes_nao_atestados": 53,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.4,
+ "ordem": 355
+}

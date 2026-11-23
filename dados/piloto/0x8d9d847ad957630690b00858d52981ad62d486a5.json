@@ -1,0 +1,41 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.0.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x8d9d847ad957630690b00858d52981ad62d486a5",
+  "bloco_referencia": 26290000,
+  "tamanho_codigo": 1873,
+  "resumo_codigo": "0x15107a2a6888d39c143ed8a8edd511373ee9290b445e1c45b5484702a846023b"
+ },
+ "acervo": {
+  "match_id": "6630357",
+  "grau_codigo_execucao": "exata",
+  "compilador": "0.8.16+commit.07a7930e",
+  "linguagem": "Solidity",
+  "contrato_compilado": "contracts/tester.sol:tester",
+  "verificado_em": "2026-01-23T17:52:09Z"
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 1873,
+  "tamanho_cadeia": 1873,
+  "blocos_removidos": 0,
+  "metadados_em_F": false
+ },
+ "regioes": [],
+ "constantes": [],
+ "cobertura": 1.0,
+ "bytes_nao_atestados": 0,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 10.1
+}

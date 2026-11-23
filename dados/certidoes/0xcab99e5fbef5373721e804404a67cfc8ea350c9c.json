@@ -1,0 +1,48 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0xcab99e5fbef5373721e804404a67cfc8ea350c9c",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 5828,
+  "resumo_codigo": "0x7395e9f65fd71a622f183a1a4137d6ee06738bef28b52556373997b7ac7c5753"
+ },
+ "acervo": {
+  "match_id": "2110480",
+  "grau_codigo_execucao": "exata",
+  "grau_codigo_criacao": null,
+  "compilador": "0.8.1+commit.df193b15",
+  "linguagem": "Solidity",
+  "contrato_compilado": "contracts/shared/facets/DiamondCutFacet.sol:DiamondCutFacet",
+  "verificado_em": "2024-08-08T14:36:24Z",
+  "match_id_instantaneo": 2110480,
+  "grau_instantaneo": "exata",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 5828,
+  "tamanho_cadeia": 5828,
+  "blocos_removidos": 0,
+  "metadados_em_F": false,
+  "ajustes_dos_metadados": [],
+  "motor": "solc nativo"
+ },
+ "regioes": [],
+ "constantes": [],
+ "cobertura": 1.0,
+ "bytes_nao_atestados": 0,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.4,
+ "ordem": 10
+}

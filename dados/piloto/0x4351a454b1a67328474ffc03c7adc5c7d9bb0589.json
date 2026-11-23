@@ -1,0 +1,168 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.1.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x4351a454b1a67328474ffc03c7adc5c7d9bb0589",
+  "bloco_referencia": 26290000,
+  "tamanho_codigo": 4125,
+  "resumo_codigo": "0x0e8190fa2cfb4e1198b1a3bed6933924b0dd778b540b681e0f5acd9677a50740"
+ },
+ "acervo": {
+  "match_id": "14009797",
+  "grau_codigo_execucao": "exata",
+  "compilador": "0.8.30+commit.73712a01",
+  "linguagem": "Solidity",
+  "contrato_compilado": "contracts/l1/bridging/GnosisDepositProcessorL1.sol:GnosisDepositProcessorL1",
+  "verificado_em": "2026-01-17T10:07:45Z"
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 4125,
+  "tamanho_cadeia": 4125,
+  "blocos_removidos": 0,
+  "metadados_em_F": false
+ },
+ "regioes": [
+  {
+   "inicio": 363,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:236",
+   "valor": "0x000000000000000000000000eff4a1d9faf5c750d5e32754c40cf163767c63a4",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 955,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:236",
+   "valor": "0x000000000000000000000000eff4a1d9faf5c750d5e32754c40cf163767c63a4",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 1521,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:238",
+   "valor": "0x00000000000000000000000088ad09518695c6c3712ac10a214be5109a655671",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 1916,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:240",
+   "valor": "0x0000000000000000000000004c36d2919e407f0cc2ee3c993ccf8ac26d9ce64e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 2247,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:236",
+   "valor": "0x000000000000000000000000eff4a1d9faf5c750d5e32754c40cf163767c63a4",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 2674,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:240",
+   "valor": "0x0000000000000000000000004c36d2919e407f0cc2ee3c993ccf8ac26d9ce64e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 3003,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:234",
+   "valor": "0x0000000000000000000000000001a500a6b18995b03f44bb040a5ffc28e45cb0",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 3097,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:238",
+   "valor": "0x00000000000000000000000088ad09518695c6c3712ac10a214be5109a655671",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 3623,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:234",
+   "valor": "0x0000000000000000000000000001a500a6b18995b03f44bb040a5ffc28e45cb0",
+   "tipo": "address",
+   "tau_address": true
+  }
+ ],
+ "constantes": [
+  {
+   "construto": "imutavel:236",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 3,
+   "valores": [
+    "0xeff4a1d9faf5c750d5e32754c40cf163767c63a4"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:238",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 2,
+   "valores": [
+    "0x88ad09518695c6c3712ac10a214be5109a655671"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:240",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 2,
+   "valores": [
+    "0x4c36d2919e407f0cc2ee3c993ccf8ac26d9ce64e"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:234",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 2,
+   "valores": [
+    "0x0001a500a6b18995b03f44bb040a5ffc28e45cb0"
+   ],
+   "valores_distintos": 1
+  }
+ ],
+ "cobertura": 0.9301818181818182,
+ "bytes_nao_atestados": 288,
+ "indicador_equacao_2": 1,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.3
+}

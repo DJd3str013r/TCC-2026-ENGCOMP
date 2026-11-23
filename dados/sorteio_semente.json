@@ -1,0 +1,8 @@
+{
+ "bloco_referencia": 26296341,
+ "hash_bloco": "0x3f17a1f32676e57461a80b819efbe1fa59a0477cc0cae6b812ae6e337b9f9570",
+ "data_bloco_utc": "2026-10-29T05:35:35+00:00",
+ "semente": "28537464679715336892671698908302805048116497283507949601477229022537809106288",
+ "gerador": "numpy 2.5.4 PCG64, permutation(N)",
+ "registrado_em": "2026-10-29T05:48:52+00:00"
+}

@@ -1,0 +1,146 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.0.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0xe2334d8ade5d5d48b27b7d33d740c88a2657dccc",
+  "bloco_referencia": 26290000,
+  "tamanho_codigo": 7684,
+  "resumo_codigo": "0xde8ed46515f7d39f2bb2c29f52b94c80db001936661b00e35a0e66dfbb532a99"
+ },
+ "acervo": {
+  "match_id": "6766401",
+  "grau_codigo_execucao": "exata",
+  "compilador": "0.8.20+commit.a1b79de6",
+  "linguagem": "Solidity",
+  "contrato_compilado": "SOYUZ 11.sol:Soyuz",
+  "verificado_em": "2025-07-04T22:14:51Z"
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 7684,
+  "tamanho_cadeia": 7684,
+  "blocos_removidos": 0,
+  "metadados_em_F": false
+ },
+ "regioes": [
+  {
+   "inicio": 967,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1743",
+   "valor": "0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d",
+   "tipo": "contract IUniswapV2Router02",
+   "tau_address": true
+  },
+  {
+   "inicio": 2240,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1745",
+   "valor": "0x0000000000000000000000003c85bee39d704cf68be07b9be664daa686480b1b",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 2837,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1743",
+   "valor": "0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d",
+   "tipo": "contract IUniswapV2Router02",
+   "tau_address": true
+  },
+  {
+   "inicio": 2878,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1743",
+   "valor": "0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d",
+   "tipo": "contract IUniswapV2Router02",
+   "tau_address": true
+  },
+  {
+   "inicio": 3129,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1743",
+   "valor": "0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d",
+   "tipo": "contract IUniswapV2Router02",
+   "tau_address": true
+  },
+  {
+   "inicio": 3176,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1745",
+   "valor": "0x0000000000000000000000003c85bee39d704cf68be07b9be664daa686480b1b",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 5828,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1743",
+   "valor": "0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d",
+   "tipo": "contract IUniswapV2Router02",
+   "tau_address": true
+  },
+  {
+   "inicio": 6011,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1743",
+   "valor": "0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d",
+   "tipo": "contract IUniswapV2Router02",
+   "tau_address": true
+  },
+  {
+   "inicio": 6074,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:1743",
+   "valor": "0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d",
+   "tipo": "contract IUniswapV2Router02",
+   "tau_address": true
+  }
+ ],
+ "constantes": [
+  {
+   "construto": "imutavel:1743",
+   "motivo": "immutable",
+   "tipo": "contract IUniswapV2Router02",
+   "tau_address": true,
+   "regioes": 7,
+   "valores": [
+    "0x7a250d5630b4cf539739df2c5dacb4c659f2488d"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:1745",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 2,
+   "valores": [
+    "0x3c85bee39d704cf68be07b9be664daa686480b1b"
+   ],
+   "valores_distintos": 1
+  }
+ ],
+ "cobertura": 0.9625195210827694,
+ "bytes_nao_atestados": 288,
+ "indicador_equacao_2": 1,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 10.8
+}

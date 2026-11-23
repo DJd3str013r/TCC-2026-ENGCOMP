@@ -1,0 +1,102 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x719483023b3da684b82a6861462a467fa01aeef6",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 9037,
+  "resumo_codigo": "0x85f85ecfa9702237f3b6d6e45cf504bf0b89cf384dc42496c13d95714a5cc3d3"
+ },
+ "acervo": {
+  "match_id": "6594040",
+  "grau_codigo_execucao": "parcial",
+  "grau_codigo_criacao": "parcial",
+  "compilador": "0.8.17+commit.8df45f5f",
+  "linguagem": "Solidity",
+  "contrato_compilado": "setApprovalforAll.sol:setApprovalforAll",
+  "verificado_em": "2025-06-22T22:56:26Z",
+  "match_id_instantaneo": 6594040,
+  "grau_instantaneo": "parcial",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 9037,
+  "tamanho_cadeia": 9037,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo",
+  "ajustes_dos_metadados": [
+   "evmVersion",
+   "metadata",
+   "remappings"
+  ],
+  "motor": "solc nativo"
+ },
+ "regioes": [
+  {
+   "inicio": 5555,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:772",
+   "valor": "0x00000000000000000000000000000000000000000000000000000000000001f4",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 5597,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:772",
+   "valor": "0x00000000000000000000000000000000000000000000000000000000000001f4",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 6637,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:772",
+   "valor": "0x00000000000000000000000000000000000000000000000000000000000001f4",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 8984,
+   "comprimento": 53,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa2646970667358221220d0ba0556c12e85a41177f33227c25cf3fa8fb3dc9a31e1f32e5772a0660b2a9a64736f6c63430008110033",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [
+  {
+   "construto": "imutavel:772",
+   "motivo": "immutable",
+   "tipo": "uint256",
+   "tau_address": false,
+   "regioes": 3,
+   "valores": [
+    "0x00000000000000000000000000000000000000000000000000000000000001f4"
+   ],
+   "valores_distintos": 1
+  }
+ ],
+ "cobertura": 0.9835122275091291,
+ "bytes_nao_atestados": 149,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.9,
+ "ordem": 112
+}

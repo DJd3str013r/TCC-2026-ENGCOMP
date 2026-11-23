@@ -1,0 +1,4866 @@
+{
+ "listado_em": "2026-10-29T05:30:04+00:00",
+ "origem": "https://export.sourcify.dev/?prefix=v2/",
+ "tabelas": {
+  "contract_deployments": {
+   "colunas": "id, address, contract_id, block_number",
+   "filtro": "WHERE chain_id = 1",
+   "arquivos": [
+    {
+     "chave": "v2/contract_deployments/contract_deployments_0_1000000.parquet",
+     "tamanho": 118071523,
+     "etag": "30e86d7171487a07a30697cbc926e4d6",
+     "modificado": "2026-09-09T16:34:15.505Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_10000000_11000000.parquet",
+     "tamanho": 117877428,
+     "etag": "434b1fd48fe4559074ef06c8ef0b3b65",
+     "modificado": "2026-09-09T16:45:55.801Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_1000000_2000000.parquet",
+     "tamanho": 120914602,
+     "etag": "2dd312b62e0e7ecfeb75bfc89c39f0de",
+     "modificado": "2026-09-09T16:35:32.159Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_11000000_12000000.parquet",
+     "tamanho": 103197746,
+     "etag": "432537c3778af74e6325722292971725",
+     "modificado": "2026-09-09T16:47:06.710Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_12000000_13000000.parquet",
+     "tamanho": 111293732,
+     "etag": "b7749b54db81c454c963ea8c5bd8e0e2",
+     "modificado": "2026-09-09T16:48:15.359Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_13000000_14000000.parquet",
+     "tamanho": 116962793,
+     "etag": "78388fe90f9e4c6cb5fd84d5d1e99d2e",
+     "modificado": "2026-09-09T16:49:27.130Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_14000000_15000000.parquet",
+     "tamanho": 117820893,
+     "etag": "bc97a697ae59e61813eb80dbd7e799d9",
+     "modificado": "2026-09-09T16:50:36.807Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_15000000_16000000.parquet",
+     "tamanho": 113403470,
+     "etag": "6c55a8854200caf92683e133ff23fac9",
+     "modificado": "2026-09-09T16:51:51.663Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_16000000_17000000.parquet",
+     "tamanho": 111552438,
+     "etag": "4e36e7fac5ae7bedf2b735711b6d5de7",
+     "modificado": "2026-09-09T16:53:10.452Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_17000000_18000000.parquet",
+     "tamanho": 115032366,
+     "etag": "b33575cf56580571624691e2bc3a8870",
+     "modificado": "2026-09-09T16:54:20.672Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_18000000_19000000.parquet",
+     "tamanho": 115440460,
+     "etag": "a5a4fc07f51b3a7ac436e6d5891bc195",
+     "modificado": "2026-09-09T16:55:32.681Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_19000000_20000000.parquet",
+     "tamanho": 115915708,
+     "etag": "f5ed6d897b5dedd6ecf1f7ba003e3da0",
+     "modificado": "2026-09-09T16:56:43.990Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_20000000_21000000.parquet",
+     "tamanho": 116695898,
+     "etag": "20efcbdf7d4ee3adaa17bd6b6ff94ea1",
+     "modificado": "2026-09-09T16:57:54.999Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_2000000_3000000.parquet",
+     "tamanho": 117727368,
+     "etag": "cfeb27f5b589762efe054f9098ed7b7c",
+     "modificado": "2026-09-09T16:36:48.934Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_21000000_22000000.parquet",
+     "tamanho": 109770083,
+     "etag": "b59b3960dc6b49214b17f6f90f379392",
+     "modificado": "2026-09-09T16:59:04.949Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_22000000_23000000.parquet",
+     "tamanho": 117301739,
+     "etag": "22303dc3f66328e2c6af28a4b65c7764",
+     "modificado": "2026-09-09T17:00:14.919Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_23000000_24000000.parquet",
+     "tamanho": 108886288,
+     "etag": "6b857cdf3bb7724fdd54a20623025768",
+     "modificado": "2026-09-09T17:01:31.083Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_24000000_25000000.parquet",
+     "tamanho": 104399579,
+     "etag": "dcb620b66b9aed6234aae97f4b753da6",
+     "modificado": "2026-09-09T17:02:44.372Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_25000000_26000000.parquet",
+     "tamanho": 116965656,
+     "etag": "2b0e1d75f6aaf71b8c36af77fc7f4b24",
+     "modificado": "2026-09-09T17:04:04.415Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_26000000_27000000.parquet",
+     "tamanho": 121812130,
+     "etag": "b52e4b27d3ff41ddf385096b78e201db",
+     "modificado": "2026-09-09T17:05:15.496Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_27000000_28000000.parquet",
+     "tamanho": 116325742,
+     "etag": "aa048dc161053ccc767eb48996de27cf",
+     "modificado": "2026-09-09T17:06:27.937Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_28000000_29000000.parquet",
+     "tamanho": 108608713,
+     "etag": "f9ae78e848feaec8e2bc0a57600985cb",
+     "modificado": "2026-09-09T17:07:40.243Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_29000000_30000000.parquet",
+     "tamanho": 130234464,
+     "etag": "7bb94d8880de8776828eb8787f643270",
+     "modificado": "2026-09-09T17:08:49.723Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_30000000_31000000.parquet",
+     "tamanho": 129389121,
+     "etag": "98085ef330b94c09681c9a0574bef71e",
+     "modificado": "2026-09-09T17:09:59.885Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_3000000_4000000.parquet",
+     "tamanho": 109021345,
+     "etag": "e873df077219ebcb1cc5dae62f083461",
+     "modificado": "2026-09-09T16:37:58.648Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_31000000_32000000.parquet",
+     "tamanho": 127334881,
+     "etag": "28b59d3cc877a0b7a058157165223d75",
+     "modificado": "2026-09-09T17:11:11.447Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_32000000_33000000.parquet",
+     "tamanho": 121483506,
+     "etag": "6e29ca5c8ae908b1ed566b3fe21eb31a",
+     "modificado": "2026-09-09T17:12:22.094Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_33000000_34000000.parquet",
+     "tamanho": 126267609,
+     "etag": "07f558b04f37973e5b136c2b0b6b95b8",
+     "modificado": "2026-09-09T17:13:40.416Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_34000000_35000000.parquet",
+     "tamanho": 127151678,
+     "etag": "879f75c0547ea08ebd9c2ab42152f5ee",
+     "modificado": "2026-09-09T17:14:53.063Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_35000000_36000000.parquet",
+     "tamanho": 128262112,
+     "etag": "96897e5480c6b6efa16097227e4e8c8f",
+     "modificado": "2026-09-09T17:16:09.567Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_36000000_37000000.parquet",
+     "tamanho": 126409721,
+     "etag": "ff75a8db3f12727ced89c228958e2235",
+     "modificado": "2026-09-09T17:17:30.403Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_37000000_38000000.parquet",
+     "tamanho": 127096415,
+     "etag": "06f3224fbf0a45a070b099185fd34849",
+     "modificado": "2026-09-09T17:18:50.956Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_38000000_39000000.parquet",
+     "tamanho": 127968610,
+     "etag": "b7f7aa2375d6955aa7c1e43f0124fbb8",
+     "modificado": "2026-09-09T17:20:06.879Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_39000000_40000000.parquet",
+     "tamanho": 128050975,
+     "etag": "550a5d7a20c901f771f144d97bfad875",
+     "modificado": "2026-09-09T17:21:27.802Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_40000000_41000000.parquet",
+     "tamanho": 123623969,
+     "etag": "fee3f54f098827f8e7b6635a9e1c5790",
+     "modificado": "2026-09-09T17:22:51.113Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_4000000_5000000.parquet",
+     "tamanho": 83533419,
+     "etag": "5afaf0dc000491c33d18bfb433205073",
+     "modificado": "2026-09-09T16:39:03.886Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_41000000_42000000.parquet",
+     "tamanho": 114752259,
+     "etag": "10c8d3cbf7f16d7d58ac708421f38d0f",
+     "modificado": "2026-09-09T17:24:50.275Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_42000000_43000000.parquet",
+     "tamanho": 96889734,
+     "etag": "b523f8d79a556c85aeac27d7f09ee82c",
+     "modificado": "2026-09-09T17:25:57.580Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_43000000_44000000.parquet",
+     "tamanho": 108466565,
+     "etag": "c23b305a0d2e67da049ead4f9b865b0d",
+     "modificado": "2026-09-09T17:27:05.578Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_44000000_45000000.parquet",
+     "tamanho": 93186108,
+     "etag": "26005328131d576df4c6461397bfb7c3",
+     "modificado": "2026-09-09T17:28:10.439Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_45000000_46000000.parquet",
+     "tamanho": 78468593,
+     "etag": "0434c368221088a406194fd787b6b3dc",
+     "modificado": "2026-09-09T17:29:12.273Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_46000000_47000000.parquet",
+     "tamanho": 79262648,
+     "etag": "8e6fa40afd158b5c7056771af7e18604",
+     "modificado": "2026-09-09T17:30:13.446Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_47000000_48000000.parquet",
+     "tamanho": 95526189,
+     "etag": "fa18deafc2743af1139ad807520c137f",
+     "modificado": "2026-09-10T08:11:30.036Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_48000000_49000000.parquet",
+     "tamanho": 87749047,
+     "etag": "45b704a8945e772ee3f2b2a16eca36a3",
+     "modificado": "2026-09-10T08:12:50.776Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_49000000_50000000.parquet",
+     "tamanho": 84815672,
+     "etag": "658d3cafab297c449d4e79614f032d2d",
+     "modificado": "2026-09-12T02:03:43.006Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_50000000_51000000.parquet",
+     "tamanho": 81652720,
+     "etag": "3e3ef1e1083e9f5f9c09ecaa66ed1375",
+     "modificado": "2026-09-14T02:09:43.955Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_5000000_6000000.parquet",
+     "tamanho": 118677787,
+     "etag": "00c98ba896ea493421ea3bec13ea78fe",
+     "modificado": "2026-09-09T16:40:09.697Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_51000000_52000000.parquet",
+     "tamanho": 92360558,
+     "etag": "b0ded621cdd89a0039410ee262752ce0",
+     "modificado": "2026-09-22T02:08:02.566Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_52000000_53000000.parquet",
+     "tamanho": 98893363,
+     "etag": "1c4fc291d89d7fa78ecaef4f5e4e91fd",
+     "modificado": "2026-09-26T02:12:08.070Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_53000000_54000000.parquet",
+     "tamanho": 88146897,
+     "etag": "99fbde59f7b40cd53c2ed23ad5aa0634",
+     "modificado": "2026-09-28T02:10:21.839Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_54000000_55000000.parquet",
+     "tamanho": 103881436,
+     "etag": "15f4222fceae706df654953d1f5012a7",
+     "modificado": "2026-10-01T02:07:10.276Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_55000000_56000000.parquet",
+     "tamanho": 100230053,
+     "etag": "0f3824b86a0de39bcf9bce2107be61c3",
+     "modificado": "2026-10-08T02:09:09.024Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_56000000_57000000.parquet",
+     "tamanho": 102370962,
+     "etag": "1604a8fda9f1ffb19cdcb2d0cc391202",
+     "modificado": "2026-10-19T02:07:37.876Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_57000000_58000000.parquet",
+     "tamanho": 104787567,
+     "etag": "27f989b516a7010381c9866909b09738",
+     "modificado": "2026-10-29T02:07:56.994Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_58000000_59000000.parquet",
+     "tamanho": 6281433,
+     "etag": "19e1a57893a18e344bc3f12f3f892782",
+     "modificado": "2026-10-29T02:08:03.518Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_6000000_7000000.parquet",
+     "tamanho": 125468503,
+     "etag": "886428ad867b5c981d91e3cded6eae66",
+     "modificado": "2026-09-09T16:41:20.052Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_7000000_8000000.parquet",
+     "tamanho": 117745728,
+     "etag": "ac9cadf16a7db5f4859dd27e7d1ab548",
+     "modificado": "2026-09-09T16:42:27.386Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_8000000_9000000.parquet",
+     "tamanho": 105131666,
+     "etag": "aee922b62ae45c537f60f73ffc0d8859",
+     "modificado": "2026-09-09T16:43:36.670Z"
+    },
+    {
+     "chave": "v2/contract_deployments/contract_deployments_9000000_10000000.parquet",
+     "tamanho": 112621265,
+     "etag": "715b743acbb53e55bf94bf9457520e64",
+     "modificado": "2026-09-09T16:44:44.386Z"
+    }
+   ]
+  },
+  "verified_contracts": {
+   "colunas": "id, deployment_id, compilation_id, creation_match, runtime_match, runtime_metadata_match, creation_metadata_match",
+   "filtro": "",
+   "arquivos": [
+    {
+     "chave": "v2/verified_contracts/verified_contracts_0_1000000.parquet",
+     "tamanho": 97839237,
+     "etag": "c0f4ec2492b425d9d88f6286e5d1cd14",
+     "modificado": "2026-09-09T21:04:49.938Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_10000000_11000000.parquet",
+     "tamanho": 88744557,
+     "etag": "532924b680ae5ec7165047eb99e47e8f",
+     "modificado": "2026-09-09T21:28:55.870Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_1000000_2000000.parquet",
+     "tamanho": 88157883,
+     "etag": "b254c9eb1910f2c7261d9f77b0167232",
+     "modificado": "2026-09-09T21:06:47.690Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_11000000_12000000.parquet",
+     "tamanho": 49129658,
+     "etag": "c4da0d2feec927cf00d0fc940d13ade8",
+     "modificado": "2026-09-09T21:31:05.399Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_12000000_13000000.parquet",
+     "tamanho": 58037685,
+     "etag": "671ae9dc306fddef656d2d5f4c69babd",
+     "modificado": "2026-09-09T21:33:04.371Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_13000000_14000000.parquet",
+     "tamanho": 67805283,
+     "etag": "d23da56f807eaf26afe4bd76a7e66ff9",
+     "modificado": "2026-09-09T21:35:04.530Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_14000000_15000000.parquet",
+     "tamanho": 64889039,
+     "etag": "b0ef8f5e458608242c7cff083562cf7d",
+     "modificado": "2026-09-09T21:37:17.391Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_15000000_16000000.parquet",
+     "tamanho": 64392337,
+     "etag": "43b597dd5c5c84e22046e62813df81de",
+     "modificado": "2026-09-09T21:39:33.399Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_16000000_17000000.parquet",
+     "tamanho": 72538445,
+     "etag": "475e482f6263c6dca20f71c473747fa2",
+     "modificado": "2026-09-09T21:41:38.167Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_17000000_18000000.parquet",
+     "tamanho": 73543245,
+     "etag": "06734b3fcbe9d76fa162329211b9377c",
+     "modificado": "2026-09-09T21:43:44.989Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_18000000_19000000.parquet",
+     "tamanho": 65558843,
+     "etag": "c38df3080083b4e8e5d2a43845932cb5",
+     "modificado": "2026-09-09T21:45:42.590Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_19000000_20000000.parquet",
+     "tamanho": 63467936,
+     "etag": "8b6d851a7743d18685d0b349972d3e76",
+     "modificado": "2026-09-09T21:47:40.286Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_20000000_21000000.parquet",
+     "tamanho": 75107797,
+     "etag": "c9a6ff77dac895039961af818125abb0",
+     "modificado": "2026-09-09T21:49:44.290Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_2000000_3000000.parquet",
+     "tamanho": 81452850,
+     "etag": "83ed006597f6b7aad0810464e8ae22de",
+     "modificado": "2026-09-09T21:08:48.837Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_21000000_22000000.parquet",
+     "tamanho": 63217446,
+     "etag": "90f38c3869937302153b170cdd3ded1f",
+     "modificado": "2026-09-09T21:51:40.464Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_22000000_23000000.parquet",
+     "tamanho": 68269422,
+     "etag": "4b7b81531f709dea6176e02b67773182",
+     "modificado": "2026-09-09T21:53:57.685Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_23000000_24000000.parquet",
+     "tamanho": 58410569,
+     "etag": "7e282186dd3415898a2e208d35aea1f2",
+     "modificado": "2026-09-09T21:55:51.055Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_24000000_25000000.parquet",
+     "tamanho": 53453100,
+     "etag": "da2a1a9b77b2593afd3793f8d5e90444",
+     "modificado": "2026-09-09T21:57:40.052Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_25000000_26000000.parquet",
+     "tamanho": 59481635,
+     "etag": "8ad393b6a7a5e0c2bedc9800e0fab5a2",
+     "modificado": "2026-09-09T21:59:40.436Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_26000000_27000000.parquet",
+     "tamanho": 64753056,
+     "etag": "3abb66466c92877d7661fade8db98707",
+     "modificado": "2026-09-09T22:01:45.102Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_27000000_28000000.parquet",
+     "tamanho": 62010143,
+     "etag": "2b0cfe89bb68053b8b11ff61d272e93a",
+     "modificado": "2026-09-09T22:03:43.171Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_28000000_29000000.parquet",
+     "tamanho": 65589087,
+     "etag": "4154ee67603a3d3bcfa7e2d164181765",
+     "modificado": "2026-09-09T22:05:35.173Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_29000000_30000000.parquet",
+     "tamanho": 129639060,
+     "etag": "63ba23534c280480eca0d68ece41a608",
+     "modificado": "2026-09-09T22:07:38.286Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_30000000_31000000.parquet",
+     "tamanho": 133748070,
+     "etag": "5f30c7a7db9274114f94f593cefa28d7",
+     "modificado": "2026-09-09T22:09:44.756Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_3000000_4000000.parquet",
+     "tamanho": 52401147,
+     "etag": "356d24cb889b14c8ef151ef30a49e014",
+     "modificado": "2026-09-09T21:10:44.767Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_31000000_32000000.parquet",
+     "tamanho": 142749795,
+     "etag": "f2197496ba83a1b1c6f82322303b5800",
+     "modificado": "2026-09-09T22:11:47.936Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_32000000_33000000.parquet",
+     "tamanho": 135233710,
+     "etag": "4081cb7e70413a26a686a8dbf952f64f",
+     "modificado": "2026-09-09T22:13:59.318Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_33000000_34000000.parquet",
+     "tamanho": 142665717,
+     "etag": "5cf6e868a239ccdcdb43ae582287d246",
+     "modificado": "2026-09-09T22:16:36.101Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_34000000_35000000.parquet",
+     "tamanho": 123546313,
+     "etag": "506f48391c8858b6cbb84f441b6e64fb",
+     "modificado": "2026-09-09T22:21:10.891Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_35000000_36000000.parquet",
+     "tamanho": 124560689,
+     "etag": "f4a2a9eb7d7c849158ed8c9b737a4088",
+     "modificado": "2026-09-09T22:25:11.160Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_36000000_37000000.parquet",
+     "tamanho": 120675728,
+     "etag": "8f63a993ce6733dcb1e1643c0a631316",
+     "modificado": "2026-09-09T22:28:48.646Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_37000000_38000000.parquet",
+     "tamanho": 123771539,
+     "etag": "ad26367777dfcd0f4ebd02c45adba76c",
+     "modificado": "2026-09-09T22:32:13.430Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_38000000_39000000.parquet",
+     "tamanho": 125330695,
+     "etag": "31a44c3b1efc54956ddf2bff70ee7b30",
+     "modificado": "2026-09-09T22:34:43.006Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_39000000_40000000.parquet",
+     "tamanho": 125291950,
+     "etag": "73f77817a13540e02d0a239132cd1ed2",
+     "modificado": "2026-09-09T22:37:08.254Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_40000000_41000000.parquet",
+     "tamanho": 113054422,
+     "etag": "8542fe28bf38ab592651a3aa2f1d00d2",
+     "modificado": "2026-09-09T22:40:18.196Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_4000000_5000000.parquet",
+     "tamanho": 55213887,
+     "etag": "5828c12ed5d19cbb495bf40e53c5294f",
+     "modificado": "2026-09-09T21:12:25.698Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_41000000_42000000.parquet",
+     "tamanho": 157827983,
+     "etag": "a7994ea26a95219344fbbfce512d7fe8",
+     "modificado": "2026-09-09T22:43:36.377Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_42000000_43000000.parquet",
+     "tamanho": 116638710,
+     "etag": "7a8f88dfd4a4bc099dbc5efb0800971f",
+     "modificado": "2026-09-09T22:46:39.236Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_43000000_44000000.parquet",
+     "tamanho": 85158216,
+     "etag": "98eec34aacb3dd31296e459a06943265",
+     "modificado": "2026-09-09T22:52:11.035Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_44000000_45000000.parquet",
+     "tamanho": 60414383,
+     "etag": "c4ff2a99ce96d48ad4b628b631a73c07",
+     "modificado": "2026-09-09T22:54:17.464Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_45000000_46000000.parquet",
+     "tamanho": 42030952,
+     "etag": "d584a02e0622bf7ee34358ea9d36a4d6",
+     "modificado": "2026-09-09T22:55:44.696Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_46000000_47000000.parquet",
+     "tamanho": 42282184,
+     "etag": "4f81cbb189fe19ce7ac94c6f74a75e7e",
+     "modificado": "2026-09-09T22:57:14.951Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_47000000_48000000.parquet",
+     "tamanho": 60704230,
+     "etag": "edfb945d995cbe20cbecb7e0c214cf1f",
+     "modificado": "2026-09-10T09:09:41.299Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_48000000_49000000.parquet",
+     "tamanho": 46520656,
+     "etag": "56a1cd7a20dc598829a1dc2366fe6647",
+     "modificado": "2026-09-10T09:12:04.553Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_49000000_50000000.parquet",
+     "tamanho": 46072954,
+     "etag": "0fa4695c6312f5c2b7f75ed2b6a0b5e2",
+     "modificado": "2026-09-12T02:07:30.529Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_50000000_51000000.parquet",
+     "tamanho": 43005139,
+     "etag": "5cb7f9b8ab651764097b0ca666798b06",
+     "modificado": "2026-09-14T02:50:26.753Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_5000000_6000000.parquet",
+     "tamanho": 119734925,
+     "etag": "cacd255632f29919124c6393130480f5",
+     "modificado": "2026-09-09T21:14:23.873Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_51000000_52000000.parquet",
+     "tamanho": 57022947,
+     "etag": "0a5058e6f3b39ec8af42f7d4242c42e1",
+     "modificado": "2026-09-20T02:34:45.545Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_52000000_53000000.parquet",
+     "tamanho": 58137500,
+     "etag": "f9fc61523e646fe865a4e7e9436de49e",
+     "modificado": "2026-09-26T02:19:59.677Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_53000000_54000000.parquet",
+     "tamanho": 50612893,
+     "etag": "d8d767c168e6138dc3506753350f3e9c",
+     "modificado": "2026-09-28T02:58:37.254Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_54000000_55000000.parquet",
+     "tamanho": 56778690,
+     "etag": "e16318be355b837355ced501e2feefb1",
+     "modificado": "2026-10-01T02:26:38.562Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_55000000_56000000.parquet",
+     "tamanho": 61325620,
+     "etag": "e3adb578be979be36cd13a6039793890",
+     "modificado": "2026-10-08T02:38:41.820Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_56000000_57000000.parquet",
+     "tamanho": 60752657,
+     "etag": "66295d2dfab55db1c203a259cc6ee7d6",
+     "modificado": "2026-10-18T02:31:26.301Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_57000000_58000000.parquet",
+     "tamanho": 68141682,
+     "etag": "c0d9a89be0216e86274fbeba21f4aa32",
+     "modificado": "2026-10-28T02:37:11.003Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_58000000_59000000.parquet",
+     "tamanho": 13382030,
+     "etag": "2012e27d5f1b10d298cc6110c2fc2b54",
+     "modificado": "2026-10-29T02:09:51.850Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_6000000_7000000.parquet",
+     "tamanho": 130868240,
+     "etag": "a9e3790f9de445f88fa19368b2bd4dca",
+     "modificado": "2026-09-09T21:17:38.718Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_7000000_8000000.parquet",
+     "tamanho": 125124138,
+     "etag": "f716ffbef7b914bcc1fcc21c3d723e89",
+     "modificado": "2026-09-09T21:21:56.616Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_8000000_9000000.parquet",
+     "tamanho": 70527146,
+     "etag": "6a3d3b328e0ae8a0a19f2addbd7f63ab",
+     "modificado": "2026-09-09T21:24:21.931Z"
+    },
+    {
+     "chave": "v2/verified_contracts/verified_contracts_9000000_10000000.parquet",
+     "tamanho": 78870059,
+     "etag": "88efa9909a61735ef0f843cd4d63b0f3",
+     "modificado": "2026-09-09T21:26:44.799Z"
+    }
+   ]
+  },
+  "sourcify_matches": {
+   "colunas": "id, verified_contract_id, creation_match, runtime_match, created_at, updated_at",
+   "filtro": "",
+   "arquivos": [
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_0_1000000.parquet",
+     "tamanho": 15469728,
+     "etag": "88087ff91ee3a71e664f07af83b2d740",
+     "modificado": "2026-09-10T12:18:22.621Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_10000000_11000000.parquet",
+     "tamanho": 15401866,
+     "etag": "d2102f35e2cf7d3d993e19e0efc58af9",
+     "modificado": "2026-09-10T13:37:37.222Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_1000000_2000000.parquet",
+     "tamanho": 14948588,
+     "etag": "1ab000ce5144682d6570c51892ed1b12",
+     "modificado": "2026-09-10T12:31:05.864Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_11000000_12000000.parquet",
+     "tamanho": 15144476,
+     "etag": "751dd06b3579e451580fb68d69e66747",
+     "modificado": "2026-09-10T13:46:22.786Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_12000000_13000000.parquet",
+     "tamanho": 15200104,
+     "etag": "22aa68c4aa83d94f17167e27c23bbdd8",
+     "modificado": "2026-09-10T13:51:35.711Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_13000000_14000000.parquet",
+     "tamanho": 15246663,
+     "etag": "e0083ae30d99fb4bef8be047a520cf8c",
+     "modificado": "2026-09-10T13:56:42.847Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_14000000_15000000.parquet",
+     "tamanho": 15169527,
+     "etag": "7c69b5283bc5c5c66994fad21d38ff38",
+     "modificado": "2026-09-10T14:02:03.215Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_15000000_16000000.parquet",
+     "tamanho": 15432663,
+     "etag": "4a766cb7f0a806e80c2061d5ebba4342",
+     "modificado": "2026-09-10T14:07:58.992Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_16000000_17000000.parquet",
+     "tamanho": 15504847,
+     "etag": "fc743b6c16c626b7f27a6b4d9517d319",
+     "modificado": "2026-09-10T14:12:21.106Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_17000000_18000000.parquet",
+     "tamanho": 15451665,
+     "etag": "dc058945474def1454f70ce3e4de5fc0",
+     "modificado": "2026-09-10T14:21:06.110Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_18000000_19000000.parquet",
+     "tamanho": 15493831,
+     "etag": "ddc572a1e8bb2758f8e733f3d2d95615",
+     "modificado": "2026-09-10T14:29:26.079Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_19000000_20000000.parquet",
+     "tamanho": 15584099,
+     "etag": "7c213aef68670f567e2633bbde9cfcb0",
+     "modificado": "2026-09-10T14:34:12.632Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_20000000_21000000.parquet",
+     "tamanho": 15613361,
+     "etag": "5932d17a2dc83a3438500aa35205d7d3",
+     "modificado": "2026-09-10T14:41:03.489Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_2000000_3000000.parquet",
+     "tamanho": 15094491,
+     "etag": "b16094c1de5a0c3573dfd489fa57b8bc",
+     "modificado": "2026-09-10T12:38:09.861Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_21000000_22000000.parquet",
+     "tamanho": 15475265,
+     "etag": "17ab28541539920cc111a5d0fe20dfed",
+     "modificado": "2026-09-10T14:46:16.535Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_22000000_23000000.parquet",
+     "tamanho": 15216402,
+     "etag": "7415821296e08dcf173b422ea650e424",
+     "modificado": "2026-09-10T14:50:57.203Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_23000000_24000000.parquet",
+     "tamanho": 15066989,
+     "etag": "8cd7122a29c987202d75e3940341d34d",
+     "modificado": "2026-09-10T14:56:16.900Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_24000000_25000000.parquet",
+     "tamanho": 14936660,
+     "etag": "b93ea023a596d86466f8d914708d2876",
+     "modificado": "2026-09-10T14:59:49.959Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_25000000_26000000.parquet",
+     "tamanho": 14914652,
+     "etag": "8c48697e43b6287bed753d5aeb3b4e76",
+     "modificado": "2026-09-10T15:03:56.615Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_26000000_27000000.parquet",
+     "tamanho": 14954534,
+     "etag": "a9efa01fba1cf84470ffeaa9c2f0f0d8",
+     "modificado": "2026-09-10T15:08:19.666Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_27000000_28000000.parquet",
+     "tamanho": 15432708,
+     "etag": "0c68c0483f6fa532e47bcd1aaeeefdea",
+     "modificado": "2026-09-10T15:13:08.280Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_28000000_29000000.parquet",
+     "tamanho": 15354332,
+     "etag": "97f964602720f0106815f63414b5641c",
+     "modificado": "2026-09-10T15:21:13.185Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_29000000_30000000.parquet",
+     "tamanho": 15843487,
+     "etag": "fc05ece54f8b6c239cfecd43f4d2a9d8",
+     "modificado": "2026-09-10T15:31:10.891Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_30000000_31000000.parquet",
+     "tamanho": 24581228,
+     "etag": "354150c4ae658a4d8e63e6e4d07bc064",
+     "modificado": "2026-09-10T15:40:37.243Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_3000000_4000000.parquet",
+     "tamanho": 14796966,
+     "etag": "e29b1c5bee2452df204f7f35b8c767d8",
+     "modificado": "2026-09-10T12:42:24.755Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_31000000_32000000.parquet",
+     "tamanho": 24379734,
+     "etag": "05480f741482783a595cda1f052633bf",
+     "modificado": "2026-09-10T19:59:51.188Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_32000000_33000000.parquet",
+     "tamanho": 24364509,
+     "etag": "eebc53b9265566875ea4a177554d6363",
+     "modificado": "2026-09-10T20:11:00.950Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_33000000_34000000.parquet",
+     "tamanho": 23891284,
+     "etag": "52d296fcdc39e0638f809f17f2b30398",
+     "modificado": "2026-09-10T20:21:14.477Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_34000000_35000000.parquet",
+     "tamanho": 23922025,
+     "etag": "8095d71933fa31bc75633167d1302091",
+     "modificado": "2026-09-10T20:35:09.601Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_35000000_36000000.parquet",
+     "tamanho": 23906343,
+     "etag": "f3cf7e402b9fb8096fc775a87848de22",
+     "modificado": "2026-09-10T20:46:52.456Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_36000000_37000000.parquet",
+     "tamanho": 23932212,
+     "etag": "92d00161c403b08b1556ec839185deb2",
+     "modificado": "2026-09-10T21:04:29.698Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_37000000_38000000.parquet",
+     "tamanho": 23899244,
+     "etag": "71454bb10f8ba903f60d482e97c9338e",
+     "modificado": "2026-09-10T21:14:24.488Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_38000000_39000000.parquet",
+     "tamanho": 23893819,
+     "etag": "9463f313f8c9a03cb905ccbc522de8de",
+     "modificado": "2026-09-10T21:46:06.710Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_39000000_40000000.parquet",
+     "tamanho": 23958651,
+     "etag": "af6ac992b2bc5fc715d713e2dbaa7843",
+     "modificado": "2026-09-10T22:05:36.473Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_40000000_41000000.parquet",
+     "tamanho": 24009710,
+     "etag": "5423847663eab4eb46d03d2d026c190c",
+     "modificado": "2026-09-10T22:17:31.375Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_4000000_5000000.parquet",
+     "tamanho": 14451940,
+     "etag": "52a606f9e820e5674bde6f88b0ce2c3e",
+     "modificado": "2026-09-10T12:48:33.081Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_41000000_42000000.parquet",
+     "tamanho": 23919489,
+     "etag": "186a612c6ac7c452904bc0df7a586781",
+     "modificado": "2026-09-10T22:26:59.883Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_42000000_43000000.parquet",
+     "tamanho": 24271626,
+     "etag": "30e3a9b1ef9e4da48575394123fb614b",
+     "modificado": "2026-09-10T22:36:00.180Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_43000000_44000000.parquet",
+     "tamanho": 24322821,
+     "etag": "be15a70e511126a2de07aaceddaff129",
+     "modificado": "2026-09-10T22:40:26.171Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_44000000_45000000.parquet",
+     "tamanho": 23495469,
+     "etag": "46e6bb8c0e1d67f0ec3f1f57e32b3c9a",
+     "modificado": "2026-09-10T22:45:59.083Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_45000000_46000000.parquet",
+     "tamanho": 23482046,
+     "etag": "ded9e8d4128875922784d6aba59531e5",
+     "modificado": "2026-09-10T22:49:29.020Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_46000000_47000000.parquet",
+     "tamanho": 23696052,
+     "etag": "dc28963dcbd9fb0608b72432aee610b6",
+     "modificado": "2026-09-10T22:51:59.678Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_47000000_48000000.parquet",
+     "tamanho": 23802097,
+     "etag": "3abbe9a29101cece3151783ae6b93869",
+     "modificado": "2026-09-10T22:54:56.612Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_48000000_49000000.parquet",
+     "tamanho": 23640076,
+     "etag": "cfcd879874e7302ae0eda08bd789687d",
+     "modificado": "2026-09-11T09:25:00.991Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_49000000_50000000.parquet",
+     "tamanho": 23539531,
+     "etag": "b042d251a5477f38c82f0c761a7917fa",
+     "modificado": "2026-09-13T02:20:24.121Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_50000000_51000000.parquet",
+     "tamanho": 23596508,
+     "etag": "df85c892c50966e8feda560f4447f7b4",
+     "modificado": "2026-09-15T02:44:49.479Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_5000000_6000000.parquet",
+     "tamanho": 15708676,
+     "etag": "af52086460fbf07e556d154479830b3a",
+     "modificado": "2026-09-10T12:59:00.894Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_51000000_52000000.parquet",
+     "tamanho": 23956643,
+     "etag": "906ba82509fbcbcfcad107881fddc49d",
+     "modificado": "2026-09-25T02:13:29.165Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_52000000_53000000.parquet",
+     "tamanho": 23562928,
+     "etag": "f63db92f4159006626177b24170ccfb3",
+     "modificado": "2026-09-27T02:21:11.183Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_53000000_54000000.parquet",
+     "tamanho": 23706918,
+     "etag": "a18948b48e37126706bede13cf019757",
+     "modificado": "2026-09-30T02:38:29.408Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_54000000_55000000.parquet",
+     "tamanho": 24043156,
+     "etag": "21059dc2733bf90574c9cb7a9fde253d",
+     "modificado": "2026-10-07T02:34:43.378Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_55000000_56000000.parquet",
+     "tamanho": 23924859,
+     "etag": "84153b56d9af61d99ff4c6f46fdb59d2",
+     "modificado": "2026-10-13T02:38:27.728Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_56000000_57000000.parquet",
+     "tamanho": 24175878,
+     "etag": "4156da055ecee26f1c0b110f1a5b35d6",
+     "modificado": "2026-10-26T02:35:46.265Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_57000000_58000000.parquet",
+     "tamanho": 12049926,
+     "etag": "8014480dd57c9f34b4c0b0983f680c70",
+     "modificado": "2026-10-29T02:10:20.516Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_6000000_7000000.parquet",
+     "tamanho": 15699229,
+     "etag": "7be0877f0d07647fd064af1f79e1cfcf",
+     "modificado": "2026-09-10T13:07:55.419Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_7000000_8000000.parquet",
+     "tamanho": 15430134,
+     "etag": "2809f3dd9b31eac1c112ccf8f871392f",
+     "modificado": "2026-09-10T13:14:44.709Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_8000000_9000000.parquet",
+     "tamanho": 15481518,
+     "etag": "b9525c253f27cc70c1aefdcce9969973",
+     "modificado": "2026-09-10T13:22:08.351Z"
+    },
+    {
+     "chave": "v2/sourcify_matches/sourcify_matches_9000000_10000000.parquet",
+     "tamanho": 15496900,
+     "etag": "5cb572de3523658add3d283bdfbf6c5d",
+     "modificado": "2026-09-10T13:29:57.883Z"
+    }
+   ]
+  },
+  "compiled_contracts": {
+   "colunas": "id, compiler, version, language, name, fully_qualified_name",
+   "filtro": "",
+   "arquivos": [
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_0_10000.parquet",
+     "tamanho": 78115040,
+     "etag": "c77c465508eb493187d98550a7f23399",
+     "modificado": "2026-09-09T17:32:32.546Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1000000_1010000.parquet",
+     "tamanho": 57922109,
+     "etag": "7c0215bbed87ba866a4983f1c98e7d4c",
+     "modificado": "2026-09-09T17:57:50.438Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_100000_110000.parquet",
+     "tamanho": 78888292,
+     "etag": "b8feacf84e4ffca2e5b0f6dadfe9fb83",
+     "modificado": "2026-09-09T17:35:36.708Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_10000_20000.parquet",
+     "tamanho": 71827785,
+     "etag": "84754b5c087b9c23e17470b573983285",
+     "modificado": "2026-09-09T17:32:49.107Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1010000_1020000.parquet",
+     "tamanho": 56861288,
+     "etag": "4a15c3fe561665793b8fa6f1b351866f",
+     "modificado": "2026-09-09T17:58:02.261Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1020000_1030000.parquet",
+     "tamanho": 50697642,
+     "etag": "617c7602d6317a87187c0549cc28af10",
+     "modificado": "2026-09-09T17:58:14.237Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1030000_1040000.parquet",
+     "tamanho": 62542021,
+     "etag": "bad700628d16bfb715f04757ae65201c",
+     "modificado": "2026-09-09T17:58:27.513Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1040000_1050000.parquet",
+     "tamanho": 52099709,
+     "etag": "3c43b941fac664d26a83356369521b20",
+     "modificado": "2026-09-09T17:58:40.193Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1050000_1060000.parquet",
+     "tamanho": 52530749,
+     "etag": "184b7908427ad02ae9a514cb4373bb66",
+     "modificado": "2026-09-09T17:58:52.090Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1060000_1070000.parquet",
+     "tamanho": 66300050,
+     "etag": "9d6018b6fa69f2f73cafc7b016f08d9b",
+     "modificado": "2026-09-09T17:59:04.902Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1070000_1080000.parquet",
+     "tamanho": 66683147,
+     "etag": "91c99609167e979017e446ca01b81d82",
+     "modificado": "2026-09-09T17:59:17.865Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1080000_1090000.parquet",
+     "tamanho": 50188059,
+     "etag": "6549492c33be61f1fb2562a115a5dec2",
+     "modificado": "2026-09-09T17:59:28.769Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1090000_1100000.parquet",
+     "tamanho": 64749000,
+     "etag": "4e948dabe007c7008986a225ef6b2048",
+     "modificado": "2026-09-09T17:59:41.592Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1100000_1110000.parquet",
+     "tamanho": 69687858,
+     "etag": "d1c3ee21441cc7a545b85c7d966943ae",
+     "modificado": "2026-09-09T17:59:55.206Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_110000_120000.parquet",
+     "tamanho": 78599602,
+     "etag": "95c81f3c001d825119e4ac3c4e3715b3",
+     "modificado": "2026-09-09T17:35:53.651Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1110000_1120000.parquet",
+     "tamanho": 72972788,
+     "etag": "5d58b60e0cf082f7d6118b8bd3ef445c",
+     "modificado": "2026-09-09T18:00:08.961Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1120000_1130000.parquet",
+     "tamanho": 74925499,
+     "etag": "50ef763284e53fce87ae1848f44da725",
+     "modificado": "2026-09-09T18:00:22.782Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1130000_1140000.parquet",
+     "tamanho": 71526302,
+     "etag": "1f586d05fff53c3fbfb712be0e759c08",
+     "modificado": "2026-09-09T18:00:38.173Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1140000_1150000.parquet",
+     "tamanho": 66784611,
+     "etag": "3772d0112f9d1d2df42ee7121291e407",
+     "modificado": "2026-09-09T18:00:52.582Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1150000_1160000.parquet",
+     "tamanho": 72762414,
+     "etag": "6e17faabc2760a16616c2418cb4248c4",
+     "modificado": "2026-09-09T18:01:10.702Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1160000_1170000.parquet",
+     "tamanho": 57698852,
+     "etag": "9ac57beba88f47eb65139dad9efa758a",
+     "modificado": "2026-09-09T18:01:24.443Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1170000_1180000.parquet",
+     "tamanho": 56835239,
+     "etag": "e2d2a7fc2d44db5f7559b187d4089aac",
+     "modificado": "2026-09-09T18:01:37.021Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1180000_1190000.parquet",
+     "tamanho": 55789851,
+     "etag": "89d945453df15f625be4e5896c686000",
+     "modificado": "2026-09-09T18:01:49.144Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1190000_1200000.parquet",
+     "tamanho": 56720883,
+     "etag": "a8c60f1372e9b4732ed31a723a13530a",
+     "modificado": "2026-09-09T18:02:00.665Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1200000_1210000.parquet",
+     "tamanho": 57462678,
+     "etag": "a20f1167da4231087cd2934308906e05",
+     "modificado": "2026-09-09T18:02:12.647Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_120000_130000.parquet",
+     "tamanho": 80352934,
+     "etag": "72498731ec70ea585b616dd2a4a8edb3",
+     "modificado": "2026-09-09T17:36:11.029Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1210000_1220000.parquet",
+     "tamanho": 56588959,
+     "etag": "ef48b69576c02f26da1dbaef0ee6e086",
+     "modificado": "2026-09-09T18:02:25.159Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1220000_1230000.parquet",
+     "tamanho": 58009796,
+     "etag": "6f8aec77e07e49f6e8a9771338e8fef4",
+     "modificado": "2026-09-09T18:02:39.559Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1230000_1240000.parquet",
+     "tamanho": 58160546,
+     "etag": "f560b5a6bbab56c89b841355712034e6",
+     "modificado": "2026-09-09T18:02:51.985Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1240000_1250000.parquet",
+     "tamanho": 57929049,
+     "etag": "56430c52019d63dfa64cc58d4c94990f",
+     "modificado": "2026-09-09T18:03:03.854Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1250000_1260000.parquet",
+     "tamanho": 56352991,
+     "etag": "ca6917d01491484df98496f18a7110e0",
+     "modificado": "2026-09-09T18:03:15.889Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1260000_1270000.parquet",
+     "tamanho": 57524834,
+     "etag": "f5d19350d706d0343ef9ebd1c080bc22",
+     "modificado": "2026-09-09T18:03:28.174Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1270000_1280000.parquet",
+     "tamanho": 57386336,
+     "etag": "4fdd5beb3ab9d08bc013850b7d5cb35b",
+     "modificado": "2026-09-09T18:03:41.146Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1280000_1290000.parquet",
+     "tamanho": 58249306,
+     "etag": "41d4713fe2bf8410b2b3650ab076c376",
+     "modificado": "2026-09-09T18:04:09.252Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1290000_1300000.parquet",
+     "tamanho": 57239169,
+     "etag": "62973e6559ff7d7e4a9b240308c1db82",
+     "modificado": "2026-09-09T18:04:21.749Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1300000_1310000.parquet",
+     "tamanho": 57058477,
+     "etag": "4aeefaa33aa648dde430538f7cb3c48c",
+     "modificado": "2026-09-09T18:04:33.924Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_130000_140000.parquet",
+     "tamanho": 81761006,
+     "etag": "d151a19f17fa70779f2116ab1808ad72",
+     "modificado": "2026-09-09T17:36:28.879Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1310000_1320000.parquet",
+     "tamanho": 59506757,
+     "etag": "18432cf0372de524c0c5cbdeaf5e72c3",
+     "modificado": "2026-09-09T18:04:47.746Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1320000_1330000.parquet",
+     "tamanho": 57790403,
+     "etag": "5714c04c0f87521a8847cae58c7abc10",
+     "modificado": "2026-09-09T18:04:59.410Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1330000_1340000.parquet",
+     "tamanho": 58249611,
+     "etag": "bcd6c68bb15bb2c254e8df8f173baa6f",
+     "modificado": "2026-09-09T18:05:11.261Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1340000_1350000.parquet",
+     "tamanho": 56851248,
+     "etag": "b5eeaf3dbba13fce2a2c64b10cef1138",
+     "modificado": "2026-09-09T18:05:23.193Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1350000_1360000.parquet",
+     "tamanho": 57891530,
+     "etag": "d7af3b32f3abf9e191921f8280c16805",
+     "modificado": "2026-09-09T18:05:35.066Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1360000_1370000.parquet",
+     "tamanho": 57290776,
+     "etag": "afb8eb399e007276d3a389b8fab43fcd",
+     "modificado": "2026-09-09T18:05:46.770Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1370000_1380000.parquet",
+     "tamanho": 58383362,
+     "etag": "a1e624c3c705d02475d628199817559f",
+     "modificado": "2026-09-09T18:05:58.891Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1380000_1390000.parquet",
+     "tamanho": 57185412,
+     "etag": "dcf599ae9bd4261f0023076eecb250bd",
+     "modificado": "2026-09-09T18:06:10.893Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1390000_1400000.parquet",
+     "tamanho": 58041762,
+     "etag": "15b5ccea146668119b8b3b5e7dee520c",
+     "modificado": "2026-09-09T18:06:23.245Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1400000_1410000.parquet",
+     "tamanho": 66862103,
+     "etag": "998a12662e61536470159c09a7550e8b",
+     "modificado": "2026-09-09T18:06:36.138Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_140000_150000.parquet",
+     "tamanho": 86647437,
+     "etag": "a6d8c79704398c66dddf436ae3c879c7",
+     "modificado": "2026-09-09T17:36:48.595Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1410000_1420000.parquet",
+     "tamanho": 76290948,
+     "etag": "8b426a97bb33c29d35be4b93a7a577c6",
+     "modificado": "2026-09-09T18:06:50.909Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1420000_1430000.parquet",
+     "tamanho": 82152124,
+     "etag": "1cf4372e4963c4e820779c5fe366f60a",
+     "modificado": "2026-09-09T18:07:05.186Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1430000_1440000.parquet",
+     "tamanho": 85525530,
+     "etag": "fc64b8f5ffd3fa7a4ce0b72d36ce8330",
+     "modificado": "2026-09-09T18:07:19.914Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1440000_1450000.parquet",
+     "tamanho": 83279543,
+     "etag": "e75a4e387edb95b69520ea19bd23555f",
+     "modificado": "2026-09-09T18:07:35.906Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1450000_1460000.parquet",
+     "tamanho": 72245662,
+     "etag": "a4e204156594289fae5a43bb779ebe56",
+     "modificado": "2026-09-09T18:07:50.929Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1460000_1470000.parquet",
+     "tamanho": 71785541,
+     "etag": "944f58febc15d5125a53efa810a2b2b0",
+     "modificado": "2026-09-09T18:08:05.871Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1470000_1480000.parquet",
+     "tamanho": 71925633,
+     "etag": "fc5d0267db68dba4839dce033378560c",
+     "modificado": "2026-09-09T18:08:19.973Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1480000_1490000.parquet",
+     "tamanho": 72063991,
+     "etag": "211bfe0ac8ff558989ddfc9e5677ca29",
+     "modificado": "2026-09-09T18:08:35.158Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1490000_1500000.parquet",
+     "tamanho": 71138028,
+     "etag": "a83d88bdc624d9779a23ce5ac61c4a08",
+     "modificado": "2026-09-09T18:08:50.804Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1500000_1510000.parquet",
+     "tamanho": 71889334,
+     "etag": "adfd7847e88ff277b4034d21e7f6c4d8",
+     "modificado": "2026-09-09T18:09:05.883Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_150000_160000.parquet",
+     "tamanho": 79583896,
+     "etag": "b5eb3b0c303df01872754612d0320d5b",
+     "modificado": "2026-09-09T17:37:06.758Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1510000_1520000.parquet",
+     "tamanho": 72099495,
+     "etag": "a2e0284d4140d51ddd09eb48d5e1deb6",
+     "modificado": "2026-09-09T18:09:20.180Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1520000_1530000.parquet",
+     "tamanho": 71282282,
+     "etag": "b09d059351cd04edb2c0adb0d99d1ca4",
+     "modificado": "2026-09-09T18:09:34.241Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1530000_1540000.parquet",
+     "tamanho": 71558934,
+     "etag": "04475407b714939f9803817d92829c77",
+     "modificado": "2026-09-09T18:09:48.769Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1540000_1550000.parquet",
+     "tamanho": 70424270,
+     "etag": "149c0d885897cbcaaf3ddad46b8c6a45",
+     "modificado": "2026-09-09T18:10:02.665Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1550000_1560000.parquet",
+     "tamanho": 71903092,
+     "etag": "9fb41ff988259136591e07278c7cb62b",
+     "modificado": "2026-09-09T18:10:17.354Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1560000_1570000.parquet",
+     "tamanho": 70846152,
+     "etag": "dc151fbb115a0ad9c9c4487826b9d841",
+     "modificado": "2026-09-09T18:10:33.051Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1570000_1580000.parquet",
+     "tamanho": 71327200,
+     "etag": "99680f273f7a7c4cbd292c7c2bc045bd",
+     "modificado": "2026-09-09T18:10:48.647Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1580000_1590000.parquet",
+     "tamanho": 72105090,
+     "etag": "d9cfdf394f87a5cb3c0d0d20c8c46a2d",
+     "modificado": "2026-09-09T18:11:03.838Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1590000_1600000.parquet",
+     "tamanho": 72914985,
+     "etag": "5881484ba536d8ca08c0a1b7cfae888e",
+     "modificado": "2026-09-09T18:11:19.299Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1600000_1610000.parquet",
+     "tamanho": 71948805,
+     "etag": "34b81db12c327cab62237ca8fffb07fc",
+     "modificado": "2026-09-09T18:11:33.576Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_160000_170000.parquet",
+     "tamanho": 79309888,
+     "etag": "7577c16a25d927fafe6bc9e1da2f8c22",
+     "modificado": "2026-09-09T17:37:24.275Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1610000_1620000.parquet",
+     "tamanho": 72324528,
+     "etag": "aae874337efaaf467d8c57b7a4706368",
+     "modificado": "2026-09-09T18:11:47.828Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1620000_1630000.parquet",
+     "tamanho": 71925666,
+     "etag": "dca6236728e33ae3ae91b1e43fe77111",
+     "modificado": "2026-09-09T18:12:02.361Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1630000_1640000.parquet",
+     "tamanho": 72249181,
+     "etag": "52a83c7f0746a6b160f044bc84c18117",
+     "modificado": "2026-09-09T18:12:16.919Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1640000_1650000.parquet",
+     "tamanho": 72099822,
+     "etag": "4f55fca03cd65b5091d85b4dda7fb795",
+     "modificado": "2026-09-09T18:12:31.647Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1650000_1660000.parquet",
+     "tamanho": 78403685,
+     "etag": "a6440337c30eb22f2d846b865d57c9cf",
+     "modificado": "2026-09-09T18:12:54.108Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1660000_1670000.parquet",
+     "tamanho": 79184079,
+     "etag": "060d38fd0a92b12ba1bf6c4bab0f9303",
+     "modificado": "2026-09-09T18:13:21.772Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1670000_1680000.parquet",
+     "tamanho": 78370150,
+     "etag": "38eec0fe256cc359c3e3cb329c6a9f82",
+     "modificado": "2026-09-09T18:13:36.583Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1680000_1690000.parquet",
+     "tamanho": 78120415,
+     "etag": "e850f1634f595150d3400e870184d65b",
+     "modificado": "2026-09-09T18:13:50.926Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1690000_1700000.parquet",
+     "tamanho": 78458672,
+     "etag": "af738b88a4263c43b2c325d5ca3c5777",
+     "modificado": "2026-09-09T18:14:18.386Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1700000_1710000.parquet",
+     "tamanho": 78037681,
+     "etag": "68c43e0cbb4e69d10e952d2733dd6432",
+     "modificado": "2026-09-09T18:14:32.959Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_170000_180000.parquet",
+     "tamanho": 79537043,
+     "etag": "9407415015f2c03aa6db7a4c9b26e9f0",
+     "modificado": "2026-09-09T17:37:41.158Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1710000_1720000.parquet",
+     "tamanho": 79037623,
+     "etag": "1327085aebd350760446c35b5fd1b8c9",
+     "modificado": "2026-09-09T18:14:47.469Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1720000_1730000.parquet",
+     "tamanho": 79613176,
+     "etag": "b1f97ac00f33029e5b76386b14031734",
+     "modificado": "2026-09-09T18:15:02.303Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1730000_1740000.parquet",
+     "tamanho": 79060000,
+     "etag": "bd80834ee983bffb4a51bd04695af896",
+     "modificado": "2026-09-09T18:15:18.733Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1740000_1750000.parquet",
+     "tamanho": 79062082,
+     "etag": "e68f328ee6020ce8a161c1c4518f615b",
+     "modificado": "2026-09-09T18:15:34.470Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1750000_1760000.parquet",
+     "tamanho": 79315644,
+     "etag": "8e3508eddf6bfc968db86c970db01b81",
+     "modificado": "2026-09-09T18:15:50.979Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1760000_1770000.parquet",
+     "tamanho": 78850002,
+     "etag": "a8d028e8d9b9b3f91ace8470b42f4d9f",
+     "modificado": "2026-09-09T18:16:07.900Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1770000_1780000.parquet",
+     "tamanho": 79234621,
+     "etag": "0dd4d3210df57e4197047f9bf775848c",
+     "modificado": "2026-09-09T18:16:26.810Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1780000_1790000.parquet",
+     "tamanho": 79190952,
+     "etag": "4a7498ba52d54ad5d269015c5cf1a003",
+     "modificado": "2026-09-09T18:16:46.884Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1790000_1800000.parquet",
+     "tamanho": 79641864,
+     "etag": "02832e0723f4d55b23886864b62037af",
+     "modificado": "2026-09-09T18:17:05.253Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1800000_1810000.parquet",
+     "tamanho": 79109896,
+     "etag": "f9daf2157c8c62d3e6b2f8b72fab9117",
+     "modificado": "2026-09-09T18:17:23.181Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_180000_190000.parquet",
+     "tamanho": 79825418,
+     "etag": "1d1ca190749b7e491b6a0a92d0b27cce",
+     "modificado": "2026-09-09T17:37:58.167Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1810000_1820000.parquet",
+     "tamanho": 71533215,
+     "etag": "a95947c249f2bc34509ffc63f641998c",
+     "modificado": "2026-09-09T18:17:42.974Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1820000_1830000.parquet",
+     "tamanho": 61581047,
+     "etag": "a9c5eff4ec2f658c0c28f519087db7e1",
+     "modificado": "2026-09-09T18:18:00.337Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1830000_1840000.parquet",
+     "tamanho": 66046909,
+     "etag": "ed4b9dbbd9f71a817395f56450a17b0d",
+     "modificado": "2026-09-09T18:18:18.001Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1840000_1850000.parquet",
+     "tamanho": 72206308,
+     "etag": "a9eaea498afa31dc4aa6888795b44da0",
+     "modificado": "2026-09-09T18:18:32.086Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1850000_1860000.parquet",
+     "tamanho": 73626584,
+     "etag": "6d52ebadfad0d57d94f77676ced5017a",
+     "modificado": "2026-09-09T18:18:49.536Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1860000_1870000.parquet",
+     "tamanho": 82267524,
+     "etag": "0d47601ddcda4d22620b23b0765f885d",
+     "modificado": "2026-09-09T18:19:07.494Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1870000_1880000.parquet",
+     "tamanho": 82025856,
+     "etag": "d1333ad4210d515ed811a1e6bb111aba",
+     "modificado": "2026-09-09T18:19:24.692Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1880000_1890000.parquet",
+     "tamanho": 81550412,
+     "etag": "96043f19cf7dfdca4c687f441d7e9457",
+     "modificado": "2026-09-09T18:19:40.514Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1890000_1900000.parquet",
+     "tamanho": 82370950,
+     "etag": "f74eb4eca69d40a509dd7d67c597f549",
+     "modificado": "2026-09-09T18:19:58.409Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1900000_1910000.parquet",
+     "tamanho": 82524672,
+     "etag": "57eff5e7e6e72310d041e4c582c521e7",
+     "modificado": "2026-09-09T18:20:16.433Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_190000_200000.parquet",
+     "tamanho": 79141018,
+     "etag": "1f2b76573da390ef9dd62ad2bc1bd6c0",
+     "modificado": "2026-09-09T17:38:15.084Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1910000_1920000.parquet",
+     "tamanho": 82927093,
+     "etag": "e5b73456828f540cad094b646438cf70",
+     "modificado": "2026-09-09T18:20:34.465Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1920000_1930000.parquet",
+     "tamanho": 76789087,
+     "etag": "0996e5f090e6de6f6408699db8906356",
+     "modificado": "2026-09-09T18:20:50.020Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1930000_1940000.parquet",
+     "tamanho": 72870980,
+     "etag": "92f511fd85d4ec664f748d958f543535",
+     "modificado": "2026-09-09T18:21:04.154Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1940000_1950000.parquet",
+     "tamanho": 72994663,
+     "etag": "21b11a06435a114df6a1558298387a4c",
+     "modificado": "2026-09-09T18:21:19.105Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1950000_1960000.parquet",
+     "tamanho": 73264142,
+     "etag": "0e2b38b3e0251b68ab7ef10a62ad1fc4",
+     "modificado": "2026-09-09T18:21:33.936Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1960000_1970000.parquet",
+     "tamanho": 73176418,
+     "etag": "da580455ebf2c436e2a5590023cce9dc",
+     "modificado": "2026-09-09T18:21:49.446Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1970000_1980000.parquet",
+     "tamanho": 73499264,
+     "etag": "d89c0758e691df97631d0c24f31fd3c6",
+     "modificado": "2026-09-09T18:22:02.312Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1980000_1990000.parquet",
+     "tamanho": 74136112,
+     "etag": "ab1c7306ea14a24d483e4de94cb506f5",
+     "modificado": "2026-09-09T18:22:15.493Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_1990000_2000000.parquet",
+     "tamanho": 52017822,
+     "etag": "cf1972a38005c7e0b7f58766d5162dec",
+     "modificado": "2026-09-09T18:22:28.919Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2000000_2010000.parquet",
+     "tamanho": 59062536,
+     "etag": "b794c78700d33b58a01fc3ffc53f26ba",
+     "modificado": "2026-09-09T18:22:47.940Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_200000_210000.parquet",
+     "tamanho": 78445702,
+     "etag": "c8bfd889cb0cecedbb828a2b3f5ee335",
+     "modificado": "2026-09-09T17:38:32.679Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_20000_30000.parquet",
+     "tamanho": 74729832,
+     "etag": "36bef0825845ff371ac05aab774e01eb",
+     "modificado": "2026-09-09T17:33:05.954Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2010000_2020000.parquet",
+     "tamanho": 61456213,
+     "etag": "d0aeb7adf89d5deb7ec4902ec397452d",
+     "modificado": "2026-09-09T18:23:02.530Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2020000_2030000.parquet",
+     "tamanho": 71241000,
+     "etag": "b0809692cee6a9c2a6c6ef0f2f571c5b",
+     "modificado": "2026-09-09T18:23:17.636Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2030000_2040000.parquet",
+     "tamanho": 71926528,
+     "etag": "9004fb21fa77aa98e27c283730edcea9",
+     "modificado": "2026-09-09T18:23:32.999Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2040000_2050000.parquet",
+     "tamanho": 71762682,
+     "etag": "c972d081e33e3f2eebdd33bb360c7c68",
+     "modificado": "2026-09-09T18:23:50.400Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2050000_2060000.parquet",
+     "tamanho": 72221278,
+     "etag": "4db2343c2957216e3efaee3789b9ddef",
+     "modificado": "2026-09-09T18:24:25.835Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2060000_2070000.parquet",
+     "tamanho": 72621078,
+     "etag": "86960becb0b36410d368a03292d3555e",
+     "modificado": "2026-09-09T18:24:42.870Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2070000_2080000.parquet",
+     "tamanho": 72102029,
+     "etag": "94d07116dac2ef4abecc8940b5ca9414",
+     "modificado": "2026-09-09T18:24:59.804Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2080000_2090000.parquet",
+     "tamanho": 66450289,
+     "etag": "ff9f13b45086f6207a7492b67e44638a",
+     "modificado": "2026-09-09T18:25:19.890Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2090000_2100000.parquet",
+     "tamanho": 62149930,
+     "etag": "6c736e224a009085c89e19a053c87a17",
+     "modificado": "2026-09-09T18:25:39.846Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2100000_2110000.parquet",
+     "tamanho": 67788537,
+     "etag": "783aefa66cba12a11e40e63b0ae2c0fa",
+     "modificado": "2026-09-09T18:25:57.084Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_210000_220000.parquet",
+     "tamanho": 78937769,
+     "etag": "ce064d902aa74523d539f980959a3ef3",
+     "modificado": "2026-09-09T17:38:50.368Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2110000_2120000.parquet",
+     "tamanho": 63541608,
+     "etag": "5b1e6e7e67c094a118900c3ec1adc062",
+     "modificado": "2026-09-09T18:26:12.001Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2120000_2130000.parquet",
+     "tamanho": 66366061,
+     "etag": "56e489ee6cea6cd21d640f35ae7a47db",
+     "modificado": "2026-09-09T18:26:27.278Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2130000_2140000.parquet",
+     "tamanho": 56500396,
+     "etag": "0f9c13330ce515d88f044f33406b63f6",
+     "modificado": "2026-09-09T18:26:55.980Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2140000_2150000.parquet",
+     "tamanho": 52675303,
+     "etag": "e4d5452eb6a49555d3dfed473d5611e4",
+     "modificado": "2026-09-09T18:27:10.387Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2150000_2160000.parquet",
+     "tamanho": 63339945,
+     "etag": "873920c3bd847523d2c3474aa75f2e54",
+     "modificado": "2026-09-09T18:27:23.230Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2160000_2170000.parquet",
+     "tamanho": 65902744,
+     "etag": "5526fe1dcf024b83edbbfe26f3fe58e5",
+     "modificado": "2026-09-09T18:27:36.663Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2170000_2180000.parquet",
+     "tamanho": 67879024,
+     "etag": "cebdae325296689c36550f80e807f408",
+     "modificado": "2026-09-09T18:27:51.837Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2180000_2190000.parquet",
+     "tamanho": 57059790,
+     "etag": "bac1d5e321c677025d6e3b986c8cbb3a",
+     "modificado": "2026-09-09T18:28:05.010Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2190000_2200000.parquet",
+     "tamanho": 49438164,
+     "etag": "69d1019836b29301180e978c2df0ca9e",
+     "modificado": "2026-09-09T18:28:16.643Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2200000_2210000.parquet",
+     "tamanho": 51335763,
+     "etag": "242c21c1b19a715c4346db0a286c557f",
+     "modificado": "2026-09-09T18:28:27.907Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_220000_230000.parquet",
+     "tamanho": 75444125,
+     "etag": "8bc8c9dafd8e902ea52d9089a63b35aa",
+     "modificado": "2026-09-09T17:39:06.478Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2210000_2220000.parquet",
+     "tamanho": 50764665,
+     "etag": "b6da321973739fd060d1a72220f10fce",
+     "modificado": "2026-09-09T18:28:39.268Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2220000_2230000.parquet",
+     "tamanho": 56409283,
+     "etag": "1c16b21bf48cf7fbff383e409c58195f",
+     "modificado": "2026-09-09T18:28:51.053Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2230000_2240000.parquet",
+     "tamanho": 57357894,
+     "etag": "6fde9250e3e821de88640736920a8616",
+     "modificado": "2026-09-09T18:29:02.657Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2240000_2250000.parquet",
+     "tamanho": 62139457,
+     "etag": "0472dcf06af1e149a3e798520cf0adf6",
+     "modificado": "2026-09-09T18:29:14.639Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2250000_2260000.parquet",
+     "tamanho": 56745059,
+     "etag": "358046fe51115e61a21149b4fc4f8f8b",
+     "modificado": "2026-09-09T18:29:26.046Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2260000_2270000.parquet",
+     "tamanho": 62742326,
+     "etag": "9c81e57c0cf93475faf73f494bb5d7f1",
+     "modificado": "2026-09-09T18:29:38.134Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2270000_2280000.parquet",
+     "tamanho": 79902047,
+     "etag": "7226a5658f3be3cad49ebd92adf657e8",
+     "modificado": "2026-09-09T18:29:53.985Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2280000_2290000.parquet",
+     "tamanho": 42207440,
+     "etag": "7adaf681f1a53ad558fc87962d1a2d32",
+     "modificado": "2026-09-09T18:30:04.875Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2290000_2300000.parquet",
+     "tamanho": 35228497,
+     "etag": "363c5388a08d48e3468723ff9fa815bb",
+     "modificado": "2026-09-09T18:30:15.639Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2300000_2310000.parquet",
+     "tamanho": 36413423,
+     "etag": "4b76bf2e031d396f319d68c323d4dfd0",
+     "modificado": "2026-09-09T18:30:25.988Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_230000_240000.parquet",
+     "tamanho": 76574822,
+     "etag": "d8a4e261f0daaaf0841bcdeaa698458d",
+     "modificado": "2026-09-09T17:39:22.247Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2310000_2320000.parquet",
+     "tamanho": 41728039,
+     "etag": "70fc0cd63a86213d3a0c4267ba336cb6",
+     "modificado": "2026-09-09T18:30:37.594Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2320000_2330000.parquet",
+     "tamanho": 47188689,
+     "etag": "492c47b527c5220ca8413b5a6ac536df",
+     "modificado": "2026-09-09T18:30:52.223Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2330000_2340000.parquet",
+     "tamanho": 53927443,
+     "etag": "4f1b5032ccaa835ff005dc5279dc90cf",
+     "modificado": "2026-09-09T18:31:08.043Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2340000_2350000.parquet",
+     "tamanho": 44363611,
+     "etag": "58ba7f5e8c134063ec15e8826ad7176a",
+     "modificado": "2026-09-09T18:31:23.616Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2350000_2360000.parquet",
+     "tamanho": 56518363,
+     "etag": "bdc65c4b1809790a67dfce7344eeb65b",
+     "modificado": "2026-09-09T18:31:38.770Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2360000_2370000.parquet",
+     "tamanho": 62608190,
+     "etag": "a307d274429ff439e64a69a212ae51b2",
+     "modificado": "2026-09-09T18:31:51.895Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2370000_2380000.parquet",
+     "tamanho": 56149147,
+     "etag": "9e3f2e7b0c35eb7715fdb5a08d2a1088",
+     "modificado": "2026-09-09T18:32:03.437Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2380000_2390000.parquet",
+     "tamanho": 34438634,
+     "etag": "8b167fa2babf85e2d36812fd6f5c4492",
+     "modificado": "2026-09-09T18:32:13.519Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2390000_2400000.parquet",
+     "tamanho": 25258501,
+     "etag": "182673cd31fe30e7fe71a92dcfb4c1bd",
+     "modificado": "2026-09-09T18:32:22.983Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2400000_2410000.parquet",
+     "tamanho": 15506747,
+     "etag": "a96475978dbc333a36acda00f3276df8",
+     "modificado": "2026-09-09T18:32:31.821Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_240000_250000.parquet",
+     "tamanho": 77521847,
+     "etag": "62a062069980e395643ef1717fe285b8",
+     "modificado": "2026-09-09T17:39:39.523Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2410000_2420000.parquet",
+     "tamanho": 40088915,
+     "etag": "d6c965bf9df183ead8f0cc8e02b6522f",
+     "modificado": "2026-09-09T18:32:43.025Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2420000_2430000.parquet",
+     "tamanho": 71578278,
+     "etag": "2344a95c66aa60ea2ea5b2da23c49341",
+     "modificado": "2026-09-09T18:32:57.586Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2430000_2440000.parquet",
+     "tamanho": 49578164,
+     "etag": "99b9938f2044ba6c43d2c1511e4e9ad9",
+     "modificado": "2026-09-09T18:33:09.899Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2440000_2450000.parquet",
+     "tamanho": 46277631,
+     "etag": "7f9cff9ad29b12bfb57f4cd856967e45",
+     "modificado": "2026-09-09T18:33:21.780Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2450000_2460000.parquet",
+     "tamanho": 59717455,
+     "etag": "290e0aaeb456e541277d53745a62b9b1",
+     "modificado": "2026-09-09T18:33:33.901Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2460000_2470000.parquet",
+     "tamanho": 57650261,
+     "etag": "edb9850a127d22c762185285c5c7c946",
+     "modificado": "2026-09-09T18:33:47.067Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2470000_2480000.parquet",
+     "tamanho": 53712488,
+     "etag": "18ee68f2859885d1931d52ac8a5a8617",
+     "modificado": "2026-09-09T18:33:59.215Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2480000_2490000.parquet",
+     "tamanho": 60437148,
+     "etag": "46cd23427c7affe0c0ec365518e73ed8",
+     "modificado": "2026-09-09T18:34:11.762Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2490000_2500000.parquet",
+     "tamanho": 68550706,
+     "etag": "c995a1b8d2523b847645ba95e612c60e",
+     "modificado": "2026-09-09T18:34:37.505Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2500000_2510000.parquet",
+     "tamanho": 50257930,
+     "etag": "a41ca4d3f31ca489962aba4f9d9267be",
+     "modificado": "2026-09-09T18:34:49.458Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_250000_260000.parquet",
+     "tamanho": 72881372,
+     "etag": "90c6ad1b7c7a3e1f0d54a3992742424d",
+     "modificado": "2026-09-09T17:39:55.763Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2510000_2520000.parquet",
+     "tamanho": 63821618,
+     "etag": "f162e62580f79accd453ff0583cdd5b1",
+     "modificado": "2026-09-09T18:35:02.144Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2520000_2530000.parquet",
+     "tamanho": 63732868,
+     "etag": "74feb5b9021cd794f22dcc6863b6bf39",
+     "modificado": "2026-09-09T18:35:14.774Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2530000_2540000.parquet",
+     "tamanho": 57206630,
+     "etag": "32284ababae3e1ce08176f967021a290",
+     "modificado": "2026-09-09T18:35:29.211Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2540000_2550000.parquet",
+     "tamanho": 58998299,
+     "etag": "0ce57d04fc62ff29218fdb4f722da639",
+     "modificado": "2026-09-09T18:35:41.361Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2550000_2560000.parquet",
+     "tamanho": 61441354,
+     "etag": "c6517a341c181921689e4d53db7935dd",
+     "modificado": "2026-09-09T18:35:53.645Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2560000_2570000.parquet",
+     "tamanho": 66244376,
+     "etag": "77967c90554eff03c8316deb59c09807",
+     "modificado": "2026-09-09T18:36:06.973Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2570000_2580000.parquet",
+     "tamanho": 64714848,
+     "etag": "c463f6335117f52cb8dd5316e0e539b0",
+     "modificado": "2026-09-09T18:36:20.325Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2580000_2590000.parquet",
+     "tamanho": 66842309,
+     "etag": "b147aab8e8ae17787e554296c1060bd6",
+     "modificado": "2026-09-09T18:36:33.671Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2590000_2600000.parquet",
+     "tamanho": 64948176,
+     "etag": "aff6c63f75477f6e50d64328a23c334b",
+     "modificado": "2026-09-09T18:36:47.021Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2600000_2610000.parquet",
+     "tamanho": 65878419,
+     "etag": "9656e3f38e879b26930af0d0256951e7",
+     "modificado": "2026-09-09T18:37:00.134Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_260000_270000.parquet",
+     "tamanho": 72831468,
+     "etag": "a68493893fdfa3935773d5e4c85e831c",
+     "modificado": "2026-09-09T17:40:11.847Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2610000_2620000.parquet",
+     "tamanho": 62448641,
+     "etag": "34f1db537d51d6549d30d02417f61974",
+     "modificado": "2026-09-09T18:37:12.444Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2620000_2630000.parquet",
+     "tamanho": 40450714,
+     "etag": "4003a051a729d41f984cff1ee5f5b79f",
+     "modificado": "2026-09-09T18:37:23.663Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2630000_2640000.parquet",
+     "tamanho": 54344034,
+     "etag": "8f655f399185baf63c7b9ed799938056",
+     "modificado": "2026-09-09T18:37:35.187Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2640000_2650000.parquet",
+     "tamanho": 75524830,
+     "etag": "e392800159ccdf126986de688e3b586a",
+     "modificado": "2026-09-09T18:37:48.861Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2650000_2660000.parquet",
+     "tamanho": 61272909,
+     "etag": "740652a6a9e1decfae9f59ddf1cc6691",
+     "modificado": "2026-09-09T18:38:00.321Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2660000_2670000.parquet",
+     "tamanho": 56186760,
+     "etag": "3886fe3171ac819368dc4dd8ed960310",
+     "modificado": "2026-09-09T18:38:11.711Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2670000_2680000.parquet",
+     "tamanho": 57621920,
+     "etag": "ec31aceb830b425c92afd6374bd27c3f",
+     "modificado": "2026-09-09T18:38:26.382Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2680000_2690000.parquet",
+     "tamanho": 56654557,
+     "etag": "a6290d2d3eca3eb5d7e138e8efe38c8a",
+     "modificado": "2026-09-09T18:38:38.352Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2690000_2700000.parquet",
+     "tamanho": 60207468,
+     "etag": "80b29c10cb5e5fa70518efb2976de4ab",
+     "modificado": "2026-09-09T18:38:50.334Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2700000_2710000.parquet",
+     "tamanho": 46090857,
+     "etag": "d51f54323963d18417c1228313adc4d5",
+     "modificado": "2026-09-09T18:39:01.729Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_270000_280000.parquet",
+     "tamanho": 67168915,
+     "etag": "d5d9e3d266983b8d4dc41de0c5c97b02",
+     "modificado": "2026-09-09T17:40:27.261Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2710000_2720000.parquet",
+     "tamanho": 45775748,
+     "etag": "c38b9d87ad1295e536c7ca9d6f1c7734",
+     "modificado": "2026-09-09T18:39:12.793Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2720000_2730000.parquet",
+     "tamanho": 59506971,
+     "etag": "9dabe9609644edc2d44deb15c35e25f7",
+     "modificado": "2026-09-09T18:39:24.947Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2730000_2740000.parquet",
+     "tamanho": 47683903,
+     "etag": "e428fecf462041087fcc46371d3f4d0d",
+     "modificado": "2026-09-09T18:39:36.311Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2740000_2750000.parquet",
+     "tamanho": 66143311,
+     "etag": "c410d83036b8bd9280c73fb4840d6f17",
+     "modificado": "2026-09-09T18:39:49.411Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2750000_2760000.parquet",
+     "tamanho": 61425709,
+     "etag": "a7644b306723e5ccafb0b1256ea04f05",
+     "modificado": "2026-09-09T18:40:02.193Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2760000_2770000.parquet",
+     "tamanho": 47824207,
+     "etag": "d9f9a4266b5ddea99a8572f0b9377ad2",
+     "modificado": "2026-09-09T18:40:13.384Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2770000_2780000.parquet",
+     "tamanho": 64345404,
+     "etag": "16d9d514df0053fe49fbb4d36ca72b32",
+     "modificado": "2026-09-09T18:40:25.841Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2780000_2790000.parquet",
+     "tamanho": 52421351,
+     "etag": "b42e7a9fb5db8b24917c339f68c43f53",
+     "modificado": "2026-09-09T18:40:37.791Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2790000_2800000.parquet",
+     "tamanho": 46230984,
+     "etag": "550fb1bfde4c77f298e9e53da83018ff",
+     "modificado": "2026-09-09T18:40:49.315Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2800000_2810000.parquet",
+     "tamanho": 72621403,
+     "etag": "1303c67082710c221f0f1a5c3b9a365f",
+     "modificado": "2026-09-09T18:41:04.580Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_280000_290000.parquet",
+     "tamanho": 71242943,
+     "etag": "674f31858c45be985179073716306242",
+     "modificado": "2026-09-09T17:40:42.860Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2810000_2820000.parquet",
+     "tamanho": 39923188,
+     "etag": "51e81b1c59c49031f4464e8531db93de",
+     "modificado": "2026-09-09T18:41:15.361Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2820000_2830000.parquet",
+     "tamanho": 39947539,
+     "etag": "97b68a242f61e991e7aac6544cc3fc8c",
+     "modificado": "2026-09-09T18:41:29.145Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2830000_2840000.parquet",
+     "tamanho": 42250747,
+     "etag": "9f57afeb2eb648e5dcfd3db613bc195d",
+     "modificado": "2026-09-09T18:41:40.642Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2840000_2850000.parquet",
+     "tamanho": 47591554,
+     "etag": "8a641c0915ccd8509f784bc4bd15581a",
+     "modificado": "2026-09-09T18:41:52.786Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2850000_2860000.parquet",
+     "tamanho": 41568993,
+     "etag": "9d48484cadb06b024e62b39368659a45",
+     "modificado": "2026-09-09T18:42:03.391Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2860000_2870000.parquet",
+     "tamanho": 44924992,
+     "etag": "a4afb1c4f5dd20e555088f1a6748c9e0",
+     "modificado": "2026-09-09T18:42:14.643Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2870000_2880000.parquet",
+     "tamanho": 49219314,
+     "etag": "2fed179454fbef6fb572578c6cc8e350",
+     "modificado": "2026-09-09T18:42:26.268Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2880000_2890000.parquet",
+     "tamanho": 55306413,
+     "etag": "2962a83fc9960376b23c0426a7efc61b",
+     "modificado": "2026-09-09T18:43:00.551Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2890000_2900000.parquet",
+     "tamanho": 49241568,
+     "etag": "9f5eca197702c205b076a534341993e0",
+     "modificado": "2026-09-09T18:43:11.768Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2900000_2910000.parquet",
+     "tamanho": 52244680,
+     "etag": "62db90e8c2e5e9acd2181974bd343d6d",
+     "modificado": "2026-09-09T18:43:24.091Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_290000_300000.parquet",
+     "tamanho": 75661548,
+     "etag": "79b8b3f652e90842aa0522b830596518",
+     "modificado": "2026-09-09T17:40:58.944Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2910000_2920000.parquet",
+     "tamanho": 50133936,
+     "etag": "64a4a90497ec7384539908ce12bb18d9",
+     "modificado": "2026-09-09T18:43:36.314Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2920000_2930000.parquet",
+     "tamanho": 48914651,
+     "etag": "f90467684b488d3c52cdeb1a27457e76",
+     "modificado": "2026-09-09T18:43:48.514Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2930000_2940000.parquet",
+     "tamanho": 47671679,
+     "etag": "20a2c3eb99bf29c7094da16d2f268f00",
+     "modificado": "2026-09-09T18:44:00.611Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2940000_2950000.parquet",
+     "tamanho": 52532020,
+     "etag": "491fcc1d3a1a50d7167e74b5683fbd76",
+     "modificado": "2026-09-09T18:44:12.275Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2950000_2960000.parquet",
+     "tamanho": 47831653,
+     "etag": "017383c1473b43ff7277f3494ce45635",
+     "modificado": "2026-09-09T18:44:25.376Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2960000_2970000.parquet",
+     "tamanho": 54923624,
+     "etag": "bbf4ace25eedd546892dfd91091d1d45",
+     "modificado": "2026-09-09T18:44:49.671Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2970000_2980000.parquet",
+     "tamanho": 52424884,
+     "etag": "efd5fb6c4e0dd285f7f89575f0216028",
+     "modificado": "2026-09-09T18:45:02.325Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2980000_2990000.parquet",
+     "tamanho": 54471834,
+     "etag": "3ed970230ca98f08231c0bec8b7315b3",
+     "modificado": "2026-09-09T18:45:15.493Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_2990000_3000000.parquet",
+     "tamanho": 64999242,
+     "etag": "b415911aa95d5930c88dbe5746efe3ba",
+     "modificado": "2026-09-09T18:45:31.344Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3000000_3010000.parquet",
+     "tamanho": 60719551,
+     "etag": "ed13b7503fec1bf6ffccf3eba40ba7c1",
+     "modificado": "2026-09-09T18:45:44.977Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_300000_310000.parquet",
+     "tamanho": 79406115,
+     "etag": "1f75cf9ece24dc68fbf6664c639b1d59",
+     "modificado": "2026-09-09T17:41:16.506Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_30000_40000.parquet",
+     "tamanho": 76356853,
+     "etag": "520de851c39dc7e93a269aa55c62a291",
+     "modificado": "2026-09-09T17:33:32.779Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3010000_3020000.parquet",
+     "tamanho": 59348498,
+     "etag": "3c3e81b09c415aee0406e622a4e76c5b",
+     "modificado": "2026-09-09T18:45:59.885Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3020000_3030000.parquet",
+     "tamanho": 58818813,
+     "etag": "fd1636819825690b0e0f0955291b29f9",
+     "modificado": "2026-09-09T18:46:14.370Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3030000_3040000.parquet",
+     "tamanho": 58800209,
+     "etag": "1d1c937aa5362d424210510f2d96d3a8",
+     "modificado": "2026-09-09T18:46:28.520Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3040000_3050000.parquet",
+     "tamanho": 70774819,
+     "etag": "c73b81d37ff0ab3597beec0890ca4a37",
+     "modificado": "2026-09-09T18:46:43.888Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3050000_3060000.parquet",
+     "tamanho": 68197344,
+     "etag": "df2d94985600f95ddfda9967ebd547ad",
+     "modificado": "2026-09-09T18:46:57.322Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3060000_3070000.parquet",
+     "tamanho": 68607237,
+     "etag": "49f43007981161377ba08770f0015319",
+     "modificado": "2026-09-09T18:47:10.266Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3070000_3080000.parquet",
+     "tamanho": 69736084,
+     "etag": "6e7e18239bfc9041591d945d4f8b787c",
+     "modificado": "2026-09-09T18:47:23.316Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3080000_3090000.parquet",
+     "tamanho": 68113296,
+     "etag": "c9565570482f8c75c9054002694373c8",
+     "modificado": "2026-09-09T18:47:39.790Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3090000_3100000.parquet",
+     "tamanho": 67503223,
+     "etag": "f1026007ff0e4e376b3e9300003c9358",
+     "modificado": "2026-09-09T18:47:53.725Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3100000_3110000.parquet",
+     "tamanho": 68634104,
+     "etag": "5f4510b4ed3377b5f3c51a3699fafd2e",
+     "modificado": "2026-09-09T18:48:06.211Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_310000_320000.parquet",
+     "tamanho": 75382289,
+     "etag": "d64182d7f6568efe4f4fbc9ec41ce818",
+     "modificado": "2026-09-09T17:41:33.121Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3110000_3120000.parquet",
+     "tamanho": 68095945,
+     "etag": "d5d9de5b3d118aa1db39f38b937a3d83",
+     "modificado": "2026-09-09T18:48:19.080Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3120000_3130000.parquet",
+     "tamanho": 67975577,
+     "etag": "76d86b487b3c31199cc4831aa9ce136b",
+     "modificado": "2026-09-09T18:48:31.929Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3130000_3140000.parquet",
+     "tamanho": 67655563,
+     "etag": "f6b703120c404a75c15fffd57a6d3ecf",
+     "modificado": "2026-09-09T18:48:44.668Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3140000_3150000.parquet",
+     "tamanho": 67596029,
+     "etag": "d61c81d4b784f173253dce919416dd66",
+     "modificado": "2026-09-09T18:48:58.225Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3150000_3160000.parquet",
+     "tamanho": 69015472,
+     "etag": "e9f294f1745e63d06d3191485e266c89",
+     "modificado": "2026-09-09T18:49:10.724Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3160000_3170000.parquet",
+     "tamanho": 67583602,
+     "etag": "4d5139cc6cc16efc23dc49db12c92253",
+     "modificado": "2026-09-09T18:49:23.076Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3170000_3180000.parquet",
+     "tamanho": 68587828,
+     "etag": "01126da9d43c657594628e7d4010245d",
+     "modificado": "2026-09-09T18:49:35.799Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3180000_3190000.parquet",
+     "tamanho": 67854360,
+     "etag": "0d179cf7af0d66e9fee48743898d6091",
+     "modificado": "2026-09-09T18:49:49.513Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3190000_3200000.parquet",
+     "tamanho": 67926040,
+     "etag": "78190bbc4ba5a9957067ee0e34517002",
+     "modificado": "2026-09-09T18:50:02.874Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3200000_3210000.parquet",
+     "tamanho": 66954643,
+     "etag": "357e7dce8d13f8b190c1523511f321a2",
+     "modificado": "2026-09-09T18:50:16.042Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_320000_330000.parquet",
+     "tamanho": 74092720,
+     "etag": "49fe695f6731df9963342656b92eb145",
+     "modificado": "2026-09-09T17:41:50.498Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3210000_3220000.parquet",
+     "tamanho": 68161144,
+     "etag": "e4d1895c3563625d3f07b5598905b58b",
+     "modificado": "2026-09-09T18:50:29.061Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3220000_3230000.parquet",
+     "tamanho": 68028693,
+     "etag": "4ae14b3817083d8fe377600526013cba",
+     "modificado": "2026-09-09T18:50:41.971Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3230000_3240000.parquet",
+     "tamanho": 68065502,
+     "etag": "06881d8a12d51aa3c0b2607c0c5e0f4b",
+     "modificado": "2026-09-09T18:50:55.378Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3240000_3250000.parquet",
+     "tamanho": 68706049,
+     "etag": "c16f5ca365c93587e6f301b19bcab328",
+     "modificado": "2026-09-09T18:51:08.610Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3250000_3260000.parquet",
+     "tamanho": 68581774,
+     "etag": "af3ebe566c3cbc2f7aed3224d37ca821",
+     "modificado": "2026-09-09T18:51:22.576Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3260000_3270000.parquet",
+     "tamanho": 67415917,
+     "etag": "54af063ba59ce2bc25afcefe18087aa6",
+     "modificado": "2026-09-09T18:51:35.226Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3270000_3280000.parquet",
+     "tamanho": 67865674,
+     "etag": "0c19f993d8b3d3b644d1c99c4c1bfa40",
+     "modificado": "2026-09-09T18:51:48.261Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3280000_3290000.parquet",
+     "tamanho": 68877284,
+     "etag": "052ebb3c3dfd14672a67cd17a5a16c47",
+     "modificado": "2026-09-09T18:52:01.452Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3290000_3300000.parquet",
+     "tamanho": 68527993,
+     "etag": "2ccb7fc066e913c941e4cfb40ab948ec",
+     "modificado": "2026-09-09T18:52:14.263Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3300000_3310000.parquet",
+     "tamanho": 68737698,
+     "etag": "996a7c6ca376609618eae4e57db0055c",
+     "modificado": "2026-09-09T18:52:27.670Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_330000_340000.parquet",
+     "tamanho": 75888895,
+     "etag": "a6abed1539d7b8d096c005d39860b756",
+     "modificado": "2026-09-09T17:42:07.329Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3310000_3320000.parquet",
+     "tamanho": 66629390,
+     "etag": "e619298a9b7f76ba2edc59c2cb9f8604",
+     "modificado": "2026-09-09T18:52:40.586Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3320000_3330000.parquet",
+     "tamanho": 66983583,
+     "etag": "5a92dca7a5eca2673a654895baf667da",
+     "modificado": "2026-09-09T18:52:53.622Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3330000_3340000.parquet",
+     "tamanho": 68219047,
+     "etag": "f559edfdb7fb586f5991afcdc9d53caf",
+     "modificado": "2026-09-09T18:53:06.354Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3340000_3350000.parquet",
+     "tamanho": 68784776,
+     "etag": "08ae59c39128c04c8af73a946fb1638a",
+     "modificado": "2026-09-09T18:53:19.353Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3350000_3360000.parquet",
+     "tamanho": 68407583,
+     "etag": "ac8db9ad79d9aaeda78743e36180543e",
+     "modificado": "2026-09-09T18:53:32.207Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3360000_3370000.parquet",
+     "tamanho": 68382030,
+     "etag": "3b0f770d8ad1109aca01b0c5309bc230",
+     "modificado": "2026-09-09T18:53:45.807Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3370000_3380000.parquet",
+     "tamanho": 67531048,
+     "etag": "18b2a357bfbd685cb76961f1284bd771",
+     "modificado": "2026-09-09T18:54:00.369Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3380000_3390000.parquet",
+     "tamanho": 68240345,
+     "etag": "0ff40d1c9dc9e475b1e1bdaba2cf4254",
+     "modificado": "2026-09-09T18:54:13.739Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3390000_3400000.parquet",
+     "tamanho": 69084769,
+     "etag": "0f37ff867d720b970a7c516baec5bcae",
+     "modificado": "2026-09-09T18:54:26.863Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3400000_3410000.parquet",
+     "tamanho": 68192553,
+     "etag": "95d4109e1f70c81e6478a0b4cea0c663",
+     "modificado": "2026-09-09T18:54:46.591Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_340000_350000.parquet",
+     "tamanho": 72516164,
+     "etag": "199e4f8c2220e8943fa15e209b9d7145",
+     "modificado": "2026-09-09T17:42:22.834Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3410000_3420000.parquet",
+     "tamanho": 68000190,
+     "etag": "fc65944945a91e95eac22807a703e098",
+     "modificado": "2026-09-09T18:54:59.634Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3420000_3430000.parquet",
+     "tamanho": 68119645,
+     "etag": "53b804522d7e1427a520dbc774b95635",
+     "modificado": "2026-09-09T18:55:12.694Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3430000_3440000.parquet",
+     "tamanho": 68544131,
+     "etag": "ac3d146b611916bef42a26c11d8f765e",
+     "modificado": "2026-09-09T18:55:25.928Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3440000_3450000.parquet",
+     "tamanho": 67479955,
+     "etag": "5772be44124b4304029425223d96186f",
+     "modificado": "2026-09-09T18:55:38.977Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3450000_3460000.parquet",
+     "tamanho": 68453661,
+     "etag": "a4e22c89fa5add1cc6ed62d222700893",
+     "modificado": "2026-09-09T18:55:52.123Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3460000_3470000.parquet",
+     "tamanho": 68047264,
+     "etag": "fbd86aa6f718b1b219ed9059ef15c65c",
+     "modificado": "2026-09-09T18:56:05.142Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3470000_3480000.parquet",
+     "tamanho": 68595027,
+     "etag": "d2b1d54e230a17440cfa589a54abd439",
+     "modificado": "2026-09-09T18:56:18.664Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3480000_3490000.parquet",
+     "tamanho": 67455898,
+     "etag": "da69b28482320dbae5e97e25a6e8b7be",
+     "modificado": "2026-09-09T18:56:31.516Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3490000_3500000.parquet",
+     "tamanho": 67889449,
+     "etag": "725e1af0745bcc7f707cb136de4db18c",
+     "modificado": "2026-09-09T18:56:43.818Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3500000_3510000.parquet",
+     "tamanho": 68347446,
+     "etag": "fe627fef8461dde96368385048d2066e",
+     "modificado": "2026-09-09T18:56:56.563Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_350000_360000.parquet",
+     "tamanho": 66546481,
+     "etag": "9cfc8a4395445c79e7bc416c07153846",
+     "modificado": "2026-09-09T17:42:37.826Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3510000_3520000.parquet",
+     "tamanho": 67349887,
+     "etag": "bfe2a23276f29b8c14deb446e31fc1fd",
+     "modificado": "2026-09-09T18:57:08.873Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3520000_3530000.parquet",
+     "tamanho": 67921474,
+     "etag": "10e8a7c7ffe75d194ea6c6a5fd93b65b",
+     "modificado": "2026-09-09T18:57:21.919Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3530000_3540000.parquet",
+     "tamanho": 68171852,
+     "etag": "bd11c6dbe03e2cde3b7b308a3b3bb5bc",
+     "modificado": "2026-09-09T18:57:34.901Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3540000_3550000.parquet",
+     "tamanho": 67878500,
+     "etag": "457bdf85726e44b380f06849cd1e7d01",
+     "modificado": "2026-09-09T18:57:47.847Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3550000_3560000.parquet",
+     "tamanho": 65823631,
+     "etag": "9d326bf8d6ae474015d3aee981e40038",
+     "modificado": "2026-09-09T18:58:00.433Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3560000_3570000.parquet",
+     "tamanho": 58711145,
+     "etag": "c858458ecb180ae9f573dc54f92af7df",
+     "modificado": "2026-09-09T18:58:13.066Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3570000_3580000.parquet",
+     "tamanho": 67997911,
+     "etag": "19b1b17630fd6aa41781cee7aa402d52",
+     "modificado": "2026-09-09T18:58:26.159Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3580000_3590000.parquet",
+     "tamanho": 67714490,
+     "etag": "bc492bad609c4c0f7a6d898123e012f9",
+     "modificado": "2026-09-09T18:58:38.789Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3590000_3600000.parquet",
+     "tamanho": 67197175,
+     "etag": "848f573e0406baebe3b41ef753713833",
+     "modificado": "2026-09-09T18:58:51.987Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3600000_3610000.parquet",
+     "tamanho": 68020737,
+     "etag": "902956ae7b196c6ec2d3b475ebf6d238",
+     "modificado": "2026-09-09T18:59:04.749Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_360000_370000.parquet",
+     "tamanho": 65659801,
+     "etag": "e8d34426ad805ab3fad7730ac1643715",
+     "modificado": "2026-09-09T17:42:52.656Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3610000_3620000.parquet",
+     "tamanho": 69228134,
+     "etag": "b7f65accaaa1e84051fe962cf5bc10e6",
+     "modificado": "2026-09-09T18:59:18.361Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3620000_3630000.parquet",
+     "tamanho": 68112535,
+     "etag": "989346a9ff0d349516d102ad71ba6672",
+     "modificado": "2026-09-09T18:59:32.478Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3630000_3640000.parquet",
+     "tamanho": 67636957,
+     "etag": "7f4591941b81ed555960b4a367fde337",
+     "modificado": "2026-09-09T18:59:46.418Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3640000_3650000.parquet",
+     "tamanho": 67702828,
+     "etag": "6bc6ae11ff71df48cbac925c219f3564",
+     "modificado": "2026-09-09T19:00:00.135Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3650000_3660000.parquet",
+     "tamanho": 67601395,
+     "etag": "6ade3e83bd09c0aef639511c8b213dc9",
+     "modificado": "2026-09-09T19:00:21.089Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3660000_3670000.parquet",
+     "tamanho": 67931199,
+     "etag": "65bcc6307d08fa0c07cb5d0f3238ae8f",
+     "modificado": "2026-09-09T19:01:03.470Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3670000_3680000.parquet",
+     "tamanho": 66962470,
+     "etag": "47be320cc01e326f2761a13ffac8ef40",
+     "modificado": "2026-09-09T19:01:24.502Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3680000_3690000.parquet",
+     "tamanho": 68062378,
+     "etag": "e09e8293befb4062f4475bf7c9b53dd3",
+     "modificado": "2026-09-09T19:01:39.253Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3690000_3700000.parquet",
+     "tamanho": 67969352,
+     "etag": "66871a37ec0ac20ca5d237535876caa8",
+     "modificado": "2026-09-09T19:01:53.678Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3700000_3710000.parquet",
+     "tamanho": 68045178,
+     "etag": "767ed6247501a9ddb0fef5af98ef6095",
+     "modificado": "2026-09-09T19:02:08.184Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_370000_380000.parquet",
+     "tamanho": 73489257,
+     "etag": "d35f67e3d58e7800a4716a626d395fed",
+     "modificado": "2026-09-09T17:43:07.787Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3710000_3720000.parquet",
+     "tamanho": 68564338,
+     "etag": "18944bbca5f15cd9370c49bdf61405e3",
+     "modificado": "2026-09-09T19:02:23.210Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3720000_3730000.parquet",
+     "tamanho": 67450193,
+     "etag": "cedfcd4567e4b6d0737ac59d46c3c060",
+     "modificado": "2026-09-09T19:02:37.351Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3730000_3740000.parquet",
+     "tamanho": 67905528,
+     "etag": "1aa6b2b25a0aad1d165545fb9007203f",
+     "modificado": "2026-09-09T19:02:51.493Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3740000_3750000.parquet",
+     "tamanho": 68073754,
+     "etag": "6b2368982655e3fbc50265ccae94b2d6",
+     "modificado": "2026-09-09T19:03:06.070Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3750000_3760000.parquet",
+     "tamanho": 69197913,
+     "etag": "a31552f729c08d625a22fe46f6d050be",
+     "modificado": "2026-09-09T19:03:20.243Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3760000_3770000.parquet",
+     "tamanho": 68352897,
+     "etag": "5c12aea43d5dc0bba502d1cedb7cd34f",
+     "modificado": "2026-09-09T19:03:34.448Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3770000_3780000.parquet",
+     "tamanho": 67556808,
+     "etag": "5e7148110aa170f7ef9089015f5836de",
+     "modificado": "2026-09-09T19:03:48.487Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3780000_3790000.parquet",
+     "tamanho": 66719524,
+     "etag": "7227ab3c7a6e1e528b864a11127e9921",
+     "modificado": "2026-09-09T19:04:01.536Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3790000_3800000.parquet",
+     "tamanho": 59101589,
+     "etag": "9cabea6ada7590bdc32367bcfa38acd9",
+     "modificado": "2026-09-09T19:04:14.220Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3800000_3810000.parquet",
+     "tamanho": 67423312,
+     "etag": "a0247a643dbf97b1e705230f4213a9ad",
+     "modificado": "2026-09-09T19:04:28.059Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_380000_390000.parquet",
+     "tamanho": 77190750,
+     "etag": "59c36177cee19ea89b5720779ba99a89",
+     "modificado": "2026-09-09T17:43:23.265Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3810000_3820000.parquet",
+     "tamanho": 68714818,
+     "etag": "ac1c228b826421139d3849302cbf448a",
+     "modificado": "2026-09-09T19:04:41.194Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3820000_3830000.parquet",
+     "tamanho": 68038027,
+     "etag": "0efe0100237841c6f738fb06fe59a5a5",
+     "modificado": "2026-09-09T19:05:08.604Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3830000_3840000.parquet",
+     "tamanho": 68544978,
+     "etag": "741cf5c3b55103cd33605cb6cb7a05de",
+     "modificado": "2026-09-09T19:05:21.756Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3840000_3850000.parquet",
+     "tamanho": 67782169,
+     "etag": "2e0b9f41037505cdf882a8e37392cb07",
+     "modificado": "2026-09-09T19:05:34.542Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3850000_3860000.parquet",
+     "tamanho": 67415045,
+     "etag": "2caba432717148fd4bde4f61c52eaee4",
+     "modificado": "2026-09-09T19:05:47.824Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3860000_3870000.parquet",
+     "tamanho": 68212942,
+     "etag": "4313ba9127e690ed65270f448cd9917f",
+     "modificado": "2026-09-09T19:06:01.455Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3870000_3880000.parquet",
+     "tamanho": 67569093,
+     "etag": "e6d46303fbd80f3d1c41af98feab8cff",
+     "modificado": "2026-09-09T19:06:15.426Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3880000_3890000.parquet",
+     "tamanho": 67761135,
+     "etag": "9a154f8afc500d32adf69d3bfc528a6c",
+     "modificado": "2026-09-09T19:06:28.532Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3890000_3900000.parquet",
+     "tamanho": 67691740,
+     "etag": "dbb1e56f0726bf31b0a7848d1ccd4cd9",
+     "modificado": "2026-09-09T19:06:41.818Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3900000_3910000.parquet",
+     "tamanho": 67820130,
+     "etag": "e485fd0b33d0a495070a2db81c1253df",
+     "modificado": "2026-09-09T19:06:55.339Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_390000_400000.parquet",
+     "tamanho": 75859350,
+     "etag": "27db52ef98353ef2039f40238a219735",
+     "modificado": "2026-09-09T17:43:47.395Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3910000_3920000.parquet",
+     "tamanho": 67666350,
+     "etag": "a9c532dfe9e07bbd52b2b1e342d28561",
+     "modificado": "2026-09-09T19:07:08.813Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3920000_3930000.parquet",
+     "tamanho": 68255093,
+     "etag": "c661d009c2ab5a1ac382757afc4c75e6",
+     "modificado": "2026-09-09T19:07:22.500Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3930000_3940000.parquet",
+     "tamanho": 67037151,
+     "etag": "926f198d5c5f4f7b3492ad1b30c0e1a2",
+     "modificado": "2026-09-09T19:07:35.823Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3940000_3950000.parquet",
+     "tamanho": 67394179,
+     "etag": "1158ed3ac415550eab809bf246e969a2",
+     "modificado": "2026-09-09T19:07:50.141Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3950000_3960000.parquet",
+     "tamanho": 68112608,
+     "etag": "9ff2c7d525bba5d0a5ed8196f5258000",
+     "modificado": "2026-09-09T19:08:03.695Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3960000_3970000.parquet",
+     "tamanho": 68129874,
+     "etag": "3d1bda6344fc71e30effd72bd9c285ad",
+     "modificado": "2026-09-09T19:08:16.632Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3970000_3980000.parquet",
+     "tamanho": 67860422,
+     "etag": "460264b4960458ff4189792659ec7bca",
+     "modificado": "2026-09-09T19:08:29.669Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3980000_3990000.parquet",
+     "tamanho": 68208354,
+     "etag": "6049a817f4dc02a22f5d2722b9f89c37",
+     "modificado": "2026-09-09T19:08:42.543Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_3990000_4000000.parquet",
+     "tamanho": 68626122,
+     "etag": "c831b1e90597f084dba448fc00471039",
+     "modificado": "2026-09-09T19:08:56.023Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4000000_4010000.parquet",
+     "tamanho": 68012231,
+     "etag": "c0d7f7f2fd02459abc2fe4706499a9e7",
+     "modificado": "2026-09-09T19:09:09.291Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_400000_410000.parquet",
+     "tamanho": 76851259,
+     "etag": "94e9f342f313822f28807cda80c65d90",
+     "modificado": "2026-09-09T17:44:03.333Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_40000_50000.parquet",
+     "tamanho": 74512041,
+     "etag": "0dfb7342ac183483a82e71fd04f1009e",
+     "modificado": "2026-09-09T17:33:49.488Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4010000_4020000.parquet",
+     "tamanho": 67195696,
+     "etag": "d678b8584cef2ec96889604b7365de76",
+     "modificado": "2026-09-09T19:09:22.259Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4020000_4030000.parquet",
+     "tamanho": 67321863,
+     "etag": "e5e48d6156be04a90a97c755c9625cb2",
+     "modificado": "2026-09-09T19:09:34.853Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4030000_4040000.parquet",
+     "tamanho": 67471538,
+     "etag": "13175054b4d1efe26adbd2f398f3c83a",
+     "modificado": "2026-09-09T19:09:47.855Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4040000_4050000.parquet",
+     "tamanho": 67474731,
+     "etag": "11b7eeb94d817eafacd97860e0bf2476",
+     "modificado": "2026-09-09T19:10:01.030Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4050000_4060000.parquet",
+     "tamanho": 67215245,
+     "etag": "0df52f91d208403db9ab176774a537d3",
+     "modificado": "2026-09-09T19:10:14.070Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4060000_4070000.parquet",
+     "tamanho": 68071112,
+     "etag": "c9698b0ef3961175a1980f3fbe914545",
+     "modificado": "2026-09-09T19:10:28.076Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4070000_4080000.parquet",
+     "tamanho": 67918823,
+     "etag": "bb8927441f154181ae254116f64595cd",
+     "modificado": "2026-09-09T19:10:40.950Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4080000_4090000.parquet",
+     "tamanho": 67827495,
+     "etag": "7b07efee711c5c460a85a1a2aafebdde",
+     "modificado": "2026-09-09T19:10:54.604Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4090000_4100000.parquet",
+     "tamanho": 67072396,
+     "etag": "d4d95de4c9f0946be814f9cdcaa2eec6",
+     "modificado": "2026-09-09T19:11:08.296Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4100000_4110000.parquet",
+     "tamanho": 67249251,
+     "etag": "94de7fe99a1f8729f90c9354596a8a01",
+     "modificado": "2026-09-09T19:11:21.974Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_410000_420000.parquet",
+     "tamanho": 75837439,
+     "etag": "e081df95fea660c0195dc2ac1a405815",
+     "modificado": "2026-09-09T17:44:19.362Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4110000_4120000.parquet",
+     "tamanho": 68068925,
+     "etag": "1553cf810f446a5aeece13845cda1b88",
+     "modificado": "2026-09-09T19:11:35.733Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4120000_4130000.parquet",
+     "tamanho": 67334512,
+     "etag": "6fc29740b6664d613b694eb7d62446b9",
+     "modificado": "2026-09-09T19:11:48.768Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4130000_4140000.parquet",
+     "tamanho": 67520581,
+     "etag": "f8ed3e0703ee7287faa3f6273bc7c624",
+     "modificado": "2026-09-09T19:12:03.029Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4140000_4150000.parquet",
+     "tamanho": 67561001,
+     "etag": "b36c2823280970c620c364a0a4984d4b",
+     "modificado": "2026-09-09T19:12:16.821Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4150000_4160000.parquet",
+     "tamanho": 68134303,
+     "etag": "e372c749c884063c51d57592335a13ea",
+     "modificado": "2026-09-09T19:12:30.244Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4160000_4170000.parquet",
+     "tamanho": 67278583,
+     "etag": "24a767a7f93eb71fb66eeb506560454a",
+     "modificado": "2026-09-09T19:12:43.858Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4170000_4180000.parquet",
+     "tamanho": 67758086,
+     "etag": "1119b5b0089ade235635eabff6875a57",
+     "modificado": "2026-09-09T19:12:57.938Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4180000_4190000.parquet",
+     "tamanho": 67984077,
+     "etag": "44e3170c3320f5981899b62a1039fe5c",
+     "modificado": "2026-09-09T19:13:11.036Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4190000_4200000.parquet",
+     "tamanho": 67522920,
+     "etag": "52c597e195b59b50bb3100f46fc3b99b",
+     "modificado": "2026-09-09T19:13:24.381Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4200000_4210000.parquet",
+     "tamanho": 66916217,
+     "etag": "7a1839ab908705d9aa8ad8d9ef2bc4d6",
+     "modificado": "2026-09-09T19:13:37.522Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_420000_430000.parquet",
+     "tamanho": 73168872,
+     "etag": "6c1011db970f5ec60ace7c5a2047aaef",
+     "modificado": "2026-09-09T17:44:33.687Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4210000_4220000.parquet",
+     "tamanho": 67314963,
+     "etag": "6117e63f4deffef85feef14f684fad1e",
+     "modificado": "2026-09-09T19:13:50.957Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4220000_4230000.parquet",
+     "tamanho": 68207504,
+     "etag": "c34dab4e2c1dc375631971570ac33661",
+     "modificado": "2026-09-09T19:14:03.977Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4230000_4240000.parquet",
+     "tamanho": 68056374,
+     "etag": "38cca2b78fb4d7e0bc7d62c035229f99",
+     "modificado": "2026-09-09T19:14:17.242Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4240000_4250000.parquet",
+     "tamanho": 67571222,
+     "etag": "8b83267db261101c4ee0577a7445123c",
+     "modificado": "2026-09-09T19:14:30.530Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4250000_4260000.parquet",
+     "tamanho": 67101678,
+     "etag": "53523b73a6da3c7986979b98731b073a",
+     "modificado": "2026-09-09T19:14:43.819Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4260000_4270000.parquet",
+     "tamanho": 67600162,
+     "etag": "641012dc82eb2adffb275d1cb0cea99d",
+     "modificado": "2026-09-09T19:15:10.987Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4270000_4280000.parquet",
+     "tamanho": 69244901,
+     "etag": "1cc20977cdada51e47dff653249b8242",
+     "modificado": "2026-09-09T19:15:26.380Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4280000_4290000.parquet",
+     "tamanho": 68017845,
+     "etag": "648ddf65c8cbf754580f19ddb8cca9b2",
+     "modificado": "2026-09-09T19:15:40.563Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4290000_4300000.parquet",
+     "tamanho": 79323844,
+     "etag": "8ae01b029b37adbd6e6b7cd691675639",
+     "modificado": "2026-09-09T19:15:56.220Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4300000_4310000.parquet",
+     "tamanho": 84046208,
+     "etag": "0523ab4656f3a7fba5037ee00e875ab6",
+     "modificado": "2026-09-09T19:16:12.453Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_430000_440000.parquet",
+     "tamanho": 72085826,
+     "etag": "fa533f25ca6c1f56a66adf8bb624aef5",
+     "modificado": "2026-09-09T17:44:48.350Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4310000_4320000.parquet",
+     "tamanho": 84694151,
+     "etag": "8fbb1cf8bdd042a64dd4bc3f78f94985",
+     "modificado": "2026-09-09T19:16:31.612Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4320000_4330000.parquet",
+     "tamanho": 83942447,
+     "etag": "7ecd147728754308c8f36fef1210bd21",
+     "modificado": "2026-09-09T19:16:49.281Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4330000_4340000.parquet",
+     "tamanho": 84965003,
+     "etag": "19facb769482f6b0ecc77da000128b57",
+     "modificado": "2026-09-09T19:17:07.137Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4340000_4350000.parquet",
+     "tamanho": 84212869,
+     "etag": "caf0833b639be40e4d3eb93622f83f30",
+     "modificado": "2026-09-09T19:17:24.652Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4350000_4360000.parquet",
+     "tamanho": 84806399,
+     "etag": "adfa760ffb20a4a60d3316ce37369adc",
+     "modificado": "2026-09-09T19:17:41.973Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4360000_4370000.parquet",
+     "tamanho": 81434118,
+     "etag": "5b49b532187a7aee4b15b817e86b61dc",
+     "modificado": "2026-09-09T19:18:02.043Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4370000_4380000.parquet",
+     "tamanho": 84441678,
+     "etag": "38a1f97ade0092d0fab0a2775769baf2",
+     "modificado": "2026-09-09T19:18:19.264Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4380000_4390000.parquet",
+     "tamanho": 83562194,
+     "etag": "a7ad333c7153c84b74e5782f6d05a146",
+     "modificado": "2026-09-09T19:18:35.805Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4390000_4400000.parquet",
+     "tamanho": 84121893,
+     "etag": "80f933565e1a3291e9b9205d32663fc2",
+     "modificado": "2026-09-09T19:18:51.872Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4400000_4410000.parquet",
+     "tamanho": 81476455,
+     "etag": "0f83bdeeecdc2687a9ae010eb77d6856",
+     "modificado": "2026-09-09T19:19:08.046Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_440000_450000.parquet",
+     "tamanho": 76167506,
+     "etag": "a161786ce796e62b46cb362deb27fbb7",
+     "modificado": "2026-09-09T17:45:04.037Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4410000_4420000.parquet",
+     "tamanho": 83790693,
+     "etag": "c6fb1c1fb8f3ffd94a1f9bac14f5c959",
+     "modificado": "2026-09-09T19:19:26.471Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4420000_4430000.parquet",
+     "tamanho": 82943232,
+     "etag": "34f27185f81cc192c5a4da41c92fef0f",
+     "modificado": "2026-09-09T19:19:43.849Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4430000_4440000.parquet",
+     "tamanho": 84184307,
+     "etag": "ac9f9680122309c2928a6c16070895fc",
+     "modificado": "2026-09-09T19:20:01.933Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4440000_4450000.parquet",
+     "tamanho": 84433234,
+     "etag": "8173db4e896292a34bdd32662a23bcd7",
+     "modificado": "2026-09-09T19:20:21.885Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4450000_4460000.parquet",
+     "tamanho": 83350781,
+     "etag": "da3fe927ca8ef78ecf47da5585fe9a71",
+     "modificado": "2026-09-09T19:20:38.687Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4460000_4470000.parquet",
+     "tamanho": 85115030,
+     "etag": "27509700705e37ad32d23ea0201d42c0",
+     "modificado": "2026-09-09T19:20:57.161Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4470000_4480000.parquet",
+     "tamanho": 85056231,
+     "etag": "7a0ab8f1c1a4f18bafdc4dad649eb22f",
+     "modificado": "2026-09-09T19:21:15.007Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4480000_4490000.parquet",
+     "tamanho": 85074300,
+     "etag": "69487fc849a8358c74ef2996288d2670",
+     "modificado": "2026-09-09T19:21:33.648Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4490000_4500000.parquet",
+     "tamanho": 84167873,
+     "etag": "b8c992402eed7f52317b63f3eb851638",
+     "modificado": "2026-09-09T19:21:52.228Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4500000_4510000.parquet",
+     "tamanho": 85164313,
+     "etag": "932c2b18e522cb776b620cfd2a19dd08",
+     "modificado": "2026-09-09T19:22:13.257Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_450000_460000.parquet",
+     "tamanho": 69461923,
+     "etag": "f1b72f07546153c9567fa9fe5031b6d1",
+     "modificado": "2026-09-09T17:45:18.176Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4510000_4520000.parquet",
+     "tamanho": 84377243,
+     "etag": "d1b32b2e5b30cc7bade9dd315c560019",
+     "modificado": "2026-09-09T19:22:34.376Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4520000_4530000.parquet",
+     "tamanho": 83907897,
+     "etag": "2c9ec067fe9e4953d4960183d04327be",
+     "modificado": "2026-09-09T19:22:53.718Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4530000_4540000.parquet",
+     "tamanho": 84679034,
+     "etag": "8d1d2bebb66cad15ca8f3a0a75a105c6",
+     "modificado": "2026-09-09T19:23:29.602Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4540000_4550000.parquet",
+     "tamanho": 85000869,
+     "etag": "513d9e6b162d64eae3356b612e79af2a",
+     "modificado": "2026-09-09T19:24:27.021Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4550000_4560000.parquet",
+     "tamanho": 84014267,
+     "etag": "2c46a6e867494a85fca5c0dda75f8dee",
+     "modificado": "2026-09-09T19:25:58.321Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4560000_4570000.parquet",
+     "tamanho": 84305531,
+     "etag": "f094da94f9dee0ffd77d07f579d59662",
+     "modificado": "2026-09-09T19:26:13.512Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4570000_4580000.parquet",
+     "tamanho": 83464066,
+     "etag": "b96546b1df61b6d125da6d3b5719bf6c",
+     "modificado": "2026-09-09T19:26:29.588Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4580000_4590000.parquet",
+     "tamanho": 84352250,
+     "etag": "26b6e40215f49ccab248738c200b75c2",
+     "modificado": "2026-09-09T19:26:45.395Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4590000_4600000.parquet",
+     "tamanho": 83800513,
+     "etag": "9f47119ce62964ed4c6653525f0a464b",
+     "modificado": "2026-09-09T19:27:01.238Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4600000_4610000.parquet",
+     "tamanho": 82889499,
+     "etag": "2797f93258fcd236121027ad1311610f",
+     "modificado": "2026-09-09T19:27:16.536Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_460000_470000.parquet",
+     "tamanho": 69542588,
+     "etag": "222aff5a959b9981f21c260d3ce6ba67",
+     "modificado": "2026-09-09T17:45:33.714Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4610000_4620000.parquet",
+     "tamanho": 83139163,
+     "etag": "1c13f3565bc2c031b51df6c7d9bc0cc3",
+     "modificado": "2026-09-09T19:27:32.974Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4620000_4630000.parquet",
+     "tamanho": 83954365,
+     "etag": "908a907ae8adbea2873a9e1c6be69610",
+     "modificado": "2026-09-09T19:27:48.575Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4630000_4640000.parquet",
+     "tamanho": 84033786,
+     "etag": "cbf46397ee44e1b9e00eb021bc3eb5ee",
+     "modificado": "2026-09-09T19:28:05.533Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4640000_4650000.parquet",
+     "tamanho": 84728053,
+     "etag": "cc5af30e19d41ad06ff1624a5e1d78b8",
+     "modificado": "2026-09-09T19:28:21.238Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4650000_4660000.parquet",
+     "tamanho": 83770431,
+     "etag": "221d381baefac83cbfdfc94983d47a4d",
+     "modificado": "2026-09-09T19:28:37.413Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4660000_4670000.parquet",
+     "tamanho": 84723504,
+     "etag": "c20d4e433b32d769ead72b7f9ceb68e0",
+     "modificado": "2026-09-09T19:28:53.757Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4670000_4680000.parquet",
+     "tamanho": 84019246,
+     "etag": "f3179c97511f4b00ad67b4cc0ac4ba0c",
+     "modificado": "2026-09-09T19:29:09.541Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4680000_4690000.parquet",
+     "tamanho": 84186528,
+     "etag": "94e04906255e79410287b94e8587e574",
+     "modificado": "2026-09-09T19:29:24.700Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4690000_4700000.parquet",
+     "tamanho": 82904041,
+     "etag": "036b036d2538f71db996b3211491e13b",
+     "modificado": "2026-09-09T19:29:39.408Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4700000_4710000.parquet",
+     "tamanho": 84535688,
+     "etag": "e32d57f8f2aa02d18a50152b2954af48",
+     "modificado": "2026-09-09T19:29:54.929Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_470000_480000.parquet",
+     "tamanho": 69772782,
+     "etag": "3d028faa2a984b7071ceeb75050f4f55",
+     "modificado": "2026-09-09T17:45:48.265Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4710000_4720000.parquet",
+     "tamanho": 84116644,
+     "etag": "c4160110842c683d7e897db5755918ad",
+     "modificado": "2026-09-09T19:30:11.960Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4720000_4730000.parquet",
+     "tamanho": 83698131,
+     "etag": "1d2fc99972ec2f807ab649dc006020c7",
+     "modificado": "2026-09-09T19:30:27.187Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4730000_4740000.parquet",
+     "tamanho": 84823323,
+     "etag": "262e7a00b1c7fe4991b0b3c2b4183a45",
+     "modificado": "2026-09-09T19:30:43.522Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4740000_4750000.parquet",
+     "tamanho": 83871412,
+     "etag": "f39e1c6589989f0878938eff735ccac5",
+     "modificado": "2026-09-09T19:31:00.774Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4750000_4760000.parquet",
+     "tamanho": 85077863,
+     "etag": "47d5106c1c24f42d3e4f0b775f8f75fa",
+     "modificado": "2026-09-09T19:31:18.005Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4760000_4770000.parquet",
+     "tamanho": 84902248,
+     "etag": "f5eb67b0ce0c48d431546b6c5f99b589",
+     "modificado": "2026-09-09T19:31:34.422Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4770000_4780000.parquet",
+     "tamanho": 84167416,
+     "etag": "65139d43e667f85829bc2d11f2cfb8df",
+     "modificado": "2026-09-09T19:31:50.851Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4780000_4790000.parquet",
+     "tamanho": 84474392,
+     "etag": "4149a97db3e1db5213ab91cd9a197175",
+     "modificado": "2026-09-09T19:32:05.785Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4790000_4800000.parquet",
+     "tamanho": 84700650,
+     "etag": "adbeccba6ecfb6fa94c08b0ecdc3ab62",
+     "modificado": "2026-09-09T19:32:20.897Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4800000_4810000.parquet",
+     "tamanho": 84220468,
+     "etag": "695b7591d21e8f1cb0d0bff9b3a5823b",
+     "modificado": "2026-09-09T19:32:37.070Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_480000_490000.parquet",
+     "tamanho": 70175600,
+     "etag": "439d515c2908ce4851a16d6ab7b708d8",
+     "modificado": "2026-09-09T17:46:02.131Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4810000_4820000.parquet",
+     "tamanho": 84651473,
+     "etag": "d9b65518989eaa4ca1e244a11f220caa",
+     "modificado": "2026-09-09T19:32:53.473Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4820000_4830000.parquet",
+     "tamanho": 83729823,
+     "etag": "2a268f0df75779ca05821dbe1d100d1f",
+     "modificado": "2026-09-09T19:33:09.549Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4830000_4840000.parquet",
+     "tamanho": 84310732,
+     "etag": "5785b50ae6a53ef27cbde7d9297c068e",
+     "modificado": "2026-09-09T19:33:24.456Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4840000_4850000.parquet",
+     "tamanho": 84212766,
+     "etag": "933cec12bc31db7d460185470ebbbea4",
+     "modificado": "2026-09-09T19:33:39.710Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4850000_4860000.parquet",
+     "tamanho": 84043633,
+     "etag": "938a7856f4bb0078267260aef11232a8",
+     "modificado": "2026-09-09T19:33:55.097Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4860000_4870000.parquet",
+     "tamanho": 83594967,
+     "etag": "a7566f911ffe52fd69004110aa367b7b",
+     "modificado": "2026-09-09T19:34:11.705Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4870000_4880000.parquet",
+     "tamanho": 83676441,
+     "etag": "a4a5558de7b9c617fa6576a52de24ce8",
+     "modificado": "2026-09-09T19:34:28.541Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4880000_4890000.parquet",
+     "tamanho": 84354532,
+     "etag": "87500cf06022185e2e4b0801f4cf7c37",
+     "modificado": "2026-09-09T19:34:44.186Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4890000_4900000.parquet",
+     "tamanho": 83791884,
+     "etag": "0f5b853161f83874ad96f7b221dc17a4",
+     "modificado": "2026-09-09T19:34:59.301Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4900000_4910000.parquet",
+     "tamanho": 83624762,
+     "etag": "1a31f2139fd154c0591eb6813fd51b37",
+     "modificado": "2026-09-09T19:35:14.900Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_490000_500000.parquet",
+     "tamanho": 71861142,
+     "etag": "4295294fa3dd190cf9697a229524fee0",
+     "modificado": "2026-09-09T17:46:15.903Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4910000_4920000.parquet",
+     "tamanho": 83125726,
+     "etag": "3e1ffb92d4a62e9796c6ec0f6aef1b3b",
+     "modificado": "2026-09-09T19:35:41.246Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4920000_4930000.parquet",
+     "tamanho": 65444191,
+     "etag": "2edc744063a604d373c09ce362692cdc",
+     "modificado": "2026-09-09T19:35:56.285Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4930000_4940000.parquet",
+     "tamanho": 70212345,
+     "etag": "f235db3ce543a6519c66dec4adbd4815",
+     "modificado": "2026-09-09T19:36:10.965Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4940000_4950000.parquet",
+     "tamanho": 87254277,
+     "etag": "dfea36c4fc3588d7f6f678e87070f8f8",
+     "modificado": "2026-09-09T19:36:26.940Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4950000_4960000.parquet",
+     "tamanho": 84419741,
+     "etag": "b5209d70aa8da60f27c26fe1d2beabce",
+     "modificado": "2026-09-09T19:36:42.942Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4960000_4970000.parquet",
+     "tamanho": 85252901,
+     "etag": "c89d2295cc4178366644bbb63a46d737",
+     "modificado": "2026-09-09T19:36:58.936Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4970000_4980000.parquet",
+     "tamanho": 81712569,
+     "etag": "06b7ac6b4c989daf5a6d7395a377a29f",
+     "modificado": "2026-09-09T19:37:14.054Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4980000_4990000.parquet",
+     "tamanho": 76222441,
+     "etag": "ed80a0b38d1f4be4581560d649257018",
+     "modificado": "2026-09-09T19:37:28.826Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_4990000_5000000.parquet",
+     "tamanho": 50284835,
+     "etag": "1ca470dbd12f090ebcdb68a27eb88583",
+     "modificado": "2026-09-09T19:37:40.992Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5000000_5010000.parquet",
+     "tamanho": 54246681,
+     "etag": "08c6ad63fcc6da9c171b03dd746e0e6e",
+     "modificado": "2026-09-09T19:37:53.186Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_500000_510000.parquet",
+     "tamanho": 70460357,
+     "etag": "c75bdf99e00b3193569a562e64beb4e0",
+     "modificado": "2026-09-09T17:46:29.514Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_50000_60000.parquet",
+     "tamanho": 73579497,
+     "etag": "8289733a49c4204fc6a93cfaed292d06",
+     "modificado": "2026-09-09T17:34:05.953Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5010000_5020000.parquet",
+     "tamanho": 62526108,
+     "etag": "7619f2ca7e7a128d10f6f3c2d810cac8",
+     "modificado": "2026-09-09T19:38:06.289Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5020000_5030000.parquet",
+     "tamanho": 61757746,
+     "etag": "306ef2b064fe881d59f572a2eceececa",
+     "modificado": "2026-09-09T19:38:19.317Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5030000_5040000.parquet",
+     "tamanho": 61003333,
+     "etag": "17c1bf0e0f6d478435c4ac5e34855120",
+     "modificado": "2026-09-09T19:38:32.048Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5040000_5050000.parquet",
+     "tamanho": 59472207,
+     "etag": "19d18dc9ead96a06d686b4d240bacd08",
+     "modificado": "2026-09-09T19:38:44.432Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5050000_5060000.parquet",
+     "tamanho": 60642675,
+     "etag": "204d15097e3aebca80a5815cfa393618",
+     "modificado": "2026-09-09T19:38:56.940Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5060000_5070000.parquet",
+     "tamanho": 58701026,
+     "etag": "e109307ac38a303b470001b3dc255761",
+     "modificado": "2026-09-09T19:39:08.986Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5070000_5080000.parquet",
+     "tamanho": 58422128,
+     "etag": "4f8bfaad4f503ea809b0a1025449c18f",
+     "modificado": "2026-09-09T19:39:21.530Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5080000_5090000.parquet",
+     "tamanho": 59221482,
+     "etag": "2dc7f880afe91386d9fd712815bf04ee",
+     "modificado": "2026-09-09T19:39:33.969Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5090000_5100000.parquet",
+     "tamanho": 58523383,
+     "etag": "a833134510832f7d5b17e7e8903a7e41",
+     "modificado": "2026-09-09T19:39:46.898Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5100000_5110000.parquet",
+     "tamanho": 59262446,
+     "etag": "a9007375e5c3d6ee953902e26d8f823f",
+     "modificado": "2026-09-09T19:39:59.247Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_510000_520000.parquet",
+     "tamanho": 70948557,
+     "etag": "054fdad11313bb7073676d0646669df8",
+     "modificado": "2026-09-09T17:46:44.857Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5110000_5120000.parquet",
+     "tamanho": 59945152,
+     "etag": "e827007a87fb2fa122513bf452846606",
+     "modificado": "2026-09-09T19:40:12.294Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5120000_5130000.parquet",
+     "tamanho": 58922865,
+     "etag": "dcec98255105640852f63ecd4786f53c",
+     "modificado": "2026-09-09T19:40:24.501Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5130000_5140000.parquet",
+     "tamanho": 58579748,
+     "etag": "27561487821ec7b1f4436f2c278bb5eb",
+     "modificado": "2026-09-09T19:40:37.426Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5140000_5150000.parquet",
+     "tamanho": 59730698,
+     "etag": "ded6d68c11555d11be2a8087dff795b3",
+     "modificado": "2026-09-09T19:40:50.606Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5150000_5160000.parquet",
+     "tamanho": 61051119,
+     "etag": "7e07b1786eee1fcccfc70a1f3d492ed2",
+     "modificado": "2026-09-09T19:41:03.376Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5160000_5170000.parquet",
+     "tamanho": 63691243,
+     "etag": "20baffc3df58303b9f1afbaacc287029",
+     "modificado": "2026-09-09T19:41:16.674Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5170000_5180000.parquet",
+     "tamanho": 62272512,
+     "etag": "7a434e27b3426835c60f93445731f453",
+     "modificado": "2026-09-09T19:41:29.464Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5180000_5190000.parquet",
+     "tamanho": 61784388,
+     "etag": "cc88989d063fe21fb7ea66238d1a94a0",
+     "modificado": "2026-09-09T19:41:42.450Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5190000_5200000.parquet",
+     "tamanho": 59531409,
+     "etag": "ee33f8d22b7e0368ec9cac8ae39a043a",
+     "modificado": "2026-09-09T19:41:55.210Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5200000_5210000.parquet",
+     "tamanho": 59354877,
+     "etag": "2eabf82a5e56e5075e49c4a5f9506934",
+     "modificado": "2026-09-09T19:42:07.879Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_520000_530000.parquet",
+     "tamanho": 69223468,
+     "etag": "74c56fad235bd3b13fe4c1ac5f0c9c61",
+     "modificado": "2026-09-09T17:46:59.281Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5210000_5220000.parquet",
+     "tamanho": 58977021,
+     "etag": "5f71bd0c93af126dc5bdf428034b9eed",
+     "modificado": "2026-09-09T19:42:22.668Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5220000_5230000.parquet",
+     "tamanho": 60216120,
+     "etag": "5f25f4727a1638a5f76780d7247b84ba",
+     "modificado": "2026-09-09T19:42:35.223Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5230000_5240000.parquet",
+     "tamanho": 60373579,
+     "etag": "93646aeb4ded22e6397150aed6245764",
+     "modificado": "2026-09-09T19:42:47.578Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5240000_5250000.parquet",
+     "tamanho": 59061435,
+     "etag": "de3ef52accc48a34fe8a6db02bf175b7",
+     "modificado": "2026-09-09T19:42:59.862Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5250000_5260000.parquet",
+     "tamanho": 61340404,
+     "etag": "ef2697979152095dfd3cad891f97f804",
+     "modificado": "2026-09-09T19:43:12.193Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5260000_5270000.parquet",
+     "tamanho": 61788314,
+     "etag": "5bb04fc8267bcfd6760646ebdfaaf84c",
+     "modificado": "2026-09-09T19:43:24.399Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5270000_5280000.parquet",
+     "tamanho": 58873397,
+     "etag": "57a6baed8a8c3077eb828d1d78f4e683",
+     "modificado": "2026-09-09T19:43:36.815Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5280000_5290000.parquet",
+     "tamanho": 60098745,
+     "etag": "fefaba127612b5b28c601a4fa939053e",
+     "modificado": "2026-09-09T19:43:49.731Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5290000_5300000.parquet",
+     "tamanho": 59095670,
+     "etag": "0f88f849cd85b003b023a436b9a49936",
+     "modificado": "2026-09-09T19:44:02.157Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5300000_5310000.parquet",
+     "tamanho": 55956148,
+     "etag": "03eb8e0b557f0c1a997624790459d3aa",
+     "modificado": "2026-09-09T19:44:15.825Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_530000_540000.parquet",
+     "tamanho": 78187838,
+     "etag": "1a34bca106be52cf323c0b29e621480f",
+     "modificado": "2026-09-09T17:47:14.282Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5310000_5320000.parquet",
+     "tamanho": 54269973,
+     "etag": "ac07cd5bf91c20cd15624a01550ab830",
+     "modificado": "2026-09-09T19:44:29.088Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5320000_5330000.parquet",
+     "tamanho": 51479224,
+     "etag": "ee5039bc75465a14ec9b12510e71e24d",
+     "modificado": "2026-09-09T19:44:42.122Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5330000_5340000.parquet",
+     "tamanho": 51455066,
+     "etag": "05df8b79f9e067cd1424600cb12a4891",
+     "modificado": "2026-09-09T19:44:55.102Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5340000_5350000.parquet",
+     "tamanho": 59368217,
+     "etag": "c5fc07bf15dca4920c1b40648228a338",
+     "modificado": "2026-09-09T19:45:07.307Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5350000_5360000.parquet",
+     "tamanho": 59819430,
+     "etag": "dd4f71ffa9626727be6315b950e2cbbe",
+     "modificado": "2026-09-09T19:45:19.749Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5360000_5370000.parquet",
+     "tamanho": 55359018,
+     "etag": "bd9040ca1b8e6bd27ae756b372cb1b0e",
+     "modificado": "2026-09-09T19:45:32.230Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5370000_5380000.parquet",
+     "tamanho": 44655041,
+     "etag": "d5088d660d8e56a406338a1bf159cd6c",
+     "modificado": "2026-09-09T19:45:49.125Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5380000_5390000.parquet",
+     "tamanho": 45644392,
+     "etag": "4187c3629f6b1c6d0a72c87801c6f2dc",
+     "modificado": "2026-09-09T19:46:00.947Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5390000_5400000.parquet",
+     "tamanho": 45905588,
+     "etag": "377b3bdb7c10259c695f37178aecd7f8",
+     "modificado": "2026-09-09T19:46:13.226Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5400000_5410000.parquet",
+     "tamanho": 76001328,
+     "etag": "356dc46ea7dae3f4ec59c3b4473d6e7c",
+     "modificado": "2026-09-09T19:46:27.265Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_540000_550000.parquet",
+     "tamanho": 71457309,
+     "etag": "894a26dd7ec78769389d8d9dffbcc9bc",
+     "modificado": "2026-09-09T17:47:28.774Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5410000_5420000.parquet",
+     "tamanho": 77327276,
+     "etag": "a0c0e622014f421618fa54fbd8f8aaa7",
+     "modificado": "2026-09-09T19:46:40.868Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5420000_5430000.parquet",
+     "tamanho": 79791530,
+     "etag": "bff45636ab4c1304a8b447bff8a00d53",
+     "modificado": "2026-09-09T19:46:56.230Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5430000_5440000.parquet",
+     "tamanho": 80852315,
+     "etag": "6dc913fdd02746a12ae46d6f98cea42b",
+     "modificado": "2026-09-09T19:47:12.058Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5440000_5450000.parquet",
+     "tamanho": 88272065,
+     "etag": "5e70fae0a2853278edbc76317751066b",
+     "modificado": "2026-09-09T19:47:28.072Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5450000_5460000.parquet",
+     "tamanho": 91015069,
+     "etag": "135a8d89798f65eb763469f34bb4a7eb",
+     "modificado": "2026-09-09T19:47:43.305Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5460000_5470000.parquet",
+     "tamanho": 84601378,
+     "etag": "5754e0c6569fb0025d47077153131e25",
+     "modificado": "2026-09-09T19:47:58.775Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5470000_5480000.parquet",
+     "tamanho": 89077658,
+     "etag": "c6c4b4a372a7e21eefc768f484ebe976",
+     "modificado": "2026-09-09T19:48:14.522Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5480000_5490000.parquet",
+     "tamanho": 89702340,
+     "etag": "a51b97ef17d3375c9a76926ede00c48a",
+     "modificado": "2026-09-09T19:48:30.631Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5490000_5500000.parquet",
+     "tamanho": 89598238,
+     "etag": "278ef89cad9788f3619b72fd1d040312",
+     "modificado": "2026-09-09T19:48:46.773Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5500000_5510000.parquet",
+     "tamanho": 88757647,
+     "etag": "fe61037030cad23939883ce154e4f269",
+     "modificado": "2026-09-09T19:49:02.853Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_550000_560000.parquet",
+     "tamanho": 57125059,
+     "etag": "9f6a7475e4560977382bff1460567ab6",
+     "modificado": "2026-09-09T17:47:41.246Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5510000_5520000.parquet",
+     "tamanho": 87551009,
+     "etag": "5bb279e90f4623e1c1c915450bdf43eb",
+     "modificado": "2026-09-09T19:49:17.998Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5520000_5530000.parquet",
+     "tamanho": 86716872,
+     "etag": "85320caa3d2cf72bd7e6e67266e0a0a4",
+     "modificado": "2026-09-09T19:49:32.846Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5530000_5540000.parquet",
+     "tamanho": 88508217,
+     "etag": "38f1b1825a2561fca6d3fa897cea76f8",
+     "modificado": "2026-09-09T19:49:48.531Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5540000_5550000.parquet",
+     "tamanho": 87272247,
+     "etag": "2aa45a0c9eac235547478bb63cc3bcaa",
+     "modificado": "2026-09-09T19:50:04.099Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5550000_5560000.parquet",
+     "tamanho": 89805191,
+     "etag": "986da362377d777367499eb9293be23e",
+     "modificado": "2026-09-09T19:50:20.171Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5560000_5570000.parquet",
+     "tamanho": 88324244,
+     "etag": "aa22130c6ca79145d6faf0d5c1831e4c",
+     "modificado": "2026-09-09T19:50:36.226Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5570000_5580000.parquet",
+     "tamanho": 82321664,
+     "etag": "e73326e872bc9b0121f57f4d4da30dec",
+     "modificado": "2026-09-09T19:50:51.851Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5580000_5590000.parquet",
+     "tamanho": 79668337,
+     "etag": "1fc7acae292d9a586ade1d13057d753f",
+     "modificado": "2026-09-09T19:51:08.356Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5590000_5600000.parquet",
+     "tamanho": 80762303,
+     "etag": "732d65163fdb488f1eacc32f009046ef",
+     "modificado": "2026-09-09T19:51:25.417Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5600000_5610000.parquet",
+     "tamanho": 78801155,
+     "etag": "9c67de2a7a7ec20f7c09d13c7ecb034e",
+     "modificado": "2026-09-09T19:51:41.811Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_560000_570000.parquet",
+     "tamanho": 51024859,
+     "etag": "d01414581893ef221b6961f3779fed3b",
+     "modificado": "2026-09-09T17:47:53.766Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5610000_5620000.parquet",
+     "tamanho": 81152334,
+     "etag": "d9f43ed1694a40b3ffdab7ddcf0d1971",
+     "modificado": "2026-09-09T19:51:57.134Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5620000_5630000.parquet",
+     "tamanho": 81188392,
+     "etag": "0a73cbdbf984e7af20cf82848a636f2f",
+     "modificado": "2026-09-09T19:52:13.136Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5630000_5640000.parquet",
+     "tamanho": 79932249,
+     "etag": "9464e9332fb601ca51875b58aec3088b",
+     "modificado": "2026-09-09T19:52:28.336Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5640000_5650000.parquet",
+     "tamanho": 65597730,
+     "etag": "3cb4ebc2afa80ef208d504daf0337170",
+     "modificado": "2026-09-09T19:52:41.476Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5650000_5660000.parquet",
+     "tamanho": 63336827,
+     "etag": "788b326a0835a0e5a8bd0cb4b7b2dee6",
+     "modificado": "2026-09-09T19:52:55.484Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5660000_5670000.parquet",
+     "tamanho": 72958419,
+     "etag": "ce1093c540d94408a31dac1dc7d360c1",
+     "modificado": "2026-09-09T19:53:09.908Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5670000_5680000.parquet",
+     "tamanho": 80387837,
+     "etag": "7e70e144da9527313cd0b40284297857",
+     "modificado": "2026-09-09T19:53:25.657Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5680000_5690000.parquet",
+     "tamanho": 69848954,
+     "etag": "7ce242c0d8612d9265d6e5656b1f7724",
+     "modificado": "2026-09-09T19:53:40.369Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5690000_5700000.parquet",
+     "tamanho": 70356763,
+     "etag": "aff862b4ff1356ec9add79a9284b106c",
+     "modificado": "2026-09-09T19:53:54.981Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5700000_5710000.parquet",
+     "tamanho": 69932896,
+     "etag": "52f89456f9a8211a736aa58e0522e4e4",
+     "modificado": "2026-09-09T19:54:08.683Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_570000_580000.parquet",
+     "tamanho": 50955364,
+     "etag": "c7bb7c4dae2752acd8acf4f0ee404f83",
+     "modificado": "2026-09-09T17:48:05.382Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5710000_5720000.parquet",
+     "tamanho": 65008017,
+     "etag": "2750939b57760da9d21bcde4ae26dbca",
+     "modificado": "2026-09-09T19:54:22.208Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5720000_5730000.parquet",
+     "tamanho": 69887704,
+     "etag": "096e90df649e07b8b4f048380d55e3c7",
+     "modificado": "2026-09-09T19:54:36.886Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5730000_5740000.parquet",
+     "tamanho": 71814437,
+     "etag": "594e4a1a04bda586a64db2772dc649c8",
+     "modificado": "2026-09-09T19:55:03.038Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5740000_5750000.parquet",
+     "tamanho": 69181704,
+     "etag": "b2cef88c7ed5712118b69a23405d553f",
+     "modificado": "2026-09-09T19:55:40.177Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5750000_5760000.parquet",
+     "tamanho": 69138080,
+     "etag": "1ce27b837e7c5762c142a514116da4c6",
+     "modificado": "2026-09-09T19:56:23.125Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5760000_5770000.parquet",
+     "tamanho": 67116366,
+     "etag": "1dc436517bb53e41bf6b023377f6f70c",
+     "modificado": "2026-09-10T08:13:24.324Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5770000_5780000.parquet",
+     "tamanho": 69525951,
+     "etag": "9792c606af099cacc84b29650b61a703",
+     "modificado": "2026-09-10T08:13:41.579Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5780000_5790000.parquet",
+     "tamanho": 71861403,
+     "etag": "8cb5cf80bf5bee116e34d53692289f9f",
+     "modificado": "2026-09-14T02:10:30.031Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5790000_5800000.parquet",
+     "tamanho": 72152779,
+     "etag": "444c1e6a20bb239ecbefa3d8966b1989",
+     "modificado": "2026-09-17T02:07:05.488Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5800000_5810000.parquet",
+     "tamanho": 72467126,
+     "etag": "29fabf0a1056fa9c0a5d0f7d88e940ef",
+     "modificado": "2026-09-20T02:07:15.432Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_580000_590000.parquet",
+     "tamanho": 51872561,
+     "etag": "fbcb0f86bb5a1f9f5ca8985392271447",
+     "modificado": "2026-09-09T17:48:16.772Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5810000_5820000.parquet",
+     "tamanho": 72321988,
+     "etag": "b59c32d678e060d01cadd285f4b48481",
+     "modificado": "2026-09-23T02:03:00.407Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5820000_5830000.parquet",
+     "tamanho": 71461556,
+     "etag": "063aaab5c4fd4cc3af4cedae53cf8fe0",
+     "modificado": "2026-09-26T02:12:44.732Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5830000_5840000.parquet",
+     "tamanho": 73203485,
+     "etag": "c28efa12f02e86144c2d3239e2c471ef",
+     "modificado": "2026-09-30T02:09:31.218Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5840000_5850000.parquet",
+     "tamanho": 71660025,
+     "etag": "9b409af17a6b2332c36f861e7a94ecbe",
+     "modificado": "2026-10-02T02:07:34.990Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5850000_5860000.parquet",
+     "tamanho": 71224424,
+     "etag": "243140c233a25b8a4350b3b0c034d7eb",
+     "modificado": "2026-10-05T02:06:16.477Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5860000_5870000.parquet",
+     "tamanho": 70893426,
+     "etag": "79f32afd9c3148f56a1e9480874c2d04",
+     "modificado": "2026-10-09T02:03:01.626Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5870000_5880000.parquet",
+     "tamanho": 70976745,
+     "etag": "2a187058a640572892e238444ff24ef7",
+     "modificado": "2026-10-13T02:06:59.880Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5880000_5890000.parquet",
+     "tamanho": 71451836,
+     "etag": "48ed94862151200b46cb8823f138b2f2",
+     "modificado": "2026-10-17T02:07:05.785Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5890000_5900000.parquet",
+     "tamanho": 76974545,
+     "etag": "2bee4865e93576869a80d3bc8e751e5a",
+     "modificado": "2026-10-20T02:03:43.512Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5900000_5910000.parquet",
+     "tamanho": 71748517,
+     "etag": "c5ba5221fba6b7e6a6dedf7e5b52896f",
+     "modificado": "2026-10-24T02:08:17.941Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_590000_600000.parquet",
+     "tamanho": 48877709,
+     "etag": "d3850a4ef364db9831cc80cf730af2a3",
+     "modificado": "2026-09-09T17:48:28.291Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5910000_5920000.parquet",
+     "tamanho": 38679466,
+     "etag": "ddb0481e39e93282392d51f2fafb575d",
+     "modificado": "2026-10-25T02:07:30.414Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5920000_5930000.parquet",
+     "tamanho": 38928784,
+     "etag": "f0a0a46243a6f1330771043f6aef9049",
+     "modificado": "2026-10-27T02:07:39.681Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_5930000_5940000.parquet",
+     "tamanho": 49824047,
+     "etag": "a42f85932e0b19acc73b6b6fb7da9de6",
+     "modificado": "2026-10-29T02:08:19.642Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_600000_610000.parquet",
+     "tamanho": 41114729,
+     "etag": "df1851197e8bb13b0550413026fc0968",
+     "modificado": "2026-09-09T17:48:39.285Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_60000_70000.parquet",
+     "tamanho": 75076156,
+     "etag": "b2f84ae3687de764b7ff80f845424693",
+     "modificado": "2026-09-09T17:34:23.411Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_610000_620000.parquet",
+     "tamanho": 41633145,
+     "etag": "36c9b7d41eb882e307db4b71fac6e8c7",
+     "modificado": "2026-09-09T17:48:50.358Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_620000_630000.parquet",
+     "tamanho": 42820226,
+     "etag": "47b666fcbf111d2807fdde3af4eeda3c",
+     "modificado": "2026-09-09T17:49:01.946Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_630000_640000.parquet",
+     "tamanho": 59067847,
+     "etag": "7cf81b2cc26a6c8fc3619e11ca1b7c7d",
+     "modificado": "2026-09-09T17:49:14.558Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_640000_650000.parquet",
+     "tamanho": 63578291,
+     "etag": "58840c58e4842f611d5ff2fcbd11faf3",
+     "modificado": "2026-09-09T17:49:27.721Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_650000_660000.parquet",
+     "tamanho": 64083583,
+     "etag": "5bf79f9864327050b54f25843a059c75",
+     "modificado": "2026-09-09T17:49:41.154Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_660000_670000.parquet",
+     "tamanho": 64721791,
+     "etag": "3c298739064d293733f8e153154c4ad0",
+     "modificado": "2026-09-09T17:49:54.982Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_670000_680000.parquet",
+     "tamanho": 57446709,
+     "etag": "ef278eb8d81b998d3cb35b2e1bb74b2c",
+     "modificado": "2026-09-09T17:50:07.531Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_680000_690000.parquet",
+     "tamanho": 53883608,
+     "etag": "6a95cce36c6e5a0ae1aab323f27b796d",
+     "modificado": "2026-09-09T17:50:19.918Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_690000_700000.parquet",
+     "tamanho": 73488594,
+     "etag": "5010ccbc1b69dc52710131e16ae06e45",
+     "modificado": "2026-09-09T17:50:36.321Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_700000_710000.parquet",
+     "tamanho": 58265424,
+     "etag": "723bf734a5b1a4d123c39af2df9ebf75",
+     "modificado": "2026-09-09T17:50:51.580Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_70000_80000.parquet",
+     "tamanho": 78122777,
+     "etag": "83c95f598a16303dedf019ef343a4630",
+     "modificado": "2026-09-09T17:34:41.213Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_710000_720000.parquet",
+     "tamanho": 88705712,
+     "etag": "b7ed3b661c2955f54006492ba0891a57",
+     "modificado": "2026-09-09T17:51:10.847Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_720000_730000.parquet",
+     "tamanho": 82709920,
+     "etag": "a36fd4ec715e26b057342bd550f74645",
+     "modificado": "2026-09-09T17:51:27.354Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_730000_740000.parquet",
+     "tamanho": 67531351,
+     "etag": "e122bebf9c1fa9d02512601483038f66",
+     "modificado": "2026-09-09T17:51:42.073Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_740000_750000.parquet",
+     "tamanho": 55517257,
+     "etag": "13a9923c17aa9191bc7e9aa52dabca48",
+     "modificado": "2026-09-09T17:51:55.599Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_750000_760000.parquet",
+     "tamanho": 64304046,
+     "etag": "de3ed883fda18005aa2fdb3dc4ebf76e",
+     "modificado": "2026-09-09T17:52:09.776Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_760000_770000.parquet",
+     "tamanho": 55554582,
+     "etag": "896484437fc001d5ab8740374ba9ca27",
+     "modificado": "2026-09-09T17:52:22.763Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_770000_780000.parquet",
+     "tamanho": 63961490,
+     "etag": "b31f4fcd2bc985ce0f0a531f645d81a8",
+     "modificado": "2026-09-09T17:52:37.598Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_780000_790000.parquet",
+     "tamanho": 61671952,
+     "etag": "844db87f877e54ff39b17c8b5b1a84f1",
+     "modificado": "2026-09-09T17:52:52.043Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_790000_800000.parquet",
+     "tamanho": 42240538,
+     "etag": "0872894545ddc3f1205e9891526523c1",
+     "modificado": "2026-09-09T17:53:03.185Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_800000_810000.parquet",
+     "tamanho": 60116628,
+     "etag": "01e2438162261ce23aa02b4339567eda",
+     "modificado": "2026-09-09T17:53:18.071Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_80000_90000.parquet",
+     "tamanho": 78162165,
+     "etag": "3a13758e4e653a30d2b2b858c136d388",
+     "modificado": "2026-09-09T17:34:59.292Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_810000_820000.parquet",
+     "tamanho": 61374543,
+     "etag": "53d2174eaaf4a5c5cff06918a50aeaa5",
+     "modificado": "2026-09-09T17:53:32.473Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_820000_830000.parquet",
+     "tamanho": 46271206,
+     "etag": "3328002e9544c1864a96fb7e176e331f",
+     "modificado": "2026-09-09T17:53:56.489Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_830000_840000.parquet",
+     "tamanho": 60756349,
+     "etag": "62a692a9585e39b0e352bb2483ae16a5",
+     "modificado": "2026-09-09T17:54:10.068Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_840000_850000.parquet",
+     "tamanho": 62505003,
+     "etag": "e7924c21d169615a3aa61f4e83303759",
+     "modificado": "2026-09-09T17:54:23.770Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_850000_860000.parquet",
+     "tamanho": 63347282,
+     "etag": "59c14be92f42445b8ae154ef30c3d386",
+     "modificado": "2026-09-09T17:54:38.011Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_860000_870000.parquet",
+     "tamanho": 64959065,
+     "etag": "bef5cdf19546f55e1428c6341deba1cc",
+     "modificado": "2026-09-09T17:54:53.552Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_870000_880000.parquet",
+     "tamanho": 72211583,
+     "etag": "40c902d65a2167baf014ec1a1fae23c4",
+     "modificado": "2026-09-09T17:55:09.591Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_880000_890000.parquet",
+     "tamanho": 63262660,
+     "etag": "682addfa1fd4df1979a44e7639540e02",
+     "modificado": "2026-09-09T17:55:22.497Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_890000_900000.parquet",
+     "tamanho": 49507907,
+     "etag": "357582e8cf19ae8488298464fd1a2da6",
+     "modificado": "2026-09-09T17:55:33.976Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_900000_910000.parquet",
+     "tamanho": 47870212,
+     "etag": "5bd18831f2b4536b61071fe398450eb6",
+     "modificado": "2026-09-09T17:55:45.258Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_90000_100000.parquet",
+     "tamanho": 76304613,
+     "etag": "cdbbdff12ac37f68bd233c109d45d497",
+     "modificado": "2026-09-09T17:35:17.651Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_910000_920000.parquet",
+     "tamanho": 59400849,
+     "etag": "9813afd2bc73995928e4bf77200390a1",
+     "modificado": "2026-09-09T17:55:57.618Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_920000_930000.parquet",
+     "tamanho": 66429183,
+     "etag": "2d2673cd29382c6448732de647972fb4",
+     "modificado": "2026-09-09T17:56:10.516Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_930000_940000.parquet",
+     "tamanho": 67976962,
+     "etag": "f794f542cbb95de7102926ad19d25e28",
+     "modificado": "2026-09-09T17:56:23.073Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_940000_950000.parquet",
+     "tamanho": 63449197,
+     "etag": "476d7c5c4220603e7d5cfb012b784719",
+     "modificado": "2026-09-09T17:56:35.286Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_950000_960000.parquet",
+     "tamanho": 58410207,
+     "etag": "48bb41c049e085ac69bfa020802634b5",
+     "modificado": "2026-09-09T17:56:47.769Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_960000_970000.parquet",
+     "tamanho": 68962125,
+     "etag": "967b96662eca18a467cc582ecd5c7330",
+     "modificado": "2026-09-09T17:57:01.560Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_970000_980000.parquet",
+     "tamanho": 61742393,
+     "etag": "91df8b1b0888766e19151f661c220b90",
+     "modificado": "2026-09-09T17:57:14.723Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_980000_990000.parquet",
+     "tamanho": 53638255,
+     "etag": "d0e5d54dea68c59fe4ec28a52ac43c05",
+     "modificado": "2026-09-09T17:57:27.136Z"
+    },
+    {
+     "chave": "v2/compiled_contracts/compiled_contracts_990000_1000000.parquet",
+     "tamanho": 20609732,
+     "etag": "cd52cd45e83baa7272654db73b23940b",
+     "modificado": "2026-09-09T17:57:38.032Z"
+    }
+   ]
+  },
+  "contracts": {
+   "colunas": "id, runtime_code_hash",
+   "filtro": "",
+   "arquivos": [
+    {
+     "chave": "v2/contracts/contracts_0_1000000.parquet",
+     "tamanho": 58256298,
+     "etag": "0c271e1d59a8886d5f336a7b44c1f9aa",
+     "modificado": "2026-09-09T16:07:29.995Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_10000000_11000000.parquet",
+     "tamanho": 74180783,
+     "etag": "880a67a76881ab4fd3d4f4051c2b8173",
+     "modificado": "2026-09-09T16:16:24.929Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_1000000_2000000.parquet",
+     "tamanho": 51618562,
+     "etag": "d4a28301e345bdb35a437dedc99ab3ed",
+     "modificado": "2026-09-09T16:08:20.113Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_11000000_12000000.parquet",
+     "tamanho": 79045243,
+     "etag": "af24e013c763a36583bb26c2cd1c21b3",
+     "modificado": "2026-09-09T16:17:19.390Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_12000000_13000000.parquet",
+     "tamanho": 98712123,
+     "etag": "b4785d263519b34c4ee96bcf16378ba1",
+     "modificado": "2026-09-09T16:18:13.798Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_13000000_14000000.parquet",
+     "tamanho": 98456568,
+     "etag": "be82992bc44cc0abb72616dd6ed8232d",
+     "modificado": "2026-09-09T16:19:08.567Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_14000000_15000000.parquet",
+     "tamanho": 100140234,
+     "etag": "35c3cbacd60ceeb448d6affcb031b6ae",
+     "modificado": "2026-09-09T16:20:09.170Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_15000000_16000000.parquet",
+     "tamanho": 97816126,
+     "etag": "a1f64331a605d36dd4f832caa8f26a62",
+     "modificado": "2026-09-09T16:21:11.855Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_16000000_17000000.parquet",
+     "tamanho": 99387569,
+     "etag": "a7f0d903e6c23e3073000841ae48c2e2",
+     "modificado": "2026-09-09T16:22:18.894Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_17000000_18000000.parquet",
+     "tamanho": 99680256,
+     "etag": "69a2914037c633b65ec5d28c88d54794",
+     "modificado": "2026-09-09T16:23:16.392Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_18000000_19000000.parquet",
+     "tamanho": 99145075,
+     "etag": "1f8d5564509daea8e0bfca2370c06208",
+     "modificado": "2026-09-09T16:24:10.964Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_19000000_20000000.parquet",
+     "tamanho": 99309885,
+     "etag": "e8b19583d4a4042a320d75cdd56cd861",
+     "modificado": "2026-09-09T16:25:06.200Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_20000000_21000000.parquet",
+     "tamanho": 99479736,
+     "etag": "7a3c4d5ba8de075f3738b6f5d7fea486",
+     "modificado": "2026-09-09T16:26:01.406Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_2000000_3000000.parquet",
+     "tamanho": 47831793,
+     "etag": "6ece40aaa8f9330f8b8bd00ced4b2a6e",
+     "modificado": "2026-09-09T16:09:10.571Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_21000000_22000000.parquet",
+     "tamanho": 98589828,
+     "etag": "9823f407430cf35a2cd4444ef38a8e88",
+     "modificado": "2026-09-09T16:26:56.819Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_22000000_23000000.parquet",
+     "tamanho": 95343430,
+     "etag": "04f75ac9980d3aae7586272d7ad7832b",
+     "modificado": "2026-09-09T16:27:49.714Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_23000000_24000000.parquet",
+     "tamanho": 80626652,
+     "etag": "e347a333ecaa7a2a1ac03ff393d46744",
+     "modificado": "2026-09-09T16:28:41.081Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_24000000_25000000.parquet",
+     "tamanho": 74015555,
+     "etag": "732d0f15df2f284b2e5dea83d42b1daf",
+     "modificado": "2026-09-09T16:29:32.802Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_25000000_26000000.parquet",
+     "tamanho": 38169338,
+     "etag": "31ae95654ec2fb86e2628ba38ca9c399",
+     "modificado": "2026-09-09T16:30:22.690Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_26000000_27000000.parquet",
+     "tamanho": 38331759,
+     "etag": "12cb70e53196cd7d45c77cf1d981b1d5",
+     "modificado": "2026-09-09T16:31:17.091Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_27000000_28000000.parquet",
+     "tamanho": 46990962,
+     "etag": "ff46052cb096e1f8953c4bf3d07b0997",
+     "modificado": "2026-09-10T08:05:37.747Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_28000000_29000000.parquet",
+     "tamanho": 42588464,
+     "etag": "ab9807a77f579e7f2468191e080fc644",
+     "modificado": "2026-09-10T23:00:58.492Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_29000000_30000000.parquet",
+     "tamanho": 38465504,
+     "etag": "bb42d32e3eee293aed3d39c2019e9deb",
+     "modificado": "2026-09-13T02:03:57.740Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_30000000_31000000.parquet",
+     "tamanho": 38619201,
+     "etag": "ee31476242a61c532717785ab264d75e",
+     "modificado": "2026-09-15T02:03:16.515Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_3000000_4000000.parquet",
+     "tamanho": 45437290,
+     "etag": "d0a385bcea94df4939cd804155a1eec7",
+     "modificado": "2026-09-09T16:10:00.589Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_31000000_32000000.parquet",
+     "tamanho": 51516697,
+     "etag": "ffb9eb96655cb3f428ad74530f50ae90",
+     "modificado": "2026-09-27T02:07:26.543Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_32000000_33000000.parquet",
+     "tamanho": 46139953,
+     "etag": "444810a5df50dda10635b56908a584b4",
+     "modificado": "2026-09-30T02:04:22.893Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_33000000_34000000.parquet",
+     "tamanho": 57036068,
+     "etag": "fe2db3c738b20c6d9ec73d4a6e46560e",
+     "modificado": "2026-10-08T02:03:40.801Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_34000000_35000000.parquet",
+     "tamanho": 62160510,
+     "etag": "04f3a6dfe3a0bc6806aa0ffbc567c856",
+     "modificado": "2026-10-29T02:03:15.063Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_4000000_5000000.parquet",
+     "tamanho": 88593759,
+     "etag": "bc33d1139c9199b3cddfb5ccc75001e8",
+     "modificado": "2026-09-09T16:10:53.526Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_5000000_6000000.parquet",
+     "tamanho": 95342303,
+     "etag": "54d20cb82ce7849558bb8ce7aefd6b3c",
+     "modificado": "2026-09-09T16:11:47.297Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_6000000_7000000.parquet",
+     "tamanho": 88040477,
+     "etag": "8d5dcde4b9ba9505846f7e06c54d9695",
+     "modificado": "2026-09-09T16:12:48.356Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_7000000_8000000.parquet",
+     "tamanho": 77272755,
+     "etag": "5b9277b74921dfcfd051dee050096685",
+     "modificado": "2026-09-09T16:13:39.552Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_8000000_9000000.parquet",
+     "tamanho": 82204300,
+     "etag": "3c81cab7a5b777347103a9098adcfe82",
+     "modificado": "2026-09-09T16:14:33.056Z"
+    },
+    {
+     "chave": "v2/contracts/contracts_9000000_10000000.parquet",
+     "tamanho": 74061779,
+     "etag": "a63b86ae7810b985be8c909a32fb8e0f",
+     "modificado": "2026-09-09T16:15:26.550Z"
+    }
+   ]
+  }
+ }
+}

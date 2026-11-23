@@ -1,0 +1,707 @@
+{
+ "chamada+": {
+  "esquema": "certidao-atesta/1",
+  "verificador": {
+   "nome": "atesta",
+   "versao": "1.7.0"
+  },
+  "contrato": {
+   "rede": 0,
+   "endereco": "0x248e85939e48ca12a20cdf80e60d9e3d380ca7f9",
+   "bloco_referencia": 9,
+   "tamanho_codigo": 282,
+   "resumo_codigo": "0xe45638ac83ed5331c7195b1f4f0d39429d5d187d184988ab55568b9940d6c68d"
+  },
+  "acervo": {
+   "match_id": null,
+   "grau_codigo_execucao": "exata",
+   "grau_codigo_criacao": null,
+   "compilador": "0.8.37+commit.f401782d",
+   "linguagem": "Solidity",
+   "contrato_compilado": "Controles.sol:BibliotecaControle",
+   "verificado_em": null
+  },
+  "situacao": "processado",
+  "recompilacao": {
+   "tipo_contrato": "library",
+   "tamanho_recompilado": 282,
+   "tamanho_cadeia": 282,
+   "blocos_removidos": 0,
+   "metadados_em_F": false,
+   "ajustes_dos_metadados": [],
+   "motor": "solc nativo"
+  },
+  "regioes": [
+   {
+    "inicio": 1,
+    "comprimento": 20,
+    "motivo": "callProtection",
+    "construto": "protecao_de_chamada",
+    "valor": "0x248e85939e48ca12a20cdf80e60d9e3d380ca7f9",
+    "tipo": "address",
+    "tau_address": true
+   }
+  ],
+  "constantes": [
+   {
+    "construto": "protecao_de_chamada",
+    "motivo": "callProtection",
+    "tipo": "address",
+    "tau_address": true,
+    "regioes": 1,
+    "valores": [
+     "0x248e85939e48ca12a20cdf80e60d9e3d380ca7f9"
+    ],
+    "valores_distintos": 1,
+    "literais_no_codigo_de_criacao": []
+   }
+  ],
+  "cobertura": 0.9290780141843972,
+  "bytes_nao_atestados": 20,
+  "indicador_equacao_2": 1,
+  "confronto_acervo": {
+   "so_no_acervo": [],
+   "so_no_verificador": [
+    [
+     "callProtection",
+     1
+    ]
+   ],
+   "coincide": false
+  },
+  "segundos": 0.1
+ },
+ "imutavel+": {
+  "esquema": "certidao-atesta/1",
+  "verificador": {
+   "nome": "atesta",
+   "versao": "1.7.0"
+  },
+  "contrato": {
+   "rede": 0,
+   "endereco": "0x3d6970e3d1860d8f243dea36c11e2a7c66987a5b",
+   "bloco_referencia": 9,
+   "tamanho_codigo": 903,
+   "resumo_codigo": "0x948e16428ad21ef717c579d39c95a113bd85c2d508224a4c43e9a1f180a412a4"
+  },
+  "acervo": {
+   "match_id": null,
+   "grau_codigo_execucao": "exata",
+   "grau_codigo_criacao": null,
+   "compilador": "0.8.37+commit.f401782d",
+   "linguagem": "Solidity",
+   "contrato_compilado": "Controles.sol:ControleImutavelPositivo",
+   "verificado_em": null
+  },
+  "situacao": "processado",
+  "recompilacao": {
+   "tipo_contrato": "contract",
+   "tamanho_recompilado": 903,
+   "tamanho_cadeia": 903,
+   "blocos_removidos": 0,
+   "metadados_em_F": false,
+   "ajustes_dos_metadados": [],
+   "motor": "solc nativo"
+  },
+  "regioes": [
+   {
+    "inicio": 142,
+    "comprimento": 32,
+    "motivo": "immutable",
+    "construto": "imutavel:26",
+    "valor": "0x0000000000000000000000001111111111111111111111111111111111111111",
+    "tipo": "address",
+    "tau_address": true
+   },
+   {
+    "inicio": 210,
+    "comprimento": 32,
+    "motivo": "immutable",
+    "construto": "imutavel:42",
+    "valor": "0x00000000000000000000000000000000000000000000000000000000075bcd15",
+    "tipo": "uint256",
+    "tau_address": false
+   },
+   {
+    "inicio": 263,
+    "comprimento": 32,
+    "motivo": "immutable",
+    "construto": "imutavel:40",
+    "valor": "0x0000000000000000000000002222222222222222222222222222222222222222",
+    "tipo": "EnderecoPagavel (sobre address payable)",
+    "tau_address": true
+   },
+   {
+    "inicio": 302,
+    "comprimento": 32,
+    "motivo": "immutable",
+    "construto": "imutavel:37",
+    "valor": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "tipo": "Endereco (sobre address)",
+    "tau_address": true
+   },
+   {
+    "inicio": 349,
+    "comprimento": 32,
+    "motivo": "immutable",
+    "construto": "imutavel:31",
+    "valor": "0x00000000000000000000000032dcab0ef3fb2de2fce1d2e0799d36239671f04a",
+    "tipo": "contract Alvo",
+    "tau_address": true
+   },
+   {
+    "inicio": 388,
+    "comprimento": 32,
+    "motivo": "immutable",
+    "construto": "imutavel:28",
+    "valor": "0x0000000000000000000000001a642f0e3c3af545e7acbd38b07251b3990914f1",
+    "tipo": "address payable",
+    "tau_address": true
+   },
+   {
+    "inicio": 427,
+    "comprimento": 32,
+    "motivo": "immutable",
+    "construto": "imutavel:34",
+    "valor": "0x00000000000000000000000032dcab0ef3fb2de2fce1d2e0799d36239671f04a",
+    "tipo": "contract IAlvo",
+    "tau_address": true
+   },
+   {
+    "inicio": 464,
+    "comprimento": 32,
+    "motivo": "immutable",
+    "construto": "imutavel:40",
+    "valor": "0x0000000000000000000000002222222222222222222222222222222222222222",
+    "tipo": "EnderecoPagavel (sobre address payable)",
+    "tau_address": true
+   },
+   {
+    "inicio": 506,
+    "comprimento": 32,
+    "motivo": "immutable",
+    "construto": "imutavel:37",
+    "valor": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "tipo": "Endereco (sobre address)",
+    "tau_address": true
+   },
+   {
+    "inicio": 548,
+    "comprimento": 32,
+    "motivo": "immutable",
+    "construto": "imutavel:34",
+    "valor": "0x00000000000000000000000032dcab0ef3fb2de2fce1d2e0799d36239671f04a",
+    "tipo": "contract IAlvo",
+    "tau_address": true
+   },
+   {
+    "inicio": 590,
+    "comprimento": 32,
+    "motivo": "immutable",
+    "construto": "imutavel:31",
+    "valor": "0x00000000000000000000000032dcab0ef3fb2de2fce1d2e0799d36239671f04a",
+    "tipo": "contract Alvo",
+    "tau_address": true
+   },
+   {
+    "inicio": 632,
+    "comprimento": 32,
+    "motivo": "immutable",
+    "construto": "imutavel:28",
+    "valor": "0x0000000000000000000000001a642f0e3c3af545e7acbd38b07251b3990914f1",
+    "tipo": "address payable",
+    "tau_address": true
+   },
+   {
+    "inicio": 674,
+    "comprimento": 32,
+    "motivo": "immutable",
+    "construto": "imutavel:26",
+    "valor": "0x0000000000000000000000001111111111111111111111111111111111111111",
+    "tipo": "address",
+    "tau_address": true
+   },
+   {
+    "inicio": 716,
+    "comprimento": 32,
+    "motivo": "immutable",
+    "construto": "imutavel:42",
+    "valor": "0x00000000000000000000000000000000000000000000000000000000075bcd15",
+    "tipo": "uint256",
+    "tau_address": false
+   }
+  ],
+  "constantes": [
+   {
+    "construto": "imutavel:26",
+    "motivo": "immutable",
+    "tipo": "address",
+    "tau_address": true,
+    "regioes": 2,
+    "valores": [
+     "0x1111111111111111111111111111111111111111"
+    ],
+    "valores_distintos": 1,
+    "literais_no_codigo_de_criacao": []
+   },
+   {
+    "construto": "imutavel:42",
+    "motivo": "immutable",
+    "tipo": "uint256",
+    "tau_address": false,
+    "regioes": 2,
+    "valores": [
+     "0x00000000000000000000000000000000000000000000000000000000075bcd15"
+    ],
+    "valores_distintos": 1
+   },
+   {
+    "construto": "imutavel:40",
+    "motivo": "immutable",
+    "tipo": "EnderecoPagavel (sobre address payable)",
+    "tau_address": true,
+    "regioes": 2,
+    "valores": [
+     "0x2222222222222222222222222222222222222222"
+    ],
+    "valores_distintos": 1,
+    "literais_no_codigo_de_criacao": []
+   },
+   {
+    "construto": "imutavel:37",
+    "motivo": "immutable",
+    "tipo": "Endereco (sobre address)",
+    "tau_address": true,
+    "regioes": 2,
+    "valores": [
+     "0x0000000000000000000000000000000000000000"
+    ],
+    "valores_distintos": 1,
+    "literais_no_codigo_de_criacao": []
+   },
+   {
+    "construto": "imutavel:31",
+    "motivo": "immutable",
+    "tipo": "contract Alvo",
+    "tau_address": true,
+    "regioes": 2,
+    "valores": [
+     "0x32dcab0ef3fb2de2fce1d2e0799d36239671f04a"
+    ],
+    "valores_distintos": 1,
+    "literais_no_codigo_de_criacao": []
+   },
+   {
+    "construto": "imutavel:28",
+    "motivo": "immutable",
+    "tipo": "address payable",
+    "tau_address": true,
+    "regioes": 2,
+    "valores": [
+     "0x1a642f0e3c3af545e7acbd38b07251b3990914f1"
+    ],
+    "valores_distintos": 1,
+    "literais_no_codigo_de_criacao": []
+   },
+   {
+    "construto": "imutavel:34",
+    "motivo": "immutable",
+    "tipo": "contract IAlvo",
+    "tau_address": true,
+    "regioes": 2,
+    "valores": [
+     "0x32dcab0ef3fb2de2fce1d2e0799d36239671f04a"
+    ],
+    "valores_distintos": 1,
+    "literais_no_codigo_de_criacao": []
+   }
+  ],
+  "cobertura": 0.5038759689922481,
+  "bytes_nao_atestados": 448,
+  "indicador_equacao_2": 1,
+  "confronto_acervo": {
+   "so_no_acervo": [],
+   "so_no_verificador": [
+    [
+     "immutable",
+     142
+    ],
+    [
+     "immutable",
+     210
+    ],
+    [
+     "immutable",
+     263
+    ],
+    [
+     "immutable",
+     302
+    ],
+    [
+     "immutable",
+     349
+    ],
+    [
+     "immutable",
+     388
+    ],
+    [
+     "immutable",
+     427
+    ],
+    [
+     "immutable",
+     464
+    ],
+    [
+     "immutable",
+     506
+    ],
+    [
+     "immutable",
+     548
+    ],
+    [
+     "immutable",
+     590
+    ],
+    [
+     "immutable",
+     632
+    ],
+    [
+     "immutable",
+     674
+    ],
+    [
+     "immutable",
+     716
+    ]
+   ],
+   "coincide": false
+  },
+  "segundos": 0.1
+ },
+ "imutavel-": {
+  "esquema": "certidao-atesta/1",
+  "verificador": {
+   "nome": "atesta",
+   "versao": "1.7.0"
+  },
+  "contrato": {
+   "rede": 0,
+   "endereco": "0x2bea3833344507da3019f46dd77a67b34738bc67",
+   "bloco_referencia": 9,
+   "tamanho_codigo": 560,
+   "resumo_codigo": "0xbd16a4f1af672039431c2e1f2ccc5819b39883416cf9f5fbb7aa27e5b2985f69"
+  },
+  "acervo": {
+   "match_id": null,
+   "grau_codigo_execucao": "exata",
+   "grau_codigo_criacao": null,
+   "compilador": "0.8.37+commit.f401782d",
+   "linguagem": "Solidity",
+   "contrato_compilado": "Controles.sol:ControleImutavelNegativo",
+   "verificado_em": null
+  },
+  "situacao": "processado",
+  "recompilacao": {
+   "tipo_contrato": "contract",
+   "tamanho_recompilado": 560,
+   "tamanho_cadeia": 560,
+   "blocos_removidos": 0,
+   "metadados_em_F": false,
+   "ajustes_dos_metadados": [],
+   "motor": "solc nativo"
+  },
+  "regioes": [],
+  "constantes": [],
+  "cobertura": 1.0,
+  "bytes_nao_atestados": 0,
+  "indicador_equacao_2": 0,
+  "confronto_acervo": {
+   "so_no_acervo": [],
+   "so_no_verificador": [],
+   "coincide": true
+  },
+  "segundos": 0.1
+ },
+ "chamada-": {
+  "esquema": "certidao-atesta/1",
+  "verificador": {
+   "nome": "atesta",
+   "versao": "1.7.0"
+  },
+  "contrato": {
+   "rede": 0,
+   "endereco": "0x3a989ab956ead3ae653a0da4d1b280829882169b",
+   "bloco_referencia": 9,
+   "tamanho_codigo": 245,
+   "resumo_codigo": "0x7cd23cc8e59fc40385c487fdb3e7ee02e940e1f7b7caecceb46a75005ef95766"
+  },
+  "acervo": {
+   "match_id": null,
+   "grau_codigo_execucao": "exata",
+   "grau_codigo_criacao": null,
+   "compilador": "0.8.37+commit.f401782d",
+   "linguagem": "Solidity",
+   "contrato_compilado": "Controles.sol:ControleChamadaNegativo",
+   "verificado_em": null
+  },
+  "situacao": "processado",
+  "recompilacao": {
+   "tipo_contrato": "contract",
+   "tamanho_recompilado": 245,
+   "tamanho_cadeia": 245,
+   "blocos_removidos": 0,
+   "metadados_em_F": false,
+   "ajustes_dos_metadados": [],
+   "motor": "solc nativo"
+  },
+  "regioes": [],
+  "constantes": [],
+  "cobertura": 1.0,
+  "bytes_nao_atestados": 0,
+  "indicador_equacao_2": 0,
+  "confronto_acervo": {
+   "so_no_acervo": [],
+   "so_no_verificador": [],
+   "coincide": true
+  },
+  "segundos": 0.1
+ },
+ "biblioteca+": {
+  "esquema": "certidao-atesta/1",
+  "verificador": {
+   "nome": "atesta",
+   "versao": "1.7.0"
+  },
+  "contrato": {
+   "rede": 0,
+   "endereco": "0xea8d94123f55efced3c47c6b94e3a27733889101",
+   "bloco_referencia": 9,
+   "tamanho_codigo": 409,
+   "resumo_codigo": "0xfb0d9fd5dfb2f838cd774886179bcbe4aeb48ab55dfcbfcafdddf5864c4e60bc"
+  },
+  "acervo": {
+   "match_id": null,
+   "grau_codigo_execucao": "exata",
+   "grau_codigo_criacao": null,
+   "compilador": "0.8.37+commit.f401782d",
+   "linguagem": "Solidity",
+   "contrato_compilado": "Controles.sol:ControleBiblioteca",
+   "verificado_em": null
+  },
+  "situacao": "processado",
+  "recompilacao": {
+   "tipo_contrato": "contract",
+   "tamanho_recompilado": 409,
+   "tamanho_cadeia": 409,
+   "blocos_removidos": 0,
+   "metadados_em_F": false,
+   "ajustes_dos_metadados": [],
+   "motor": "solc nativo"
+  },
+  "regioes": [
+   {
+    "inicio": 113,
+    "comprimento": 20,
+    "motivo": "library",
+    "construto": "biblioteca:Controles.sol:BibliotecaControle",
+    "valor": "0x248e85939e48ca12a20cdf80e60d9e3d380ca7f9",
+    "tipo": "address",
+    "tau_address": true
+   },
+   {
+    "inicio": 209,
+    "comprimento": 20,
+    "motivo": "library",
+    "construto": "biblioteca:Controles.sol:BibliotecaControle",
+    "valor": "0x248e85939e48ca12a20cdf80e60d9e3d380ca7f9",
+    "tipo": "address",
+    "tau_address": true
+   }
+  ],
+  "constantes": [
+   {
+    "construto": "biblioteca:Controles.sol:BibliotecaControle",
+    "motivo": "library",
+    "tipo": "address",
+    "tau_address": true,
+    "regioes": 2,
+    "valores": [
+     "0x248e85939e48ca12a20cdf80e60d9e3d380ca7f9"
+    ],
+    "valores_distintos": 1,
+    "literais_no_codigo_de_criacao": []
+   }
+  ],
+  "cobertura": 0.902200488997555,
+  "bytes_nao_atestados": 40,
+  "indicador_equacao_2": 1,
+  "confronto_acervo": {
+   "so_no_acervo": [],
+   "so_no_verificador": [
+    [
+     "library",
+     113
+    ],
+    [
+     "library",
+     209
+    ]
+   ],
+   "coincide": false
+  },
+  "segundos": 0.1
+ },
+ "biblioteca-": {
+  "esquema": "certidao-atesta/1",
+  "verificador": {
+   "nome": "atesta",
+   "versao": "1.7.0"
+  },
+  "contrato": {
+   "rede": 0,
+   "endereco": "0xf660e5ab1cf0ec7fb0b4cc1eace444a78f7d70f4",
+   "bloco_referencia": 9,
+   "tamanho_codigo": 409,
+   "resumo_codigo": "0x91ee498cb1e1df15210a3c5f386d57ca752cc2c68c269016ed40cc4ef91b04e6"
+  },
+  "acervo": {
+   "match_id": null,
+   "grau_codigo_execucao": "exata",
+   "grau_codigo_criacao": null,
+   "compilador": "0.8.37+commit.f401782d",
+   "linguagem": "Solidity",
+   "contrato_compilado": "Controles.sol:ControleBiblioteca",
+   "verificado_em": null
+  },
+  "situacao": "processado",
+  "recompilacao": {
+   "tipo_contrato": "contract",
+   "tamanho_recompilado": 409,
+   "tamanho_cadeia": 409,
+   "blocos_removidos": 0,
+   "metadados_em_F": false,
+   "ajustes_dos_metadados": [],
+   "motor": "solc nativo"
+  },
+  "regioes": [],
+  "constantes": [],
+  "cobertura": 1.0,
+  "bytes_nao_atestados": 0,
+  "indicador_equacao_2": 0,
+  "confronto_acervo": {
+   "so_no_acervo": [],
+   "so_no_verificador": [],
+   "coincide": true
+  },
+  "segundos": 0.1
+ },
+ "metadados+": {
+  "esquema": "certidao-atesta/1",
+  "verificador": {
+   "nome": "atesta",
+   "versao": "1.7.0"
+  },
+  "contrato": {
+   "rede": 0,
+   "endereco": "0xcc4c548df31767a3da2d06dd6f7c4be112457e7e",
+   "bloco_referencia": 9,
+   "tamanho_codigo": 170,
+   "resumo_codigo": "0xa7ec573c915b5d148dfa837f5e218b266e5b06a95a970da373174d732625caf7"
+  },
+  "acervo": {
+   "match_id": null,
+   "grau_codigo_execucao": "parcial",
+   "grau_codigo_criacao": null,
+   "compilador": "0.8.37+commit.f401782d",
+   "linguagem": "Solidity",
+   "contrato_compilado": "Metadados.sol:ControleMetadados",
+   "verificado_em": null
+  },
+  "situacao": "processado",
+  "recompilacao": {
+   "tipo_contrato": "contract",
+   "tamanho_recompilado": 170,
+   "tamanho_cadeia": 170,
+   "blocos_removidos": 0,
+   "metadados_em_F": true,
+   "posicoes_metadados": "acervo",
+   "ajustes_dos_metadados": [],
+   "motor": "solc nativo"
+  },
+  "regioes": [
+   {
+    "inicio": 117,
+    "comprimento": 53,
+    "motivo": "cborAuxdata",
+    "construto": "metadados:1",
+    "valor": "0xa2646970667358221220e48e22a5c70e9ba10ee70b89e766a295878107aa0d9c9d7c383884d4b070b6fb64736f6c63430008250033",
+    "tipo": "metadados",
+    "tau_address": false
+   }
+  ],
+  "constantes": [],
+  "cobertura": 0.6882352941176471,
+  "bytes_nao_atestados": 53,
+  "indicador_equacao_2": 0,
+  "confronto_acervo": {
+   "so_no_acervo": [],
+   "so_no_verificador": [
+    [
+     "cborAuxdata",
+     117
+    ]
+   ],
+   "coincide": false
+  },
+  "segundos": 0.0
+ },
+ "metadados-": {
+  "esquema": "certidao-atesta/1",
+  "verificador": {
+   "nome": "atesta",
+   "versao": "1.7.0"
+  },
+  "contrato": {
+   "rede": 0,
+   "endereco": "0xd0e2105ab025bd19229668044fef3f80d9660675",
+   "bloco_referencia": 9,
+   "tamanho_codigo": 170,
+   "resumo_codigo": "0xa7ec573c915b5d148dfa837f5e218b266e5b06a95a970da373174d732625caf7"
+  },
+  "acervo": {
+   "match_id": null,
+   "grau_codigo_execucao": "exata",
+   "grau_codigo_criacao": null,
+   "compilador": "0.8.37+commit.f401782d",
+   "linguagem": "Solidity",
+   "contrato_compilado": "Metadados.sol:ControleMetadados",
+   "verificado_em": null
+  },
+  "situacao": "processado",
+  "recompilacao": {
+   "tipo_contrato": "contract",
+   "tamanho_recompilado": 170,
+   "tamanho_cadeia": 170,
+   "blocos_removidos": 0,
+   "metadados_em_F": false,
+   "ajustes_dos_metadados": [],
+   "motor": "solc nativo"
+  },
+  "regioes": [],
+  "constantes": [],
+  "cobertura": 1.0,
+  "bytes_nao_atestados": 0,
+  "indicador_equacao_2": 0,
+  "confronto_acervo": {
+   "so_no_acervo": [],
+   "so_no_verificador": [],
+   "coincide": true
+  },
+  "segundos": 0.0
+ }
+}

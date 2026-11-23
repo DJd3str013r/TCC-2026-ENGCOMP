@@ -1,0 +1,25 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.0.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x7d2d16e52458567a415871754e04df532e532687",
+  "bloco_referencia": 26290000,
+  "tamanho_codigo": 1190,
+  "resumo_codigo": "0x1e4366082444073b4bea23568c108c4288f2293bf126f5cd6359c41ec52fc7fe"
+ },
+ "acervo": {
+  "match_id": "26774983",
+  "grau_codigo_execucao": "parcial",
+  "compilador": "0.4.10+commit.f0d539ae",
+  "linguagem": "Solidity",
+  "contrato_compilado": "Deed.sol:Deed",
+  "verificado_em": "2026-03-25T06:41:07Z"
+ },
+ "situacao": "falha",
+ "causa": "ErroCompilacao: solc saiu com 1: unrecognised option '--standard-json'\r\n",
+ "segundos": 6.6
+}

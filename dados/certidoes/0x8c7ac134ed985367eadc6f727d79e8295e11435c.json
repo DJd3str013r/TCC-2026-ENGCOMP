@@ -1,0 +1,59 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x8c7ac134ed985367eadc6f727d79e8295e11435c",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 16187,
+  "resumo_codigo": "0x042493531c3a802ff71b5405b31776630a811ccbef1714cee4357f1128de1173"
+ },
+ "acervo": {
+  "match_id": "2487034",
+  "grau_codigo_execucao": "parcial",
+  "grau_codigo_criacao": "parcial",
+  "compilador": "0.8.20+commit.a1b79de6",
+  "linguagem": "Solidity",
+  "contrato_compilado": "Kekec.sol:Kekec",
+  "verificado_em": "2024-08-08T15:35:16Z",
+  "match_id_instantaneo": 2487034,
+  "grau_instantaneo": "parcial",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 16187,
+  "tamanho_cadeia": 16187,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo",
+  "ajustes_dos_metadados": [],
+  "motor": "solc nativo"
+ },
+ "regioes": [
+  {
+   "inicio": 16134,
+   "comprimento": 53,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa2646970667358221220b379015429356ea3cbca5dc8009bd6bef5af68dcd027e8355abd5713b6f601e264736f6c63430008140033",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [],
+ "cobertura": 0.996725767591277,
+ "bytes_nao_atestados": 53,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.2,
+ "ordem": 154
+}

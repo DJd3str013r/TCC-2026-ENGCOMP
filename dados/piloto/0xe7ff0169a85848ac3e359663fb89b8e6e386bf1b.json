@@ -1,0 +1,72 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.2.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0xe7ff0169a85848ac3e359663fb89b8e6e386bf1b",
+  "bloco_referencia": 26290000,
+  "tamanho_codigo": 252,
+  "resumo_codigo": "0xe1b113ea17afb1b210e39b12cdd6e3489b3d06f2d891db73ec30f50ba8f86413"
+ },
+ "acervo": {
+  "match_id": "2080810",
+  "grau_codigo_execucao": "exata",
+  "compilador": "0.8.5+commit.a4f2e591",
+  "linguagem": "Solidity",
+  "contrato_compilado": "contracts/InitializedProxy.sol:InitializedProxy",
+  "verificado_em": "2024-08-08T14:32:17Z"
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 252,
+  "tamanho_cadeia": 252,
+  "blocos_removidos": 0,
+  "metadados_em_F": false
+ },
+ "regioes": [
+  {
+   "inicio": 42,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:4",
+   "valor": "0x0000000000000000000000004a6d2a7a4f9375ebd4ecdbb1972a767dd83b02de",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 123,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:4",
+   "valor": "0x0000000000000000000000004a6d2a7a4f9375ebd4ecdbb1972a767dd83b02de",
+   "tipo": "address",
+   "tau_address": true
+  }
+ ],
+ "constantes": [
+  {
+   "construto": "imutavel:4",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 2,
+   "valores": [
+    "0x4a6d2a7a4f9375ebd4ecdbb1972a767dd83b02de"
+   ],
+   "valores_distintos": 1
+  }
+ ],
+ "cobertura": 0.746031746031746,
+ "bytes_nao_atestados": 64,
+ "indicador_equacao_2": 1,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 16.1
+}

@@ -1,0 +1,53 @@
+{
+ "mainnet_implantacoes": 8372084,
+ "verificacoes_vigentes_mainnet": 8280991,
+ "enderecos_com_verificacao_vigente": 8280900,
+ "por_linguagem": [
+  [
+   "solidity",
+   8275059
+  ],
+  [
+   "vyper",
+   5712
+  ],
+  [
+   "yul",
+   123
+  ],
+  [
+   "fe",
+   6
+  ]
+ ],
+ "solidity_sem_correspondencia_execucao": 118,
+ "base": 8274941,
+ "base_por_grau": [
+  [
+   false,
+   7350722
+  ],
+  [
+   true,
+   924219
+  ]
+ ],
+ "base_grau_sourcify": [
+  [
+   "perfect",
+   false,
+   1
+  ],
+  [
+   "perfect",
+   true,
+   924219
+  ],
+  [
+   "partial",
+   false,
+   7350721
+  ]
+ ],
+ "enderecos_verificados_qualquer": 8281136
+}

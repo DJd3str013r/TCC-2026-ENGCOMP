@@ -1,0 +1,1576 @@
+{
+ "aviso": "Conferencia descritiva, nao prevista na subsecao 3.8 do artigo. Nao altera nenhuma certidao nem nenhuma estimativa.",
+ "programa": "analise/complementares/complementacao_entrada.py",
+ "entradas": {
+  "certidoes": "dados/certidoes/*.json",
+  "cache_api": {
+   "arquivo": ".cache/sourcify_api.sqlite",
+   "modo": "somente leitura",
+   "sha256": "5cfa01b796a32c7ca443643f5f94688195d5eb19416e74604b1ae53d55600db4"
+  },
+  "cache_rpc": {
+   "arquivo": ".cache/rpc_rede_principal.sqlite",
+   "modo": "somente leitura",
+   "sha256": "b0539559cb24e56611e9956980929bdffa73938715403f4c582f85615e37ad12"
+  },
+  "compiladores": {
+   "solc nativo 0.4.11+commit.68ef5810": ".cache/solc/solc-v0.4.11+commit.68ef5810/solc.exe",
+   "solc nativo 0.4.16+commit.d7661dd9": ".cache/solc/solc-v0.4.16+commit.d7661dd9/solc.exe",
+   "solc nativo 0.4.17+commit.bdeb9e52": ".cache/solc/solc-v0.4.17+commit.bdeb9e52/solc.exe",
+   "solc nativo 0.4.19+commit.c4cbbb05": ".cache/solc/solc-v0.4.19+commit.c4cbbb05/solc.exe",
+   "solc nativo 0.4.23+commit.124ca40d": ".cache/solc/solc-v0.4.23+commit.124ca40d/solc.exe",
+   "solc nativo 0.4.24+commit.e67f0147": ".cache/solc/solc-v0.4.24+commit.e67f0147/solc.exe",
+   "solc nativo 0.4.26+commit.4563c3fc": ".cache/solc/solc-v0.4.26+commit.4563c3fc/solc.exe",
+   "solc nativo 0.5.1+commit.c8a2cb62": ".cache/solc/solc-v0.5.1+commit.c8a2cb62/solc.exe",
+   "solc nativo 0.5.14+commit.1f1aaa4": ".cache/solc/solc-v0.5.14+commit.01f1aaa4/solc.exe",
+   "solc nativo 0.5.17+commit.d19bba13": ".cache/solc/solc-v0.5.17+commit.d19bba13/solc.exe",
+   "solc nativo 0.5.8+commit.23d335f2": ".cache/solc/solc-v0.5.8+commit.23d335f2/solc.exe",
+   "solc nativo 0.6.12+commit.27d51765": ".cache/solc/solc-v0.6.12+commit.27d51765/solc.exe",
+   "solc nativo 0.7.2+commit.51b20bc0": ".cache/solc/solc-v0.7.2+commit.51b20bc0/solc.exe",
+   "solc nativo 0.7.6+commit.7338295f": ".cache/solc/solc-v0.7.6+commit.7338295f/solc.exe",
+   "solc nativo 0.8.1+commit.df193b15": ".cache/solc/solc-v0.8.1+commit.df193b15/solc.exe",
+   "solc nativo 0.8.15+commit.e14f2714": ".cache/solc/solc-v0.8.15+commit.e14f2714/solc.exe",
+   "solc nativo 0.8.16+commit.07a7930e": ".cache/solc/solc-v0.8.16+commit.07a7930e/solc.exe",
+   "solc nativo 0.8.17+commit.8df45f5f": ".cache/solc/solc-v0.8.17+commit.8df45f5f/solc.exe",
+   "solc nativo 0.8.20+commit.a1b79de6": ".cache/solc/solc-v0.8.20+commit.a1b79de6/solc.exe",
+   "solc nativo 0.8.22+commit.4fc1097e": ".cache/solc/solc-v0.8.22+commit.4fc1097e/solc.exe",
+   "solc nativo 0.8.24+commit.e11b9ed9": ".cache/solc/solc-v0.8.24+commit.e11b9ed9/solc.exe",
+   "solc nativo 0.8.27+commit.40a35a09": ".cache/solc/solc-v0.8.27+commit.40a35a09/solc.exe",
+   "solc nativo 0.8.29+commit.ab55807c": ".cache/solc/solc-v0.8.29+commit.ab55807c/solc.exe",
+   "solc nativo 0.8.30+commit.73712a01": ".cache/solc/solc-v0.8.30+commit.73712a01/solc.exe",
+   "solc nativo 0.8.34+commit.80d5c536": ".cache/solc/solc-v0.8.34+commit.80d5c536/solc.exe",
+   "solc nativo 0.8.35+commit.47b9dedd": ".cache/solc/solc-v0.8.35+commit.47b9dedd/solc.exe",
+   "solc nativo 0.8.4+commit.c7e474f2": ".cache/solc/solc-v0.8.4+commit.c7e474f2/solc.exe",
+   "solc nativo 0.8.7+commit.e28d00a7": ".cache/solc/solc-v0.8.7+commit.e28d00a7/solc.exe",
+   "solc nativo 0.8.9+commit.e5eed63a": ".cache/solc/solc-v0.8.9+commit.e5eed63a/solc.exe",
+   "soljson 0.4.10+commit.f0d539ae": ".cache/solc/soljson/soljson-v0.4.10+commit.f0d539ae.js"
+  }
+ },
+ "certidoes": 385,
+ "versao_das_certidoes": {
+  "1.7.0": 385
+ },
+ "com_ajustes_dos_metadados": 131,
+ "por_ajustes": {
+  "evmVersion": 1,
+  "evmVersion+metadata": 7,
+  "evmVersion+metadata+remappings": 21,
+  "evmVersion+remappings": 14,
+  "metadata": 1,
+  "metadata+remappings": 1,
+  "remappings": 86
+ },
+ "sem_ajustes_dos_metadados": 254,
+ "ajustes_recalculados_iguais_aos_da_certidao": 385,
+ "resultados_armazenada_completada": {
+  "igual a certidao | igual a certidao": 131
+ },
+ "iguais_a_certidao_nos_dois_casos": 131,
+ "contratos": [
+  {
+   "endereco": "0x004ded2c6142f18d5de06864f4eba888aa19ae6d",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x00a38c95d6d89704c60519fe2706cc813de6d8dd",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.16+commit.d7661dd9",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x022ff259c6ce6f42944f30e2683eb5e671682a41",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.23+commit.124ca40d",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x04bde55c9c6fb9305aec9b399054681bd6aa195c",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x05159559b45296b0a96097351e17ab1619bc9431",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.5.8+commit.23d335f2",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x05c35038bd55afacb4bfdf36754f75f723851afd",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.8.17+commit.8df45f5f",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x06ccb519a2340eb2ac6a2912d123378d510f726f",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata",
+    "remappings"
+   ],
+   "grau": "exata",
+   "motor": "solc nativo",
+   "compilador": "0.8.17+commit.8df45f5f",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x07a24399ac08c48e782975191f5065f4e5479dcd",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x0a7fa17d89d45370819691e335cb8fe688364632",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.17+commit.bdeb9e52",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x0b35a2d7acbd4e6eff4fddf53738ec7350da2b69",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x0dcf6d8531e0293370622aa68302f915e56b2cbe",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.8.1+commit.df193b15",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x151d03dea2267935afdc59a461f649e8343deee5",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "soljson",
+   "compilador": "0.4.10+commit.f0d539ae",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x189f38b5614ca7c7778fdcee2389c1441a9c7368",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x18fd7031d11a2554fe358688f61fce6f3a91ba20",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x1a380cee3e608cb263e33a5a7ba887690b44a529",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x1e255620a57cbde4671c93b3c1192cfcb3a20883",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x1fb90ffc02d01238cd8afe3a82b8c65bac37042f",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.8.15+commit.e14f2714",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x239c20354bc68bdca744364a3d072e3cad0c4475",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.8.29+commit.ab55807c",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x25d5192cdce686a208429ba3db3a3a08384a8c26",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "soljson",
+   "compilador": "0.4.10+commit.f0d539ae",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x2b1f5d25da11acff50af5e2013903f03e008d0f6",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x2e0170009b80496bdc58017d0fb9d4fbc9d4937b",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x3062c54777774cf5c44336d3226a100bafcd29ed",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.7.2+commit.51b20bc0",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x323f237b348a11ec272c8190c8c17e701b91ac16",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x34fe0eee6bb566135c693da61b7f6055c5c7444c",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x382bd4f29fe825bb64ceb2a6265030674d5f7d82",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x392adc612553ce8d0dcf8ac199b8b7ab5e108c13",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.8.4+commit.c7e474f2",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x3f2a9318db545c11179ddbadbd0c55540f58cb02",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.16+commit.d7661dd9",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x3f315c766cd90db04670d80a9bbf2430961583b5",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.7.6+commit.7338295f",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x42de287876e01b8a9ea7f796c4a8a19baf0ed178",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x4ae304be5b0f211f69cc97dfb6913d6d13f45418",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata"
+   ],
+   "grau": "exata",
+   "motor": "solc nativo",
+   "compilador": "0.8.27+commit.40a35a09",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x4f4961787c99941bc3c4448ec91e92e315592fa6",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x4fc44d82be94d7a72aff88792ccc13fb25ee7380",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x5106a0db2794ecc63ed1a496800dd77822ad27ec",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x515fada6a8a156ad5bf4238e001c827ef3b4f2b9",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.6.12+commit.27d51765",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x53cc8b800ea1a7723abd5e4cdc431f090204e6a0",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x548d0c2744a5715ddd98fb1a16c6c40bb3756b57",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata",
+    "remappings"
+   ],
+   "grau": "exata",
+   "motor": "solc nativo",
+   "compilador": "0.8.7+commit.e28d00a7",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x5579142eb66a04a22e876cc37de8855f1ea7ca8e",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.7.6+commit.7338295f",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x58603d583e768787ad4a0d6e6bc8adba3d9b90e1",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata"
+   ],
+   "grau": "exata",
+   "motor": "solc nativo",
+   "compilador": "0.8.35+commit.47b9dedd",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x5b2946e4443bfb79e8ba30264fa6d736ca1208c5",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x5b6275d8e4bc3f051ba24a0197eedb2056b1b52f",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x5bc5ac4beb87796320abce2b39560f05eaeb0fe5",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x5d6ae2c7abf316eec8006d5cbeda4d2e89567ddb",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x5fd43e27f3fc0194b03e52d4e1bb1e3454f760b4",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x60b60d3de9ed57215acf526f8e9ab459033dcb89",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x62865b83ae2afee557dd60215de2c7b98a7ed1e2",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.8.9+commit.e5eed63a",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x63735e93c78ff8e47c79cecd3c507ad5d5708c47",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.8.30+commit.73712a01",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x64c9ca53d44efdb159cd39f111b5829c2a9b442e",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x66cc7af6a76e32b004f818c53d30afa47de1043a",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.8.20+commit.a1b79de6",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x66ff278dc69efda93ad4bad44d18349de472011e",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x674cf3442065d1fe486feb4fe579624fd1687127",
+   "ajustes_dos_metadados": [
+    "evmVersion"
+   ],
+   "grau": "exata",
+   "motor": "solc nativo",
+   "compilador": "0.4.26+commit.4563c3fc",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x6840f8f2925e04c84d4a6c771dcee76e29a54d70",
+   "ajustes_dos_metadados": [
+    "metadata"
+   ],
+   "grau": "exata",
+   "motor": "solc nativo",
+   "compilador": "0.8.20+commit.a1b79de6",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x6aa8c90e4d666e4ebb58dad588a04f34b291c5e8",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x6ad3325c9ed7bf0c556c9ba9e05ba77c1b10f4b1",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.5.17+commit.d19bba13",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x6b5b45fadf2a4f73d665dc698a0aa1ca1a6e0e11",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.19+commit.c4cbbb05",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x6cbef84f142ac467726cac9e0a21eff4725bbb18",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x6d8fc2f5849085519816ff790d022ea1a29f474c",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.5.1+commit.c8a2cb62",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x6e0c763242d152da023a4b4b8e3319152d3bb1e9",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x6f664b55eefe16c6017aef90a3fe77324c7157fa",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x6faa3fbca71d896f165b507712efdf1c99e07f40",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.23+commit.124ca40d",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x702de7b575a2d9d1acbfc56ae32b4c5dee659a40",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x70b623c43fafdbbb207d344cea3304bffc465a27",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x719483023b3da684b82a6861462a467fa01aeef6",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.8.17+commit.8df45f5f",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x71eb7ce104240254f7f93f61186a06349256289e",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.16+commit.d7661dd9",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x7754ee4b040f2e6bbed8885994b54a086c857a56",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata",
+    "remappings"
+   ],
+   "grau": "exata",
+   "motor": "solc nativo",
+   "compilador": "0.8.9+commit.e5eed63a",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x7a4523a9349a99ac16d1484728e82eab6eda027f",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata"
+   ],
+   "grau": "exata",
+   "motor": "solc nativo",
+   "compilador": "0.8.24+commit.e11b9ed9",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x7c20fb7479b7d47a604fd73a27a46b3b706db416",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.8.30+commit.73712a01",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x7eb4db01000a472d4fd744b72be24e391cdd0dc8",
+   "ajustes_dos_metadados": [
+    "metadata",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.8.30+commit.73712a01",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x7ebdf78fb293a35880d45ea6659010d030bdc814",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x7f89149833de3936a0e2286e817bafe41a5c9286",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.24+commit.e67f0147",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x8634e4afe01743b144b8e26b385996f5b5adf62b",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.8.22+commit.4fc1097e",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x86cb8fa8d5be7d920b9e43d28a211c1642f353e0",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "soljson",
+   "compilador": "0.4.10+commit.f0d539ae",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x8d05b82a15663121a2d108564ef7106205e70949",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "soljson",
+   "compilador": "0.4.10+commit.f0d539ae",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x8d2d2417dbbd6e360680af259a52068015e25cfc",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x8f5b9111814d22b2239f110a1894c2253ea546b8",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x905823a03bd4f3d78866ff2b9d7f2b7a34d3aafe",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x9122eef5a30a4686df6966ec889ac71aad208e35",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.6.12+commit.27d51765",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x91d1afc7fa142f8efb1fb24b1bb908587ef3f48e",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x959c72f8ff87cab45e8e673f383f65affc556fc0",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.8.16+commit.07a7930e",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x983097029874ceca3df5c9737bdb528b06024fa5",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata"
+   ],
+   "grau": "exata",
+   "motor": "solc nativo",
+   "compilador": "0.8.20+commit.a1b79de6",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x9a07a50273582bf35dfe4160cc566f8b4958d717",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x9b33a0459090d4a399495acbfc78dbbd267d7e50",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0x9f2e87ddf419fb7e8de30ba893680f36906f7942",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xa0850ef8362655276ed78a8ef4b008545cae0060",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xa84edd98db6f3e4e015e576144e39814c810c4a0",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.24+commit.e67f0147",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xa8eb34ad46bb70addf5ed4cccf05e25f160dc267",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata"
+   ],
+   "grau": "exata",
+   "motor": "solc nativo",
+   "compilador": "0.8.30+commit.73712a01",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xa933ed432c87ed48384cfbb16b1b037c0b2ab8d3",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xaaf9656ce72179229c69679a2acb10bbd34e3765",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xacc1de5035f4520ef4f7f8ff0ba21c1fb06762c7",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.5.14+commit.1f1aaa4",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xb0680447788c97b14b1b431cd7a8a35d9885eb26",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.23+commit.124ca40d",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xb1a058940d5ed4bb517c42fc452ea08b6944acd3",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.8.17+commit.8df45f5f",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xb24d20f98fc9e29ea7c5a211c2a0ee2af0346a0d",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xb4654ecd6d22d5ba99c6aa8850ee2d63001f754b",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xb4c02e4ed61a4d6b74d794e5007116a6708da33c",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xb5c24e075cd0ec348af411931ce13f1ad4ea5753",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xb62aa48f415137f2723ae918b5eb822dfb995e7f",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xb8f36ef8fd5a73283f3da4fc5abc2058331936bf",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.23+commit.124ca40d",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xbaf9c2665ae9afc10376e2f05e6c57194cb103cc",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata",
+    "remappings"
+   ],
+   "grau": "exata",
+   "motor": "solc nativo",
+   "compilador": "0.8.15+commit.e14f2714",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xbbf0d84a1c3520583405812bf867d20374bb8e91",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata"
+   ],
+   "grau": "exata",
+   "motor": "solc nativo",
+   "compilador": "0.8.34+commit.80d5c536",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xbd79d0930ef4947a810982b735082f0ac47edec7",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.8.7+commit.e28d00a7",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xbe9848eccb4fe99a7290f0c45b336fd87e498a5b",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xbfe278fe9057cea85db351f36c63539da3d36b65",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xc2dec070874eb4effdfb1c5b26e59da85e62309e",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xc5580cb89544c2de01f67b2baf09c0be5cf4cb13",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xc7b0d67c9acabf546e5e5dfcbfa2625944dfc36a",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xc8892e1c068f237f8b7f0fe65b1b9c7545891cb3",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xc96f380b4c5afe4b0b8e34a787b74264e16133ae",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xc9e731d55f74b80249ce7513dc6188bf2a0a3d15",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xc9f1f1ab0d2955ba434f285a06c8a5cd7a89d031",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xcbd937e08e6f9cc5c5adf5baa52280d79d859f5e",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xceaba39a0a8c2c0163caf680a75637b994c34a3f",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xd018da9ee2f058dbec751a1ecb5725071fd2872e",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xd1631589ab51294cb516da3011ee0cae94b0acae",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xd1a752a18b7bbf775ab00913e01d6ce354ccee95",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xd26aefdeaac07313e15f926e8da1f60b701088f4",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xd474bc8248f526d0af8d26acbcec8c1cbf30b9b2",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xd7a3f8329f537069066bb95017135bafd69746ca",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xd8457e97baf28c12b5c94e8e708619859ec41187",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xd85f88e4c5e6f582921e4e5f697c01a1651a18c6",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xe1ee60518741cae6692c3cb98b4cf3847157c898",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xe242bc938a51927d336c958b089e7c768d56b2ac",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.24+commit.e67f0147",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xe4ec1a97234085396974a671c0db2f1ce6c009e0",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xe7be816f4e19505a2dee9a041dda092a546ef12b",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xe9d98895907929d9361fbec38e657c798d853a25",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xecd4cc4658b2fe93fde2cf338e36d51fcbaf7bd8",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xf51f60f577cbabe8262566bce1287de6c852fe19",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xf6b9278ce387be26adf7515d3fc2ef7c90a9132b",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xf82e631a6de6608b8e2e95f08a9bd7195265f58e",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xf8fedab464cff9acf2efa83a5fc744f559d4e4be",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xfc789ba6b39a33e2d78234eb5dd8c9bcf72c3074",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.23+commit.124ca40d",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xfdc3158f1e10ea16e240cebfe27bc9afdbd5fa8d",
+   "ajustes_dos_metadados": [
+    "evmVersion",
+    "metadata",
+    "remappings"
+   ],
+   "grau": "exata",
+   "motor": "solc nativo",
+   "compilador": "0.8.4+commit.c7e474f2",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  },
+  {
+   "endereco": "0xffee0d1135084690ea637947c63c34c39e0cb50a",
+   "ajustes_dos_metadados": [
+    "remappings"
+   ],
+   "grau": "parcial",
+   "motor": "solc nativo",
+   "compilador": "0.4.11+commit.68ef5810",
+   "entrada_armazenada": "igual a certidao",
+   "entrada_completada": "igual a certidao"
+  }
+ ]
+}

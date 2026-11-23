@@ -1,0 +1,220 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x2fe7623edcec233dcecf96f05ddb4a6e4f7d4793",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 17135,
+  "resumo_codigo": "0x1bdc0d2a43676756f8a6d86b6edfd8bac45aaba12518b47e02ce852ad121e848"
+ },
+ "acervo": {
+  "match_id": "1952873",
+  "grau_codigo_execucao": "exata",
+  "grau_codigo_criacao": "exata",
+  "compilador": "0.8.13+commit.abaa5c0e",
+  "linguagem": "Solidity",
+  "contrato_compilado": "contracts/Adamisnotsilly.sol:Adamisnotsilly",
+  "verificado_em": "2024-08-08T14:14:43Z",
+  "match_id_instantaneo": 1952873,
+  "grau_instantaneo": "exata",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 17135,
+  "tamanho_cadeia": 17135,
+  "blocos_removidos": 0,
+  "metadados_em_F": false,
+  "ajustes_dos_metadados": [],
+  "motor": "solc nativo"
+ },
+ "regioes": [
+  {
+   "inicio": 2108,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:2171",
+   "valor": "0x0000000000000000000000000000000000000000000000000018838370f34000",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 2680,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:2180",
+   "valor": "0x000000000000000000000000000000000000000000000000000000000000000f",
+   "tipo": "uint32",
+   "tau_address": false
+  },
+  {
+   "inicio": 2739,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:2177",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000002710",
+   "tipo": "uint32",
+   "tau_address": false
+  },
+  {
+   "inicio": 3518,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:2171",
+   "valor": "0x0000000000000000000000000000000000000000000000000018838370f34000",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 3556,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:2174",
+   "valor": "0x000000000000000000000000000000000000000000000000000000000000000f",
+   "tipo": "uint32",
+   "tau_address": false
+  },
+  {
+   "inicio": 3600,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:2180",
+   "valor": "0x000000000000000000000000000000000000000000000000000000000000000f",
+   "tipo": "uint32",
+   "tau_address": false
+  },
+  {
+   "inicio": 3644,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:2177",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000002710",
+   "tipo": "uint32",
+   "tau_address": false
+  },
+  {
+   "inicio": 3777,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:2174",
+   "valor": "0x000000000000000000000000000000000000000000000000000000000000000f",
+   "tipo": "uint32",
+   "tau_address": false
+  },
+  {
+   "inicio": 5083,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:2177",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000002710",
+   "tipo": "uint32",
+   "tau_address": false
+  },
+  {
+   "inicio": 5203,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:2174",
+   "valor": "0x000000000000000000000000000000000000000000000000000000000000000f",
+   "tipo": "uint32",
+   "tau_address": false
+  },
+  {
+   "inicio": 5307,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:2171",
+   "valor": "0x0000000000000000000000000000000000000000000000000018838370f34000",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 5390,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:2171",
+   "valor": "0x0000000000000000000000000000000000000000000000000018838370f34000",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 5467,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:2180",
+   "valor": "0x000000000000000000000000000000000000000000000000000000000000000f",
+   "tipo": "uint32",
+   "tau_address": false
+  },
+  {
+   "inicio": 6848,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:2177",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000002710",
+   "tipo": "uint32",
+   "tau_address": false
+  }
+ ],
+ "constantes": [
+  {
+   "construto": "imutavel:2171",
+   "motivo": "immutable",
+   "tipo": "uint256",
+   "tau_address": false,
+   "regioes": 4,
+   "valores": [
+    "0x0000000000000000000000000000000000000000000000000018838370f34000"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:2180",
+   "motivo": "immutable",
+   "tipo": "uint32",
+   "tau_address": false,
+   "regioes": 3,
+   "valores": [
+    "0x000000000000000000000000000000000000000000000000000000000000000f"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:2177",
+   "motivo": "immutable",
+   "tipo": "uint32",
+   "tau_address": false,
+   "regioes": 4,
+   "valores": [
+    "0x0000000000000000000000000000000000000000000000000000000000002710"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:2174",
+   "motivo": "immutable",
+   "tipo": "uint32",
+   "tau_address": false,
+   "regioes": 3,
+   "valores": [
+    "0x000000000000000000000000000000000000000000000000000000000000000f"
+   ],
+   "valores_distintos": 1
+  }
+ ],
+ "cobertura": 0.9738546833965568,
+ "bytes_nao_atestados": 448,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.4,
+ "ordem": 115
+}

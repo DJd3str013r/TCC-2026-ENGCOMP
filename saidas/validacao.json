@@ -1,0 +1,76 @@
+{
+ "quando": "2026-10-29T08:08:43+00:00",
+ "verificador": "1.7.0",
+ "compilador_controles": "0.8.37+commit.f401782d",
+ "ajustes": {
+  "optimizer": {
+   "enabled": true,
+   "runs": 200
+  },
+  "evmVersion": "cancun"
+ },
+ "rede": "py-evm em memoria (Cancun)",
+ "bloco": 9,
+ "enderecos": {
+  "chamada+": "0x248e85939e48cA12A20CdF80E60D9e3d380cA7f9",
+  "imutavel+": "0x3d6970e3d1860d8f243dea36c11e2a7c66987a5b",
+  "imutavel-": "0x2bea3833344507da3019f46dd77a67b34738bc67",
+  "chamada-": "0x3a989ab956ead3ae653a0da4d1b280829882169b",
+  "biblioteca+": "0xea8d94123f55efced3c47c6b94e3a27733889101",
+  "biblioteca-": "0xf660e5ab1cf0ec7fb0b4cc1eace444a78f7d70f4",
+  "metadados+": "0xcc4c548df31767a3da2d06dd6f7c4be112457e7e",
+  "metadados-": "0xd0e2105ab025bd19229668044fef3f80d9660675"
+ },
+ "por_motivo": {
+  "immutable": {
+   "VP": 14,
+   "FP": 0,
+   "FN": 0,
+   "P": 1.0,
+   "R": 1.0
+  },
+  "library": {
+   "VP": 2,
+   "FP": 0,
+   "FN": 0,
+   "P": 1.0,
+   "R": 1.0
+  },
+  "callProtection": {
+   "VP": 1,
+   "FP": 0,
+   "FN": 0,
+   "P": 1.0,
+   "R": 1.0
+  },
+  "cborAuxdata": {
+   "VP": 1,
+   "FP": 0,
+   "FN": 0,
+   "P": 1.0,
+   "R": 1.0
+  }
+ },
+ "tau_divergente": [],
+ "tipo_divergente": [],
+ "tipos_conferidos": [
+  "Endereco (sobre address)",
+  "EnderecoPagavel (sobre address payable)",
+  "address",
+  "address payable",
+  "contract Alvo",
+  "contract IAlvo",
+  "uint256"
+ ],
+ "aprovado": true,
+ "regioes_esperadas": {
+  "chamada+": 1,
+  "imutavel+": 14,
+  "imutavel-": 0,
+  "chamada-": 0,
+  "biblioteca+": 2,
+  "biblioteca-": 0,
+  "metadados+": 1,
+  "metadados-": 0
+ }
+}

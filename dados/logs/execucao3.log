@@ -1,0 +1,27 @@
+carregando verificados do instantaneo...
+25/385 (3 s); falhas ate aqui: 0
+50/385 (5 s); falhas ate aqui: 0
+75/385 (9 s); falhas ate aqui: 0
+100/385 (11 s); falhas ate aqui: 0
+125/385 (15 s); falhas ate aqui: 0
+150/385 (16 s); falhas ate aqui: 0
+175/385 (20 s); falhas ate aqui: 0
+200/385 (22 s); falhas ate aqui: 0
+225/385 (24 s); falhas ate aqui: 0
+250/385 (27 s); falhas ate aqui: 0
+275/385 (31 s); falhas ate aqui: 0
+300/385 (36 s); falhas ate aqui: 0
+325/385 (39 s); falhas ate aqui: 0
+350/385 (42 s); falhas ate aqui: 0
+375/385 (46 s); falhas ate aqui: 0
+385/385 (51 s); falhas ate aqui: 0
+{
+ "verificador": "1.6.0",
+ "bloco_referencia": 26296341,
+ "contratos": 385,
+ "processados": 385,
+ "chamadas_rpc_rede": 0,
+ "segundos": 51
+} 
+falhas: 0
+saida=0

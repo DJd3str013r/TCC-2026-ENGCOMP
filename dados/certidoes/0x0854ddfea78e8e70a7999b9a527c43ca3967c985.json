@@ -1,0 +1,48 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x0854ddfea78e8e70a7999b9a527c43ca3967c985",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 171,
+  "resumo_codigo": "0xb89c1b3bdf2cf8827818646bce9a8f6e372885f8c55e5c07acbd307cb133b000"
+ },
+ "acervo": {
+  "match_id": "13691766",
+  "grau_codigo_execucao": "exata",
+  "grau_codigo_criacao": null,
+  "compilador": "0.7.6+commit.7338295f",
+  "linguagem": "Solidity",
+  "contrato_compilado": "contracts/proxies/GnosisSafeProxy.sol:GnosisSafeProxy",
+  "verificado_em": "2026-01-13T16:55:10Z",
+  "match_id_instantaneo": 13691766,
+  "grau_instantaneo": "exata",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 171,
+  "tamanho_cadeia": 171,
+  "blocos_removidos": 0,
+  "metadados_em_F": false,
+  "ajustes_dos_metadados": [],
+  "motor": "solc nativo"
+ },
+ "regioes": [],
+ "constantes": [],
+ "cobertura": 1.0,
+ "bytes_nao_atestados": 0,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.5,
+ "ordem": 169
+}

@@ -1,0 +1,41 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.2.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0xcb4e60c2eed7544f11bcdc40495e881436a1a100",
+  "bloco_referencia": 26290000,
+  "tamanho_codigo": 1150,
+  "resumo_codigo": "0x9a4ab6b48caca20ceb13d1c5153bfde94189b78e88aa3ae4fa4a1f19ffee9556"
+ },
+ "acervo": {
+  "match_id": "47219873",
+  "grau_codigo_execucao": "parcial",
+  "compilador": "0.8.34+commit.80d5c536",
+  "linguagem": "Solidity",
+  "contrato_compilado": "SpoofTokenERC20.sol:SpoofTokenERC20",
+  "verificado_em": "2026-09-07T02:24:39Z"
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 1150,
+  "tamanho_cadeia": 1150,
+  "blocos_removidos": 0,
+  "metadados_em_F": false
+ },
+ "regioes": [],
+ "constantes": [],
+ "cobertura": 1.0,
+ "bytes_nao_atestados": 0,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.1
+}

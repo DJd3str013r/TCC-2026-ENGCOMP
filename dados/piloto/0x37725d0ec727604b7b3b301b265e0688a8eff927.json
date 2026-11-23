@@ -1,0 +1,660 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.1.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x37725d0ec727604b7b3b301b265e0688a8eff927",
+  "bloco_referencia": 26290000,
+  "tamanho_codigo": 24498,
+  "resumo_codigo": "0x521e4c3c9fcaec7ac77bffe9e3b693a214e8a9003963c6ff9a9812bd0bc0411b"
+ },
+ "acervo": {
+  "match_id": "8781249",
+  "grau_codigo_execucao": "parcial",
+  "compilador": "0.8.11+commit.d7f03943",
+  "linguagem": "Solidity",
+  "contrato_compilado": "contracts/LenderCommitmentForwarder/extensions/LenderCommitmentGroup/LenderCommitmentGroup_Pool_V2.sol:LenderCommitmentGroup_Pool_V2",
+  "verificado_em": "2025-08-12T16:34:03Z"
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 24498,
+  "tamanho_cadeia": 24498,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo"
+ },
+ "regioes": [
+  {
+   "inicio": 1683,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9011",
+   "valor": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 1757,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9031",
+   "valor": "0x00000000000000000000000080314d77e86d70a67126da86ec823f5fc018c010",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 1805,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9066",
+   "valor": "0x000000000000000000000000000000000000000000000000000000000000012c",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 1916,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9029",
+   "valor": "0x00000000000000000000000000182fdb0b880ee24d428e3cc39383717677c37e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 2242,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9022",
+   "valor": "0x0000000000000000000000000000000000c097ce7bc90715b34b9f1000000000",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 2402,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9014",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000003",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 2468,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9019",
+   "valor": "0x0000000000000000000000000000000000000001000000000000000000000000",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 2839,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:17282",
+   "valor": "0x00000000000000000000000080314d77e86d70a67126da86ec823f5fc018c010",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 3027,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9033",
+   "valor": "0x0000000000000000000000001f98431c8ad98523631ae4a59f267346ea31f984",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 3096,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9069",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000015180",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 3190,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9029",
+   "valor": "0x00000000000000000000000000182fdb0b880ee24d428e3cc39383717677c37e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 3691,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9029",
+   "valor": "0x00000000000000000000000000182fdb0b880ee24d428e3cc39383717677c37e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 3890,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9069",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000015180",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 4025,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9029",
+   "valor": "0x00000000000000000000000000182fdb0b880ee24d428e3cc39383717677c37e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 4675,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9066",
+   "valor": "0x000000000000000000000000000000000000000000000000000000000000012c",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 4732,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9031",
+   "valor": "0x00000000000000000000000080314d77e86d70a67126da86ec823f5fc018c010",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 4772,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9029",
+   "valor": "0x00000000000000000000000000182fdb0b880ee24d428e3cc39383717677c37e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 5881,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9029",
+   "valor": "0x00000000000000000000000000182fdb0b880ee24d428e3cc39383717677c37e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 6199,
+   "comprimento": 20,
+   "motivo": "library",
+   "construto": "biblioteca:contracts/libraries/UniswapPricingLibraryV2.sol:UniswapPricingLibraryV2",
+   "valor": "0x7744dc954117540240232867584065cc317a9877",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 6378,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9029",
+   "valor": "0x00000000000000000000000000182fdb0b880ee24d428e3cc39383717677c37e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 6853,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9031",
+   "valor": "0x00000000000000000000000080314d77e86d70a67126da86ec823f5fc018c010",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 7075,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:17282",
+   "valor": "0x00000000000000000000000080314d77e86d70a67126da86ec823f5fc018c010",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 7851,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9022",
+   "valor": "0x0000000000000000000000000000000000c097ce7bc90715b34b9f1000000000",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 7902,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9029",
+   "valor": "0x00000000000000000000000000182fdb0b880ee24d428e3cc39383717677c37e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 8226,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9031",
+   "valor": "0x00000000000000000000000080314d77e86d70a67126da86ec823f5fc018c010",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 8566,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:17282",
+   "valor": "0x00000000000000000000000080314d77e86d70a67126da86ec823f5fc018c010",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 8776,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9029",
+   "valor": "0x00000000000000000000000000182fdb0b880ee24d428e3cc39383717677c37e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 9004,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9031",
+   "valor": "0x00000000000000000000000080314d77e86d70a67126da86ec823f5fc018c010",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 9192,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9029",
+   "valor": "0x00000000000000000000000000182fdb0b880ee24d428e3cc39383717677c37e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 9568,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9029",
+   "valor": "0x00000000000000000000000000182fdb0b880ee24d428e3cc39383717677c37e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 9762,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9031",
+   "valor": "0x00000000000000000000000080314d77e86d70a67126da86ec823f5fc018c010",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 9850,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9031",
+   "valor": "0x00000000000000000000000080314d77e86d70a67126da86ec823f5fc018c010",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 10443,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9029",
+   "valor": "0x00000000000000000000000000182fdb0b880ee24d428e3cc39383717677c37e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 10683,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9022",
+   "valor": "0x0000000000000000000000000000000000c097ce7bc90715b34b9f1000000000",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 10726,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9022",
+   "valor": "0x0000000000000000000000000000000000c097ce7bc90715b34b9f1000000000",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 10797,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9029",
+   "valor": "0x00000000000000000000000000182fdb0b880ee24d428e3cc39383717677c37e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 11246,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9031",
+   "valor": "0x00000000000000000000000080314d77e86d70a67126da86ec823f5fc018c010",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 11468,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:17282",
+   "valor": "0x00000000000000000000000080314d77e86d70a67126da86ec823f5fc018c010",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 12438,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9029",
+   "valor": "0x00000000000000000000000000182fdb0b880ee24d428e3cc39383717677c37e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 12763,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9031",
+   "valor": "0x00000000000000000000000080314d77e86d70a67126da86ec823f5fc018c010",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 12985,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:17282",
+   "valor": "0x00000000000000000000000080314d77e86d70a67126da86ec823f5fc018c010",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 13457,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9031",
+   "valor": "0x00000000000000000000000080314d77e86d70a67126da86ec823f5fc018c010",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 13679,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:17282",
+   "valor": "0x00000000000000000000000080314d77e86d70a67126da86ec823f5fc018c010",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 14153,
+   "comprimento": 20,
+   "motivo": "library",
+   "construto": "biblioteca:contracts/libraries/UniswapPricingLibraryV2.sol:UniswapPricingLibraryV2",
+   "valor": "0x7744dc954117540240232867584065cc317a9877",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 14313,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9031",
+   "valor": "0x00000000000000000000000080314d77e86d70a67126da86ec823f5fc018c010",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 14510,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9029",
+   "valor": "0x00000000000000000000000000182fdb0b880ee24d428e3cc39383717677c37e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 15456,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9031",
+   "valor": "0x00000000000000000000000080314d77e86d70a67126da86ec823f5fc018c010",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 15950,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9022",
+   "valor": "0x0000000000000000000000000000000000c097ce7bc90715b34b9f1000000000",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 16302,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9022",
+   "valor": "0x0000000000000000000000000000000000c097ce7bc90715b34b9f1000000000",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 17421,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9011",
+   "valor": "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 18207,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9029",
+   "valor": "0x00000000000000000000000000182fdb0b880ee24d428e3cc39383717677c37e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 18380,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9029",
+   "valor": "0x00000000000000000000000000182fdb0b880ee24d428e3cc39383717677c37e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 18847,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9029",
+   "valor": "0x00000000000000000000000000182fdb0b880ee24d428e3cc39383717677c37e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 18994,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:9029",
+   "valor": "0x00000000000000000000000000182fdb0b880ee24d428e3cc39383717677c37e",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 24445,
+   "comprimento": 53,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa2646970667358221220958b9937d87197e8d9ce3cc32cccbf2933173d2e1f730b02e81c8a6799dffd6e64736f6c634300080b0033",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [
+  {
+   "construto": "imutavel:9011",
+   "motivo": "immutable",
+   "tipo": "uint256",
+   "tau_address": false,
+   "regioes": 2,
+   "valores": [
+    "0x0000000000000000000000000000000000000000000000000de0b6b3a7640000"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:9031",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 12,
+   "valores": [
+    "0x80314d77e86d70a67126da86ec823f5fc018c010"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:9066",
+   "motivo": "immutable",
+   "tipo": "uint256",
+   "tau_address": false,
+   "regioes": 2,
+   "valores": [
+    "0x000000000000000000000000000000000000000000000000000000000000012c"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:9029",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 19,
+   "valores": [
+    "0x00182fdb0b880ee24d428e3cc39383717677c37e"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:9022",
+   "motivo": "immutable",
+   "tipo": "uint256",
+   "tau_address": false,
+   "regioes": 6,
+   "valores": [
+    "0x0000000000000000000000000000000000c097ce7bc90715b34b9f1000000000"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:9014",
+   "motivo": "immutable",
+   "tipo": "uint256",
+   "tau_address": false,
+   "regioes": 1,
+   "valores": [
+    "0x0000000000000000000000000000000000000000000000000000000000000003"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:9019",
+   "motivo": "immutable",
+   "tipo": "uint256",
+   "tau_address": false,
+   "regioes": 1,
+   "valores": [
+    "0x0000000000000000000000000000000000000001000000000000000000000000"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:17282",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 6,
+   "valores": [
+    "0x80314d77e86d70a67126da86ec823f5fc018c010"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:9033",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 1,
+   "valores": [
+    "0x1f98431c8ad98523631ae4a59f267346ea31f984"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:9069",
+   "motivo": "immutable",
+   "tipo": "uint256",
+   "tau_address": false,
+   "regioes": 2,
+   "valores": [
+    "0x0000000000000000000000000000000000000000000000000000000000015180"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "biblioteca:contracts/libraries/UniswapPricingLibraryV2.sol:UniswapPricingLibraryV2",
+   "motivo": "library",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 2,
+   "valores": [
+    "0x7744dc954117540240232867584065cc317a9877"
+   ],
+   "valores_distintos": 1
+  }
+ ],
+ "cobertura": 0.928279859580374,
+ "bytes_nao_atestados": 1757,
+ "indicador_equacao_2": 1,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 7.0
+}

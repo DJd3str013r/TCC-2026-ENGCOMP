@@ -1,0 +1,28 @@
+carregando verificados do instantaneo...
+25/385 (3 s); falhas ate aqui: 0
+50/385 (6 s); falhas ate aqui: 0
+75/385 (10 s); falhas ate aqui: 0
+100/385 (14 s); falhas ate aqui: 0
+125/385 (18 s); falhas ate aqui: 0
+  falha 0xacc1de5035f4520ef4f7f8ff0ba21c1fb06762c7: ErroCompilacao: versao 0.5.14+commit.1f1aaa4 ausente das listas oficiais (windows e soljson)
+150/385 (20 s); falhas ate aqui: 1
+175/385 (23 s); falhas ate aqui: 1
+200/385 (25 s); falhas ate aqui: 1
+225/385 (28 s); falhas ate aqui: 1
+250/385 (31 s); falhas ate aqui: 1
+275/385 (35 s); falhas ate aqui: 1
+300/385 (40 s); falhas ate aqui: 1
+325/385 (43 s); falhas ate aqui: 1
+350/385 (46 s); falhas ate aqui: 1
+375/385 (50 s); falhas ate aqui: 1
+385/385 (55 s); falhas ate aqui: 1
+{
+ "verificador": "1.5.0",
+ "bloco_referencia": 26296341,
+ "contratos": 385,
+ "processados": 384,
+ "chamadas_rpc_rede": 0,
+ "segundos": 55
+} 
+falhas: 1
+saida=0

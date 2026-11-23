@@ -1,0 +1,59 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x80949b2af6c0ad5ab06e338c93c1f0d4662207dd",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 6144,
+  "resumo_codigo": "0xeeda56b1a99bd8e09a3bf5ac8a0b237083fb5d7c8e21d3d9544cdb34a22a85b8"
+ },
+ "acervo": {
+  "match_id": "1369257",
+  "grau_codigo_execucao": "parcial",
+  "grau_codigo_criacao": "parcial",
+  "compilador": "0.8.20+commit.a1b79de6",
+  "linguagem": "Solidity",
+  "contrato_compilado": "SatoshiHacker.sol:SatoshiHacker",
+  "verificado_em": "2024-08-08T13:01:07Z",
+  "match_id_instantaneo": 1369257,
+  "grau_instantaneo": "parcial",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 6144,
+  "tamanho_cadeia": 6144,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo",
+  "ajustes_dos_metadados": [],
+  "motor": "solc nativo"
+ },
+ "regioes": [
+  {
+   "inicio": 6091,
+   "comprimento": 53,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa264697066735822122079489c29d8816d8f4d03b858b8a6c28ec112d251486c4257def8a171b0d09d6564736f6c63430008140033",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [],
+ "cobertura": 0.9913736979166666,
+ "bytes_nao_atestados": 53,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.4,
+ "ordem": 128
+}

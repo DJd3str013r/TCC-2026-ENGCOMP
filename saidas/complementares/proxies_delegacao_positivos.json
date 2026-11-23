@@ -1,0 +1,3427 @@
+[
+ {
+  "endereco": "0x05c35038bd55afacb4bfdf36754f75f723851afd",
+  "contrato_compilado": "AiGodfatherProtocol.sol:AiGodfatherProtocol",
+  "grau": "parcial",
+  "compilador": "0.8.17+commit.8df45f5f",
+  "conferencia_do_codigo": {
+   "keccak_onchainBytecode_do_cache": "0x5be98531ddfe2a628146fed7e47090429010ede6f4f57af833860db1ea073f33",
+   "resumo_codigo_da_certidao": "0x5be98531ddfe2a628146fed7e47090429010ede6f4f57af833860db1ea073f33",
+   "iguais": true,
+   "matchId_cache": "6460982",
+   "match_id_certidao": "6460982"
+  },
+  "proxyResolution_do_acervo": {
+   "isProxy": false,
+   "proxyType": null,
+   "implementations": []
+  },
+  "constantes_address": [
+   {
+    "construto": "imutavel:1481",
+    "motivo": "immutable",
+    "tipo": "contract IUniswapV2Router02",
+    "nome": "uniswapV2Router",
+    "declaracao": [
+     {
+      "arquivo": "AiGodfatherProtocol.sol",
+      "linha": 1025,
+      "trecho": "IUniswapV2Router02 public immutable uniswapV2Router;"
+     }
+    ],
+    "valor": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 21943,
+    "nome_do_alvo_no_instantaneo": "UniswapV2Router02.sol:UniswapV2Router02",
+    "regioes": [
+     {
+      "inicio": 1124,
+      "instrucao": "PUSH32",
+      "arquivo": "AiGodfatherProtocol.sol",
+      "linha": 1025,
+      "texto": "IUniswapV2Router02 public immutable uniswapV2Router"
+     },
+     {
+      "inicio": 7678,
+      "instrucao": "PUSH32",
+      "arquivo": "AiGodfatherProtocol.sol",
+      "linha": 1336,
+      "texto": "uniswapV2Router"
+     },
+     {
+      "inicio": 11143,
+      "instrucao": "PUSH32",
+      "arquivo": "AiGodfatherProtocol.sol",
+      "linha": 1448,
+      "texto": "uniswapV2Router"
+     },
+     {
+      "inicio": 11328,
+      "instrucao": "PUSH32",
+      "arquivo": "AiGodfatherProtocol.sol",
+      "linha": 1450,
+      "texto": "uniswapV2Router"
+     },
+     {
+      "inicio": 11388,
+      "instrucao": "PUSH32",
+      "arquivo": "AiGodfatherProtocol.sol",
+      "linha": 1453,
+      "texto": "uniswapV2Router"
+     },
+     {
+      "inicio": 11510,
+      "instrucao": "PUSH32",
+      "arquivo": "AiGodfatherProtocol.sol",
+      "linha": 1464,
+      "texto": "uniswapV2Router"
+     },
+     {
+      "inicio": 11603,
+      "instrucao": "PUSH32",
+      "arquivo": "AiGodfatherProtocol.sol",
+      "linha": 1467,
+      "texto": "uniswapV2Router"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:1483",
+    "motivo": "immutable",
+    "tipo": "address",
+    "nome": "uniswapV2Pair",
+    "declaracao": [
+     {
+      "arquivo": "AiGodfatherProtocol.sol",
+      "linha": 1026,
+      "trecho": "address public immutable uniswapV2Pair;"
+     }
+    ],
+    "valor": "0x7b1f3291d9c0782d36188fe172c8fc7c89a7dc5c",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 11293,
+    "nome_do_alvo_no_instantaneo": "UniswapV2Pair.sol:UniswapV2Pair",
+    "regioes": [
+     {
+      "inicio": 1547,
+      "instrucao": "PUSH32",
+      "arquivo": "AiGodfatherProtocol.sol",
+      "linha": 1026,
+      "texto": "address public immutable uniswapV2Pair"
+     },
+     {
+      "inicio": 4534,
+      "instrucao": "PUSH32",
+      "arquivo": "AiGodfatherProtocol.sol",
+      "linha": 1264,
+      "texto": "uniswapV2Pair"
+     },
+     {
+      "inicio": 6613,
+      "instrucao": "PUSH32",
+      "arquivo": "AiGodfatherProtocol.sol",
+      "linha": 1585,
+      "texto": "uniswapV2Pair"
+     },
+     {
+      "inicio": 6768,
+      "instrucao": "PUSH32",
+      "arquivo": "AiGodfatherProtocol.sol",
+      "linha": 1592,
+      "texto": "uniswapV2Pair"
+     },
+     {
+      "inicio": 6812,
+      "instrucao": "PUSH32",
+      "arquivo": "AiGodfatherProtocol.sol",
+      "linha": 1596,
+      "texto": "uniswapV2Pair"
+     },
+     {
+      "inicio": 7740,
+      "instrucao": "PUSH32",
+      "arquivo": "AiGodfatherProtocol.sol",
+      "linha": 1337,
+      "texto": "uniswapV2Pair"
+     },
+     {
+      "inicio": 10671,
+      "instrucao": "PUSH32",
+      "arquivo": "AiGodfatherProtocol.sol",
+      "linha": 1553,
+      "texto": "uniswapV2Pair"
+     },
+     {
+      "inicio": 10833,
+      "instrucao": "PUSH32",
+      "arquivo": "AiGodfatherProtocol.sol",
+      "linha": 1562,
+      "texto": "uniswapV2Pair"
+     },
+     {
+      "inicio": 10877,
+      "instrucao": "PUSH32",
+      "arquivo": "AiGodfatherProtocol.sol",
+      "linha": 1566,
+      "texto": "uniswapV2Pair"
+     }
+    ]
+   }
+  ],
+  "delegatecall_no_codigo_fonte": [],
+  "auxiliares_de_delegatecall_chamados": [],
+  "biblioteca_vinculada_apos_compilacao": [],
+  "bibliotecas_vinculadas_na_compilacao": [],
+  "codigo_de_execucao": {
+   "tamanho": 13149,
+   "instrucoes_DELEGATECALL_fora_dos_metadados": 0,
+   "instrucoes_CALLCODE_fora_dos_metadados": 0,
+   "por_classe": {},
+   "instrucoes": []
+  },
+  "decisao": "nao",
+  "proxy_cuja_implementacao_e_o_endereco_nao_atestado": false,
+  "implementacao": [],
+  "leitura_do_codigo": "AiGodfatherProtocol: nenhum delegatecall.",
+  "evidencias": []
+ },
+ {
+  "endereco": "0x17314f8499b68f6eba37a7b951aa7f2b14d2f625",
+  "contrato_compilado": "src/creators/UsdcFactory.sol:UsdcFactory",
+  "grau": "parcial",
+  "compilador": "0.8.26+commit.8a97fa7a",
+  "conferencia_do_codigo": {
+   "keccak_onchainBytecode_do_cache": "0x451acb08f53d0c25eabbb8081ade59afc98d315d22ff5792c0a5e18b85d8eae2",
+   "resumo_codigo_da_certidao": "0x451acb08f53d0c25eabbb8081ade59afc98d315d22ff5792c0a5e18b85d8eae2",
+   "iguais": true,
+   "matchId_cache": "51180397",
+   "match_id_certidao": "51180397"
+  },
+  "proxyResolution_do_acervo": {
+   "isProxy": false,
+   "proxyType": null,
+   "implementations": []
+  },
+  "constantes_address": [
+   {
+    "construto": "imutavel:12859",
+    "motivo": "immutable",
+    "tipo": "address",
+    "nome": "usdc",
+    "declaracao": [
+     {
+      "arquivo": "src/creators/UsdcFactory.sol",
+      "linha": 34,
+      "trecho": "address public immutable usdc;"
+     }
+    ],
+    "valor": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 2186,
+    "nome_do_alvo_no_instantaneo": "FiatTokenProxy.sol:FiatTokenProxy",
+    "regioes": [
+     {
+      "inicio": 303,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/UsdcFactory.sol",
+      "linha": 34,
+      "texto": "address public immutable usdc"
+     },
+     {
+      "inicio": 6254,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/UsdcFactory.sol",
+      "linha": 49,
+      "texto": "usdc"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:12295",
+    "motivo": "immutable",
+    "tipo": "address",
+    "nome": "manager",
+    "declaracao": [
+     {
+      "arquivo": "src/assets/modules/TradeGate.sol",
+      "linha": 45,
+      "trecho": "address public immutable manager;"
+     },
+     {
+      "arquivo": "src/creators/BaseFactory.sol",
+      "linha": 72,
+      "trecho": "address public immutable manager;"
+     },
+     {
+      "arquivo": "src/platform/PoolInitializer.sol",
+      "linha": 94,
+      "trecho": "IPoolManager public immutable manager;"
+     }
+    ],
+    "valor": "0x000000000004444c5dc75cb358380d2e3de08a90",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 24009,
+    "nome_do_alvo_no_instantaneo": "lib/v4-core/src/PoolManager.sol:PoolManager",
+    "regioes": [
+     {
+      "inicio": 383,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/BaseFactory.sol",
+      "linha": 72,
+      "texto": "address public immutable manager"
+     },
+     {
+      "inicio": 5782,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/BaseFactory.sol",
+      "linha": 156,
+      "texto": "manager"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:12292",
+    "motivo": "immutable",
+    "tipo": "contract PoolInitializer",
+    "nome": "initializer",
+    "declaracao": [
+     {
+      "arquivo": "src/assets/BaseToken.sol",
+      "linha": 69,
+      "trecho": "address public immutable initializer;"
+     },
+     {
+      "arquivo": "src/creators/BaseFactory.sol",
+      "linha": 69,
+      "trecho": "PoolInitializer public immutable initializer;"
+     }
+    ],
+    "valor": "0xf60a4c650078e6280d1832b7556a39cb7ce669e6",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 9983,
+    "nome_do_alvo_no_instantaneo": "src/platform/PoolInitializer.sol:PoolInitializer",
+    "regioes": [
+     {
+      "inicio": 652,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/BaseFactory.sol",
+      "linha": 69,
+      "texto": "PoolInitializer public immutable initializer"
+     },
+     {
+      "inicio": 3413,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/BaseFactory.sol",
+      "linha": 189,
+      "texto": "initializer"
+     },
+     {
+      "inicio": 3476,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/BaseFactory.sol",
+      "linha": 190,
+      "texto": "initializer"
+     },
+     {
+      "inicio": 3615,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/BaseFactory.sol",
+      "linha": 191,
+      "texto": "initializer"
+     },
+     {
+      "inicio": 5866,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/BaseFactory.sol",
+      "linha": 158,
+      "texto": "initializer"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:12298",
+    "motivo": "immutable",
+    "tipo": "address",
+    "nome": "positions",
+    "declaracao": [
+     {
+      "arquivo": "src/assets/modules/PositionTomb.sol",
+      "linha": 35,
+      "trecho": "address public immutable positions;"
+     },
+     {
+      "arquivo": "src/creators/BaseFactory.sol",
+      "linha": 75,
+      "trecho": "address public immutable positions;"
+     },
+     {
+      "arquivo": "src/platform/initializer/PositionMinter.sol",
+      "linha": 59,
+      "trecho": "IPositionManager public immutable positions;"
+     }
+    ],
+    "valor": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 23877,
+    "nome_do_alvo_no_instantaneo": "src/PositionManager.sol:PositionManager",
+    "regioes": [
+     {
+      "inicio": 753,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/BaseFactory.sol",
+      "linha": 75,
+      "texto": "address public immutable positions"
+     },
+     {
+      "inicio": 5822,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/BaseFactory.sol",
+      "linha": 157,
+      "texto": "positions"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:12301",
+    "motivo": "immutable",
+    "tipo": "address",
+    "nome": "swapHook",
+    "declaracao": [
+     {
+      "arquivo": "src/assets/BaseToken.sol",
+      "linha": 72,
+      "trecho": "address public immutable swapHook;"
+     },
+     {
+      "arquivo": "src/creators/BaseFactory.sol",
+      "linha": 79,
+      "trecho": "address public immutable swapHook;"
+     },
+     {
+      "arquivo": "src/platform/PoolInitializer.sol",
+      "linha": 88,
+      "trecho": "ISwapHook public immutable swapHook;"
+     }
+    ],
+    "valor": "0xbd31ea90b36a83616ec022a616d5d4c63160e088",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 12329,
+    "nome_do_alvo_no_instantaneo": "src/platform/SwapHook.sol:SwapHook",
+    "regioes": [
+     {
+      "inicio": 804,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/BaseFactory.sol",
+      "linha": 79,
+      "texto": "address public immutable swapHook"
+     },
+     {
+      "inicio": 5910,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/BaseFactory.sol",
+      "linha": 159,
+      "texto": "swapHook"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:12958",
+    "motivo": "immutable",
+    "tipo": "contract IController",
+    "nome": "controller",
+    "declaracao": [
+     {
+      "arquivo": "src/creators/base/ControllerLinked.sol",
+      "linha": 27,
+      "trecho": "IController public immutable controller;"
+     },
+     {
+      "arquivo": "src/platform/PoolInitializer.sol",
+      "linha": 91,
+      "trecho": "IController public immutable controller;"
+     }
+    ],
+    "valor": "0x96aca09bd91afc5e404b83686fd1dbdb36ef0fcf",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 7018,
+    "nome_do_alvo_no_instantaneo": "src/platform/Controller.sol:Controller",
+    "regioes": [
+     {
+      "inicio": 915,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/base/ControllerLinked.sol",
+      "linha": 27,
+      "texto": "IController public immutable controller"
+     },
+     {
+      "inicio": 2151,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/base/CreateChecks.sol",
+      "linha": 70,
+      "texto": "controller"
+     },
+     {
+      "inicio": 2487,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/base/CreationFeeTaker.sol",
+      "linha": 33,
+      "texto": "controller"
+     },
+     {
+      "inicio": 2663,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/base/CreationFeeTaker.sol",
+      "linha": 36,
+      "texto": "controller"
+     },
+     {
+      "inicio": 3778,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/BaseFactory.sol",
+      "linha": 197,
+      "texto": "controller"
+     },
+     {
+      "inicio": 4135,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/base/CreateChecks.sol",
+      "linha": 87,
+      "texto": "controller"
+     },
+     {
+      "inicio": 4506,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/base/CreateChecks.sol",
+      "linha": 101,
+      "texto": "controller"
+     },
+     {
+      "inicio": 4643,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/base/CreateChecks.sol",
+      "linha": 102,
+      "texto": "controller"
+     },
+     {
+      "inicio": 5018,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/base/CreateChecks.sol",
+      "linha": 120,
+      "texto": "controller"
+     },
+     {
+      "inicio": 5172,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/base/CreateChecks.sol",
+      "linha": 121,
+      "texto": "controller"
+     },
+     {
+      "inicio": 6339,
+      "instrucao": "PUSH32",
+      "arquivo": "src/creators/UsdcFactory.sol",
+      "linha": 50,
+      "texto": "controller"
+     }
+    ]
+   }
+  ],
+  "delegatecall_no_codigo_fonte": [
+   {
+    "arquivo": "node_modules/@openzeppelin/contracts/utils/Address.sol",
+    "linha": 97,
+    "forma": "solidity",
+    "alvo": "target",
+    "atribuicao_local": null,
+    "destino": "outro: target",
+    "funcao": {
+     "linha": 96,
+     "cabecalho": "function functionDelegateCall(address target, bytes memory data) internal returns (bytes memory) {",
+     "tipo": "funcao"
+    },
+    "evidencia": [
+     {
+      "arquivo": "node_modules/@openzeppelin/contracts/utils/Address.sol",
+      "linhas": [
+       97,
+       97
+      ],
+      "trecho": "(bool success, bytes memory returndata) = target.delegatecall(data);",
+      "papel": "chamada delegatecall"
+     }
+    ]
+   }
+  ],
+  "auxiliares_de_delegatecall_chamados": [],
+  "biblioteca_vinculada_apos_compilacao": [],
+  "bibliotecas_vinculadas_na_compilacao": [],
+  "codigo_de_execucao": {
+   "tamanho": 19834,
+   "instrucoes_DELEGATECALL_fora_dos_metadados": 0,
+   "instrucoes_CALLCODE_fora_dos_metadados": 0,
+   "por_classe": {},
+   "instrucoes": []
+  },
+  "decisao": "nao",
+  "proxy_cuja_implementacao_e_o_endereco_nao_atestado": false,
+  "implementacao": [],
+  "leitura_do_codigo": "UsdcFactory: functionDelegateCall da OpenZeppelin esta no codigo-fonte, mas nao e chamada; nao ha DELEGATECALL no codigo.",
+  "evidencias": [
+   {
+    "o_que": "chamada delegatecall com destino outro: target (funcao: function functionDelegateCall(address target, bytes memory data) internal returns (bytes memory) {)",
+    "arquivo": "node_modules/@openzeppelin/contracts/utils/Address.sol",
+    "linhas": [
+     97,
+     97
+    ],
+    "trecho": "(bool success, bytes memory returndata) = target.delegatecall(data);"
+   }
+  ]
+ },
+ {
+  "endereco": "0x2305027c7d83b33b34ec217d22ffc240d39c59cc",
+  "contrato_compilado": "src/NttManager/NttManager.sol:NttManager",
+  "grau": "parcial",
+  "compilador": "0.8.19+commit.7dd6d404",
+  "conferencia_do_codigo": {
+   "keccak_onchainBytecode_do_cache": "0xab855dfe81b9c364da24bc6088749b4567d81d0bf3bda2a00f5b57e5c197777a",
+   "resumo_codigo_da_certidao": "0xab855dfe81b9c364da24bc6088749b4567d81d0bf3bda2a00f5b57e5c197777a",
+   "iguais": true,
+   "matchId_cache": "13239200",
+   "match_id_certidao": "13239200"
+  },
+  "proxyResolution_do_acervo": {
+   "isProxy": false,
+   "proxyType": null,
+   "implementations": []
+  },
+  "constantes_address": [
+   {
+    "construto": "imutavel:7373",
+    "motivo": "immutable",
+    "tipo": "address",
+    "nome": "token",
+    "declaracao": [
+     {
+      "arquivo": "src/NttManager/ManagerBase.sol",
+      "linha": 28,
+      "trecho": "address public immutable token;"
+     }
+    ],
+    "valor": "0x3b50805453023a91a8bf641e279401a0b23fa6f9",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 14068,
+    "nome_do_alvo_no_instantaneo": "contract-40735d62d1.sol:Renzo",
+    "regioes": [
+     {
+      "inicio": 656,
+      "instrucao": "PUSH32",
+      "arquivo": "src/NttManager/ManagerBase.sol",
+      "linha": 28,
+      "texto": "address public immutable token"
+     },
+     {
+      "inicio": 1300,
+      "instrucao": "PUSH32",
+      "arquivo": "src/NttManager/NttManager.sol",
+      "linha": 527,
+      "texto": "token"
+     },
+     {
+      "inicio": 1377,
+      "instrucao": "PUSH32",
+      "arquivo": "src/NttManager/NttManager.sol",
+      "linha": 530,
+      "texto": "token"
+     },
+     {
+      "inicio": 10446,
+      "instrucao": "PUSH32",
+      "arquivo": "src/NttManager/ManagerBase.sol",
+      "linha": 440,
+      "texto": "token"
+     },
+     {
+      "inicio": 14373,
+      "instrucao": "PUSH32",
+      "arquivo": "src/NttManager/NttManager.sol",
+      "linha": 349,
+      "texto": "token"
+     },
+     {
+      "inicio": 16047,
+      "instrucao": "PUSH32",
+      "arquivo": "src/NttManager/NttManager.sol",
+      "linha": 349,
+      "texto": "token"
+     },
+     {
+      "inicio": 18285,
+      "instrucao": "PUSH32",
+      "arquivo": "src/NttManager/NttManager.sol",
+      "linha": 464,
+      "texto": "token"
+     },
+     {
+      "inicio": 19372,
+      "instrucao": "PUSH32",
+      "arquivo": "src/NttManager/NttManager.sol",
+      "linha": 530,
+      "texto": "token"
+     },
+     {
+      "inicio": 19548,
+      "instrucao": "PUSH32",
+      "arquivo": "src/NttManager/NttManager.sol",
+      "linha": 538,
+      "texto": "token"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:7375",
+    "motivo": "immutable",
+    "tipo": "address",
+    "nome": "deployer",
+    "declaracao": [
+     {
+      "arquivo": "src/NttManager/ManagerBase.sol",
+      "linha": 29,
+      "trecho": "address immutable deployer;"
+     }
+    ],
+    "valor": "0xb0353400548a5240e4f9ae498d552fd1995145c9",
+    "classe_do_alvo": "conta_sem_codigo",
+    "substituivel_erc1967": null,
+    "tamanho_codigo_alvo": null,
+    "nome_do_alvo_no_instantaneo": null,
+    "regioes": [
+     {
+      "inicio": 7257,
+      "instrucao": "PUSH32",
+      "arquivo": "src/NttManager/NttManager.sol",
+      "linha": 58,
+      "texto": "deployer"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:11405",
+    "motivo": "immutable",
+    "tipo": "address",
+    "nome": "_this",
+    "declaracao": [
+     {
+      "arquivo": "src/libraries/Implementation.sol",
+      "linha": 13,
+      "trecho": "address immutable _this;"
+     }
+    ],
+    "valor": "0x2305027c7d83b33b34ec217d22ffc240d39c59cc",
+    "classe_do_alvo": "proprio_contrato",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 24419,
+    "nome_do_alvo_no_instantaneo": "src/NttManager/NttManager.sol:NttManager",
+    "regioes": [
+     {
+      "inicio": 20373,
+      "instrucao": "PUSH32",
+      "arquivo": "src/libraries/Implementation.sol",
+      "linha": 56,
+      "texto": "_this"
+     }
+    ]
+   }
+  ],
+  "delegatecall_no_codigo_fonte": [
+   {
+    "arquivo": "lib/openzeppelin-contracts/contracts/utils/Address.sol",
+    "linha": 185,
+    "forma": "solidity",
+    "alvo": "target",
+    "atribuicao_local": null,
+    "destino": "outro: target",
+    "funcao": {
+     "linha": 180,
+     "cabecalho": "function functionDelegateCall(",
+     "tipo": "funcao"
+    },
+    "evidencia": [
+     {
+      "arquivo": "lib/openzeppelin-contracts/contracts/utils/Address.sol",
+      "linhas": [
+       185,
+       185
+      ],
+      "trecho": "(bool success, bytes memory returndata) = target.delegatecall(data);",
+      "papel": "chamada delegatecall"
+     }
+    ]
+   }
+  ],
+  "auxiliares_de_delegatecall_chamados": [
+   {
+    "auxiliar": "functionDelegateCall",
+    "arquivo": "lib/openzeppelin-contracts/contracts/utils/Address.sol",
+    "linha": 171,
+    "trecho": "return functionDelegateCall(target, data, \"Address: low-level delegate call failed\");",
+    "funcao": {
+     "linha": 170,
+     "cabecalho": "function functionDelegateCall(address target, bytes memory data) internal returns (bytes memory) {",
+     "tipo": "funcao"
+    }
+   },
+   {
+    "auxiliar": "functionDelegateCall",
+    "arquivo": "lib/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Upgrade.sol",
+    "linha": 72,
+    "trecho": "Address.functionDelegateCall(newImplementation, data);",
+    "funcao": {
+     "linha": 65,
+     "cabecalho": "function _upgradeToAndCall(",
+     "tipo": "funcao"
+    }
+   },
+   {
+    "auxiliar": "functionDelegateCall",
+    "arquivo": "lib/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Upgrade.sol",
+    "linha": 182,
+    "trecho": "Address.functionDelegateCall(IBeacon(newBeacon).implementation(), data);",
+    "funcao": {
+     "linha": 174,
+     "cabecalho": "function _upgradeBeaconToAndCall(",
+     "tipo": "funcao"
+    }
+   }
+  ],
+  "biblioteca_vinculada_apos_compilacao": [],
+  "bibliotecas_vinculadas_na_compilacao": [
+   {
+    "arquivo": "src/libraries/TransceiverStructs.sol",
+    "biblioteca": "TransceiverStructs",
+    "endereco": "0x125f01700e2b24b39616a7b3d24d4f0acd790eee",
+    "PUSH20_no_codigo": 7,
+    "PUSH20_em_regiao_nao_atestada": 0
+   }
+  ],
+  "codigo_de_execucao": {
+   "tamanho": 24419,
+   "instrucoes_DELEGATECALL_fora_dos_metadados": 7,
+   "instrucoes_CALLCODE_fora_dos_metadados": 0,
+   "por_classe": {
+    "biblioteca_vinculada_na_compilacao": 7
+   },
+   "instrucoes": [
+    {
+     "pc": 4568,
+     "instrucao": "DELEGATECALL",
+     "arquivo": "src/NttManager/ManagerBase.sol",
+     "linha": 131,
+     "texto": "TransceiverStructs.nttManagerMessageDigest(sourceChainId, payload)",
+     "classe": "biblioteca_vinculada_na_compilacao",
+     "destino": "TransceiverStructs",
+     "funcao": "funcao"
+    },
+    {
+     "pc": 5974,
+     "instrucao": "DELEGATECALL",
+     "arquivo": "src/NttManager/ManagerBase.sol",
+     "linha": 96,
+     "texto": "TransceiverStructs .parseTransceiverInstructions(transceiverInstructions, enabledTransceivers.length)",
+     "classe": "biblioteca_vinculada_na_compilacao",
+     "destino": "TransceiverStructs",
+     "funcao": "funcao"
+    },
+    {
+     "pc": 13209,
+     "instrucao": "DELEGATECALL",
+     "arquivo": "src/NttManager/NttManager.sol",
+     "linha": 210,
+     "texto": "TransceiverStructs.parseNativeTokenTransfer(message.payload)",
+     "classe": "biblioteca_vinculada_na_compilacao",
+     "destino": "TransceiverStructs",
+     "funcao": "funcao"
+    },
+    {
+     "pc": 13939,
+     "instrucao": "DELEGATECALL",
+     "arquivo": "src/NttManager/ManagerBase.sol",
+     "linha": 154,
+     "texto": "TransceiverStructs.nttManagerMessageDigest(sourceChainId, message)",
+     "classe": "biblioteca_vinculada_na_compilacao",
+     "destino": "TransceiverStructs",
+     "funcao": "funcao"
+    },
+    {
+     "pc": 18205,
+     "instrucao": "DELEGATECALL",
+     "arquivo": "src/NttManager/ManagerBase.sol",
+     "linha": 231,
+     "texto": "TransceiverStructs.parseTransceiverInstructions( transceiverInstructions, numRegisteredTransceivers )",
+     "classe": "biblioteca_vinculada_na_compilacao",
+     "destino": "TransceiverStructs",
+     "funcao": "funcao"
+    },
+    {
+     "pc": 18425,
+     "instrucao": "DELEGATECALL",
+     "arquivo": "src/NttManager/NttManager.sol",
+     "linha": 472,
+     "texto": "TransceiverStructs.encodeNativeTokenTransfer(ntt)",
+     "classe": "biblioteca_vinculada_na_compilacao",
+     "destino": "TransceiverStructs",
+     "funcao": "funcao"
+    },
+    {
+     "pc": 18550,
+     "instrucao": "DELEGATECALL",
+     "arquivo": "src/NttManager/NttManager.sol",
+     "linha": 468,
+     "texto": "TransceiverStructs.encodeNttManagerMessage( TransceiverStructs.NttManagerMessage( bytes32(uint256(seq)), toWormholeFormat(sender), TransceiverStructs.encodeNativeTokenTransfer(ntt) ) )",
+     "classe": "biblioteca_vinculada_na_compilacao",
+     "destino": "TransceiverStructs",
+     "funcao": "funcao"
+    }
+   ]
+  },
+  "decisao": "nao",
+  "proxy_cuja_implementacao_e_o_endereco_nao_atestado": false,
+  "implementacao": [],
+  "leitura_do_codigo": "NttManager e implementacao (usada atras de proxy ERC-1967); os DELEGATECALL do codigo sao chamadas a biblioteca TransceiverStructs, cujo endereco foi fixado na compilacao (settings.libraries) e esta no codigo confrontado; nenhum vai para as imutaveis token, deployer e _this.",
+  "evidencias": [
+   {
+    "o_que": "chamada delegatecall com destino outro: target (funcao: function functionDelegateCall()",
+    "arquivo": "lib/openzeppelin-contracts/contracts/utils/Address.sol",
+    "linhas": [
+     185,
+     185
+    ],
+    "trecho": "(bool success, bytes memory returndata) = target.delegatecall(data);"
+   },
+   {
+    "o_que": "chamada a functionDelegateCall (funcao: function functionDelegateCall(address target, bytes memory data) internal returns (bytes memory) {)",
+    "arquivo": "lib/openzeppelin-contracts/contracts/utils/Address.sol",
+    "linhas": [
+     171,
+     171
+    ],
+    "trecho": "return functionDelegateCall(target, data, \"Address: low-level delegate call failed\");"
+   },
+   {
+    "o_que": "chamada a functionDelegateCall (funcao: function _upgradeToAndCall()",
+    "arquivo": "lib/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Upgrade.sol",
+    "linhas": [
+     72,
+     72
+    ],
+    "trecho": "Address.functionDelegateCall(newImplementation, data);"
+   },
+   {
+    "o_que": "chamada a functionDelegateCall (funcao: function _upgradeBeaconToAndCall()",
+    "arquivo": "lib/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Upgrade.sol",
+    "linhas": [
+     182,
+     182
+    ],
+    "trecho": "Address.functionDelegateCall(IBeacon(newBeacon).implementation(), data);"
+   },
+   {
+    "o_que": "instrucao DELEGATECALL em 4568: chamada a biblioteca TransceiverStructs vinculada na compilacao",
+    "arquivo": "src/NttManager/ManagerBase.sol",
+    "linhas": [
+     131,
+     131
+    ],
+    "trecho": "TransceiverStructs.nttManagerMessageDigest(sourceChainId, payload);"
+   },
+   {
+    "o_que": "instrucao DELEGATECALL em 5974: chamada a biblioteca TransceiverStructs vinculada na compilacao",
+    "arquivo": "src/NttManager/ManagerBase.sol",
+    "linhas": [
+     96,
+     96
+    ],
+    "trecho": "TransceiverStructs.TransceiverInstruction[] memory instructions = TransceiverStructs"
+   },
+   {
+    "o_que": "instrucao DELEGATECALL em 13209: chamada a biblioteca TransceiverStructs vinculada na compilacao",
+    "arquivo": "src/NttManager/NttManager.sol",
+    "linhas": [
+     210,
+     210
+    ],
+    "trecho": "TransceiverStructs.parseNativeTokenTransfer(message.payload);"
+   },
+   {
+    "o_que": "instrucao DELEGATECALL em 13939: chamada a biblioteca TransceiverStructs vinculada na compilacao",
+    "arquivo": "src/NttManager/ManagerBase.sol",
+    "linhas": [
+     154,
+     154
+    ],
+    "trecho": "bytes32 digest = TransceiverStructs.nttManagerMessageDigest(sourceChainId, message);"
+   },
+   {
+    "o_que": "instrucao DELEGATECALL em 18205: chamada a biblioteca TransceiverStructs vinculada na compilacao",
+    "arquivo": "src/NttManager/ManagerBase.sol",
+    "linhas": [
+     231,
+     231
+    ],
+    "trecho": "instructions = TransceiverStructs.parseTransceiverInstructions("
+   },
+   {
+    "o_que": "instrucao DELEGATECALL em 18425: chamada a biblioteca TransceiverStructs vinculada na compilacao",
+    "arquivo": "src/NttManager/NttManager.sol",
+    "linhas": [
+     472,
+     472
+    ],
+    "trecho": "TransceiverStructs.encodeNativeTokenTransfer(ntt)"
+   },
+   {
+    "o_que": "instrucao DELEGATECALL em 18550: chamada a biblioteca TransceiverStructs vinculada na compilacao",
+    "arquivo": "src/NttManager/NttManager.sol",
+    "linhas": [
+     468,
+     468
+    ],
+    "trecho": "bytes memory encodedNttManagerPayload = TransceiverStructs.encodeNttManagerMessage("
+   }
+  ]
+ },
+ {
+  "endereco": "0x2d90afaeea73aa6a3313f191349ce4a9b86c7996",
+  "contrato_compilado": "contracts/InitializedProxy.sol:InitializedProxy",
+  "grau": "exata",
+  "compilador": "0.8.5+commit.a4f2e591",
+  "conferencia_do_codigo": {
+   "keccak_onchainBytecode_do_cache": "0xe1b113ea17afb1b210e39b12cdd6e3489b3d06f2d891db73ec30f50ba8f86413",
+   "resumo_codigo_da_certidao": "0xe1b113ea17afb1b210e39b12cdd6e3489b3d06f2d891db73ec30f50ba8f86413",
+   "iguais": true,
+   "matchId_cache": "13518132",
+   "match_id_certidao": "13518132"
+  },
+  "proxyResolution_do_acervo": {
+   "isProxy": false,
+   "proxyType": null,
+   "implementations": []
+  },
+  "constantes_address": [
+   {
+    "construto": "imutavel:4",
+    "motivo": "immutable",
+    "tipo": "address",
+    "nome": "logic",
+    "declaracao": [
+     {
+      "arquivo": "contracts/InitializedProxy.sol",
+      "linha": 10,
+      "trecho": "address public immutable logic;"
+     }
+    ],
+    "valor": "0x4a6d2a7a4f9375ebd4ecdbb1972a767dd83b02de",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 14237,
+    "nome_do_alvo_no_instantaneo": "contracts/ERC721TokenVault.sol:TokenVault",
+    "regioes": [
+     {
+      "inicio": 42,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/InitializedProxy.sol",
+      "linha": 29,
+      "texto": "logic"
+     },
+     {
+      "inicio": 123,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/InitializedProxy.sol",
+      "linha": 10,
+      "texto": "address public immutable logic"
+     }
+    ]
+   }
+  ],
+  "delegatecall_no_codigo_fonte": [
+   {
+    "arquivo": "contracts/InitializedProxy.sol",
+    "linha": 21,
+    "forma": "solidity",
+    "alvo": "_logic",
+    "atribuicao_local": null,
+    "destino": "outro: _logic",
+    "funcao": {
+     "linha": 14,
+     "cabecalho": "constructor(",
+     "tipo": "construtor"
+    },
+    "evidencia": [
+     {
+      "arquivo": "contracts/InitializedProxy.sol",
+      "linhas": [
+       21,
+       21
+      ],
+      "trecho": "_logic.delegatecall(_initializationCalldata);",
+      "papel": "chamada delegatecall"
+     }
+    ]
+   },
+   {
+    "arquivo": "contracts/InitializedProxy.sol",
+    "linha": 33,
+    "forma": "assembly",
+    "alvo": "_impl",
+    "atribuicao_local": {
+     "linha": 29,
+     "expressao": "logic"
+    },
+    "destino": "imutavel_nao_atestada:logic",
+    "funcao": {
+     "linha": 28,
+     "cabecalho": "fallback() external payable {",
+     "tipo": "fallback"
+    },
+    "evidencia": [
+     {
+      "arquivo": "contracts/InitializedProxy.sol",
+      "linhas": [
+       29,
+       29
+      ],
+      "trecho": "address _impl = logic;",
+      "papel": "atribuicao local de _impl"
+     },
+     {
+      "arquivo": "contracts/InitializedProxy.sol",
+      "linhas": [
+       33,
+       33
+      ],
+      "trecho": "let result := delegatecall(gas(), _impl, ptr, calldatasize(), 0, 0)",
+      "papel": "chamada delegatecall"
+     }
+    ]
+   }
+  ],
+  "auxiliares_de_delegatecall_chamados": [],
+  "biblioteca_vinculada_apos_compilacao": [],
+  "bibliotecas_vinculadas_na_compilacao": [],
+  "codigo_de_execucao": {
+   "tamanho": 252,
+   "instrucoes_DELEGATECALL_fora_dos_metadados": 1,
+   "instrucoes_CALLCODE_fora_dos_metadados": 0,
+   "por_classe": {
+    "delegatecall_escrito_no_fonte": 1
+   },
+   "instrucoes": [
+    {
+     "pc": 87,
+     "instrucao": "DELEGATECALL",
+     "arquivo": "contracts/InitializedProxy.sol",
+     "linha": 33,
+     "texto": "delegatecall(gas(), _impl, ptr, calldatasize(), 0, 0)",
+     "classe": "delegatecall_escrito_no_fonte",
+     "destino": "imutavel_nao_atestada:logic",
+     "funcao": "fallback"
+    }
+   ]
+  },
+  "decisao": "proxy",
+  "proxy_cuja_implementacao_e_o_endereco_nao_atestado": true,
+  "implementacao": [
+   {
+    "nome": "logic",
+    "valor": "0x4a6d2a7a4f9375ebd4ecdbb1972a767dd83b02de",
+    "classe": "contrato_verificado_no_acervo",
+    "nome_no_instantaneo": "contracts/ERC721TokenVault.sol:TokenVault"
+   }
+  ],
+  "leitura_do_codigo": "InitializedProxy: o fallback faz delegatecall para a imutavel logic; o construtor tambem delega a inicializacao ao mesmo endereco; o receive e vazio.",
+  "evidencias": [
+   {
+    "o_que": "declaracao da imutavel",
+    "arquivo": "contracts/InitializedProxy.sol",
+    "linhas": [
+     10,
+     10
+    ],
+    "trecho": "address public immutable logic;"
+   },
+   {
+    "o_que": "cabecalho da funcao que contem o delegatecall",
+    "arquivo": "contracts/InitializedProxy.sol",
+    "linhas": [
+     28,
+     28
+    ],
+    "trecho": "fallback() external payable {"
+   },
+   {
+    "o_que": "atribuicao local de _impl na funcao fallback",
+    "arquivo": "contracts/InitializedProxy.sol",
+    "linhas": [
+     29,
+     29
+    ],
+    "trecho": "address _impl = logic;"
+   },
+   {
+    "o_que": "chamada delegatecall na funcao fallback",
+    "arquivo": "contracts/InitializedProxy.sol",
+    "linhas": [
+     33,
+     33
+    ],
+    "trecho": "let result := delegatecall(gas(), _impl, ptr, calldatasize(), 0, 0)"
+   },
+   {
+    "o_que": "chamada delegatecall no construtor (codigo de criacao, executado uma vez)",
+    "arquivo": "contracts/InitializedProxy.sol",
+    "linhas": [
+     21,
+     21
+    ],
+    "trecho": "_logic.delegatecall(_initializationCalldata);"
+   }
+  ]
+ },
+ {
+  "endereco": "0x32dafdb716dcd5dd799369a62d9d660ca6bc855f",
+  "contrato_compilado": "contracts/NonReceivableInitializedProxy.sol:NonReceivableInitializedProxy",
+  "grau": "exata",
+  "compilador": "0.8.5+commit.a4f2e591",
+  "conferencia_do_codigo": {
+   "keccak_onchainBytecode_do_cache": "0x98c6e0fab9df37e4409be432089061796406b48c7cb122d3dc9ca4779d4796c1",
+   "resumo_codigo_da_certidao": "0x98c6e0fab9df37e4409be432089061796406b48c7cb122d3dc9ca4779d4796c1",
+   "iguais": true,
+   "matchId_cache": "13655955",
+   "match_id_certidao": "13655955"
+  },
+  "proxyResolution_do_acervo": {
+   "isProxy": false,
+   "proxyType": null,
+   "implementations": []
+  },
+  "constantes_address": [
+   {
+    "construto": "imutavel:4",
+    "motivo": "immutable",
+    "tipo": "address",
+    "nome": "logic",
+    "declaracao": [
+     {
+      "arquivo": "contracts/NonReceivableInitializedProxy.sol",
+      "linha": 10,
+      "trecho": "address public immutable logic;"
+     }
+    ],
+    "valor": "0x2045427276b2ad409202eea1e0c81e150f3203e4",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 15398,
+    "nome_do_alvo_no_instantaneo": "contracts/PartyBuy.sol:PartyBuy",
+    "regioes": [
+     {
+      "inicio": 33,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/NonReceivableInitializedProxy.sol",
+      "linha": 29,
+      "texto": "logic"
+     },
+     {
+      "inicio": 114,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/NonReceivableInitializedProxy.sol",
+      "linha": 10,
+      "texto": "address public immutable logic"
+     }
+    ]
+   }
+  ],
+  "delegatecall_no_codigo_fonte": [
+   {
+    "arquivo": "contracts/NonReceivableInitializedProxy.sol",
+    "linha": 21,
+    "forma": "solidity",
+    "alvo": "_logic",
+    "atribuicao_local": null,
+    "destino": "outro: _logic",
+    "funcao": {
+     "linha": 14,
+     "cabecalho": "constructor(",
+     "tipo": "construtor"
+    },
+    "evidencia": [
+     {
+      "arquivo": "contracts/NonReceivableInitializedProxy.sol",
+      "linhas": [
+       21,
+       21
+      ],
+      "trecho": "_logic.delegatecall(_initializationCalldata);",
+      "papel": "chamada delegatecall"
+     }
+    ]
+   },
+   {
+    "arquivo": "contracts/NonReceivableInitializedProxy.sol",
+    "linha": 33,
+    "forma": "assembly",
+    "alvo": "_impl",
+    "atribuicao_local": {
+     "linha": 29,
+     "expressao": "logic"
+    },
+    "destino": "imutavel_nao_atestada:logic",
+    "funcao": {
+     "linha": 28,
+     "cabecalho": "fallback() external payable {",
+     "tipo": "fallback"
+    },
+    "evidencia": [
+     {
+      "arquivo": "contracts/NonReceivableInitializedProxy.sol",
+      "linhas": [
+       29,
+       29
+      ],
+      "trecho": "address _impl = logic;",
+      "papel": "atribuicao local de _impl"
+     },
+     {
+      "arquivo": "contracts/NonReceivableInitializedProxy.sol",
+      "linhas": [
+       33,
+       33
+      ],
+      "trecho": "let result := delegatecall(gas(), _impl, ptr, calldatasize(), 0, 0)",
+      "papel": "chamada delegatecall"
+     }
+    ]
+   }
+  ],
+  "auxiliares_de_delegatecall_chamados": [],
+  "biblioteca_vinculada_apos_compilacao": [],
+  "bibliotecas_vinculadas_na_compilacao": [],
+  "codigo_de_execucao": {
+   "tamanho": 243,
+   "instrucoes_DELEGATECALL_fora_dos_metadados": 1,
+   "instrucoes_CALLCODE_fora_dos_metadados": 0,
+   "por_classe": {
+    "delegatecall_escrito_no_fonte": 1
+   },
+   "instrucoes": [
+    {
+     "pc": 78,
+     "instrucao": "DELEGATECALL",
+     "arquivo": "contracts/NonReceivableInitializedProxy.sol",
+     "linha": 33,
+     "texto": "delegatecall(gas(), _impl, ptr, calldatasize(), 0, 0)",
+     "classe": "delegatecall_escrito_no_fonte",
+     "destino": "imutavel_nao_atestada:logic",
+     "funcao": "fallback"
+    }
+   ]
+  },
+  "decisao": "proxy",
+  "proxy_cuja_implementacao_e_o_endereco_nao_atestado": true,
+  "implementacao": [
+   {
+    "nome": "logic",
+    "valor": "0x2045427276b2ad409202eea1e0c81e150f3203e4",
+    "classe": "contrato_verificado_no_acervo",
+    "nome_no_instantaneo": "contracts/PartyBuy.sol:PartyBuy"
+   }
+  ],
+  "leitura_do_codigo": "NonReceivableInitializedProxy: o fallback faz delegatecall para a imutavel logic; o construtor delega a inicializacao ao mesmo endereco; nao ha receive.",
+  "evidencias": [
+   {
+    "o_que": "declaracao da imutavel",
+    "arquivo": "contracts/NonReceivableInitializedProxy.sol",
+    "linhas": [
+     10,
+     10
+    ],
+    "trecho": "address public immutable logic;"
+   },
+   {
+    "o_que": "cabecalho da funcao que contem o delegatecall",
+    "arquivo": "contracts/NonReceivableInitializedProxy.sol",
+    "linhas": [
+     28,
+     28
+    ],
+    "trecho": "fallback() external payable {"
+   },
+   {
+    "o_que": "atribuicao local de _impl na funcao fallback",
+    "arquivo": "contracts/NonReceivableInitializedProxy.sol",
+    "linhas": [
+     29,
+     29
+    ],
+    "trecho": "address _impl = logic;"
+   },
+   {
+    "o_que": "chamada delegatecall na funcao fallback",
+    "arquivo": "contracts/NonReceivableInitializedProxy.sol",
+    "linhas": [
+     33,
+     33
+    ],
+    "trecho": "let result := delegatecall(gas(), _impl, ptr, calldatasize(), 0, 0)"
+   },
+   {
+    "o_que": "chamada delegatecall no construtor (codigo de criacao, executado uma vez)",
+    "arquivo": "contracts/NonReceivableInitializedProxy.sol",
+    "linhas": [
+     21,
+     21
+    ],
+    "trecho": "_logic.delegatecall(_initializationCalldata);"
+   }
+  ]
+ },
+ {
+  "endereco": "0x40f1cb91325dd8ef24dfac085c9ba46ea309e5e2",
+  "contrato_compilado": "contracts/smart/NoProtocolFeeLiquidityBootstrappingPool.sol:NoProtocolFeeLiquidityBootstrappingPool",
+  "grau": "exata",
+  "compilador": "0.7.1+commit.f4a555be",
+  "conferencia_do_codigo": {
+   "keccak_onchainBytecode_do_cache": "0x286fcad22db678f4b80c38d5b935dfe71d747fd25673925f7c13f3864b4543fc",
+   "resumo_codigo_da_certidao": "0x286fcad22db678f4b80c38d5b935dfe71d747fd25673925f7c13f3864b4543fc",
+   "iguais": true,
+   "matchId_cache": "1968453",
+   "match_id_certidao": "1968453"
+  },
+  "proxyResolution_do_acervo": {
+   "isProxy": false,
+   "proxyType": null,
+   "implementations": []
+  },
+  "constantes_address": [
+   {
+    "construto": "imutavel:1578",
+    "motivo": "immutable",
+    "tipo": "address",
+    "nome": "_owner",
+    "declaracao": [
+     {
+      "arquivo": "@balancer-labs/v2-pool-utils/contracts/BasePoolAuthorization.sol",
+      "linha": 33,
+      "trecho": "address private immutable _owner;"
+     }
+    ],
+    "valor": "0x67e0524739e59ca57ac27e520ea05d14cdb6015e",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 15569,
+    "nome_do_alvo_no_instantaneo": "contracts/FjordLbpProxyV6.sol:FjordLbpProxyV6",
+    "regioes": [
+     {
+      "inicio": 2577,
+      "instrucao": "PUSH32",
+      "arquivo": "@balancer-labs/v2-pool-utils/contracts/BasePoolAuthorization.sol",
+      "linha": 42,
+      "texto": "_owner"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:448",
+    "motivo": "immutable",
+    "tipo": "contract IVault",
+    "nome": "_vault",
+    "declaracao": [
+     {
+      "arquivo": "@balancer-labs/v2-pool-utils/contracts/BasePool.sol",
+      "linha": 68,
+      "trecho": "IVault private immutable _vault;"
+     },
+     {
+      "arquivo": "@balancer-labs/v2-pool-utils/contracts/factories/BasePoolFactory.sol",
+      "linha": 28,
+      "trecho": "IVault private immutable _vault;"
+     },
+     {
+      "arquivo": "@balancer-labs/v2-pool-utils/contracts/factories/BasePoolSplitCodeFactory.sol",
+      "linha": 25,
+      "trecho": "IVault private immutable _vault;"
+     },
+     {
+      "arquivo": "contracts/WeightedPool2Tokens.sol",
+      "linha": 61,
+      "trecho": "IVault private immutable _vault;"
+     }
+    ],
+    "valor": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 24512,
+    "nome_do_alvo_no_instantaneo": "contracts/vault/Vault.sol:Vault",
+    "regioes": [
+     {
+      "inicio": 2613,
+      "instrucao": "PUSH32",
+      "arquivo": "@balancer-labs/v2-pool-utils/contracts/BasePool.sol",
+      "linha": 119,
+      "texto": "_vault"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:15884",
+    "motivo": "immutable",
+    "tipo": "contract IERC20",
+    "nome": "_token0",
+    "declaracao": [
+     {
+      "arquivo": "contracts/smart/LiquidityBootstrappingPool.sol",
+      "linha": 44,
+      "trecho": "IERC20 internal immutable _token0;"
+     },
+     {
+      "arquivo": "contracts/WeightedPool.sol",
+      "linha": 30,
+      "trecho": "IERC20 internal immutable _token0;"
+     },
+     {
+      "arquivo": "contracts/WeightedPool2Tokens.sol",
+      "linha": 64,
+      "trecho": "IERC20 internal immutable _token0;"
+     }
+    ],
+    "valor": "0x63b420fb3294ba1d300ce5d3ba4bbca0f4fe5e3b",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 11390,
+    "nome_do_alvo_no_instantaneo": "src/Scramble.sol:Scramble",
+    "regioes": [
+     {
+      "inicio": 7616,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/smart/LiquidityBootstrappingPool.sol",
+      "linha": 433,
+      "texto": "_token0"
+     },
+     {
+      "inicio": 11715,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/smart/LiquidityBootstrappingPool.sol",
+      "linha": 204,
+      "texto": "_token0"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:15886",
+    "motivo": "immutable",
+    "tipo": "contract IERC20",
+    "nome": "_token1",
+    "declaracao": [
+     {
+      "arquivo": "contracts/smart/LiquidityBootstrappingPool.sol",
+      "linha": 45,
+      "trecho": "IERC20 internal immutable _token1;"
+     },
+     {
+      "arquivo": "contracts/WeightedPool.sol",
+      "linha": 31,
+      "trecho": "IERC20 internal immutable _token1;"
+     },
+     {
+      "arquivo": "contracts/WeightedPool2Tokens.sol",
+      "linha": 65,
+      "trecho": "IERC20 internal immutable _token1;"
+     }
+    ],
+    "valor": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 3124,
+    "nome_do_alvo_no_instantaneo": "WETH9.sol:WETH9",
+    "regioes": [
+     {
+      "inicio": 7713,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/smart/LiquidityBootstrappingPool.sol",
+      "linha": 434,
+      "texto": "_token1"
+     },
+     {
+      "inicio": 11781,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/smart/LiquidityBootstrappingPool.sol",
+      "linha": 205,
+      "texto": "_token1"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:15888",
+    "motivo": "immutable",
+    "tipo": "contract IERC20",
+    "nome": "_token2",
+    "declaracao": [
+     {
+      "arquivo": "contracts/smart/LiquidityBootstrappingPool.sol",
+      "linha": 46,
+      "trecho": "IERC20 internal immutable _token2;"
+     },
+     {
+      "arquivo": "contracts/WeightedPool.sol",
+      "linha": 32,
+      "trecho": "IERC20 internal immutable _token2;"
+     }
+    ],
+    "valor": "0x0000000000000000000000000000000000000000",
+    "classe_do_alvo": "endereco_nulo",
+    "substituivel_erc1967": null,
+    "tamanho_codigo_alvo": null,
+    "nome_do_alvo_no_instantaneo": null,
+    "regioes": [
+     {
+      "inicio": 7810,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/smart/LiquidityBootstrappingPool.sol",
+      "linha": 435,
+      "texto": "_token2"
+     },
+     {
+      "inicio": 11847,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/smart/LiquidityBootstrappingPool.sol",
+      "linha": 206,
+      "texto": "_token2"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:15890",
+    "motivo": "immutable",
+    "tipo": "contract IERC20",
+    "nome": "_token3",
+    "declaracao": [
+     {
+      "arquivo": "contracts/smart/LiquidityBootstrappingPool.sol",
+      "linha": 47,
+      "trecho": "IERC20 internal immutable _token3;"
+     },
+     {
+      "arquivo": "contracts/WeightedPool.sol",
+      "linha": 33,
+      "trecho": "IERC20 internal immutable _token3;"
+     }
+    ],
+    "valor": "0x0000000000000000000000000000000000000000",
+    "classe_do_alvo": "endereco_nulo",
+    "substituivel_erc1967": null,
+    "tamanho_codigo_alvo": null,
+    "nome_do_alvo_no_instantaneo": null,
+    "regioes": [
+     {
+      "inicio": 7907,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/smart/LiquidityBootstrappingPool.sol",
+      "linha": 436,
+      "texto": "_token3"
+     },
+     {
+      "inicio": 11913,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/smart/LiquidityBootstrappingPool.sol",
+      "linha": 207,
+      "texto": "_token3"
+     }
+    ]
+   }
+  ],
+  "delegatecall_no_codigo_fonte": [],
+  "auxiliares_de_delegatecall_chamados": [],
+  "biblioteca_vinculada_apos_compilacao": [],
+  "bibliotecas_vinculadas_na_compilacao": [],
+  "codigo_de_execucao": {
+   "tamanho": 20296,
+   "instrucoes_DELEGATECALL_fora_dos_metadados": 0,
+   "instrucoes_CALLCODE_fora_dos_metadados": 0,
+   "por_classe": {},
+   "instrucoes": []
+  },
+  "decisao": "nao",
+  "proxy_cuja_implementacao_e_o_endereco_nao_atestado": false,
+  "implementacao": [],
+  "leitura_do_codigo": "NoProtocolFeeLiquidityBootstrappingPool: nenhum delegatecall.",
+  "evidencias": []
+ },
+ {
+  "endereco": "0x4ae304be5b0f211f69cc97dfb6913d6d13f45418",
+  "contrato_compilado": "contract-b60583fba2.sol:COIN996",
+  "grau": "exata",
+  "compilador": "0.8.27+commit.40a35a09",
+  "conferencia_do_codigo": {
+   "keccak_onchainBytecode_do_cache": "0xbb3d5de54e14aa56fcb7bd9ae4d3956f5d57cdacde832aaa4abe752c31665b86",
+   "resumo_codigo_da_certidao": "0xbb3d5de54e14aa56fcb7bd9ae4d3956f5d57cdacde832aaa4abe752c31665b86",
+   "iguais": true,
+   "matchId_cache": "9908642",
+   "match_id_certidao": "9908642"
+  },
+  "proxyResolution_do_acervo": {
+   "isProxy": false,
+   "proxyType": null,
+   "implementations": []
+  },
+  "constantes_address": [
+   {
+    "construto": "imutavel:3236",
+    "motivo": "immutable",
+    "tipo": "address",
+    "nome": "_cachedThis",
+    "declaracao": [
+     {
+      "arquivo": "@openzeppelin/contracts@5.4.0/utils/cryptography/EIP712.sol",
+      "linha": 44,
+      "trecho": "address private immutable _cachedThis;"
+     }
+    ],
+    "valor": "0x4ae304be5b0f211f69cc97dfb6913d6d13f45418",
+    "classe_do_alvo": "proprio_contrato",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 3739,
+    "nome_do_alvo_no_instantaneo": "contract-b60583fba2.sol:COIN996",
+    "regioes": [
+     {
+      "inicio": 1425,
+      "instrucao": "PUSH32",
+      "arquivo": "@openzeppelin/contracts@5.4.0/utils/cryptography/EIP712.sol",
+      "linha": 83,
+      "texto": "_cachedThis"
+     }
+    ]
+   }
+  ],
+  "delegatecall_no_codigo_fonte": [],
+  "auxiliares_de_delegatecall_chamados": [],
+  "biblioteca_vinculada_apos_compilacao": [],
+  "bibliotecas_vinculadas_na_compilacao": [],
+  "codigo_de_execucao": {
+   "tamanho": 3739,
+   "instrucoes_DELEGATECALL_fora_dos_metadados": 0,
+   "instrucoes_CALLCODE_fora_dos_metadados": 0,
+   "por_classe": {},
+   "instrucoes": []
+  },
+  "decisao": "nao",
+  "proxy_cuja_implementacao_e_o_endereco_nao_atestado": false,
+  "implementacao": [],
+  "leitura_do_codigo": "COIN996: nenhum delegatecall.",
+  "evidencias": []
+ },
+ {
+  "endereco": "0x56ab918a1b58fbfd8ab3d0fd85970195ab714628",
+  "contrato_compilado": "SmartWallet.sol:SmartWallet",
+  "grau": "parcial",
+  "compilador": "0.4.24+commit.e67f0147",
+  "conferencia_do_codigo": {
+   "keccak_onchainBytecode_do_cache": "0x3ad3f607a353582d97d575d924ee5cf6447f3298e3ad0a87ee61a13664ccf9a9",
+   "resumo_codigo_da_certidao": "0x3ad3f607a353582d97d575d924ee5cf6447f3298e3ad0a87ee61a13664ccf9a9",
+   "iguais": true,
+   "matchId_cache": "9347592",
+   "match_id_certidao": "9347592"
+  },
+  "proxyResolution_do_acervo": {
+   "isProxy": false,
+   "proxyType": null,
+   "implementations": []
+  },
+  "constantes_address": [
+   {
+    "construto": "biblioteca:SmartWallet.sol:SmartWalletLib",
+    "motivo": "library",
+    "tipo": "address",
+    "nome": "SmartWalletLib",
+    "declaracao": [
+     {
+      "arquivo": "SmartWallet.sol",
+      "linha": 215,
+      "trecho": "library SmartWalletLib {"
+     }
+    ],
+    "valor": "0x74ba8c8f53809bd3baa0c243350cb989f6c9dc3c",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 1938,
+    "nome_do_alvo_no_instantaneo": "SmartWallet.sol:SmartWalletLib",
+    "regioes": [
+     {
+      "inicio": 411,
+      "instrucao": "PUSH20",
+      "arquivo": "SmartWallet.sol",
+      "linha": 421,
+      "texto": "wallet.transferToUserWithdrawalAccount",
+      "delegatecall_alcancado": 467,
+      "saltos_ate_o_delegatecall": [
+       {
+        "salto_em": 459,
+        "para": 464
+       }
+      ]
+     },
+     {
+      "inicio": 596,
+      "instrucao": "PUSH20",
+      "arquivo": "SmartWallet.sol",
+      "linha": 439,
+      "texto": "wallet.performUserWithdraw",
+      "delegatecall_alcancado": 652,
+      "saltos_ate_o_delegatecall": [
+       {
+        "salto_em": 644,
+        "para": 649
+       }
+      ]
+     },
+     {
+      "inicio": 728,
+      "instrucao": "PUSH20",
+      "arquivo": "SmartWallet.sol",
+      "linha": 430,
+      "texto": "wallet.requestWithdraw",
+      "delegatecall_alcancado": 784,
+      "saltos_ate_o_delegatecall": [
+       {
+        "salto_em": 776,
+        "para": 781
+       }
+      ]
+     },
+     {
+      "inicio": 874,
+      "instrucao": "PUSH20",
+      "arquivo": "SmartWallet.sol",
+      "linha": 410,
+      "texto": "wallet.setUserWithdrawalAccount",
+      "delegatecall_alcancado": 652,
+      "saltos_ate_o_delegatecall": [
+       {
+        "salto_em": 922,
+        "para": 649
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "delegatecall_no_codigo_fonte": [],
+  "auxiliares_de_delegatecall_chamados": [],
+  "biblioteca_vinculada_apos_compilacao": [
+   {
+    "biblioteca": "SmartWalletLib",
+    "arquivo": "SmartWallet.sol",
+    "linha_declaracao": 215,
+    "funcoes_publicas_ou_externas": [
+     {
+      "funcao": "initWallet",
+      "linha": 270
+     },
+     {
+      "funcao": "setUserWithdrawalAccount",
+      "linha": 286
+     },
+     {
+      "funcao": "transferToUserWithdrawalAccount",
+      "linha": 305
+     },
+     {
+      "funcao": "requestWithdraw",
+      "linha": 341
+     },
+     {
+      "funcao": "performUserWithdraw",
+      "linha": 360
+     }
+    ],
+    "chamadas_no_contrato": [
+     {
+      "arquivo": "SmartWallet.sol",
+      "linha": 400,
+      "funcao_chamada": "initWallet",
+      "trecho": "wallet.initWallet(_operator, _feesAccount);",
+      "funcao": {
+       "linha": 399,
+       "cabecalho": "constructor (address _operator, address _feesAccount) public {",
+       "tipo": "construtor"
+      }
+     },
+     {
+      "arquivo": "SmartWallet.sol",
+      "linha": 410,
+      "funcao_chamada": "setUserWithdrawalAccount",
+      "trecho": "wallet.setUserWithdrawalAccount(_userWithdrawalAccount);",
+      "funcao": {
+       "linha": 409,
+       "cabecalho": "function setUserWithdrawalAccount(address _userWithdrawalAccount) public {",
+       "tipo": "funcao"
+      }
+     },
+     {
+      "arquivo": "SmartWallet.sol",
+      "linha": 421,
+      "funcao_chamada": "transferToUserWithdrawalAccount",
+      "trecho": "wallet.transferToUserWithdrawalAccount(_token, _amount, _feesToken, _fee);",
+      "funcao": {
+       "linha": 420,
+       "cabecalho": "function transferToUserWithdrawalAccount(IERC20Token _token, uint _amount, IERC20Token _feesToken, uint _fee) public {",
+       "tipo": "funcao"
+      }
+     },
+     {
+      "arquivo": "SmartWallet.sol",
+      "linha": 430,
+      "funcao_chamada": "requestWithdraw",
+      "trecho": "wallet.requestWithdraw();",
+      "funcao": {
+       "linha": 429,
+       "cabecalho": "function requestWithdraw() public {",
+       "tipo": "funcao"
+      }
+     },
+     {
+      "arquivo": "SmartWallet.sol",
+      "linha": 439,
+      "funcao_chamada": "performUserWithdraw",
+      "trecho": "wallet.performUserWithdraw(_token);",
+      "funcao": {
+       "linha": 438,
+       "cabecalho": "function performUserWithdraw(IERC20Token _token) public {",
+       "tipo": "funcao"
+      }
+     }
+    ]
+   }
+  ],
+  "bibliotecas_vinculadas_na_compilacao": [],
+  "codigo_de_execucao": {
+   "tamanho": 971,
+   "instrucoes_DELEGATECALL_fora_dos_metadados": 3,
+   "instrucoes_CALLCODE_fora_dos_metadados": 0,
+   "por_classe": {
+    "biblioteca_vinculada_apos_compilacao": 3
+   },
+   "instrucoes": [
+    {
+     "pc": 467,
+     "instrucao": "DELEGATECALL",
+     "arquivo": "SmartWallet.sol",
+     "linha": 421,
+     "texto": "wallet.transferToUserWithdrawalAccount(_token, _amount, _feesToken, _fee)",
+     "classe": "biblioteca_vinculada_apos_compilacao",
+     "destino": "SmartWalletLib",
+     "funcao": "funcao"
+    },
+    {
+     "pc": 652,
+     "instrucao": "DELEGATECALL",
+     "arquivo": "SmartWallet.sol",
+     "linha": 439,
+     "texto": "wallet.performUserWithdraw(_token)",
+     "classe": "biblioteca_vinculada_apos_compilacao",
+     "destino": "SmartWalletLib",
+     "funcao": "funcao"
+    },
+    {
+     "pc": 784,
+     "instrucao": "DELEGATECALL",
+     "arquivo": "SmartWallet.sol",
+     "linha": 430,
+     "texto": "wallet.requestWithdraw()",
+     "classe": "biblioteca_vinculada_apos_compilacao",
+     "destino": "SmartWalletLib",
+     "funcao": "funcao"
+    }
+   ]
+  },
+  "decisao": "biblioteca",
+  "proxy_cuja_implementacao_e_o_endereco_nao_atestado": false,
+  "implementacao": [],
+  "leitura_do_codigo": "SmartWallet: as quatro funcoes que alteram estado chamam funcoes publicas de SmartWalletLib, que o compilador executa por DELEGATECALL no endereco vinculado apos a compilacao; nao ha fallback que delegue.",
+  "evidencias": [
+   {
+    "o_que": "declaracao da biblioteca",
+    "arquivo": "SmartWallet.sol",
+    "linhas": [
+     215,
+     215
+    ],
+    "trecho": "library SmartWalletLib {"
+   },
+   {
+    "o_que": "funcao publica da biblioteca (chamada por DELEGATECALL)",
+    "arquivo": "SmartWallet.sol",
+    "linhas": [
+     286,
+     287
+    ],
+    "trecho": "function setUserWithdrawalAccount(Wallet storage _self, address _userWithdrawalAccount)\npublic"
+   },
+   {
+    "o_que": "chamada a funcao da biblioteca (construtor: constructor (address _operator, address _feesAccount) public {)",
+    "arquivo": "SmartWallet.sol",
+    "linhas": [
+     400,
+     400
+    ],
+    "trecho": "wallet.initWallet(_operator, _feesAccount);"
+   },
+   {
+    "o_que": "chamada a funcao da biblioteca (funcao: function setUserWithdrawalAccount(address _userWithdrawalAccount) public {)",
+    "arquivo": "SmartWallet.sol",
+    "linhas": [
+     410,
+     410
+    ],
+    "trecho": "wallet.setUserWithdrawalAccount(_userWithdrawalAccount);"
+   },
+   {
+    "o_que": "chamada a funcao da biblioteca (funcao: function transferToUserWithdrawalAccount(IERC20Token _token, uint _amount, IERC20Token _feesToken, uint _fee) public {)",
+    "arquivo": "SmartWallet.sol",
+    "linhas": [
+     421,
+     421
+    ],
+    "trecho": "wallet.transferToUserWithdrawalAccount(_token, _amount, _feesToken, _fee);"
+   },
+   {
+    "o_que": "chamada a funcao da biblioteca (funcao: function requestWithdraw() public {)",
+    "arquivo": "SmartWallet.sol",
+    "linhas": [
+     430,
+     430
+    ],
+    "trecho": "wallet.requestWithdraw();"
+   },
+   {
+    "o_que": "chamada a funcao da biblioteca (funcao: function performUserWithdraw(IERC20Token _token) public {)",
+    "arquivo": "SmartWallet.sol",
+    "linhas": [
+     439,
+     439
+    ],
+    "trecho": "wallet.performUserWithdraw(_token);"
+   }
+  ]
+ },
+ {
+  "endereco": "0x7a4523a9349a99ac16d1484728e82eab6eda027f",
+  "contrato_compilado": "contract.sol:UserWallet",
+  "grau": "exata",
+  "compilador": "0.8.24+commit.e11b9ed9",
+  "conferencia_do_codigo": {
+   "keccak_onchainBytecode_do_cache": "0x4a01e0e23c5bcca8ed38865ce0c9cb51900925a89bae3baf190d26afe56f9a9b",
+   "resumo_codigo_da_certidao": "0x4a01e0e23c5bcca8ed38865ce0c9cb51900925a89bae3baf190d26afe56f9a9b",
+   "iguais": true,
+   "matchId_cache": "54619195",
+   "match_id_certidao": "54619195"
+  },
+  "proxyResolution_do_acervo": {
+   "isProxy": false,
+   "proxyType": null,
+   "implementations": []
+  },
+  "constantes_address": [
+   {
+    "construto": "imutavel:666",
+    "motivo": "immutable",
+    "tipo": "address",
+    "nome": "factory",
+    "declaracao": [
+     {
+      "arquivo": "contract.sol",
+      "linha": 25,
+      "trecho": "address public immutable factory;"
+     }
+    ],
+    "valor": "0xca31e2d340b8381279121b3ce9e5172f199a0741",
+    "classe_do_alvo": "contrato_sem_verificacao_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 9527,
+    "nome_do_alvo_no_instantaneo": null,
+    "regioes": [
+     {
+      "inicio": 546,
+      "instrucao": "PUSH32",
+      "arquivo": "contract.sol",
+      "linha": 25,
+      "texto": "address public immutable factory"
+     },
+     {
+      "inicio": 657,
+      "instrucao": "PUSH32",
+      "arquivo": "contract.sol",
+      "linha": 38,
+      "texto": "factory"
+     },
+     {
+      "inicio": 868,
+      "instrucao": "PUSH32",
+      "arquivo": "contract.sol",
+      "linha": 38,
+      "texto": "factory"
+     },
+     {
+      "inicio": 1297,
+      "instrucao": "PUSH32",
+      "arquivo": "contract.sol",
+      "linha": 73,
+      "texto": "factory"
+     },
+     {
+      "inicio": 1353,
+      "instrucao": "PUSH32",
+      "arquivo": "contract.sol",
+      "linha": 74,
+      "texto": "factory"
+     },
+     {
+      "inicio": 1957,
+      "instrucao": "PUSH32",
+      "arquivo": "contract.sol",
+      "linha": 38,
+      "texto": "factory"
+     },
+     {
+      "inicio": 2455,
+      "instrucao": "PUSH32",
+      "arquivo": "contract.sol",
+      "linha": 38,
+      "texto": "factory"
+     }
+    ]
+   }
+  ],
+  "delegatecall_no_codigo_fonte": [],
+  "auxiliares_de_delegatecall_chamados": [],
+  "biblioteca_vinculada_apos_compilacao": [],
+  "bibliotecas_vinculadas_na_compilacao": [],
+  "codigo_de_execucao": {
+   "tamanho": 4467,
+   "instrucoes_DELEGATECALL_fora_dos_metadados": 0,
+   "instrucoes_CALLCODE_fora_dos_metadados": 0,
+   "por_classe": {},
+   "instrucoes": []
+  },
+  "decisao": "nao",
+  "proxy_cuja_implementacao_e_o_endereco_nao_atestado": false,
+  "implementacao": [],
+  "leitura_do_codigo": "UserWallet: nenhum delegatecall; a imutavel factory so controla acesso (onlyFactory).",
+  "evidencias": []
+ },
+ {
+  "endereco": "0x95ec567b7bc3e5aa7c581b44dc3028fa417c297f",
+  "contrato_compilado": "contracts/provers/LogProver.sol:LogProver",
+  "grau": "exata",
+  "compilador": "0.8.12+commit.f00d7308",
+  "conferencia_do_codigo": {
+   "keccak_onchainBytecode_do_cache": "0x267fc3a8f849c3640b03074faadf0bd612ec6e10aaa05c55f7993c07cb48f568",
+   "resumo_codigo_da_certidao": "0x267fc3a8f849c3640b03074faadf0bd612ec6e10aaa05c55f7993c07cb48f568",
+   "iguais": true,
+   "matchId_cache": "6640607",
+   "match_id_certidao": "6640607"
+  },
+  "proxyResolution_do_acervo": {
+   "isProxy": false,
+   "proxyType": null,
+   "implementations": []
+  },
+  "constantes_address": [
+   {
+    "construto": "imutavel:4991",
+    "motivo": "immutable",
+    "tipo": "contract BlockHistory",
+    "nome": "blockHistory",
+    "declaracao": [
+     {
+      "arquivo": "contracts/provers/StateVerifier.sol",
+      "linha": 20,
+      "trecho": "BlockHistory public immutable blockHistory;"
+     }
+    ],
+    "valor": "0xa00f3c13d60ad6a1a6e6d8ebb4529408d7e87343",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 6975,
+    "nome_do_alvo_no_instantaneo": "contracts/BlockHistory.sol:BlockHistory",
+    "regioes": [
+     {
+      "inicio": 160,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/provers/StateVerifier.sol",
+      "linha": 20,
+      "texto": "BlockHistory public immutable blockHistory"
+     },
+     {
+      "inicio": 1795,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/provers/StateVerifier.sol",
+      "linha": 46,
+      "texto": "blockHistory"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:4861",
+    "motivo": "immutable",
+    "tipo": "contract IReliquary",
+    "nome": "reliquary",
+    "declaracao": [
+     {
+      "arquivo": "contracts/provers/Prover.sol",
+      "linha": 13,
+      "trecho": "IReliquary immutable reliquary;"
+     },
+     {
+      "arquivo": "contracts/BlockHistory.sol",
+      "linha": 45,
+      "trecho": "address public immutable reliquary;"
+     },
+     {
+      "arquivo": "contracts/provers/StateVerifier.sol",
+      "linha": 21,
+      "trecho": "IReliquary private immutable reliquary;"
+     }
+    ],
+    "valor": "0x5e4de6bb8c6824f29c44bd3473d44da120387d08",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 15911,
+    "nome_do_alvo_no_instantaneo": "contracts/ReliquaryWithFee.sol:ReliquaryWithFee",
+    "regioes": [
+     {
+      "inicio": 449,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/provers/Prover.sol",
+      "linha": 33,
+      "texto": "reliquary"
+     },
+     {
+      "inicio": 690,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/provers/Prover.sol",
+      "linha": 37,
+      "texto": "reliquary"
+     },
+     {
+      "inicio": 866,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/provers/Prover.sol",
+      "linha": 38,
+      "texto": "reliquary"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:4994",
+    "motivo": "immutable",
+    "tipo": "contract IReliquary",
+    "nome": "reliquary",
+    "declaracao": [
+     {
+      "arquivo": "contracts/provers/Prover.sol",
+      "linha": 13,
+      "trecho": "IReliquary immutable reliquary;"
+     },
+     {
+      "arquivo": "contracts/BlockHistory.sol",
+      "linha": 45,
+      "trecho": "address public immutable reliquary;"
+     },
+     {
+      "arquivo": "contracts/provers/StateVerifier.sol",
+      "linha": 21,
+      "trecho": "IReliquary private immutable reliquary;"
+     }
+    ],
+    "valor": "0x5e4de6bb8c6824f29c44bd3473d44da120387d08",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 15911,
+    "nome_do_alvo_no_instantaneo": "contracts/ReliquaryWithFee.sol:ReliquaryWithFee",
+    "regioes": [
+     {
+      "inicio": 1750,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/provers/StateVerifier.sol",
+      "linha": 45,
+      "texto": "reliquary"
+     }
+    ]
+   }
+  ],
+  "delegatecall_no_codigo_fonte": [],
+  "auxiliares_de_delegatecall_chamados": [],
+  "biblioteca_vinculada_apos_compilacao": [],
+  "bibliotecas_vinculadas_na_compilacao": [],
+  "codigo_de_execucao": {
+   "tamanho": 6883,
+   "instrucoes_DELEGATECALL_fora_dos_metadados": 0,
+   "instrucoes_CALLCODE_fora_dos_metadados": 0,
+   "por_classe": {},
+   "instrucoes": []
+  },
+  "decisao": "nao",
+  "proxy_cuja_implementacao_e_o_endereco_nao_atestado": false,
+  "implementacao": [],
+  "leitura_do_codigo": "LogProver: nenhum delegatecall.",
+  "evidencias": []
+ },
+ {
+  "endereco": "0xae0f58c408514e60cc6d844cc80965aeab4bf6ff",
+  "contrato_compilado": "contracts/strategies/curve/Curve3poolStrategy.sol:Curve3poolStrategy",
+  "grau": "exata",
+  "compilador": "0.8.11+commit.d7f03943",
+  "conferencia_do_codigo": {
+   "keccak_onchainBytecode_do_cache": "0xca2defb27da54ee80facee1bd56506a9eb8369b2ce8113e3fe2d0b60920014a7",
+   "resumo_codigo_da_certidao": "0xca2defb27da54ee80facee1bd56506a9eb8369b2ce8113e3fe2d0b60920014a7",
+   "iguais": true,
+   "matchId_cache": "2057518",
+   "match_id_certidao": "2057518"
+  },
+  "proxyResolution_do_acervo": {
+   "isProxy": false,
+   "proxyType": null,
+   "implementations": []
+  },
+  "constantes_address": [
+   {
+    "construto": "imutavel:4409",
+    "motivo": "immutable",
+    "tipo": "contract IMinter",
+    "nome": "minter",
+    "declaracao": [
+     {
+      "arquivo": "contracts/strategies/curve/Curve3poolStrategy.sol",
+      "linha": 22,
+      "trecho": "IMinter public immutable minter;"
+     }
+    ],
+    "valor": "0xd061d61a4d941c39e5453435b6345dc261c2fce0",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 1536,
+    "nome_do_alvo_no_instantaneo": "Vyper_contract.vy:Vyper_contract",
+    "regioes": [
+     {
+      "inicio": 407,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/Curve3poolStrategy.sol",
+      "linha": 22,
+      "texto": "IMinter public immutable minter"
+     },
+     {
+      "inicio": 16745,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/Curve3poolStrategy.sol",
+      "linha": 73,
+      "texto": "minter"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:4870",
+    "motivo": "immutable",
+    "tipo": "contract IStableSwap3Pool",
+    "nome": "pool3Coins",
+    "declaracao": [
+     {
+      "arquivo": "contracts/strategies/curve/base/CurveStrategy3CoinsBase.sol",
+      "linha": 22,
+      "trecho": "IStableSwap3Pool public immutable pool3Coins;"
+     }
+    ],
+    "valor": "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 21199,
+    "nome_do_alvo_no_instantaneo": "Vyper_contract.vy:Vyper_contract",
+    "regioes": [
+     {
+      "inicio": 475,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategy3CoinsBase.sol",
+      "linha": 22,
+      "texto": "IStableSwap3Pool public immutable pool3Coins"
+     },
+     {
+      "inicio": 15519,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategy3CoinsBase.sol",
+      "linha": 69,
+      "texto": "pool3Coins"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:5032",
+    "motivo": "immutable",
+    "tipo": "contract ICurvePool",
+    "nome": "pool",
+    "declaracao": [
+     {
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 18,
+      "trecho": "ICurvePool public immutable pool;"
+     }
+    ],
+    "valor": "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 21199,
+    "nome_do_alvo_no_instantaneo": "Vyper_contract.vy:Vyper_contract",
+    "regioes": [
+     {
+      "inicio": 514,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 18,
+      "texto": "ICurvePool public immutable pool"
+     },
+     {
+      "inicio": 4481,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 115,
+      "texto": "pool"
+     },
+     {
+      "inicio": 7525,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 102,
+      "texto": "pool"
+     },
+     {
+      "inicio": 9682,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 52,
+      "texto": "pool"
+     },
+     {
+      "inicio": 10129,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 57,
+      "texto": "pool"
+     },
+     {
+      "inicio": 11057,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 82,
+      "texto": "pool"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:5035",
+    "motivo": "immutable",
+    "tipo": "contract IERC20",
+    "nome": "lpToken",
+    "declaracao": [
+     {
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 19,
+      "trecho": "IERC20 public immutable lpToken;"
+     }
+    ],
+    "valor": "0x6c3f90f043a72fa612cbac8115ee7e52bde6e490",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 2276,
+    "nome_do_alvo_no_instantaneo": "Vyper_contract.vy:Vyper_contract",
+    "regioes": [
+     {
+      "inicio": 931,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 19,
+      "texto": "IERC20 public immutable lpToken"
+     },
+     {
+      "inicio": 7131,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 98,
+      "texto": "lpToken"
+     },
+     {
+      "inicio": 7310,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 100,
+      "texto": "lpToken"
+     },
+     {
+      "inicio": 9777,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 54,
+      "texto": "lpToken"
+     },
+     {
+      "inicio": 9972,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 56,
+      "texto": "lpToken"
+     },
+     {
+      "inicio": 15801,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/Curve3poolStrategy.sol",
+      "linha": 91,
+      "texto": "lpToken"
+     },
+     {
+      "inicio": 16024,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/Curve3poolStrategy.sol",
+      "linha": 93,
+      "texto": "lpToken"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:2287",
+    "motivo": "immutable",
+    "tipo": "contract IERC20",
+    "nome": "underlying",
+    "declaracao": [
+     {
+      "arquivo": "contracts/strategies/BaseStrategy.sol",
+      "linha": 70,
+      "trecho": "IERC20 public immutable override underlying;"
+     }
+    ],
+    "valor": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 7904,
+    "nome_do_alvo_no_instantaneo": "/nix/store/w5qm70gq7qwa3087hknnddpy3acn8fnp-dss/dapp/dss/src/dai.sol:Dai",
+    "regioes": [
+     {
+      "inicio": 1016,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/BaseStrategy.sol",
+      "linha": 70,
+      "texto": "IERC20 public immutable override underlying"
+     },
+     {
+      "inicio": 1869,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/BaseStrategy.sol",
+      "linha": 255,
+      "texto": "underlying"
+     },
+     {
+      "inicio": 2046,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/BaseStrategy.sol",
+      "linha": 257,
+      "texto": "underlying"
+     },
+     {
+      "inicio": 2776,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/BaseStrategy.sol",
+      "linha": 299,
+      "texto": "underlying"
+     },
+     {
+      "inicio": 8921,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/RewardStrategy.sol",
+      "linha": 102,
+      "texto": "underlying"
+     },
+     {
+      "inicio": 9648,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 52,
+      "texto": "underlying"
+     },
+     {
+      "inicio": 10096,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 57,
+      "texto": "underlying"
+     },
+     {
+      "inicio": 10217,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 59,
+      "texto": "underlying"
+     },
+     {
+      "inicio": 10844,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 80,
+      "texto": "underlying"
+     },
+     {
+      "inicio": 11216,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 83,
+      "texto": "underlying"
+     },
+     {
+      "inicio": 11385,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 85,
+      "texto": "underlying"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:4405",
+    "motivo": "immutable",
+    "tipo": "contract ILiquidityGauge",
+    "nome": "liquidityGauge",
+    "declaracao": [
+     {
+      "arquivo": "contracts/strategies/curve/Curve3poolStrategy.sol",
+      "linha": 20,
+      "trecho": "ILiquidityGauge public immutable liquidityGauge;"
+     }
+    ],
+    "valor": "0xbfcf63294ad7105dea65aa58f8ae5be2d9d0952a",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 5592,
+    "nome_do_alvo_no_instantaneo": "Vyper_contract.vy:Vyper_contract",
+    "regioes": [
+     {
+      "inicio": 1304,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/Curve3poolStrategy.sol",
+      "linha": 20,
+      "texto": "ILiquidityGauge public immutable liquidityGauge"
+     },
+     {
+      "inicio": 11764,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/Curve3poolStrategy.sol",
+      "linha": 120,
+      "texto": "liquidityGauge"
+     },
+     {
+      "inicio": 12152,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/Curve3poolStrategy.sol",
+      "linha": 133,
+      "texto": "liquidityGauge"
+     },
+     {
+      "inicio": 15835,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/Curve3poolStrategy.sol",
+      "linha": 91,
+      "texto": "liquidityGauge"
+     },
+     {
+      "inicio": 15919,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/Curve3poolStrategy.sol",
+      "linha": 92,
+      "texto": "liquidityGauge"
+     },
+     {
+      "inicio": 16057,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/Curve3poolStrategy.sol",
+      "linha": 93,
+      "texto": "liquidityGauge"
+     },
+     {
+      "inicio": 16143,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/Curve3poolStrategy.sol",
+      "linha": 101,
+      "texto": "liquidityGauge"
+     },
+     {
+      "inicio": 16702,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/Curve3poolStrategy.sol",
+      "linha": 73,
+      "texto": "liquidityGauge"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:2282",
+    "motivo": "immutable",
+    "tipo": "address",
+    "nome": "self",
+    "declaracao": [
+     {
+      "arquivo": "contracts/strategies/BaseStrategy.sol",
+      "linha": 67,
+      "trecho": "address internal immutable self;"
+     }
+    ],
+    "valor": "0xae0f58c408514e60cc6d844cc80965aeab4bf6ff",
+    "classe_do_alvo": "proprio_contrato",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 23218,
+    "nome_do_alvo_no_instantaneo": "contracts/strategies/curve/Curve3poolStrategy.sol:Curve3poolStrategy",
+    "regioes": [
+     {
+      "inicio": 1397,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 108,
+      "texto": "self"
+     },
+     {
+      "inicio": 2196,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/BaseStrategy.sol",
+      "linha": 264,
+      "texto": "self"
+     },
+     {
+      "inicio": 2975,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/BaseStrategy.sol",
+      "linha": 233,
+      "texto": "self"
+     },
+     {
+      "inicio": 3343,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategy3CoinsBase.sol",
+      "linha": 51,
+      "texto": "self"
+     },
+     {
+      "inicio": 3682,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/RewardStrategy.sol",
+      "linha": 25,
+      "texto": "self"
+     },
+     {
+      "inicio": 3909,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategy3CoinsBase.sol",
+      "linha": 38,
+      "texto": "self"
+     },
+     {
+      "inicio": 4204,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/RewardStrategy.sol",
+      "linha": 54,
+      "texto": "self"
+     },
+     {
+      "inicio": 5145,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/ProcessStrategy.sol",
+      "linha": 36,
+      "texto": "self"
+     },
+     {
+      "inicio": 6635,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/BaseStrategy.sol",
+      "linha": 178,
+      "texto": "self"
+     },
+     {
+      "inicio": 7970,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/ProcessStrategy.sol",
+      "linha": 170,
+      "texto": "self"
+     },
+     {
+      "inicio": 9359,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/BaseStrategy.sol",
+      "linha": 405,
+      "texto": "self"
+     },
+     {
+      "inicio": 10171,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 59,
+      "texto": "self"
+     },
+     {
+      "inicio": 10336,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 61,
+      "texto": "self"
+     },
+     {
+      "inicio": 10610,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 108,
+      "texto": "self"
+     },
+     {
+      "inicio": 10710,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 74,
+      "texto": "self"
+     },
+     {
+      "inicio": 11339,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 85,
+      "texto": "self"
+     },
+     {
+      "inicio": 11641,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/base/CurveStrategyBase.sol",
+      "linha": 108,
+      "texto": "self"
+     },
+     {
+      "inicio": 11903,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/Curve3poolStrategy.sol",
+      "linha": 127,
+      "texto": "self"
+     },
+     {
+      "inicio": 11969,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/Curve3poolStrategy.sol",
+      "linha": 128,
+      "texto": "self"
+     },
+     {
+      "inicio": 12034,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/Curve3poolStrategy.sol",
+      "linha": 130,
+      "texto": "self"
+     },
+     {
+      "inicio": 12498,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/RewardStrategy.sol",
+      "linha": 74,
+      "texto": "self"
+     },
+     {
+      "inicio": 12989,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/ClaimFullSingleRewardStrategy.sol",
+      "linha": 63,
+      "texto": "self"
+     },
+     {
+      "inicio": 17164,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/Curve3poolStrategy.sol",
+      "linha": 83,
+      "texto": "self"
+     },
+     {
+      "inicio": 17315,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/RewardStrategy.sol",
+      "linha": 125,
+      "texto": "self"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:3204",
+    "motivo": "immutable",
+    "tipo": "contract IERC20",
+    "nome": "rewardToken",
+    "declaracao": [
+     {
+      "arquivo": "contracts/strategies/ClaimFullSingleRewardStrategy.sol",
+      "linha": 14,
+      "trecho": "IERC20 internal immutable rewardToken;"
+     }
+    ],
+    "valor": "0xd533a949740bb3306d119cc777fa900ba034cd52",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 4369,
+    "nome_do_alvo_no_instantaneo": "Vyper_contract.vy:Vyper_contract",
+    "regioes": [
+     {
+      "inicio": 13147,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/ClaimFullSingleRewardStrategy.sol",
+      "linha": 68,
+      "texto": "rewardToken"
+     },
+     {
+      "inicio": 13268,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/ClaimFullSingleRewardStrategy.sol",
+      "linha": 73,
+      "texto": "rewardToken"
+     },
+     {
+      "inicio": 13345,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/ClaimFullSingleRewardStrategy.sol",
+      "linha": 74,
+      "texto": "rewardToken"
+     },
+     {
+      "inicio": 13409,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/ClaimFullSingleRewardStrategy.sol",
+      "linha": 75,
+      "texto": "rewardToken"
+     },
+     {
+      "inicio": 16539,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/Curve3poolStrategy.sol",
+      "linha": 72,
+      "texto": "rewardToken"
+     },
+     {
+      "inicio": 16898,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/Curve3poolStrategy.sol",
+      "linha": 74,
+      "texto": "rewardToken"
+     },
+     {
+      "inicio": 17216,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/Curve3poolStrategy.sol",
+      "linha": 83,
+      "texto": "rewardToken"
+     },
+     {
+      "inicio": 20287,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/strategies/curve/Curve3poolStrategy.sol",
+      "linha": 166,
+      "texto": "rewardToken"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:1609",
+    "motivo": "immutable",
+    "tipo": "contract ISwapRouter02",
+    "nome": "uniswapRouter",
+    "declaracao": [
+     {
+      "arquivo": "contracts/shared/SwapHelper.sol",
+      "linha": 52,
+      "trecho": "ISwapRouter02 internal immutable uniswapRouter;"
+     }
+    ],
+    "valor": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 24497,
+    "nome_do_alvo_no_instantaneo": "contracts/SwapRouter02.sol:SwapRouter02",
+    "regioes": [
+     {
+      "inicio": 13538,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/shared/SwapHelper.sol",
+      "linha": 89,
+      "texto": "uniswapRouter"
+     },
+     {
+      "inicio": 14822,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/shared/SwapHelper.sol",
+      "linha": 125,
+      "texto": "uniswapRouter"
+     },
+     {
+      "inicio": 14962,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/shared/SwapHelper.sol",
+      "linha": 126,
+      "texto": "uniswapRouter"
+     },
+     {
+      "inicio": 17640,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/shared/SwapHelper.sol",
+      "linha": 150,
+      "texto": "uniswapRouter"
+     },
+     {
+      "inicio": 18784,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/shared/SwapHelper.sol",
+      "linha": 217,
+      "texto": "uniswapRouter"
+     },
+     {
+      "inicio": 19220,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/shared/SwapHelper.sol",
+      "linha": 183,
+      "texto": "uniswapRouter"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:1612",
+    "motivo": "immutable",
+    "tipo": "address",
+    "nome": "WETH",
+    "declaracao": [
+     {
+      "arquivo": "contracts/shared/SwapHelper.sol",
+      "linha": 55,
+      "trecho": "address private immutable WETH;"
+     }
+    ],
+    "valor": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 3124,
+    "nome_do_alvo_no_instantaneo": "WETH9.sol:WETH9",
+    "regioes": [
+     {
+      "inicio": 13833,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/shared/SwapHelper.sol",
+      "linha": 103,
+      "texto": "WETH"
+     },
+     {
+      "inicio": 19050,
+      "instrucao": "PUSH32",
+      "arquivo": "contracts/shared/SwapHelper.sol",
+      "linha": 250,
+      "texto": "WETH"
+     }
+    ]
+   }
+  ],
+  "delegatecall_no_codigo_fonte": [
+   {
+    "arquivo": "contracts/external/@openzeppelin/utils/Address.sol",
+    "linha": 186,
+    "forma": "solidity",
+    "alvo": "target",
+    "atribuicao_local": null,
+    "destino": "outro: target",
+    "funcao": {
+     "linha": 179,
+     "cabecalho": "function functionDelegateCall(",
+     "tipo": "funcao"
+    },
+    "evidencia": [
+     {
+      "arquivo": "contracts/external/@openzeppelin/utils/Address.sol",
+      "linhas": [
+       186,
+       186
+      ],
+      "trecho": "(bool success, bytes memory returndata) = target.delegatecall(data);",
+      "papel": "chamada delegatecall"
+     }
+    ]
+   }
+  ],
+  "auxiliares_de_delegatecall_chamados": [
+   {
+    "auxiliar": "functionDelegateCall",
+    "arquivo": "contracts/external/@openzeppelin/utils/Address.sol",
+    "linha": 170,
+    "trecho": "return functionDelegateCall(target, data, \"Address: low-level delegate call failed\");",
+    "funcao": {
+     "linha": 169,
+     "cabecalho": "function functionDelegateCall(address target, bytes memory data) internal returns (bytes memory) {",
+     "tipo": "funcao"
+    }
+   }
+  ],
+  "biblioteca_vinculada_apos_compilacao": [],
+  "bibliotecas_vinculadas_na_compilacao": [],
+  "codigo_de_execucao": {
+   "tamanho": 23218,
+   "instrucoes_DELEGATECALL_fora_dos_metadados": 0,
+   "instrucoes_CALLCODE_fora_dos_metadados": 0,
+   "por_classe": {},
+   "instrucoes": []
+  },
+  "decisao": "nao",
+  "proxy_cuja_implementacao_e_o_endereco_nao_atestado": false,
+  "implementacao": [],
+  "leitura_do_codigo": "Curve3poolStrategy: functionDelegateCall da OpenZeppelin esta no codigo-fonte, mas nao e chamada; nao ha DELEGATECALL no codigo.",
+  "evidencias": [
+   {
+    "o_que": "chamada delegatecall com destino outro: target (funcao: function functionDelegateCall()",
+    "arquivo": "contracts/external/@openzeppelin/utils/Address.sol",
+    "linhas": [
+     186,
+     186
+    ],
+    "trecho": "(bool success, bytes memory returndata) = target.delegatecall(data);"
+   },
+   {
+    "o_que": "chamada a functionDelegateCall (funcao: function functionDelegateCall(address target, bytes memory data) internal returns (bytes memory) {)",
+    "arquivo": "contracts/external/@openzeppelin/utils/Address.sol",
+    "linhas": [
+     170,
+     170
+    ],
+    "trecho": "return functionDelegateCall(target, data, \"Address: low-level delegate call failed\");"
+   }
+  ]
+ },
+ {
+  "endereco": "0xb677fa3dd5c2c0472f7520b48aa3f642f9c4af11",
+  "contrato_compilado": "KaliDAOcrowdsale.sol:KaliDAOcrowdsale",
+  "grau": "parcial",
+  "compilador": "0.8.13+commit.abaa5c0e",
+  "conferencia_do_codigo": {
+   "keccak_onchainBytecode_do_cache": "0xdf50fc261e570503df0ffde325b264151b7b6f54be99da62efee58259940d266",
+   "resumo_codigo_da_certidao": "0xdf50fc261e570503df0ffde325b264151b7b6f54be99da62efee58259940d266",
+   "iguais": true,
+   "matchId_cache": "6708733",
+   "match_id_certidao": "6708733"
+  },
+  "proxyResolution_do_acervo": {
+   "isProxy": false,
+   "proxyType": null,
+   "implementations": []
+  },
+  "constantes_address": [
+   {
+    "construto": "imutavel:403",
+    "motivo": "immutable",
+    "tipo": "contract IKaliAccessManager",
+    "nome": "accessManager",
+    "declaracao": [
+     {
+      "arquivo": "KaliDAOcrowdsale.sol",
+      "linha": 258,
+      "trecho": "IKaliAccessManager private immutable accessManager;"
+     }
+    ],
+    "valor": "0x772e8423e2c90835b85126f67d33e89df792de29",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 14433,
+    "nome_do_alvo_no_instantaneo": "KaliAccessManager.sol:KaliAccessManager",
+    "regioes": [
+     {
+      "inicio": 947,
+      "instrucao": "PUSH32",
+      "arquivo": "KaliDAOcrowdsale.sol",
+      "linha": 362,
+      "texto": "accessManager"
+     },
+     {
+      "inicio": 2818,
+      "instrucao": "PUSH32",
+      "arquivo": "KaliDAOcrowdsale.sol",
+      "linha": 294,
+      "texto": "accessManager"
+     }
+    ]
+   },
+   {
+    "construto": "imutavel:405",
+    "motivo": "immutable",
+    "tipo": "address",
+    "nome": "wETH",
+    "declaracao": [
+     {
+      "arquivo": "KaliDAOcrowdsale.sol",
+      "linha": 259,
+      "trecho": "address private immutable wETH;"
+     }
+    ],
+    "valor": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 3124,
+    "nome_do_alvo_no_instantaneo": "WETH9.sol:WETH9",
+    "regioes": [
+     {
+      "inicio": 1693,
+      "instrucao": "PUSH32",
+      "arquivo": "KaliDAOcrowdsale.sol",
+      "linha": 393,
+      "texto": "wETH"
+     },
+     {
+      "inicio": 1757,
+      "instrucao": "PUSH32",
+      "arquivo": "KaliDAOcrowdsale.sol",
+      "linha": 395,
+      "texto": "wETH"
+     }
+    ]
+   }
+  ],
+  "delegatecall_no_codigo_fonte": [
+   {
+    "arquivo": "KaliDAOcrowdsale.sol",
+    "linha": 178,
+    "forma": "solidity",
+    "alvo": "address(this)",
+    "atribuicao_local": null,
+    "destino": "proprio_contrato",
+    "funcao": {
+     "linha": 174,
+     "cabecalho": "function multicall(bytes[] calldata data) external returns (bytes[] memory results) {",
+     "tipo": "funcao"
+    },
+    "evidencia": [
+     {
+      "arquivo": "KaliDAOcrowdsale.sol",
+      "linhas": [
+       178,
+       178
+      ],
+      "trecho": "(bool success, bytes memory result) = address(this).delegatecall(data[i]);",
+      "papel": "chamada delegatecall"
+     }
+    ]
+   }
+  ],
+  "auxiliares_de_delegatecall_chamados": [],
+  "biblioteca_vinculada_apos_compilacao": [],
+  "bibliotecas_vinculadas_na_compilacao": [],
+  "codigo_de_execucao": {
+   "tamanho": 7654,
+   "instrucoes_DELEGATECALL_fora_dos_metadados": 1,
+   "instrucoes_CALLCODE_fora_dos_metadados": 0,
+   "por_classe": {
+    "delegatecall_escrito_no_fonte": 1
+   },
+   "instrucoes": [
+    {
+     "pc": 3090,
+     "instrucao": "DELEGATECALL",
+     "arquivo": "KaliDAOcrowdsale.sol",
+     "linha": 178,
+     "texto": "address(this).delegatecall(data[i])",
+     "classe": "delegatecall_escrito_no_fonte",
+     "destino": "proprio_contrato",
+     "funcao": "funcao"
+    }
+   ]
+  },
+  "decisao": "nao",
+  "proxy_cuja_implementacao_e_o_endereco_nao_atestado": false,
+  "implementacao": [],
+  "leitura_do_codigo": "KaliDAOcrowdsale: o unico delegatecall e o do multicall, para address(this).",
+  "evidencias": [
+   {
+    "o_que": "chamada delegatecall com destino proprio_contrato (funcao: function multicall(bytes[] calldata data) external returns (bytes[] memory results) {)",
+    "arquivo": "KaliDAOcrowdsale.sol",
+    "linhas": [
+     178,
+     178
+    ],
+    "trecho": "(bool success, bytes memory result) = address(this).delegatecall(data[i]);"
+   }
+  ]
+ },
+ {
+  "endereco": "0xc420b590f4d06c74afbd7f30a9c0b67bca6aeffe",
+  "contrato_compilado": "Proxy.sol:Proxy",
+  "grau": "parcial",
+  "compilador": "0.8.3+commit.8d00100c",
+  "conferencia_do_codigo": {
+   "keccak_onchainBytecode_do_cache": "0xed224deaac1adc847515b2fac099a07ce03552f4448ce6ff41918a73619bdfd2",
+   "resumo_codigo_da_certidao": "0xed224deaac1adc847515b2fac099a07ce03552f4448ce6ff41918a73619bdfd2",
+   "iguais": true,
+   "matchId_cache": "14836737",
+   "match_id_certidao": "14836737"
+  },
+  "proxyResolution_do_acervo": {
+   "isProxy": false,
+   "proxyType": null,
+   "implementations": []
+  },
+  "constantes_address": [
+   {
+    "construto": "imutavel:4",
+    "motivo": "immutable",
+    "tipo": "address",
+    "nome": "implementation",
+    "declaracao": [
+     {
+      "arquivo": "Proxy.sol",
+      "linha": 27,
+      "trecho": "address immutable public implementation;"
+     }
+    ],
+    "valor": "0xab00ea153c43575184ff11dd5e713c96be005573",
+    "classe_do_alvo": "contrato_verificado_no_acervo",
+    "substituivel_erc1967": false,
+    "tamanho_codigo_alvo": 4137,
+    "nome_do_alvo_no_instantaneo": "/Users/Elena/Source/argent-contracts/contracts/wallet/BaseWallet.sol:BaseWallet",
+    "regioes": [
+     {
+      "inicio": 105,
+      "instrucao": "PUSH32",
+      "arquivo": "Proxy.sol",
+      "linha": 36,
+      "texto": "implementation"
+     },
+     {
+      "inicio": 190,
+      "instrucao": "PUSH32",
+      "arquivo": "Proxy.sol",
+      "linha": 27,
+      "texto": "address immutable public implementation"
+     }
+    ]
+   }
+  ],
+  "delegatecall_no_codigo_fonte": [
+   {
+    "arquivo": "Proxy.sol",
+    "linha": 40,
+    "forma": "assembly",
+    "alvo": "target",
+    "atribuicao_local": {
+     "linha": 36,
+     "expressao": "implementation"
+    },
+    "destino": "imutavel_nao_atestada:implementation",
+    "funcao": {
+     "linha": 35,
+     "cabecalho": "fallback() external payable {",
+     "tipo": "fallback"
+    },
+    "evidencia": [
+     {
+      "arquivo": "Proxy.sol",
+      "linhas": [
+       36,
+       36
+      ],
+      "trecho": "address target = implementation;",
+      "papel": "atribuicao local de target"
+     },
+     {
+      "arquivo": "Proxy.sol",
+      "linhas": [
+       40,
+       40
+      ],
+      "trecho": "let result := delegatecall(gas(), target, 0, calldatasize(), 0, 0)",
+      "papel": "chamada delegatecall"
+     }
+    ]
+   }
+  ],
+  "auxiliares_de_delegatecall_chamados": [],
+  "biblioteca_vinculada_apos_compilacao": [],
+  "bibliotecas_vinculadas_na_compilacao": [],
+  "codigo_de_execucao": {
+   "tamanho": 319,
+   "instrucoes_DELEGATECALL_fora_dos_metadados": 1,
+   "instrucoes_CALLCODE_fora_dos_metadados": 0,
+   "por_classe": {
+    "delegatecall_escrito_no_fonte": 1
+   },
+   "instrucoes": [
+    {
+     "pc": 150,
+     "instrucao": "DELEGATECALL",
+     "arquivo": "Proxy.sol",
+     "linha": 40,
+     "texto": "delegatecall(gas(), target, 0, calldatasize(), 0, 0)",
+     "classe": "delegatecall_escrito_no_fonte",
+     "destino": "imutavel_nao_atestada:implementation",
+     "funcao": "fallback"
+    }
+   ]
+  },
+  "decisao": "proxy",
+  "proxy_cuja_implementacao_e_o_endereco_nao_atestado": true,
+  "implementacao": [
+   {
+    "nome": "implementation",
+    "valor": "0xab00ea153c43575184ff11dd5e713c96be005573",
+    "classe": "contrato_verificado_no_acervo",
+    "nome_no_instantaneo": "/Users/Elena/Source/argent-contracts/contracts/wallet/BaseWallet.sol:BaseWallet"
+   }
+  ],
+  "leitura_do_codigo": "Proxy da Argent: o fallback copia a chamada e faz delegatecall para a imutavel implementation; o receive so emite evento.",
+  "evidencias": [
+   {
+    "o_que": "declaracao da imutavel",
+    "arquivo": "Proxy.sol",
+    "linhas": [
+     27,
+     27
+    ],
+    "trecho": "address immutable public implementation;"
+   },
+   {
+    "o_que": "cabecalho da funcao que contem o delegatecall",
+    "arquivo": "Proxy.sol",
+    "linhas": [
+     35,
+     35
+    ],
+    "trecho": "fallback() external payable {"
+   },
+   {
+    "o_que": "atribuicao local de target na funcao fallback",
+    "arquivo": "Proxy.sol",
+    "linhas": [
+     36,
+     36
+    ],
+    "trecho": "address target = implementation;"
+   },
+   {
+    "o_que": "chamada delegatecall na funcao fallback",
+    "arquivo": "Proxy.sol",
+    "linhas": [
+     40,
+     40
+    ],
+    "trecho": "let result := delegatecall(gas(), target, 0, calldatasize(), 0, 0)"
+   }
+  ]
+ }
+]

@@ -1,0 +1,562 @@
+[
+ {
+  "endereco": "0x5de18d39323f007ab79cd585459165ce367ca514",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.7.6+commit.7338295f",
+  "coincide": true
+ },
+ {
+  "endereco": "0x20f466ecf3e4300ab592801e6114331a48934e62",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.23+commit.124ca40d",
+  "coincide": true
+ },
+ {
+  "endereco": "0x1fe89edc431e8e89111370044b870cac2e0468ca",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.23+commit.124ca40d",
+  "coincide": true
+ },
+ {
+  "endereco": "0x26014e52d5d9f8123a45f6763c85d5656980c5d0",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.11+commit.68ef5810",
+  "coincide": true
+ },
+ {
+  "endereco": "0xf994964ed62bf9a684646c50f1fc6f107916f2c6",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.7.6+commit.7338295f",
+  "coincide": true
+ },
+ {
+  "endereco": "0xdde46a04abcab73654aff702c1b7925dc7c033f9",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.11+commit.68ef5810",
+  "coincide": true
+ },
+ {
+  "endereco": "0x51671230fafa9536f70eb90c3e2a2da8e51769d6",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.23+commit.124ca40d",
+  "coincide": true
+ },
+ {
+  "endereco": "0xf067d322039799a38e16690679a77d05c321c775",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.11+commit.68ef5810",
+  "coincide": true
+ },
+ {
+  "endereco": "0xcdd74ef91130535599b9c9541951db22d0ee1698",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.5.16+commit.9c3226ce",
+  "coincide": true
+ },
+ {
+  "endereco": "0x0744688b0968bd7578c6d9b0b32d8fd47745821c",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.23+commit.124ca40d",
+  "coincide": true
+ },
+ {
+  "endereco": "0x8f8e0ccc3be96a981691a5ffbd80fe44c2a34214",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.23+commit.124ca40d",
+  "coincide": true
+ },
+ {
+  "endereco": "0x2ce12a9a0e3fc05dca9279fc3696c78415890a65",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.7.6+commit.7338295f",
+  "coincide": true
+ },
+ {
+  "endereco": "0xe19216d3def933693c32f8f844b509488e52d71e",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.23+commit.124ca40d",
+  "coincide": true
+ },
+ {
+  "endereco": "0xfbe3427437b2c01f8b5b62ac1837865417f0d92e",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "coincide": true
+ },
+ {
+  "endereco": "0x268d063c19e621730fd7d02d03f66d5ce04d5eb4",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.8.20+commit.a1b79de6",
+  "coincide": true
+ },
+ {
+  "endereco": "0x3f41cfd846148332603c81c09c2a43ed346bc54c",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "coincide": true
+ },
+ {
+  "endereco": "0xf6023dd9a35bfa342519240e4644cdc88c56e404",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.23+commit.124ca40d",
+  "coincide": true
+ },
+ {
+  "endereco": "0xefa2a81bc22a92570047125b31539165dda1f7a4",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "coincide": true
+ },
+ {
+  "endereco": "0xc220c101621a054cb745501e7c305ec53d85ad64",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.8.24+commit.e11b9ed9",
+  "coincide": true
+ },
+ {
+  "endereco": "0x05b59ad6d8a517ce0dc11609e04dfbd187a7d781",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.11+commit.68ef5810",
+  "coincide": true
+ },
+ {
+  "endereco": "0x145cbfea2d17d6391e055602fbd2b8ed7b0a7e64",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.11+commit.68ef5810",
+  "coincide": true
+ },
+ {
+  "endereco": "0xeeb8fcb97934cb26f062a7ad937a5abe25dbfbb4",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.18+commit.9cf6e910",
+  "coincide": true
+ },
+ {
+  "endereco": "0x2680a95fc9de215f1034f073185cc1f2a28b4107",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.5.16+commit.9c3226ce",
+  "coincide": true
+ },
+ {
+  "endereco": "0xcad6e1fbf725a239e49abbca4e87ef29e12e9517",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.8.7+commit.e28d00a7",
+  "coincide": true
+ },
+ {
+  "endereco": "0xc5acbce0c701f65ff3047a616ee6ee60c54232aa",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.7.6+commit.7338295f",
+  "coincide": true
+ },
+ {
+  "endereco": "0x8e53593c5b7de5325fb623d2a1a9b3c2e5eaf627",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.23+commit.124ca40d",
+  "coincide": true
+ },
+ {
+  "endereco": "0xe97a8cc957cf178170fd710ca1976850d632a141",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.5.17+commit.d19bba13",
+  "coincide": true
+ },
+ {
+  "endereco": "0x4ff3772e9499c543e906de5cf18239d3f68c2109",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.11+commit.68ef5810",
+  "coincide": true
+ },
+ {
+  "endereco": "0x5130c67f561c0c455628931dd6f918dcd134dfd3",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.5.10+commit.5a6ea5b1",
+  "coincide": true
+ },
+ {
+  "endereco": "0xb7ad9ae55861329d95906cff40b6fa93fd36e436",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.23+commit.124ca40d",
+  "coincide": true
+ },
+ {
+  "endereco": "0x8c6aa3172a112a25668e6be4d9b8c0ef0fe6fb60",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.11+commit.68ef5810",
+  "coincide": true
+ },
+ {
+  "endereco": "0x00d499ad60817dcf864e73c6407f395ee9bf94df",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.5.2+commit.1df8f40c",
+  "coincide": true
+ },
+ {
+  "endereco": "0xc246e8b22593f5bb9baea22879364d3f5707e6b7",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.11+commit.68ef5810",
+  "coincide": true
+ },
+ {
+  "endereco": "0xa416ca2b6465c7a3d5ab0f7477fbdf5c1555cb83",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.10+commit.f0d539ae",
+  "coincide": true
+ },
+ {
+  "endereco": "0x9d2cec5aa79817ef4f45d26f42580fa5c2203a05",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "coincide": true
+ },
+ {
+  "endereco": "0x80a01cf97bc0407860c9df58ad95a86cec062882",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "coincide": true
+ },
+ {
+  "endereco": "0x48d97e94dd406035056fab5faa57501f03f7ec4c",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.7.6+commit.7338295f",
+  "coincide": true
+ },
+ {
+  "endereco": "0xd65e4944f58d62d8a4aff2e35103e88d4c0e9830",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.11+commit.68ef5810",
+  "coincide": true
+ },
+ {
+  "endereco": "0x38969cca688c46c2b9f71ce57e1703e19dbcdcdc",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.23+commit.124ca40d",
+  "coincide": true
+ },
+ {
+  "endereco": "0x7787990080ce5e0e9353a63cad7377acf4dc8489",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.23+commit.124ca40d",
+  "coincide": true
+ },
+ {
+  "endereco": "0x641cc52577a48d3345940ef92c792ed70a775b40",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.8.7+commit.e28d00a7",
+  "coincide": true
+ },
+ {
+  "endereco": "0xe677c153d57c8073bd50d6f78726bc4e32f44153",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "coincide": true
+ },
+ {
+  "endereco": "0x06633c62cec6eb4b4b6e337d78b307b10df23455",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.11+commit.68ef5810",
+  "coincide": true
+ },
+ {
+  "endereco": "0x9da8647ecabae6dd5f88487e07d6e6aaff42c9c5",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.8.9+commit.e5eed63a",
+  "coincide": true
+ },
+ {
+  "endereco": "0xcb4e60c2eed7544f11bcdc40495e881436a1a100",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.8.34+commit.80d5c536",
+  "coincide": true
+ },
+ {
+  "endereco": "0x4d28542529b506b15f8af6734973ddc60ff29592",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.7.6+commit.7338295f",
+  "coincide": true
+ },
+ {
+  "endereco": "0xcfed29bc4bd9d65231aa1afc3a162c91fa6ae582",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.11+commit.68ef5810",
+  "coincide": true
+ },
+ {
+  "endereco": "0x8ca9473d0600cd65a8ebec2035debf39eff61042",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.11+commit.68ef5810",
+  "coincide": true
+ },
+ {
+  "endereco": "0x81afe3614c38826d01fa19cf8c94ba69490c3a79",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.11+commit.68ef5810",
+  "coincide": true
+ },
+ {
+  "endereco": "0x9faf2ae563be5ffc1ceae22f71f389a8d26b9b6f",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.8.13+commit.abaa5c0e",
+  "coincide": true
+ },
+ {
+  "endereco": "0xf1632812e2ae8f2ffdb019b3176f4b2544c4de14",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.11+commit.68ef5810",
+  "coincide": true
+ },
+ {
+  "endereco": "0xba6cab88127a8afeff079b8c185f81e46cd36a83",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.11+commit.68ef5810",
+  "coincide": true
+ },
+ {
+  "endereco": "0xbd50f8c0918377ab7331fc7ac0c3110947ae3b72",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.23+commit.124ca40d",
+  "coincide": true
+ },
+ {
+  "endereco": "0xd70845e2c0d0d9f7a18c1f3f7306ee8c105fb13a",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.11+commit.68ef5810",
+  "coincide": true
+ },
+ {
+  "endereco": "0x5b4aee2434f16d0bf20749c1d2d5e80249a425cf",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.7.6+commit.7338295f",
+  "coincide": true
+ },
+ {
+  "endereco": "0x3d5d7c3248f7fc7b96bddd03bc4fd6655737167b",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "coincide": true
+ },
+ {
+  "endereco": "0xbf96dafa3a1e5dc17a3f1bd77e0dabe4565985c9",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.8.26+commit.8a97fa7a",
+  "coincide": true
+ },
+ {
+  "endereco": "0x43296b5c104f8f9f9b12cc964b3def0b59ad6acd",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.7.6+commit.7338295f",
+  "coincide": true
+ },
+ {
+  "endereco": "0x09c07cb6c8427402b4242b82394b8513fd24ccce",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.11+commit.68ef5810",
+  "coincide": true
+ },
+ {
+  "endereco": "0xc19e3b4888b5579950647863628f05f09552c306",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.16+commit.d7661dd9",
+  "coincide": true
+ },
+ {
+  "endereco": "0xbe845cb35e61ad1d1c8ce2fde61310be43a77322",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.23+commit.124ca40d",
+  "coincide": true
+ },
+ {
+  "endereco": "0xae40c9b138a86e58cd8e173ea132d69550e0f994",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "coincide": true
+ },
+ {
+  "endereco": "0x889d27d94f53446eb5d9c02470ee1e8e36960190",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.11+commit.68ef5810",
+  "coincide": true
+ },
+ {
+  "endereco": "0xe7d8e9db3b56e7764effea6b7c84ea55d03dfa1c",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.8.4+commit.c7e474f2",
+  "coincide": true
+ },
+ {
+  "endereco": "0x5ae4d29875f0d8b0f028e7e003b1e0ad538ef89c",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "coincide": true
+ },
+ {
+  "endereco": "0x09fd01fca1618453d04ff8695644503c8ae75ff5",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.8.1+commit.df193b15",
+  "coincide": true
+ },
+ {
+  "endereco": "0x1678a81277557d19eff18a1d5bded3ed05914dad",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "coincide": true
+ },
+ {
+  "endereco": "0xd2b0d447615e345a39dbfea5cd56528e0122985b",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.23+commit.124ca40d",
+  "coincide": true
+ },
+ {
+  "endereco": "0x4347a485508bb0922a923a9e23ae3e1f1099e256",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.8.7+commit.e28d00a7",
+  "coincide": true
+ },
+ {
+  "endereco": "0xbfcfdcb27ab92c6b3bcbc01dff690f1bb12aceb4",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.11+commit.68ef5810",
+  "coincide": true
+ },
+ {
+  "endereco": "0x3a1b14ff6dd0b9a1da89f8a86b5bbfe16212021a",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.7.6+commit.7338295f",
+  "coincide": true
+ },
+ {
+  "endereco": "0xc0f426b7cb7b0a8b1abcbff6f0b9fea75d157236",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.23+commit.124ca40d",
+  "coincide": true
+ },
+ {
+  "endereco": "0xd1712c7d058af104ffa983a4ea8d548d609677d1",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.5.4+commit.9549d8ff",
+  "coincide": true
+ },
+ {
+  "endereco": "0x994466f822af45cf5db0a0f41b9af6d503bcf3d5",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.5.2+commit.1df8f40c",
+  "coincide": true
+ },
+ {
+  "endereco": "0x641ca5ef229182205cab8bfda6a8c40f217355c0",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.7.6+commit.7338295f",
+  "coincide": true
+ },
+ {
+  "endereco": "0xf79d2310e9f2258632463fab25d02bd31faadbca",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.8.23+commit.f704f362",
+  "coincide": true
+ },
+ {
+  "endereco": "0x1974c2b1c5cdf92bfd621fc09dda3e548d438547",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.5.16+commit.9c3226ce",
+  "coincide": true
+ },
+ {
+  "endereco": "0x4b09c4e4a47ecdaf2a75c85a25e4a9e45ed1c032",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.5.16+commit.9c3226ce",
+  "coincide": true
+ },
+ {
+  "endereco": "0x67ef6924dfcec2a5a7c6aee2cd6a2347323ec036",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.23+commit.124ca40d",
+  "coincide": true
+ },
+ {
+  "endereco": "0x90682eade3eed21f0502c26f30c39a7725ecf079",
+  "situacao": "processado",
+  "causa": null,
+  "compilador": "0.4.11+commit.68ef5810",
+  "coincide": true
+ }
+]

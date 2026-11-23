@@ -1,0 +1,125 @@
+{
+ "gerado_em_utc": "2026-11-23T02:47:45+00:00",
+ "positivos": 13,
+ "constantes_address": 38,
+ "valores_address": 38,
+ "codigo_do_cache_igual_ao_da_certidao": 13,
+ "proxies_cuja_implementacao_e_o_endereco_nao_atestado": 3,
+ "proxies": [
+  {
+   "endereco": "0x2d90afaeea73aa6a3313f191349ce4a9b86c7996",
+   "contrato": "contracts/InitializedProxy.sol:InitializedProxy",
+   "grau": "exata",
+   "implementacao": [
+    {
+     "nome": "logic",
+     "valor": "0x4a6d2a7a4f9375ebd4ecdbb1972a767dd83b02de",
+     "classe": "contrato_verificado_no_acervo",
+     "nome_no_instantaneo": "contracts/ERC721TokenVault.sol:TokenVault"
+    }
+   ]
+  },
+  {
+   "endereco": "0x32dafdb716dcd5dd799369a62d9d660ca6bc855f",
+   "contrato": "contracts/NonReceivableInitializedProxy.sol:NonReceivableInitializedProxy",
+   "grau": "exata",
+   "implementacao": [
+    {
+     "nome": "logic",
+     "valor": "0x2045427276b2ad409202eea1e0c81e150f3203e4",
+     "classe": "contrato_verificado_no_acervo",
+     "nome_no_instantaneo": "contracts/PartyBuy.sol:PartyBuy"
+    }
+   ]
+  },
+  {
+   "endereco": "0xc420b590f4d06c74afbd7f30a9c0b67bca6aeffe",
+   "contrato": "Proxy.sol:Proxy",
+   "grau": "parcial",
+   "implementacao": [
+    {
+     "nome": "implementation",
+     "valor": "0xab00ea153c43575184ff11dd5e713c96be005573",
+     "classe": "contrato_verificado_no_acervo",
+     "nome_no_instantaneo": "/Users/Elena/Source/argent-contracts/contracts/wallet/BaseWallet.sol:BaseWallet"
+    }
+   ]
+  }
+ ],
+ "proxies_com_implementacao_verificada_no_acervo": 3,
+ "proxies_por_grau": {
+  "exata": 2,
+  "parcial": 1
+ },
+ "delegacao_por_biblioteca_vinculada_apos_compilacao": 1,
+ "contratos_delegacao_por_biblioteca": [
+  {
+   "endereco": "0x56ab918a1b58fbfd8ab3d0fd85970195ab714628",
+   "contrato": "SmartWallet.sol:SmartWallet",
+   "biblioteca": [
+    "SmartWalletLib"
+   ],
+   "valor": [
+    "0x74ba8c8f53809bd3baa0c243350cb989f6c9dc3c"
+   ],
+   "chamadas_em_funcoes": 4,
+   "chamadas_no_construtor": 1,
+   "regioes_que_alcancam_DELEGATECALL": 4,
+   "regioes": 4
+  }
+ ],
+ "positivos_que_delegam_ao_endereco_nao_atestado": 4,
+ "positivos_sem_delegacao_ao_endereco_nao_atestado": 9,
+ "positivos_sem_instrucao_DELEGATECALL_no_codigo": 7,
+ "instrucoes_DELEGATECALL_nos_13": 14,
+ "instrucoes_CALLCODE_nos_13": 0,
+ "instrucoes_por_classe_e_destino": {
+  "biblioteca_vinculada_na_compilacao|TransceiverStructs|funcao": 7,
+  "delegatecall_escrito_no_fonte|imutavel_nao_atestada:logic|fallback": 2,
+  "biblioteca_vinculada_apos_compilacao|SmartWalletLib|funcao": 3,
+  "delegatecall_escrito_no_fonte|proprio_contrato|funcao": 1,
+  "delegatecall_escrito_no_fonte|imutavel_nao_atestada:implementation|fallback": 1
+ },
+ "DELEGATECALL_por_contrato": {
+  "0x05c35038bd55afacb4bfdf36754f75f723851afd": 0,
+  "0x17314f8499b68f6eba37a7b951aa7f2b14d2f625": 0,
+  "0x2305027c7d83b33b34ec217d22ffc240d39c59cc": 7,
+  "0x2d90afaeea73aa6a3313f191349ce4a9b86c7996": 1,
+  "0x32dafdb716dcd5dd799369a62d9d660ca6bc855f": 1,
+  "0x40f1cb91325dd8ef24dfac085c9ba46ea309e5e2": 0,
+  "0x4ae304be5b0f211f69cc97dfb6913d6d13f45418": 0,
+  "0x56ab918a1b58fbfd8ab3d0fd85970195ab714628": 3,
+  "0x7a4523a9349a99ac16d1484728e82eab6eda027f": 0,
+  "0x95ec567b7bc3e5aa7c581b44dc3028fa417c297f": 0,
+  "0xae0f58c408514e60cc6d844cc80965aeab4bf6ff": 0,
+  "0xb677fa3dd5c2c0472f7520b48aa3f642f9c4af11": 1,
+  "0xc420b590f4d06c74afbd7f30a9c0b67bca6aeffe": 1
+ },
+ "bibliotecas_vinculadas_na_compilacao": {
+  "0x2305027c7d83b33b34ec217d22ffc240d39c59cc": [
+   {
+    "arquivo": "src/libraries/TransceiverStructs.sol",
+    "biblioteca": "TransceiverStructs",
+    "endereco": "0x125f01700e2b24b39616a7b3d24d4f0acd790eee",
+    "PUSH20_no_codigo": 7,
+    "PUSH20_em_regiao_nao_atestada": 0
+   }
+  ]
+ },
+ "positivos_marcados_como_proxy_pelo_acervo": 0,
+ "decisoes": {
+  "0x05c35038bd55afacb4bfdf36754f75f723851afd": "nao",
+  "0x17314f8499b68f6eba37a7b951aa7f2b14d2f625": "nao",
+  "0x2305027c7d83b33b34ec217d22ffc240d39c59cc": "nao",
+  "0x2d90afaeea73aa6a3313f191349ce4a9b86c7996": "proxy",
+  "0x32dafdb716dcd5dd799369a62d9d660ca6bc855f": "proxy",
+  "0x40f1cb91325dd8ef24dfac085c9ba46ea309e5e2": "nao",
+  "0x4ae304be5b0f211f69cc97dfb6913d6d13f45418": "nao",
+  "0x56ab918a1b58fbfd8ab3d0fd85970195ab714628": "biblioteca",
+  "0x7a4523a9349a99ac16d1484728e82eab6eda027f": "nao",
+  "0x95ec567b7bc3e5aa7c581b44dc3028fa417c297f": "nao",
+  "0xae0f58c408514e60cc6d844cc80965aeab4bf6ff": "nao",
+  "0xb677fa3dd5c2c0472f7520b48aa3f642f9c4af11": "nao",
+  "0xc420b590f4d06c74afbd7f30a9c0b67bca6aeffe": "proxy"
+ }
+}

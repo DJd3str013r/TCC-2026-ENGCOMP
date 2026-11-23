@@ -1,0 +1,203 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x4ae304be5b0f211f69cc97dfb6913d6d13f45418",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 3739,
+  "resumo_codigo": "0xbb3d5de54e14aa56fcb7bd9ae4d3956f5d57cdacde832aaa4abe752c31665b86"
+ },
+ "acervo": {
+  "match_id": "9908642",
+  "grau_codigo_execucao": "exata",
+  "grau_codigo_criacao": "exata",
+  "compilador": "0.8.27+commit.40a35a09",
+  "linguagem": "Solidity",
+  "contrato_compilado": "contract-b60583fba2.sol:COIN996",
+  "verificado_em": "2025-11-10T13:55:44Z",
+  "match_id_instantaneo": 9908642,
+  "grau_instantaneo": "exata",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 3739,
+  "tamanho_cadeia": 3739,
+  "blocos_removidos": 0,
+  "metadados_em_F": false,
+  "ajustes_dos_metadados": [
+   "evmVersion",
+   "metadata"
+  ],
+  "motor": "solc nativo"
+ },
+ "regioes": [
+  {
+   "inicio": 1425,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:3236",
+   "valor": "0x0000000000000000000000004ae304be5b0f211f69cc97dfb6913d6d13f45418",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 1467,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:3234",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000001",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 1509,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:3232",
+   "valor": "0xd0019dbe4a3745d7154669409c62c40fc9687a6eda75a097baefd0ed06a2d6f0",
+   "tipo": "bytes32",
+   "tau_address": false
+  },
+  {
+   "inicio": 1590,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:3238",
+   "valor": "0xaaa9fd05958f91ee3f2485d0ba4c721752743dd0ffb779a0b2f519763f2fee52",
+   "tipo": "bytes32",
+   "tau_address": false
+  },
+  {
+   "inicio": 1630,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:3240",
+   "valor": "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6",
+   "tipo": "bytes32",
+   "tau_address": false
+  },
+  {
+   "inicio": 1717,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:3243",
+   "valor": "0x434f494e39393600000000000000000000000000000000000000000000000007",
+   "tipo": "ShortString (sobre bytes32)",
+   "tau_address": false
+  },
+  {
+   "inicio": 1762,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:3246",
+   "valor": "0x3100000000000000000000000000000000000000000000000000000000000001",
+   "tipo": "ShortString (sobre bytes32)",
+   "tau_address": false
+  }
+ ],
+ "constantes": [
+  {
+   "construto": "imutavel:3236",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 1,
+   "valores": [
+    "0x4ae304be5b0f211f69cc97dfb6913d6d13f45418"
+   ],
+   "valores_distintos": 1,
+   "literais_no_codigo_de_criacao": [],
+   "alvos": {
+    "0x4ae304be5b0f211f69cc97dfb6913d6d13f45418": {
+     "classe": "proprio_contrato",
+     "substituivel": false,
+     "erc1967_implementacao": null,
+     "erc1967_beacon": null,
+     "tamanho_codigo": 3739
+    }
+   }
+  },
+  {
+   "construto": "imutavel:3234",
+   "motivo": "immutable",
+   "tipo": "uint256",
+   "tau_address": false,
+   "regioes": 1,
+   "valores": [
+    "0x0000000000000000000000000000000000000000000000000000000000000001"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:3232",
+   "motivo": "immutable",
+   "tipo": "bytes32",
+   "tau_address": false,
+   "regioes": 1,
+   "valores": [
+    "0xd0019dbe4a3745d7154669409c62c40fc9687a6eda75a097baefd0ed06a2d6f0"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:3238",
+   "motivo": "immutable",
+   "tipo": "bytes32",
+   "tau_address": false,
+   "regioes": 1,
+   "valores": [
+    "0xaaa9fd05958f91ee3f2485d0ba4c721752743dd0ffb779a0b2f519763f2fee52"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:3240",
+   "motivo": "immutable",
+   "tipo": "bytes32",
+   "tau_address": false,
+   "regioes": 1,
+   "valores": [
+    "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:3243",
+   "motivo": "immutable",
+   "tipo": "ShortString (sobre bytes32)",
+   "tau_address": false,
+   "regioes": 1,
+   "valores": [
+    "0x434f494e39393600000000000000000000000000000000000000000000000007"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:3246",
+   "motivo": "immutable",
+   "tipo": "ShortString (sobre bytes32)",
+   "tau_address": false,
+   "regioes": 1,
+   "valores": [
+    "0x3100000000000000000000000000000000000000000000000000000000000001"
+   ],
+   "valores_distintos": 1
+  }
+ ],
+ "cobertura": 0.9400909334046537,
+ "bytes_nao_atestados": 224,
+ "indicador_equacao_2": 1,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.8,
+ "ordem": 94
+}

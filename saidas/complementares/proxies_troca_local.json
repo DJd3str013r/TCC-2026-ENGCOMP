@@ -1,0 +1,243 @@
+{
+ "T1_proxies": {
+  "0xc420b590f4d06c74afbd7f30a9c0b67bca6aeffe": {
+   "constante": "imutavel:4",
+   "valor": "0xab00ea153c43575184ff11dd5e713c96be005573",
+   "regioes": [
+    [
+     105,
+     32
+    ],
+    [
+     190,
+     32
+    ]
+   ],
+   "codigo_da_cadeia": {
+    "chamada_com_seletor_inexistente": {
+     "erro": false,
+     "delegou_a": [
+      "0xab00ea153c43575184ff11dd5e713c96be005573"
+     ]
+    },
+    "chamada_sem_dados": {
+     "erro": false,
+     "delegou_a": []
+    }
+   },
+   "codigo_com_outro_valor_nas_regioes": {
+    "chamada_com_seletor_inexistente": {
+     "erro": false,
+     "delegou_a": [
+      "0xbfeef91565172d57e2c454c9da958a4d91c817db"
+     ]
+    },
+    "chamada_sem_dados": {
+     "erro": false,
+     "delegou_a": []
+    }
+   },
+   "destino_acompanha_a_regiao": true
+  },
+  "0x2d90afaeea73aa6a3313f191349ce4a9b86c7996": {
+   "constante": "imutavel:4",
+   "valor": "0x4a6d2a7a4f9375ebd4ecdbb1972a767dd83b02de",
+   "regioes": [
+    [
+     42,
+     32
+    ],
+    [
+     123,
+     32
+    ]
+   ],
+   "codigo_da_cadeia": {
+    "chamada_com_seletor_inexistente": {
+     "erro": false,
+     "delegou_a": [
+      "0x4a6d2a7a4f9375ebd4ecdbb1972a767dd83b02de"
+     ]
+    },
+    "chamada_sem_dados": {
+     "erro": false,
+     "delegou_a": []
+    }
+   },
+   "codigo_com_outro_valor_nas_regioes": {
+    "chamada_com_seletor_inexistente": {
+     "erro": false,
+     "delegou_a": [
+      "0xbfeef91565172d57e2c454c9da958a4d91c817db"
+     ]
+    },
+    "chamada_sem_dados": {
+     "erro": false,
+     "delegou_a": []
+    }
+   },
+   "destino_acompanha_a_regiao": true
+  },
+  "0x32dafdb716dcd5dd799369a62d9d660ca6bc855f": {
+   "constante": "imutavel:4",
+   "valor": "0x2045427276b2ad409202eea1e0c81e150f3203e4",
+   "regioes": [
+    [
+     33,
+     32
+    ],
+    [
+     114,
+     32
+    ]
+   ],
+   "codigo_da_cadeia": {
+    "chamada_com_seletor_inexistente": {
+     "erro": false,
+     "delegou_a": [
+      "0x2045427276b2ad409202eea1e0c81e150f3203e4"
+     ]
+    },
+    "chamada_sem_dados": {
+     "erro": false,
+     "delegou_a": [
+      "0x2045427276b2ad409202eea1e0c81e150f3203e4"
+     ]
+    }
+   },
+   "codigo_com_outro_valor_nas_regioes": {
+    "chamada_com_seletor_inexistente": {
+     "erro": false,
+     "delegou_a": [
+      "0xbfeef91565172d57e2c454c9da958a4d91c817db"
+     ]
+    },
+    "chamada_sem_dados": {
+     "erro": false,
+     "delegou_a": [
+      "0xbfeef91565172d57e2c454c9da958a4d91c817db"
+     ]
+    }
+   },
+   "destino_acompanha_a_regiao": true
+  }
+ },
+ "T1_proxies_cujo_destino_acompanha_a_regiao": 3,
+ "T2_smartwallet": {
+  "biblioteca": "0x74ba8c8f53809bd3baa0c243350cb989f6c9dc3c",
+  "tamanho_codigo_biblioteca": 1938,
+  "regioes": [
+   [
+    411,
+    20
+   ],
+   [
+    596,
+    20
+   ],
+   [
+    728,
+    20
+   ],
+   [
+    874,
+    20
+   ]
+  ],
+  "codigo_da_cadeia": {
+   "setUserWithdrawalAccount(address)": {
+    "erro_na_transacao": true,
+    "delegou_a": [
+     "0x74ba8c8f53809bd3baa0c243350cb989f6c9dc3c"
+    ]
+   },
+   "transferToUserWithdrawalAccount(address,uint256,address,uint256)": {
+    "erro_na_transacao": true,
+    "delegou_a": [
+     "0x74ba8c8f53809bd3baa0c243350cb989f6c9dc3c"
+    ]
+   },
+   "requestWithdraw()": {
+    "erro_na_transacao": true,
+    "delegou_a": [
+     "0x74ba8c8f53809bd3baa0c243350cb989f6c9dc3c"
+    ]
+   },
+   "performUserWithdraw(address)": {
+    "erro_na_transacao": true,
+    "delegou_a": [
+     "0x74ba8c8f53809bd3baa0c243350cb989f6c9dc3c"
+    ]
+   },
+   "wallet()": {
+    "erro_na_transacao": false,
+    "delegou_a": []
+   }
+  },
+  "codigo_com_outro_valor_nas_regioes": {
+   "setUserWithdrawalAccount(address)": {
+    "erro_na_transacao": true,
+    "delegou_a": [
+     "0xbfeef91565172d57e2c454c9da958a4d91c817db"
+    ]
+   },
+   "transferToUserWithdrawalAccount(address,uint256,address,uint256)": {
+    "erro_na_transacao": true,
+    "delegou_a": [
+     "0xbfeef91565172d57e2c454c9da958a4d91c817db"
+    ]
+   },
+   "requestWithdraw()": {
+    "erro_na_transacao": true,
+    "delegou_a": [
+     "0xbfeef91565172d57e2c454c9da958a4d91c817db"
+    ]
+   },
+   "performUserWithdraw(address)": {
+    "erro_na_transacao": true,
+    "delegou_a": [
+     "0xbfeef91565172d57e2c454c9da958a4d91c817db"
+    ]
+   },
+   "wallet()": {
+    "erro_na_transacao": false,
+    "delegou_a": []
+   }
+  },
+  "funcoes_que_delegam_a_biblioteca_da_regiao": 4,
+  "funcoes_que_acompanham_a_troca": 4
+ },
+ "T3_usdc": {
+  "implementacao_lida": "0x43506849d7c04f9138d1a2050bbf3a0c054402dd",
+  "admin_lido": "0x807a96288a1a408dbc13de2b1d087d10356395d2",
+  "tamanho_codigo_proxy": 2186,
+  "tamanho_codigo_implementacao": 23464,
+  "novo_endereco": "0x7aba2e4edb5b3b5c41b17b102ba1f7e8dee24229",
+  "antes": {
+   "name_delegou_a": [
+    "0x43506849d7c04f9138d1a2050bbf3a0c054402dd"
+   ],
+   "erro": false,
+   "compartimento": "0x43506849d7c04f9138d1a2050bbf3a0c054402dd"
+  },
+  "controle_outro_remetente_chama_upgradeTo": {
+   "erro": true,
+   "delegou_a": [
+    "0x43506849d7c04f9138d1a2050bbf3a0c054402dd"
+   ],
+   "compartimento_depois": "0x43506849d7c04f9138d1a2050bbf3a0c054402dd"
+  },
+  "admin_chama_upgradeTo": {
+   "erro": false,
+   "delegou_a": [],
+   "compartimento_depois": "0x7aba2e4edb5b3b5c41b17b102ba1f7e8dee24229"
+  },
+  "depois": {
+   "name_delegou_a": [
+    "0x7aba2e4edb5b3b5c41b17b102ba1f7e8dee24229"
+   ],
+   "erro": false
+  },
+  "troca_pelo_admin_sem_mudar_o_codigo_do_proxy": true
+ }
+}

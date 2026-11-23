@@ -1,0 +1,62 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x6ad3325c9ed7bf0c556c9ba9e05ba77c1b10f4b1",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 5904,
+  "resumo_codigo": "0xf20185ec2856814725c2a2da6bba805b93b27347d1f0ca76e1af2709bd428f76"
+ },
+ "acervo": {
+  "match_id": "14224710",
+  "grau_codigo_execucao": "parcial",
+  "grau_codigo_criacao": "parcial",
+  "compilador": "0.5.17+commit.d19bba13",
+  "linguagem": "Solidity",
+  "contrato_compilado": "ECOSYSTEM_FINANCE.sol:ECOSYSTEM_FINANCE",
+  "verificado_em": "2026-01-20T14:16:09Z",
+  "match_id_instantaneo": 14224710,
+  "grau_instantaneo": "parcial",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 5904,
+  "tamanho_cadeia": 5904,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo",
+  "ajustes_dos_metadados": [
+   "evmVersion",
+   "remappings"
+  ],
+  "motor": "solc nativo"
+ },
+ "regioes": [
+  {
+   "inicio": 5852,
+   "comprimento": 52,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa265627a7a723158206ad412232d76dfb180fbe728a7fe9f5b5fa7b91991b272cc348b82a1b587eb0b64736f6c63430005110032",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [],
+ "cobertura": 0.9911924119241192,
+ "bytes_nao_atestados": 52,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.1,
+ "ordem": 55
+}

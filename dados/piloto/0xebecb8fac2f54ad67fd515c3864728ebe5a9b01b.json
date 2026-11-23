@@ -1,0 +1,25 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.0.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0xebecb8fac2f54ad67fd515c3864728ebe5a9b01b",
+  "bloco_referencia": 26290000,
+  "tamanho_codigo": 832,
+  "resumo_codigo": "0x2df39c0062882ba634fb24c89e7f9871ecef10a6e6a6e79a336f6ed463d5c942"
+ },
+ "acervo": {
+  "match_id": "17906858",
+  "grau_codigo_execucao": "parcial",
+  "compilador": "0.4.16-nightly.2017.8.11+commit.c84de7fa",
+  "linguagem": "Solidity",
+  "contrato_compilado": "Forwarder.sol:Forwarder",
+  "verificado_em": "2026-02-11T06:35:48Z"
+ },
+ "situacao": "falha",
+ "causa": "ErroCompilacao: versao nightly sem binario oficial: 0.4.16-nightly.2017.8.11+commit.c84de7fa",
+ "segundos": 0.0
+}

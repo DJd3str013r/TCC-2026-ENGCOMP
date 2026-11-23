@@ -1,0 +1,90 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.1.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0xa811607554419977bb372fa3a2ec9bbc81575fb4",
+  "bloco_referencia": 26290000,
+  "tamanho_codigo": 15669,
+  "resumo_codigo": "0x4198edd8dd0b551d5ba5db1f3c559ff9d6590faacc6d1fa92d37752212a998a9"
+ },
+ "acervo": {
+  "match_id": "295201",
+  "grau_codigo_execucao": "exata",
+  "compilador": "0.8.16+commit.07a7930e",
+  "linguagem": "Solidity",
+  "contrato_compilado": "contracts/Renderer.sol:Renderer",
+  "verificado_em": "2024-12-23T14:05:04Z"
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 15669,
+  "tamanho_cadeia": 15669,
+  "blocos_removidos": 0,
+  "metadados_em_F": false
+ },
+ "regioes": [
+  {
+   "inicio": 2309,
+   "comprimento": 20,
+   "motivo": "library",
+   "construto": "biblioteca:contracts/Utilities.sol:utils",
+   "valor": "0xbfab047349e5d8a6bc4a714970ca1c80d6bac978",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 2665,
+   "comprimento": 20,
+   "motivo": "library",
+   "construto": "biblioteca:contracts/Utilities.sol:utils",
+   "valor": "0xbfab047349e5d8a6bc4a714970ca1c80d6bac978",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 3517,
+   "comprimento": 20,
+   "motivo": "library",
+   "construto": "biblioteca:contracts/Utilities.sol:utils",
+   "valor": "0xbfab047349e5d8a6bc4a714970ca1c80d6bac978",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 4347,
+   "comprimento": 20,
+   "motivo": "library",
+   "construto": "biblioteca:contracts/Utilities.sol:utils",
+   "valor": "0xbfab047349e5d8a6bc4a714970ca1c80d6bac978",
+   "tipo": "address",
+   "tau_address": true
+  }
+ ],
+ "constantes": [
+  {
+   "construto": "biblioteca:contracts/Utilities.sol:utils",
+   "motivo": "library",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 4,
+   "valores": [
+    "0xbfab047349e5d8a6bc4a714970ca1c80d6bac978"
+   ],
+   "valores_distintos": 1
+  }
+ ],
+ "cobertura": 0.9948943774331482,
+ "bytes_nao_atestados": 80,
+ "indicador_equacao_2": 1,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 1.3
+}

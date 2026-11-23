@@ -1,0 +1,62 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x7eb4db01000a472d4fd744b72be24e391cdd0dc8",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 3122,
+  "resumo_codigo": "0xf95d317693ba02d00aafbe666c67512897dd0f042781a62e237fce424dd2511a"
+ },
+ "acervo": {
+  "match_id": "53411271",
+  "grau_codigo_execucao": "parcial",
+  "grau_codigo_criacao": "parcial",
+  "compilador": "0.8.30+commit.73712a01",
+  "linguagem": "Solidity",
+  "contrato_compilado": "SexCoin.sol:SexCoin",
+  "verificado_em": "2026-09-27T13:08:54Z",
+  "match_id_instantaneo": 53411271,
+  "grau_instantaneo": "parcial",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 3122,
+  "tamanho_cadeia": 3122,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo",
+  "ajustes_dos_metadados": [
+   "metadata",
+   "remappings"
+  ],
+  "motor": "solc nativo"
+ },
+ "regioes": [
+  {
+   "inicio": 3069,
+   "comprimento": 53,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa2646970667358221220a3f4167bee4ba270511f41a8e8ce159afd0c5e6cac8d6e625a09ca0b1936837164736f6c634300081e0033",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [],
+ "cobertura": 0.9830237027546445,
+ "bytes_nao_atestados": 53,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.1,
+ "ordem": 68
+}

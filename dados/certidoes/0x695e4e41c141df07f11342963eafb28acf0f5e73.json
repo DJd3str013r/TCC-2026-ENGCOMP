@@ -1,0 +1,59 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x695e4e41c141df07f11342963eafb28acf0f5e73",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 373,
+  "resumo_codigo": "0xe25d4f154acb2394ee6c18d64fb5635959ba063d57f83091ec9cf34be16224d7"
+ },
+ "acervo": {
+  "match_id": "20817492",
+  "grau_codigo_execucao": "parcial",
+  "grau_codigo_criacao": "parcial",
+  "compilador": "0.5.11+commit.c082d0b4",
+  "linguagem": "Solidity",
+  "contrato_compilado": "UpgradeBeaconProxyV1.sol:UpgradeBeaconProxyV1",
+  "verificado_em": "2026-03-01T14:47:15Z",
+  "match_id_instantaneo": 20817492,
+  "grau_instantaneo": "parcial",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 373,
+  "tamanho_cadeia": 373,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo",
+  "ajustes_dos_metadados": [],
+  "motor": "soljson"
+ },
+ "regioes": [
+  {
+   "inicio": 321,
+   "comprimento": 52,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa265627a7a7231582020202020202055706772616465426561636f6e50726f7879563120202020202064736f6c634300050b0032",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [],
+ "cobertura": 0.8605898123324397,
+ "bytes_nao_atestados": 52,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 1.7,
+ "ordem": 85
+}

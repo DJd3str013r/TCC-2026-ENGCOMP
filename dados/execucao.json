@@ -1,0 +1,9 @@
+{
+ "verificador": "1.7.0",
+ "bloco_referencia": 26296341,
+ "contratos": 385,
+ "processados": 385,
+ "falhas": [],
+ "chamadas_rpc_rede": 6,
+ "segundos": 49
+}

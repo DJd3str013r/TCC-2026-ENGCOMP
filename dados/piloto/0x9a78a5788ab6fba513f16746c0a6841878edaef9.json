@@ -1,0 +1,52 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.1.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x9a78a5788ab6fba513f16746c0a6841878edaef9",
+  "bloco_referencia": 26290000,
+  "tamanho_codigo": 711,
+  "resumo_codigo": "0x1659de68e6a279da28599e113109376d848bf72a54b56d945750294b8c97e773"
+ },
+ "acervo": {
+  "match_id": "56200709",
+  "grau_codigo_execucao": "parcial",
+  "compilador": "0.4.24+commit.e67f0147",
+  "linguagem": "Solidity",
+  "contrato_compilado": "NexoDepositWallet.sol:NexoDepositWallet",
+  "verificado_em": "2026-10-16T04:01:20Z"
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 711,
+  "tamanho_cadeia": 711,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo"
+ },
+ "regioes": [
+  {
+   "inicio": 668,
+   "comprimento": 43,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa165627a7a7230582005c585170eb1ba497a4e0bc053a662a46f16fd200c85c37e4f8319d8ca9e93ab0029",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [],
+ "cobertura": 0.939521800281294,
+ "bytes_nao_atestados": 43,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.1
+}

@@ -1,0 +1,61 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x6b5b45fadf2a4f73d665dc698a0aa1ca1a6e0e11",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 4934,
+  "resumo_codigo": "0x7bdcb0b7f353f0d53cfe27243d3c91fe209454eae282c2c1356a0c2553f33262"
+ },
+ "acervo": {
+  "match_id": "56871949",
+  "grau_codigo_execucao": "parcial",
+  "grau_codigo_criacao": null,
+  "compilador": "0.4.19+commit.c4cbbb05",
+  "linguagem": "Solidity",
+  "contrato_compilado": "GameMarketToken.sol:GameMarketToken",
+  "verificado_em": "2026-10-24T20:15:15Z",
+  "match_id_instantaneo": 56871949,
+  "grau_instantaneo": "parcial",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 4934,
+  "tamanho_cadeia": 4934,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo",
+  "ajustes_dos_metadados": [
+   "remappings"
+  ],
+  "motor": "solc nativo"
+ },
+ "regioes": [
+  {
+   "inicio": 4891,
+   "comprimento": 43,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa165627a7a72305820256ef7aa30fa4d060cd9e189588ff743097a092d9d2c446b3f18d643bb400ed30029",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [],
+ "cobertura": 0.9912849614916903,
+ "bytes_nao_atestados": 43,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.1,
+ "ordem": 0
+}

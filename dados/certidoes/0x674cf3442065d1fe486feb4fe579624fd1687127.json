@@ -1,0 +1,50 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x674cf3442065d1fe486feb4fe579624fd1687127",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 3593,
+  "resumo_codigo": "0x3e8bf38ec47fde29a0db2866ca9e4c6a5ceabeccb5b81930bb70a61c8a292d37"
+ },
+ "acervo": {
+  "match_id": "20288665",
+  "grau_codigo_execucao": "exata",
+  "grau_codigo_criacao": "exata",
+  "compilador": "0.4.26+commit.4563c3fc",
+  "linguagem": "Solidity",
+  "contrato_compilado": "contracts/accounts/SimpleAccount.sol:DSProxy",
+  "verificado_em": "2026-02-25T00:36:25Z",
+  "match_id_instantaneo": 20288665,
+  "grau_instantaneo": "exata",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 3593,
+  "tamanho_cadeia": 3593,
+  "blocos_removidos": 0,
+  "metadados_em_F": false,
+  "ajustes_dos_metadados": [
+   "evmVersion"
+  ],
+  "motor": "solc nativo"
+ },
+ "regioes": [],
+ "constantes": [],
+ "cobertura": 1.0,
+ "bytes_nao_atestados": 0,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.1,
+ "ordem": 325
+}

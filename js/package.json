@@ -1,0 +1,10 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ponte para o compilador Solidity em JavaScript (soljson) usada pelo verificador atesta",
+  "license": "MIT",
+  "dependencies": {
+    "solc": "^0.8.30"
+  }
+}

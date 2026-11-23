@@ -1,0 +1,117 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x56ab918a1b58fbfd8ab3d0fd85970195ab714628",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 971,
+  "resumo_codigo": "0x3ad3f607a353582d97d575d924ee5cf6447f3298e3ad0a87ee61a13664ccf9a9"
+ },
+ "acervo": {
+  "match_id": "9347592",
+  "grau_codigo_execucao": "parcial",
+  "grau_codigo_criacao": "parcial",
+  "compilador": "0.4.24+commit.e67f0147",
+  "linguagem": "Solidity",
+  "contrato_compilado": "SmartWallet.sol:SmartWallet",
+  "verificado_em": "2025-09-25T12:19:36Z",
+  "match_id_instantaneo": 9347592,
+  "grau_instantaneo": "parcial",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 971,
+  "tamanho_cadeia": 971,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo",
+  "ajustes_dos_metadados": [],
+  "motor": "solc nativo"
+ },
+ "regioes": [
+  {
+   "inicio": 411,
+   "comprimento": 20,
+   "motivo": "library",
+   "construto": "biblioteca:SmartWallet.sol:SmartWalletLib",
+   "valor": "0x74ba8c8f53809bd3baa0c243350cb989f6c9dc3c",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 596,
+   "comprimento": 20,
+   "motivo": "library",
+   "construto": "biblioteca:SmartWallet.sol:SmartWalletLib",
+   "valor": "0x74ba8c8f53809bd3baa0c243350cb989f6c9dc3c",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 728,
+   "comprimento": 20,
+   "motivo": "library",
+   "construto": "biblioteca:SmartWallet.sol:SmartWalletLib",
+   "valor": "0x74ba8c8f53809bd3baa0c243350cb989f6c9dc3c",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 874,
+   "comprimento": 20,
+   "motivo": "library",
+   "construto": "biblioteca:SmartWallet.sol:SmartWalletLib",
+   "valor": "0x74ba8c8f53809bd3baa0c243350cb989f6c9dc3c",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 928,
+   "comprimento": 43,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa165627a7a723058205073597116b7b71c0560d912d3593a9c23c16b370d182ba2ea2d28defe0ce4b30029",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [
+  {
+   "construto": "biblioteca:SmartWallet.sol:SmartWalletLib",
+   "motivo": "library",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 4,
+   "valores": [
+    "0x74ba8c8f53809bd3baa0c243350cb989f6c9dc3c"
+   ],
+   "valores_distintos": 1,
+   "literais_no_codigo_de_criacao": [],
+   "alvos": {
+    "0x74ba8c8f53809bd3baa0c243350cb989f6c9dc3c": {
+     "classe": "contrato_verificado_no_acervo",
+     "substituivel": false,
+     "erc1967_implementacao": null,
+     "erc1967_beacon": null,
+     "tamanho_codigo": 1938
+    }
+   }
+  }
+ ],
+ "cobertura": 0.8733264675592173,
+ "bytes_nao_atestados": 123,
+ "indicador_equacao_2": 1,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.1,
+ "ordem": 323
+}

@@ -1,0 +1,167 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x95ec567b7bc3e5aa7c581b44dc3028fa417c297f",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 6883,
+  "resumo_codigo": "0x267fc3a8f849c3640b03074faadf0bd612ec6e10aaa05c55f7993c07cb48f568"
+ },
+ "acervo": {
+  "match_id": "6640607",
+  "grau_codigo_execucao": "exata",
+  "grau_codigo_criacao": "exata",
+  "compilador": "0.8.12+commit.f00d7308",
+  "linguagem": "Solidity",
+  "contrato_compilado": "contracts/provers/LogProver.sol:LogProver",
+  "verificado_em": "2025-06-23T09:05:17Z",
+  "match_id_instantaneo": 6640607,
+  "grau_instantaneo": "exata",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 6883,
+  "tamanho_cadeia": 6883,
+  "blocos_removidos": 0,
+  "metadados_em_F": false,
+  "ajustes_dos_metadados": [],
+  "motor": "solc nativo"
+ },
+ "regioes": [
+  {
+   "inicio": 160,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:4991",
+   "valor": "0x000000000000000000000000a00f3c13d60ad6a1a6e6d8ebb4529408d7e87343",
+   "tipo": "contract BlockHistory",
+   "tau_address": true
+  },
+  {
+   "inicio": 449,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:4861",
+   "valor": "0x0000000000000000000000005e4de6bb8c6824f29c44bd3473d44da120387d08",
+   "tipo": "contract IReliquary",
+   "tau_address": true
+  },
+  {
+   "inicio": 690,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:4861",
+   "valor": "0x0000000000000000000000005e4de6bb8c6824f29c44bd3473d44da120387d08",
+   "tipo": "contract IReliquary",
+   "tau_address": true
+  },
+  {
+   "inicio": 866,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:4861",
+   "valor": "0x0000000000000000000000005e4de6bb8c6824f29c44bd3473d44da120387d08",
+   "tipo": "contract IReliquary",
+   "tau_address": true
+  },
+  {
+   "inicio": 1750,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:4994",
+   "valor": "0x0000000000000000000000005e4de6bb8c6824f29c44bd3473d44da120387d08",
+   "tipo": "contract IReliquary",
+   "tau_address": true
+  },
+  {
+   "inicio": 1795,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:4991",
+   "valor": "0x000000000000000000000000a00f3c13d60ad6a1a6e6d8ebb4529408d7e87343",
+   "tipo": "contract BlockHistory",
+   "tau_address": true
+  }
+ ],
+ "constantes": [
+  {
+   "construto": "imutavel:4991",
+   "motivo": "immutable",
+   "tipo": "contract BlockHistory",
+   "tau_address": true,
+   "regioes": 2,
+   "valores": [
+    "0xa00f3c13d60ad6a1a6e6d8ebb4529408d7e87343"
+   ],
+   "valores_distintos": 1,
+   "literais_no_codigo_de_criacao": [],
+   "alvos": {
+    "0xa00f3c13d60ad6a1a6e6d8ebb4529408d7e87343": {
+     "classe": "contrato_verificado_no_acervo",
+     "substituivel": false,
+     "erc1967_implementacao": null,
+     "erc1967_beacon": null,
+     "tamanho_codigo": 6975
+    }
+   }
+  },
+  {
+   "construto": "imutavel:4861",
+   "motivo": "immutable",
+   "tipo": "contract IReliquary",
+   "tau_address": true,
+   "regioes": 3,
+   "valores": [
+    "0x5e4de6bb8c6824f29c44bd3473d44da120387d08"
+   ],
+   "valores_distintos": 1,
+   "literais_no_codigo_de_criacao": [],
+   "alvos": {
+    "0x5e4de6bb8c6824f29c44bd3473d44da120387d08": {
+     "classe": "contrato_verificado_no_acervo",
+     "substituivel": false,
+     "erc1967_implementacao": null,
+     "erc1967_beacon": null,
+     "tamanho_codigo": 15911
+    }
+   }
+  },
+  {
+   "construto": "imutavel:4994",
+   "motivo": "immutable",
+   "tipo": "contract IReliquary",
+   "tau_address": true,
+   "regioes": 1,
+   "valores": [
+    "0x5e4de6bb8c6824f29c44bd3473d44da120387d08"
+   ],
+   "valores_distintos": 1,
+   "literais_no_codigo_de_criacao": [],
+   "alvos": {
+    "0x5e4de6bb8c6824f29c44bd3473d44da120387d08": {
+     "classe": "contrato_verificado_no_acervo",
+     "substituivel": false,
+     "erc1967_implementacao": null,
+     "erc1967_beacon": null,
+     "tamanho_codigo": 15911
+    }
+   }
+  }
+ ],
+ "cobertura": 0.9721051866918495,
+ "bytes_nao_atestados": 192,
+ "indicador_equacao_2": 1,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 1.4,
+ "ordem": 216
+}

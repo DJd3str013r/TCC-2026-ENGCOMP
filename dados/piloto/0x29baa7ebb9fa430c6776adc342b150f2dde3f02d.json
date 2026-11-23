@@ -1,0 +1,52 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.0.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x29baa7ebb9fa430c6776adc342b150f2dde3f02d",
+  "bloco_referencia": 26290000,
+  "tamanho_codigo": 3811,
+  "resumo_codigo": "0x96310ae61150673dd30c0cb2aa577fc4c8cb118575994a0617f9012f1ccc1e8d"
+ },
+ "acervo": {
+  "match_id": "2272802",
+  "grau_codigo_execucao": "parcial",
+  "compilador": "0.8.19+commit.7dd6d404",
+  "linguagem": "Solidity",
+  "contrato_compilado": "TRUMPInu.sol:TRUMPInu",
+  "verificado_em": "2024-08-08T14:58:34Z"
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 3811,
+  "tamanho_cadeia": 3811,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo"
+ },
+ "regioes": [
+  {
+   "inicio": 3758,
+   "comprimento": 53,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa2646970667358221220c530a4761cb862b414a40e4270f5e21e955f58b5fae18b2c67fb036fbb0f5ca664736f6c63430008130033",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [],
+ "cobertura": 0.9860928890055104,
+ "bytes_nao_atestados": 53,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 8.9
+}

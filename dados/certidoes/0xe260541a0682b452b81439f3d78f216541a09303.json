@@ -1,0 +1,59 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0xe260541a0682b452b81439f3d78f216541a09303",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 3816,
+  "resumo_codigo": "0x1d30a769f76826622a936e725cb5d8eb20fa652d4253065a04e652b80656bea1"
+ },
+ "acervo": {
+  "match_id": "20259168",
+  "grau_codigo_execucao": "parcial",
+  "grau_codigo_criacao": "parcial",
+  "compilador": "0.7.6+commit.7338295f",
+  "linguagem": "Solidity",
+  "contrato_compilado": "/contracts/contract/minipool/RocketMinipool.sol:RocketMinipool",
+  "verificado_em": "2026-02-24T18:22:51Z",
+  "match_id_instantaneo": 20259168,
+  "grau_instantaneo": "parcial",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 3816,
+  "tamanho_cadeia": 3816,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo",
+  "ajustes_dos_metadados": [],
+  "motor": "solc nativo"
+ },
+ "regioes": [
+  {
+   "inicio": 3763,
+   "comprimento": 53,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa26469706673582212209a6daedd83e54e66fbfbf927322718b812db513528d0b0bf4667b671d50dbd5364736f6c63430007060033",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [],
+ "cobertura": 0.9861111111111112,
+ "bytes_nao_atestados": 53,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.1,
+ "ordem": 129
+}

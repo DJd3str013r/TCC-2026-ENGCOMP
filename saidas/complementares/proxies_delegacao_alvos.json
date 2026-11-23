@@ -1,0 +1,482 @@
+{
+ "resumo": {
+  "gerado_em_utc": "2026-11-23T02:47:49+00:00",
+  "alvos": 31,
+  "alvos_sem_DELEGATECALL_nem_CALLCODE_no_codigo": 26,
+  "ocorrencias_descartadas_por_estarem_em_dados": [
+   {
+    "alvo": "0x63b420fb3294ba1d300ce5d3ba4bbca0f4fe5e3b",
+    "nome": "src/Scramble.sol:Scramble",
+    "pc": 11274,
+    "instrucao": "CALLCODE",
+    "depois_do_ultimo_INVALID": true,
+    "dentro_do_topico_do_evento": {
+     "evento": "Transfer(address,address,uint256)",
+     "inicio": 11273
+    }
+   }
+  ],
+  "alvos_com_DELEGATECALL_no_codigo": [
+   {
+    "alvo": "0x2305027c7d83b33b34ec217d22ffc240d39c59cc",
+    "nome": "src/NttManager/NttManager.sol:NttManager",
+    "instrucoes": 7
+   },
+   {
+    "alvo": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+    "nome": "contracts/SwapRouter02.sol:SwapRouter02",
+    "instrucoes": 1
+   },
+   {
+    "alvo": "0x772e8423e2c90835b85126f67d33e89df792de29",
+    "nome": "KaliAccessManager.sol:KaliAccessManager",
+    "instrucoes": 1
+   },
+   {
+    "alvo": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "nome": "FiatTokenProxy.sol:FiatTokenProxy",
+    "instrucoes": 1
+   },
+   {
+    "alvo": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
+    "nome": "src/PositionManager.sol:PositionManager",
+    "instrucoes": 1
+   }
+  ],
+  "multicall_executado": 3,
+  "multicall_delegou_so_ao_proprio_contrato": 3,
+  "proxy_de_outro_padrao_executado": [
+   {
+    "alvo": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "nome": "FiatTokenProxy.sol:FiatTokenProxy",
+    "delegou_ao_compartimento_lido": true,
+    "delegou_ao_outro_valor": true
+   }
+  ]
+ },
+ "alvos": [
+  {
+   "alvo": "0x000000000004444c5dc75cb358380d2e3de08a90",
+   "nome": "lib/v4-core/src/PoolManager.sol:PoolManager",
+   "tamanho": 24009,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0x2045427276b2ad409202eea1e0c81e150f3203e4",
+   "nome": "contracts/PartyBuy.sol:PartyBuy",
+   "tamanho": 15398,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0x2305027c7d83b33b34ec217d22ffc240d39c59cc",
+   "nome": "src/NttManager/NttManager.sol:NttManager",
+   "tamanho": 24419,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [
+    {
+     "pc": 4568,
+     "instrucao": "DELEGATECALL",
+     "depois_do_ultimo_INVALID": false
+    },
+    {
+     "pc": 5974,
+     "instrucao": "DELEGATECALL",
+     "depois_do_ultimo_INVALID": false
+    },
+    {
+     "pc": 13209,
+     "instrucao": "DELEGATECALL",
+     "depois_do_ultimo_INVALID": false
+    },
+    {
+     "pc": 13939,
+     "instrucao": "DELEGATECALL",
+     "depois_do_ultimo_INVALID": false
+    },
+    {
+     "pc": 18205,
+     "instrucao": "DELEGATECALL",
+     "depois_do_ultimo_INVALID": false
+    },
+    {
+     "pc": 18425,
+     "instrucao": "DELEGATECALL",
+     "depois_do_ultimo_INVALID": false
+    },
+    {
+     "pc": 18550,
+     "instrucao": "DELEGATECALL",
+     "depois_do_ultimo_INVALID": false
+    }
+   ],
+   "DELEGATECALL_no_codigo": 7,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0x3b50805453023a91a8bf641e279401a0b23fa6f9",
+   "nome": "contract-40735d62d1.sol:Renzo",
+   "tamanho": 14068,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0x4a6d2a7a4f9375ebd4ecdbb1972a767dd83b02de",
+   "nome": "contracts/ERC721TokenVault.sol:TokenVault",
+   "tamanho": 14237,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0x4ae304be5b0f211f69cc97dfb6913d6d13f45418",
+   "nome": "contract-b60583fba2.sol:COIN996",
+   "tamanho": 3739,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0x5e4de6bb8c6824f29c44bd3473d44da120387d08",
+   "nome": "contracts/ReliquaryWithFee.sol:ReliquaryWithFee",
+   "tamanho": 15911,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0x63b420fb3294ba1d300ce5d3ba4bbca0f4fe5e3b",
+   "nome": "src/Scramble.sol:Scramble",
+   "tamanho": 11390,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [
+    {
+     "pc": 11274,
+     "instrucao": "CALLCODE",
+     "depois_do_ultimo_INVALID": true,
+     "dentro_do_topico_do_evento": {
+      "evento": "Transfer(address,address,uint256)",
+      "inicio": 11273
+     }
+    }
+   ],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0x67e0524739e59ca57ac27e520ea05d14cdb6015e",
+   "nome": "contracts/FjordLbpProxyV6.sol:FjordLbpProxyV6",
+   "tamanho": 15569,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+   "nome": "contracts/SwapRouter02.sol:SwapRouter02",
+   "tamanho": 24497,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [
+    {
+     "pc": 6737,
+     "instrucao": "DELEGATECALL",
+     "depois_do_ultimo_INVALID": false
+    }
+   ],
+   "DELEGATECALL_no_codigo": 1,
+   "CALLCODE_no_codigo": 0,
+   "execucao_local": {
+    "chamada": "multicall(bytes[]) (0xac9650d8) com uma chamada interna de seletor 0x53c26c11",
+    "erro_na_transacao": true,
+    "delegacoes": [
+     {
+      "profundidade": 1,
+      "contexto": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+      "codigo_executado_de": "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45",
+      "erro": true
+     }
+    ],
+    "outras_chamadas": 0,
+    "delegou_so_ao_proprio_contrato": true
+   }
+  },
+  {
+   "alvo": "0x6b175474e89094c44da98b954eedeac495271d0f",
+   "nome": "/nix/store/w5qm70gq7qwa3087hknnddpy3acn8fnp-dss/dapp/dss/src/dai.sol:Dai",
+   "tamanho": 7904,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0x6c3f90f043a72fa612cbac8115ee7e52bde6e490",
+   "nome": "Vyper_contract.vy:Vyper_contract",
+   "tamanho": 2276,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0x74ba8c8f53809bd3baa0c243350cb989f6c9dc3c",
+   "nome": "SmartWallet.sol:SmartWalletLib",
+   "tamanho": 1938,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0x772e8423e2c90835b85126f67d33e89df792de29",
+   "nome": "KaliAccessManager.sol:KaliAccessManager",
+   "tamanho": 14433,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [
+    {
+     "pc": 2819,
+     "instrucao": "DELEGATECALL",
+     "depois_do_ultimo_INVALID": false
+    }
+   ],
+   "DELEGATECALL_no_codigo": 1,
+   "CALLCODE_no_codigo": 0,
+   "execucao_local": {
+    "chamada": "multicall(bytes[]) (0xac9650d8) com uma chamada interna de seletor 0x53c26c11",
+    "erro_na_transacao": true,
+    "delegacoes": [
+     {
+      "profundidade": 1,
+      "contexto": "0x772e8423e2c90835b85126f67d33e89df792de29",
+      "codigo_executado_de": "0x772e8423e2c90835b85126f67d33e89df792de29",
+      "erro": true
+     }
+    ],
+    "outras_chamadas": 0,
+    "delegou_so_ao_proprio_contrato": true
+   }
+  },
+  {
+   "alvo": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+   "nome": "UniswapV2Router02.sol:UniswapV2Router02",
+   "tamanho": 21943,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0x7b1f3291d9c0782d36188fe172c8fc7c89a7dc5c",
+   "nome": "UniswapV2Pair.sol:UniswapV2Pair",
+   "tamanho": 11293,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0x96aca09bd91afc5e404b83686fd1dbdb36ef0fcf",
+   "nome": "src/platform/Controller.sol:Controller",
+   "tamanho": 7018,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0xa00f3c13d60ad6a1a6e6d8ebb4529408d7e87343",
+   "nome": "contracts/BlockHistory.sol:BlockHistory",
+   "tamanho": 6975,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+   "nome": "FiatTokenProxy.sol:FiatTokenProxy",
+   "tamanho": 2186,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [
+    {
+     "pc": 1680,
+     "instrucao": "DELEGATECALL",
+     "depois_do_ultimo_INVALID": false
+    }
+   ],
+   "DELEGATECALL_no_codigo": 1,
+   "CALLCODE_no_codigo": 0,
+   "execucao_local": {
+    "chamada": "name() (0x06fdde03)",
+    "com_o_compartimento_lido": {
+     "valor_no_compartimento": "0x43506849d7c04f9138d1a2050bbf3a0c054402dd",
+     "erro_na_transacao": false,
+     "delegacoes": [
+      {
+       "profundidade": 1,
+       "contexto": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+       "codigo_executado_de": "0x43506849d7c04f9138d1a2050bbf3a0c054402dd",
+       "erro": false
+      }
+     ],
+     "outras_chamadas": 0,
+     "delegou_ao_valor_do_compartimento": true
+    },
+    "com_outro_valor_no_mesmo_compartimento": {
+     "valor_no_compartimento": "0x9b09dccecc77bac1259809f4c5a9d5c09bb674bb",
+     "erro_na_transacao": false,
+     "delegacoes": [
+      {
+       "profundidade": 1,
+       "contexto": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+       "codigo_executado_de": "0x9b09dccecc77bac1259809f4c5a9d5c09bb674bb",
+       "erro": false
+      }
+     ],
+     "outras_chamadas": 0,
+     "delegou_ao_valor_do_compartimento": true
+    },
+    "codigo_igual_nas_duas_execucoes": true
+   }
+  },
+  {
+   "alvo": "0xab00ea153c43575184ff11dd5e713c96be005573",
+   "nome": "/Users/Elena/Source/argent-contracts/contracts/wallet/BaseWallet.sol:BaseWallet",
+   "tamanho": 4137,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0xae0f58c408514e60cc6d844cc80965aeab4bf6ff",
+   "nome": "contracts/strategies/curve/Curve3poolStrategy.sol:Curve3poolStrategy",
+   "tamanho": 23218,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0xba12222222228d8ba445958a75a0704d566bf2c8",
+   "nome": "contracts/vault/Vault.sol:Vault",
+   "tamanho": 24512,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
+   "nome": "src/PositionManager.sol:PositionManager",
+   "tamanho": 23877,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [
+    {
+     "pc": 7137,
+     "instrucao": "DELEGATECALL",
+     "depois_do_ultimo_INVALID": false
+    }
+   ],
+   "DELEGATECALL_no_codigo": 1,
+   "CALLCODE_no_codigo": 0,
+   "execucao_local": {
+    "chamada": "multicall(bytes[]) (0xac9650d8) com uma chamada interna de seletor 0x53c26c11",
+    "erro_na_transacao": true,
+    "delegacoes": [
+     {
+      "profundidade": 1,
+      "contexto": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
+      "codigo_executado_de": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
+      "erro": true
+     }
+    ],
+    "outras_chamadas": 0,
+    "delegou_so_ao_proprio_contrato": true
+   }
+  },
+  {
+   "alvo": "0xbd31ea90b36a83616ec022a616d5d4c63160e088",
+   "nome": "src/platform/SwapHook.sol:SwapHook",
+   "tamanho": 12329,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7",
+   "nome": "Vyper_contract.vy:Vyper_contract",
+   "tamanho": 21199,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0xbfcf63294ad7105dea65aa58f8ae5be2d9d0952a",
+   "nome": "Vyper_contract.vy:Vyper_contract",
+   "tamanho": 5592,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+   "nome": "WETH9.sol:WETH9",
+   "tamanho": 3124,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0xca31e2d340b8381279121b3ce9e5172f199a0741",
+   "nome": null,
+   "tamanho": 9527,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0xd061d61a4d941c39e5453435b6345dc261c2fce0",
+   "nome": "Vyper_contract.vy:Vyper_contract",
+   "tamanho": 1536,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0xd533a949740bb3306d119cc777fa900ba034cd52",
+   "nome": "Vyper_contract.vy:Vyper_contract",
+   "tamanho": 4369,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  },
+  {
+   "alvo": "0xf60a4c650078e6280d1832b7556a39cb7ce669e6",
+   "nome": "src/platform/PoolInitializer.sol:PoolInitializer",
+   "tamanho": 9983,
+   "no_do_codigo": "https://eth.drpc.org",
+   "ocorrencias": [],
+   "DELEGATECALL_no_codigo": 0,
+   "CALLCODE_no_codigo": 0
+  }
+ ]
+}

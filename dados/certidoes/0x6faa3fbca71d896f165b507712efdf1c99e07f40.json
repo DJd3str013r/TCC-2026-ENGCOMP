@@ -1,0 +1,62 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x6faa3fbca71d896f165b507712efdf1c99e07f40",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 573,
+  "resumo_codigo": "0x35810db24ceb31609b83309d8f8a58a0dedd934a2a43dd02e3c44809a901e627"
+ },
+ "acervo": {
+  "match_id": "57373415",
+  "grau_codigo_execucao": "parcial",
+  "grau_codigo_criacao": "parcial",
+  "compilador": "0.4.23+commit.124ca40d",
+  "linguagem": "Solidity",
+  "contrato_compilado": "Controller.sol:WalletProxy",
+  "verificado_em": "2026-10-28T10:23:44Z",
+  "match_id_instantaneo": 57373415,
+  "grau_instantaneo": "parcial",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 573,
+  "tamanho_cadeia": 573,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo",
+  "ajustes_dos_metadados": [
+   "evmVersion",
+   "remappings"
+  ],
+  "motor": "solc nativo"
+ },
+ "regioes": [
+  {
+   "inicio": 530,
+   "comprimento": 43,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa165627a7a72305820b641eb79ac6642d619896645b4fd186e82d93ca78b8f4b7b179ffa4774111c040029",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [],
+ "cobertura": 0.924956369982548,
+ "bytes_nao_atestados": 43,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.2,
+ "ordem": 279
+}

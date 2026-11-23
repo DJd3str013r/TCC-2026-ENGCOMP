@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env.local
+js/node_modules/
+.cache/*
+!.cache/solc/
+.cache/solc/*
+!.cache/solc/list.json
+!.cache/solc/soljson-list.json
+dados/instantaneo/*
+!dados/instantaneo/manifesto.json
+dados/*.duckdb
+dados/*.duckdb.wal
+dados/*.parquet

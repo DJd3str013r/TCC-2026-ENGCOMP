@@ -1,0 +1,48 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0xd4f7dc4f63d99b0224ce8c7e2aa81de8ca7530ad",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 822,
+  "resumo_codigo": "0x2062bd5df176162e722973a61bc4e75447fec116a1fbaf7cb919d7a43f89e1e0"
+ },
+ "acervo": {
+  "match_id": "19791912",
+  "grau_codigo_execucao": "exata",
+  "grau_codigo_criacao": "exata",
+  "compilador": "0.8.19+commit.7dd6d404",
+  "linguagem": "Solidity",
+  "contrato_compilado": "src/20240125_AaveV3Ethereum_RequestForBountyPayoutJanuary2024/AaveV3Ethereum_RequestForBountyPayoutJanuary2024_20240125.sol:AaveV3Ethereum_RequestForBountyPayoutJanuary2024_20240125",
+  "verificado_em": "2026-02-21T06:56:28Z",
+  "match_id_instantaneo": 19791912,
+  "grau_instantaneo": "exata",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 822,
+  "tamanho_cadeia": 822,
+  "blocos_removidos": 0,
+  "metadados_em_F": false,
+  "ajustes_dos_metadados": [],
+  "motor": "solc nativo"
+ },
+ "regioes": [],
+ "constantes": [],
+ "cobertura": 1.0,
+ "bytes_nao_atestados": 0,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.4,
+ "ordem": 333
+}

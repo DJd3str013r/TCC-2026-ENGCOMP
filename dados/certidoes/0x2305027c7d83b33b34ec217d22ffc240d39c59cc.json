@@ -1,0 +1,515 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x2305027c7d83b33b34ec217d22ffc240d39c59cc",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 24419,
+  "resumo_codigo": "0xab855dfe81b9c364da24bc6088749b4567d81d0bf3bda2a00f5b57e5c197777a"
+ },
+ "acervo": {
+  "match_id": "13239200",
+  "grau_codigo_execucao": "parcial",
+  "grau_codigo_criacao": "parcial",
+  "compilador": "0.8.19+commit.7dd6d404",
+  "linguagem": "Solidity",
+  "contrato_compilado": "src/NttManager/NttManager.sol:NttManager",
+  "verificado_em": "2026-01-08T14:57:11Z",
+  "match_id_instantaneo": 13239200,
+  "grau_instantaneo": "parcial",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 24419,
+  "tamanho_cadeia": 24419,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo",
+  "ajustes_dos_metadados": [],
+  "motor": "solc nativo"
+ },
+ "regioes": [
+  {
+   "inicio": 656,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7373",
+   "valor": "0x0000000000000000000000003b50805453023a91a8bf641e279401a0b23fa6f9",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 1097,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7382",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000001",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 1195,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7378",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "tipo": "enum IManagerBase.Mode",
+   "tau_address": false
+  },
+  {
+   "inicio": 1300,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7373",
+   "valor": "0x0000000000000000000000003b50805453023a91a8bf641e279401a0b23fa6f9",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 1377,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7373",
+   "valor": "0x0000000000000000000000003b50805453023a91a8bf641e279401a0b23fa6f9",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 4988,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7380",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000002",
+   "tipo": "uint16",
+   "tau_address": false
+  },
+  {
+   "inicio": 5332,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12002",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000015180",
+   "tipo": "uint64",
+   "tau_address": false
+  },
+  {
+   "inicio": 6932,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12002",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000015180",
+   "tipo": "uint64",
+   "tau_address": false
+  },
+  {
+   "inicio": 7257,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7375",
+   "valor": "0x000000000000000000000000b0353400548a5240e4f9ae498d552fd1995145c9",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 7760,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7380",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000002",
+   "tipo": "uint16",
+   "tau_address": false
+  },
+  {
+   "inicio": 8113,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12002",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000015180",
+   "tipo": "uint64",
+   "tau_address": false
+  },
+  {
+   "inicio": 8234,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7378",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "tipo": "enum IManagerBase.Mode",
+   "tau_address": false
+  },
+  {
+   "inicio": 8534,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7378",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "tipo": "enum IManagerBase.Mode",
+   "tau_address": false
+  },
+  {
+   "inicio": 10446,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7373",
+   "valor": "0x0000000000000000000000003b50805453023a91a8bf641e279401a0b23fa6f9",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 10524,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7378",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "tipo": "enum IManagerBase.Mode",
+   "tau_address": false
+  },
+  {
+   "inicio": 10629,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7380",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000002",
+   "tipo": "uint16",
+   "tau_address": false
+  },
+  {
+   "inicio": 10722,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12002",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000015180",
+   "tipo": "uint64",
+   "tau_address": false
+  },
+  {
+   "inicio": 13239,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7380",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000002",
+   "tipo": "uint16",
+   "tau_address": false
+  },
+  {
+   "inicio": 13357,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12002",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000015180",
+   "tipo": "uint64",
+   "tau_address": false
+  },
+  {
+   "inicio": 14373,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7373",
+   "valor": "0x0000000000000000000000003b50805453023a91a8bf641e279401a0b23fa6f9",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 14503,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7378",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "tipo": "enum IManagerBase.Mode",
+   "tau_address": false
+  },
+  {
+   "inicio": 14773,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12002",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000015180",
+   "tipo": "uint64",
+   "tau_address": false
+  },
+  {
+   "inicio": 15009,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7382",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000001",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 16047,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7373",
+   "valor": "0x0000000000000000000000003b50805453023a91a8bf641e279401a0b23fa6f9",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 16172,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7378",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "tipo": "enum IManagerBase.Mode",
+   "tau_address": false
+  },
+  {
+   "inicio": 16433,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12002",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000015180",
+   "tipo": "uint64",
+   "tau_address": false
+  },
+  {
+   "inicio": 16633,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7382",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000001",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 17982,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7382",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000001",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 18285,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7373",
+   "valor": "0x0000000000000000000000003b50805453023a91a8bf641e279401a0b23fa6f9",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 19174,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7382",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000001",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 19252,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7378",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "tipo": "enum IManagerBase.Mode",
+   "tau_address": false
+  },
+  {
+   "inicio": 19372,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7373",
+   "valor": "0x0000000000000000000000003b50805453023a91a8bf641e279401a0b23fa6f9",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 19548,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:7373",
+   "valor": "0x0000000000000000000000003b50805453023a91a8bf641e279401a0b23fa6f9",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 20373,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:11405",
+   "valor": "0x0000000000000000000000002305027c7d83b33b34ec217d22ffc240d39c59cc",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 21839,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12002",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000015180",
+   "tipo": "uint64",
+   "tau_address": false
+  },
+  {
+   "inicio": 22114,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12002",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000015180",
+   "tipo": "uint64",
+   "tau_address": false
+  },
+  {
+   "inicio": 22306,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12002",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000015180",
+   "tipo": "uint64",
+   "tau_address": false
+  },
+  {
+   "inicio": 22593,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12002",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000015180",
+   "tipo": "uint64",
+   "tau_address": false
+  },
+  {
+   "inicio": 22793,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:12002",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000015180",
+   "tipo": "uint64",
+   "tau_address": false
+  },
+  {
+   "inicio": 24366,
+   "comprimento": 53,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa2646970667358221220ff9c9a5e53f05499f93d613c8d0412e63a378255c283e5985813b4aa37cf548c64736f6c63430008130033",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [
+  {
+   "construto": "imutavel:7373",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 9,
+   "valores": [
+    "0x3b50805453023a91a8bf641e279401a0b23fa6f9"
+   ],
+   "valores_distintos": 1,
+   "literais_no_codigo_de_criacao": [],
+   "alvos": {
+    "0x3b50805453023a91a8bf641e279401a0b23fa6f9": {
+     "classe": "contrato_verificado_no_acervo",
+     "substituivel": false,
+     "erc1967_implementacao": null,
+     "erc1967_beacon": null,
+     "tamanho_codigo": 14068
+    }
+   }
+  },
+  {
+   "construto": "imutavel:7382",
+   "motivo": "immutable",
+   "tipo": "uint256",
+   "tau_address": false,
+   "regioes": 5,
+   "valores": [
+    "0x0000000000000000000000000000000000000000000000000000000000000001"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:7378",
+   "motivo": "immutable",
+   "tipo": "enum IManagerBase.Mode",
+   "tau_address": false,
+   "regioes": 7,
+   "valores": [
+    "0x0000000000000000000000000000000000000000000000000000000000000000"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:7380",
+   "motivo": "immutable",
+   "tipo": "uint16",
+   "tau_address": false,
+   "regioes": 4,
+   "valores": [
+    "0x0000000000000000000000000000000000000000000000000000000000000002"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:12002",
+   "motivo": "immutable",
+   "tipo": "uint64",
+   "tau_address": false,
+   "regioes": 12,
+   "valores": [
+    "0x0000000000000000000000000000000000000000000000000000000000015180"
+   ],
+   "valores_distintos": 1
+  },
+  {
+   "construto": "imutavel:7375",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 1,
+   "valores": [
+    "0xb0353400548a5240e4f9ae498d552fd1995145c9"
+   ],
+   "valores_distintos": 1,
+   "literais_no_codigo_de_criacao": [],
+   "alvos": {
+    "0xb0353400548a5240e4f9ae498d552fd1995145c9": {
+     "classe": "conta_sem_codigo",
+     "substituivel": null
+    }
+   }
+  },
+  {
+   "construto": "imutavel:11405",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 1,
+   "valores": [
+    "0x2305027c7d83b33b34ec217d22ffc240d39c59cc"
+   ],
+   "valores_distintos": 1,
+   "literais_no_codigo_de_criacao": [],
+   "alvos": {
+    "0x2305027c7d83b33b34ec217d22ffc240d39c59cc": {
+     "classe": "proprio_contrato",
+     "substituivel": false,
+     "erc1967_implementacao": null,
+     "erc1967_beacon": null,
+     "tamanho_codigo": 24419
+    }
+   }
+  }
+ ],
+ "cobertura": 0.9467218149801384,
+ "bytes_nao_atestados": 1301,
+ "indicador_equacao_2": 1,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 15.7,
+ "ordem": 200
+}

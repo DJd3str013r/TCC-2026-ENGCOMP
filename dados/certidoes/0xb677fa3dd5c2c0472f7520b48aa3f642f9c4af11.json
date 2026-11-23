@@ -1,0 +1,138 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0xb677fa3dd5c2c0472f7520b48aa3f642f9c4af11",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 7654,
+  "resumo_codigo": "0xdf50fc261e570503df0ffde325b264151b7b6f54be99da62efee58259940d266"
+ },
+ "acervo": {
+  "match_id": "6708733",
+  "grau_codigo_execucao": "parcial",
+  "grau_codigo_criacao": "parcial",
+  "compilador": "0.8.13+commit.abaa5c0e",
+  "linguagem": "Solidity",
+  "contrato_compilado": "KaliDAOcrowdsale.sol:KaliDAOcrowdsale",
+  "verificado_em": "2025-07-04T13:47:39Z",
+  "match_id_instantaneo": 6708733,
+  "grau_instantaneo": "parcial",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 7654,
+  "tamanho_cadeia": 7654,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo",
+  "ajustes_dos_metadados": [],
+  "motor": "solc nativo"
+ },
+ "regioes": [
+  {
+   "inicio": 947,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:403",
+   "valor": "0x000000000000000000000000772e8423e2c90835b85126f67d33e89df792de29",
+   "tipo": "contract IKaliAccessManager",
+   "tau_address": true
+  },
+  {
+   "inicio": 1693,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:405",
+   "valor": "0x000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 1757,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:405",
+   "valor": "0x000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 2818,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:403",
+   "valor": "0x000000000000000000000000772e8423e2c90835b85126f67d33e89df792de29",
+   "tipo": "contract IKaliAccessManager",
+   "tau_address": true
+  },
+  {
+   "inicio": 7601,
+   "comprimento": 53,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa264697066735822122059f50870bb4e63b29ebb32beeb08ae4a411b182f54684799dfa6efd6cf4b35e964736f6c634300080d0033",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [
+  {
+   "construto": "imutavel:403",
+   "motivo": "immutable",
+   "tipo": "contract IKaliAccessManager",
+   "tau_address": true,
+   "regioes": 2,
+   "valores": [
+    "0x772e8423e2c90835b85126f67d33e89df792de29"
+   ],
+   "valores_distintos": 1,
+   "literais_no_codigo_de_criacao": [],
+   "alvos": {
+    "0x772e8423e2c90835b85126f67d33e89df792de29": {
+     "classe": "contrato_verificado_no_acervo",
+     "substituivel": false,
+     "erc1967_implementacao": null,
+     "erc1967_beacon": null,
+     "tamanho_codigo": 14433
+    }
+   }
+  },
+  {
+   "construto": "imutavel:405",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 2,
+   "valores": [
+    "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+   ],
+   "valores_distintos": 1,
+   "literais_no_codigo_de_criacao": [],
+   "alvos": {
+    "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
+     "classe": "contrato_verificado_no_acervo",
+     "substituivel": false,
+     "erc1967_implementacao": null,
+     "erc1967_beacon": null,
+     "tamanho_codigo": 3124
+    }
+   }
+  }
+ ],
+ "cobertura": 0.9763522341259472,
+ "bytes_nao_atestados": 181,
+ "indicador_equacao_2": 1,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.4,
+ "ordem": 134
+}

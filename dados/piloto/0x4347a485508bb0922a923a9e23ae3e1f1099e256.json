@@ -1,0 +1,117 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.2.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x4347a485508bb0922a923a9e23ae3e1f1099e256",
+  "bloco_referencia": 26290000,
+  "tamanho_codigo": 13066,
+  "resumo_codigo": "0x5cab5762887e9bf00ea7aef299d97f6ff057fe008138e5e7e266629915e494b5"
+ },
+ "acervo": {
+  "match_id": "2851192",
+  "grau_codigo_execucao": "exata",
+  "compilador": "0.8.7+commit.e28d00a7",
+  "linguagem": "Solidity",
+  "contrato_compilado": "contracts/theskullturenft.sol:TheSkulltureNFT",
+  "verificado_em": "2024-08-08T16:43:36Z"
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 13066,
+  "tamanho_cadeia": 13066,
+  "blocos_removidos": 0,
+  "metadados_em_F": false
+ },
+ "regioes": [
+  {
+   "inicio": 3985,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:936",
+   "valor": "0x000000000000000000000000000000000000000000000000000000000000000a",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 4127,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:936",
+   "valor": "0x000000000000000000000000000000000000000000000000000000000000000a",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 4183,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:936",
+   "valor": "0x000000000000000000000000000000000000000000000000000000000000000a",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 5933,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:936",
+   "valor": "0x000000000000000000000000000000000000000000000000000000000000000a",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 9016,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:936",
+   "valor": "0x000000000000000000000000000000000000000000000000000000000000000a",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 9058,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:936",
+   "valor": "0x000000000000000000000000000000000000000000000000000000000000000a",
+   "tipo": "uint256",
+   "tau_address": false
+  },
+  {
+   "inicio": 10406,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:936",
+   "valor": "0x000000000000000000000000000000000000000000000000000000000000000a",
+   "tipo": "uint256",
+   "tau_address": false
+  }
+ ],
+ "constantes": [
+  {
+   "construto": "imutavel:936",
+   "motivo": "immutable",
+   "tipo": "uint256",
+   "tau_address": false,
+   "regioes": 7,
+   "valores": [
+    "0x000000000000000000000000000000000000000000000000000000000000000a"
+   ],
+   "valores_distintos": 1
+  }
+ ],
+ "cobertura": 0.9828562681769478,
+ "bytes_nao_atestados": 224,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 1.1
+}

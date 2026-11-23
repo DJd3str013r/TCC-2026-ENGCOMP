@@ -1,0 +1,31 @@
+carregando verificados do instantaneo...
+25/385 (0 s); falhas ate aqui: 0
+50/385 (0 s); falhas ate aqui: 0
+75/385 (0 s); falhas ate aqui: 0
+100/385 (6 s); falhas ate aqui: 0
+125/385 (31 s); falhas ate aqui: 0
+150/385 (34 s); falhas ate aqui: 0
+  falha 0xee0506638cbc9a0b949ab195d2da476ccc784b49: ErroCompilacao: contrato SelfDestruct.sol:SelfDestruct ausente da saida
+175/385 (39 s); falhas ate aqui: 1
+200/385 (42 s); falhas ate aqui: 1
+  falha 0x58603d583e768787ad4a0d6e6bc8adba3d9b90e1: FalhaInstrumento: comprimentos diferentes: recompilado 2085 x cadeia 2059
+225/385 (48 s); falhas ate aqui: 2
+250/385 (100 s); falhas ate aqui: 2
+275/385 (104 s); falhas ate aqui: 2
+300/385 (108 s); falhas ate aqui: 2
+  falha 0x765fc4a49dc4fff7c30d4ca64df8652a61672a3e: ErroCompilacao: contrato DepositWallet.sol:DepositWallet ausente da saida
+  falha 0xb067e798f81c1007730225e4933026e4b95af409: ErroCompilacao: contrato Forwarder.sol:Forwarder ausente da saida
+325/385 (115 s); falhas ate aqui: 4
+350/385 (119 s); falhas ate aqui: 4
+375/385 (154 s); falhas ate aqui: 4
+385/385 (160 s); falhas ate aqui: 4
+{
+ "verificador": "1.3.0",
+ "bloco_referencia": 26296341,
+ "contratos": 385,
+ "processados": 381,
+ "chamadas_rpc_rede": 81,
+ "segundos": 160
+} 
+falhas: 4
+saida=0

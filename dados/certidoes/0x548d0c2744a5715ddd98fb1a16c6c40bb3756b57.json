@@ -1,0 +1,52 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x548d0c2744a5715ddd98fb1a16c6c40bb3756b57",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 14257,
+  "resumo_codigo": "0xd6cda439a7feef8e468966fc3df04d2612dd3509e583ea0cec204b0ce62c31cf"
+ },
+ "acervo": {
+  "match_id": "14832024",
+  "grau_codigo_execucao": "exata",
+  "grau_codigo_criacao": "exata",
+  "compilador": "0.8.7+commit.e28d00a7",
+  "linguagem": "Solidity",
+  "contrato_compilado": "ecamirG.sol:ecamirG",
+  "verificado_em": "2026-01-23T15:55:01Z",
+  "match_id_instantaneo": 14832024,
+  "grau_instantaneo": "exata",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 14257,
+  "tamanho_cadeia": 14257,
+  "blocos_removidos": 0,
+  "metadados_em_F": false,
+  "ajustes_dos_metadados": [
+   "evmVersion",
+   "metadata",
+   "remappings"
+  ],
+  "motor": "solc nativo"
+ },
+ "regioes": [],
+ "constantes": [],
+ "cobertura": 1.0,
+ "bytes_nao_atestados": 0,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.8,
+ "ordem": 33
+}

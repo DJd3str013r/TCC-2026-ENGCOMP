@@ -1,0 +1,48 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x765fc4a49dc4fff7c30d4ca64df8652a61672a3e",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 543,
+  "resumo_codigo": "0x1a043f72e26782d3c692af3e198be9666c4f28cbb99844f2b3133c5bec4441c1"
+ },
+ "acervo": {
+  "match_id": "30849265",
+  "grau_codigo_execucao": "parcial",
+  "grau_codigo_criacao": null,
+  "compilador": "0.1.3+commit.028f561d",
+  "linguagem": "Solidity",
+  "contrato_compilado": "DepositWallet.sol:DepositWallet",
+  "verificado_em": "2026-06-04T10:23:00Z",
+  "match_id_instantaneo": 30849265,
+  "grau_instantaneo": "parcial",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": null,
+  "tamanho_recompilado": 543,
+  "tamanho_cadeia": 543,
+  "blocos_removidos": 0,
+  "metadados_em_F": false,
+  "ajustes_dos_metadados": [],
+  "motor": "soljson"
+ },
+ "regioes": [],
+ "constantes": [],
+ "cobertura": 1.0,
+ "bytes_nao_atestados": 0,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 4.1,
+ "ordem": 298
+}

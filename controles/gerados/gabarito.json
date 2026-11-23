@@ -1,0 +1,186 @@
+{
+ "chamada+": [
+  {
+   "inicio": 1,
+   "comprimento": 20,
+   "motivo": "callProtection",
+   "construto": "protecao_de_chamada",
+   "valor": "0x248e85939e48ca12a20cdf80e60d9e3d380ca7f9",
+   "tau_address": true
+  }
+ ],
+ "imutavel+": [
+  {
+   "inicio": 142,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:26",
+   "valor": "0x0000000000000000000000001111111111111111111111111111111111111111",
+   "tipo": "address",
+   "tau_address": true,
+   "variavel": "a1"
+  },
+  {
+   "inicio": 674,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:26",
+   "valor": "0x0000000000000000000000001111111111111111111111111111111111111111",
+   "tipo": "address",
+   "tau_address": true,
+   "variavel": "a1"
+  },
+  {
+   "inicio": 388,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:28",
+   "valor": "0x0000000000000000000000001a642f0e3c3af545e7acbd38b07251b3990914f1",
+   "tipo": "address payable",
+   "tau_address": true,
+   "variavel": "a2"
+  },
+  {
+   "inicio": 632,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:28",
+   "valor": "0x0000000000000000000000001a642f0e3c3af545e7acbd38b07251b3990914f1",
+   "tipo": "address payable",
+   "tau_address": true,
+   "variavel": "a2"
+  },
+  {
+   "inicio": 349,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:31",
+   "valor": "0x00000000000000000000000032dcab0ef3fb2de2fce1d2e0799d36239671f04a",
+   "tipo": "contract Alvo",
+   "tau_address": true,
+   "variavel": "a3"
+  },
+  {
+   "inicio": 590,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:31",
+   "valor": "0x00000000000000000000000032dcab0ef3fb2de2fce1d2e0799d36239671f04a",
+   "tipo": "contract Alvo",
+   "tau_address": true,
+   "variavel": "a3"
+  },
+  {
+   "inicio": 427,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:34",
+   "valor": "0x00000000000000000000000032dcab0ef3fb2de2fce1d2e0799d36239671f04a",
+   "tipo": "contract IAlvo",
+   "tau_address": true,
+   "variavel": "a4"
+  },
+  {
+   "inicio": 548,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:34",
+   "valor": "0x00000000000000000000000032dcab0ef3fb2de2fce1d2e0799d36239671f04a",
+   "tipo": "contract IAlvo",
+   "tau_address": true,
+   "variavel": "a4"
+  },
+  {
+   "inicio": 302,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:37",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "tipo": "Endereco (sobre address)",
+   "tau_address": true,
+   "variavel": "a5"
+  },
+  {
+   "inicio": 506,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:37",
+   "valor": "0x0000000000000000000000000000000000000000000000000000000000000000",
+   "tipo": "Endereco (sobre address)",
+   "tau_address": true,
+   "variavel": "a5"
+  },
+  {
+   "inicio": 263,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:40",
+   "valor": "0x0000000000000000000000002222222222222222222222222222222222222222",
+   "tipo": "EnderecoPagavel (sobre address payable)",
+   "tau_address": true,
+   "variavel": "a6"
+  },
+  {
+   "inicio": 464,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:40",
+   "valor": "0x0000000000000000000000002222222222222222222222222222222222222222",
+   "tipo": "EnderecoPagavel (sobre address payable)",
+   "tau_address": true,
+   "variavel": "a6"
+  },
+  {
+   "inicio": 210,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:42",
+   "valor": "0x00000000000000000000000000000000000000000000000000000000075bcd15",
+   "tipo": "uint256",
+   "tau_address": false,
+   "variavel": "n1"
+  },
+  {
+   "inicio": 716,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:42",
+   "valor": "0x00000000000000000000000000000000000000000000000000000000075bcd15",
+   "tipo": "uint256",
+   "tau_address": false,
+   "variavel": "n1"
+  }
+ ],
+ "imutavel-": [],
+ "chamada-": [],
+ "biblioteca+": [
+  {
+   "inicio": 113,
+   "comprimento": 20,
+   "motivo": "library",
+   "construto": "biblioteca:Controles.sol:BibliotecaControle",
+   "valor": "0x248e85939e48ca12a20cdf80e60d9e3d380ca7f9",
+   "tau_address": true
+  },
+  {
+   "inicio": 209,
+   "comprimento": 20,
+   "motivo": "library",
+   "construto": "biblioteca:Controles.sol:BibliotecaControle",
+   "valor": "0x248e85939e48ca12a20cdf80e60d9e3d380ca7f9",
+   "tau_address": true
+  }
+ ],
+ "biblioteca-": [],
+ "metadados+": [
+  {
+   "inicio": 117,
+   "comprimento": 53,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa2646970667358221220e48e22a5c70e9ba10ee70b89e766a295878107aa0d9c9d7c383884d4b070b6fb64736f6c63430008250033",
+   "tau_address": false
+  }
+ ],
+ "metadados-": []
+}

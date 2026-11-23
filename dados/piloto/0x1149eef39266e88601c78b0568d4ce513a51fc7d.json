@@ -1,0 +1,73 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.2.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x1149eef39266e88601c78b0568d4ce513a51fc7d",
+  "bloco_referencia": 26290000,
+  "tamanho_codigo": 288,
+  "resumo_codigo": "0x3b1aaa01cac7fbe54249b003e6e10ec7ba7c6c7247e8fd18220e455b62a20ea3"
+ },
+ "acervo": {
+  "match_id": "12742608",
+  "grau_codigo_execucao": "parcial",
+  "compilador": "0.7.6+commit.7338295f",
+  "linguagem": "Solidity",
+  "contrato_compilado": "/contracts/contract/node/RocketNodeDistributor.sol:RocketNodeDistributor",
+  "verificado_em": "2026-01-03T16:24:25Z"
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 288,
+  "tamanho_cadeia": 288,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo"
+ },
+ "regioes": [
+  {
+   "inicio": 55,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:583",
+   "valor": "0xfb3483c04a4c870b23f9315ce407aceff6ee8dd58eb34aa5becfb781351d3fb8",
+   "tipo": "bytes32",
+   "tau_address": false
+  },
+  {
+   "inicio": 235,
+   "comprimento": 53,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa2646970667358221220eff696097e25305c6d6b19a8a6eebb3c8b47de4d235eade3a84bd4f50c48119664736f6c63430007060033",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [
+  {
+   "construto": "imutavel:583",
+   "motivo": "immutable",
+   "tipo": "bytes32",
+   "tau_address": false,
+   "regioes": 1,
+   "valores": [
+    "0xfb3483c04a4c870b23f9315ce407aceff6ee8dd58eb34aa5becfb781351d3fb8"
+   ],
+   "valores_distintos": 1
+  }
+ ],
+ "cobertura": 0.7048611111111112,
+ "bytes_nao_atestados": 85,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.1
+}

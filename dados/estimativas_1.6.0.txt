@@ -1,0 +1,10 @@
+Tabela 3 da rodada do verificador 1.6.0 sobre a amostra de 385 contratos, copiada do texto do artigo gerado em
+29/10/2026 às 06:33:19 UTC, depois dessa rodada (06:18:24 a 06:19:15 UTC, dados/logs/execucao3-inicio.txt e
+execucao3-fim.txt) e antes da rodada da 1.7.0 (07:49:05 UTC). As certidões da 1.6.0 foram sobrescritas pela 1.7.0, cujas
+estimativas, em saidas/resultados.json, são as mesmas.
+
+Grupo | n | Contratos com constante do tipo address | Estimativa | Limite inferior | Limite superior
+Amostra | 385 | 13 | 0,0338 | 0,0198 | 0,0569
+Correspondência parcial | 337 | 6 | 0,0178 | 0,0082 | 0,0383
+Correspondência exata | 48 | 7 | 0,1458 | 0,0725 | 0,2717
+Diferença entre parcial e exata, Equação (5) | .. | .. | −0,1280 | −0,2542 | −0,0519

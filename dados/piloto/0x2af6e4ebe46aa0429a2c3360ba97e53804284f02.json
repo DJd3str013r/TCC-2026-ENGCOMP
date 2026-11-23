@@ -1,0 +1,52 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.2.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x2af6e4ebe46aa0429a2c3360ba97e53804284f02",
+  "bloco_referencia": 26290000,
+  "tamanho_codigo": 4266,
+  "resumo_codigo": "0xe3f57919278f5150f5477f826d8326ac8be1b7e70ee426491af98b8581e7e80a"
+ },
+ "acervo": {
+  "match_id": "799527",
+  "grau_codigo_execucao": "parcial",
+  "compilador": "0.4.25+commit.59dbf8f1",
+  "linguagem": "Solidity",
+  "contrato_compilado": "DSGuard.sol:DSGuard",
+  "verificado_em": "2026-01-10T13:28:54Z"
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 4266,
+  "tamanho_cadeia": 4266,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo"
+ },
+ "regioes": [
+  {
+   "inicio": 4223,
+   "comprimento": 43,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa165627a7a7230582046fda457ecfe17c7abb4819d79cdddb596634e1bdacfbcb2178c795c9fa363ad0029",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [],
+ "cobertura": 0.9899203000468824,
+ "bytes_nao_atestados": 43,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.1
+}

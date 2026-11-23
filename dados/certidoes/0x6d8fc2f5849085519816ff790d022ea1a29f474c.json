@@ -1,0 +1,62 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x6d8fc2f5849085519816ff790d022ea1a29f474c",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 3254,
+  "resumo_codigo": "0xaa7f364513c45e202c3f428845f32e49a550972987a4e48e127e93c6768e88a1"
+ },
+ "acervo": {
+  "match_id": "6589191",
+  "grau_codigo_execucao": "parcial",
+  "grau_codigo_criacao": "parcial",
+  "compilador": "0.5.1+commit.c8a2cb62",
+  "linguagem": "Solidity",
+  "contrato_compilado": "goldTrade.sol:goldTrade",
+  "verificado_em": "2025-06-22T21:49:37Z",
+  "match_id_instantaneo": 6589191,
+  "grau_instantaneo": "parcial",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 3254,
+  "tamanho_cadeia": 3254,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo",
+  "ajustes_dos_metadados": [
+   "evmVersion",
+   "remappings"
+  ],
+  "motor": "solc nativo"
+ },
+ "regioes": [
+  {
+   "inicio": 3211,
+   "comprimento": 43,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa165627a7a723058205cc7372ad56f9e12b66ff7e67e05a267d9c9c5aaf3b506ef9ff2776d0c4a38a60029",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [],
+ "cobertura": 0.9867854947756607,
+ "bytes_nao_atestados": 43,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.1,
+ "ordem": 164
+}

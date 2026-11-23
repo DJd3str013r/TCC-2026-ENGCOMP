@@ -1,0 +1,63 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x959c72f8ff87cab45e8e673f383f65affc556fc0",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 13327,
+  "resumo_codigo": "0x6a7aebb3856fd0a654cdfea9c6d861a76d32778cc26a3a15ab1382fd701ad5d4"
+ },
+ "acervo": {
+  "match_id": "15079983",
+  "grau_codigo_execucao": "parcial",
+  "grau_codigo_criacao": "parcial",
+  "compilador": "0.8.16+commit.07a7930e",
+  "linguagem": "Solidity",
+  "contrato_compilado": "TheFruitninja.sol:TheFruitninja",
+  "verificado_em": "2026-01-25T18:08:12Z",
+  "match_id_instantaneo": 15079983,
+  "grau_instantaneo": "parcial",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 13327,
+  "tamanho_cadeia": 13327,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo",
+  "ajustes_dos_metadados": [
+   "evmVersion",
+   "metadata",
+   "remappings"
+  ],
+  "motor": "solc nativo"
+ },
+ "regioes": [
+  {
+   "inicio": 13274,
+   "comprimento": 53,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa26469706673582212205a2faa8db8053f395e0f0d5a52b467b15d0a1c993980432cfdc85211a575b49764736f6c63430008100033",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [],
+ "cobertura": 0.9960231109777145,
+ "bytes_nao_atestados": 53,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.2,
+ "ordem": 12
+}

@@ -1,0 +1,48 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0xb067e798f81c1007730225e4933026e4b95af409",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 602,
+  "resumo_codigo": "0x6683cfc30ed7dd6605aa84788407ff6ef5b76062a60a6dd0c8d1dfac5f801dc5"
+ },
+ "acervo": {
+  "match_id": "28093259",
+  "grau_codigo_execucao": "parcial",
+  "grau_codigo_criacao": null,
+  "compilador": "0.4.2+commit.af6afb04",
+  "linguagem": "Solidity",
+  "contrato_compilado": "Forwarder.sol:Forwarder",
+  "verificado_em": "2026-04-19T16:16:04Z",
+  "match_id_instantaneo": 28093259,
+  "grau_instantaneo": "parcial",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": null,
+  "tamanho_recompilado": 602,
+  "tamanho_cadeia": 602,
+  "blocos_removidos": 0,
+  "metadados_em_F": false,
+  "ajustes_dos_metadados": [],
+  "motor": "soljson"
+ },
+ "regioes": [],
+ "constantes": [],
+ "cobertura": 1.0,
+ "bytes_nao_atestados": 0,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 1.1,
+ "ordem": 306
+}

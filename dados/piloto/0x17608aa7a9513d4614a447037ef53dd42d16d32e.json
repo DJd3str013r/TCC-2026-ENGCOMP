@@ -1,0 +1,52 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.2.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x17608aa7a9513d4614a447037ef53dd42d16d32e",
+  "bloco_referencia": 26290000,
+  "tamanho_codigo": 9541,
+  "resumo_codigo": "0x2f21b265a1a77b36a6cb0d12f0d10dc9f20756069d7bf8699cae8be7ad0812ba"
+ },
+ "acervo": {
+  "match_id": "652997",
+  "grau_codigo_execucao": "parcial",
+  "compilador": "0.8.21+commit.d9974bed",
+  "linguagem": "Solidity",
+  "contrato_compilado": "Token.sol:Token",
+  "verificado_em": "2024-08-08T11:44:38Z"
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 9541,
+  "tamanho_cadeia": 9541,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo"
+ },
+ "regioes": [
+  {
+   "inicio": 9488,
+   "comprimento": 53,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa2646970667358221220b155f1f9781cb3afdc1b3060f43d79962a52c92af904b6328e22fdce4dc98bb464736f6c63430008150033",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [],
+ "cobertura": 0.9944450267267582,
+ "bytes_nao_atestados": 53,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 27.3
+}

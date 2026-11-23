@@ -1,0 +1,59 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x26b80fbfc01b71495f477d5237071242e0d959d7",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 906,
+  "resumo_codigo": "0x86abc41531e40f899666c5dccc4da7138a718c7280f299d051ed8847c8282908"
+ },
+ "acervo": {
+  "match_id": "2263121",
+  "grau_codigo_execucao": "parcial",
+  "grau_codigo_criacao": "parcial",
+  "compilador": "0.8.4+commit.c7e474f2",
+  "linguagem": "Solidity",
+  "contrato_compilado": "/home/hhofstadt/Dev/certus/wormhole/ethereum/contracts/bridge/token/Token.sol:BridgeToken",
+  "verificado_em": "2024-08-08T14:57:16Z",
+  "match_id_instantaneo": 2263121,
+  "grau_instantaneo": "parcial",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 906,
+  "tamanho_cadeia": 906,
+  "blocos_removidos": 0,
+  "metadados_em_F": true,
+  "posicoes_metadados": "acervo",
+  "ajustes_dos_metadados": [],
+  "motor": "solc nativo"
+ },
+ "regioes": [
+  {
+   "inicio": 853,
+   "comprimento": 53,
+   "motivo": "cborAuxdata",
+   "construto": "metadados:1",
+   "valor": "0xa2646970667358221220023fb812aee356ef775e058780e58e0f0e320743ef57a43f3069e9559fd8a41f64736f6c63430008040033",
+   "tipo": "metadados",
+   "tau_address": false
+  }
+ ],
+ "constantes": [],
+ "cobertura": 0.9415011037527594,
+ "bytes_nao_atestados": 53,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.4,
+ "ordem": 201
+}

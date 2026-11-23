@@ -1,0 +1,50 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x6840f8f2925e04c84d4a6c771dcee76e29a54d70",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 1825,
+  "resumo_codigo": "0x1b937af872d5e721d3e367ea1d3edce46acce8f099251f6ca30c32f4c2bec9de"
+ },
+ "acervo": {
+  "match_id": "24331657",
+  "grau_codigo_execucao": "exata",
+  "grau_codigo_criacao": "exata",
+  "compilador": "0.8.20+commit.a1b79de6",
+  "linguagem": "Solidity",
+  "contrato_compilado": "contracts/BlockchainFX.sol:BlockchainFX",
+  "verificado_em": "2026-03-20T20:14:14Z",
+  "match_id_instantaneo": 24331657,
+  "grau_instantaneo": "exata",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 1825,
+  "tamanho_cadeia": 1825,
+  "blocos_removidos": 0,
+  "metadados_em_F": false,
+  "ajustes_dos_metadados": [
+   "metadata"
+  ],
+  "motor": "solc nativo"
+ },
+ "regioes": [],
+ "constantes": [],
+ "cobertura": 1.0,
+ "bytes_nao_atestados": 0,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.3,
+ "ordem": 197
+}

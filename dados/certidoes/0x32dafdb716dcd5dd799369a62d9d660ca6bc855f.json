@@ -1,0 +1,89 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x32dafdb716dcd5dd799369a62d9d660ca6bc855f",
+  "bloco_referencia": 26296341,
+  "tamanho_codigo": 243,
+  "resumo_codigo": "0x98c6e0fab9df37e4409be432089061796406b48c7cb122d3dc9ca4779d4796c1"
+ },
+ "acervo": {
+  "match_id": "13655955",
+  "grau_codigo_execucao": "exata",
+  "grau_codigo_criacao": "exata",
+  "compilador": "0.8.5+commit.a4f2e591",
+  "linguagem": "Solidity",
+  "contrato_compilado": "contracts/NonReceivableInitializedProxy.sol:NonReceivableInitializedProxy",
+  "verificado_em": "2026-01-13T03:48:32Z",
+  "match_id_instantaneo": 13655955,
+  "grau_instantaneo": "exata",
+  "match_id_coincide": true
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 243,
+  "tamanho_cadeia": 243,
+  "blocos_removidos": 0,
+  "metadados_em_F": false,
+  "ajustes_dos_metadados": [],
+  "motor": "solc nativo"
+ },
+ "regioes": [
+  {
+   "inicio": 33,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:4",
+   "valor": "0x0000000000000000000000002045427276b2ad409202eea1e0c81e150f3203e4",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 114,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:4",
+   "valor": "0x0000000000000000000000002045427276b2ad409202eea1e0c81e150f3203e4",
+   "tipo": "address",
+   "tau_address": true
+  }
+ ],
+ "constantes": [
+  {
+   "construto": "imutavel:4",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 2,
+   "valores": [
+    "0x2045427276b2ad409202eea1e0c81e150f3203e4"
+   ],
+   "valores_distintos": 1,
+   "literais_no_codigo_de_criacao": [],
+   "alvos": {
+    "0x2045427276b2ad409202eea1e0c81e150f3203e4": {
+     "classe": "contrato_verificado_no_acervo",
+     "substituivel": false,
+     "erc1967_implementacao": null,
+     "erc1967_beacon": null,
+     "tamanho_codigo": 15398
+    }
+   }
+  }
+ ],
+ "cobertura": 0.7366255144032922,
+ "bytes_nao_atestados": 64,
+ "indicador_equacao_2": 1,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.1,
+ "ordem": 284
+}

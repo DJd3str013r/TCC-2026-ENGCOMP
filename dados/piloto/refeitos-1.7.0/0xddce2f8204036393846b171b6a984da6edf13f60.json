@@ -1,0 +1,44 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.7.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0xddce2f8204036393846b171b6a984da6edf13f60",
+  "bloco_referencia": 26290000,
+  "tamanho_codigo": 1754,
+  "resumo_codigo": "0xaa66ded9c66a7a9c592ad97477d57fe46f7a8ff2bdea8e68ab79955d8b0857b4"
+ },
+ "acervo": {
+  "match_id": "26833254",
+  "grau_codigo_execucao": "parcial",
+  "grau_codigo_criacao": "parcial",
+  "compilador": "0.3.5+commit.5f97274",
+  "linguagem": "Solidity",
+  "contrato_compilado": "HumanStandardToken.sol:HumanStandardToken",
+  "verificado_em": "2026-03-25T12:59:45Z"
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": null,
+  "tamanho_recompilado": 1754,
+  "tamanho_cadeia": 1754,
+  "blocos_removidos": 0,
+  "metadados_em_F": false,
+  "ajustes_dos_metadados": [],
+  "motor": "soljson"
+ },
+ "regioes": [],
+ "constantes": [],
+ "cobertura": 1.0,
+ "bytes_nao_atestados": 0,
+ "indicador_equacao_2": 0,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 4.0
+}

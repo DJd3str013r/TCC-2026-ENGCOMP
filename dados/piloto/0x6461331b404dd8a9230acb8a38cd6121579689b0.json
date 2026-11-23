@@ -1,0 +1,81 @@
+{
+ "esquema": "certidao-atesta/1",
+ "verificador": {
+  "nome": "atesta",
+  "versao": "1.1.0"
+ },
+ "contrato": {
+  "rede": 1,
+  "endereco": "0x6461331b404dd8a9230acb8a38cd6121579689b0",
+  "bloco_referencia": 26290000,
+  "tamanho_codigo": 1424,
+  "resumo_codigo": "0x0b7fd59fd2b91c0cac51893df3d2c7c8fbef324ebf40f6591d9a42502c0d1f96"
+ },
+ "acervo": {
+  "match_id": "21098054",
+  "grau_codigo_execucao": "exata",
+  "compilador": "0.8.20+commit.a1b79de6",
+  "linguagem": "Solidity",
+  "contrato_compilado": "contracts/liquidity-state/LiquidityState.sol:LiquidityState",
+  "verificado_em": "2026-03-04T15:42:46Z"
+ },
+ "situacao": "processado",
+ "recompilacao": {
+  "tipo_contrato": "contract",
+  "tamanho_recompilado": 1424,
+  "tamanho_cadeia": 1424,
+  "blocos_removidos": 0,
+  "metadados_em_F": false
+ },
+ "regioes": [
+  {
+   "inicio": 113,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:50",
+   "valor": "0x000000000000000000000000f0df5946886a5259b9271444da9827f23569dca3",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 381,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:50",
+   "valor": "0x000000000000000000000000f0df5946886a5259b9271444da9827f23569dca3",
+   "tipo": "address",
+   "tau_address": true
+  },
+  {
+   "inicio": 709,
+   "comprimento": 32,
+   "motivo": "immutable",
+   "construto": "imutavel:50",
+   "valor": "0x000000000000000000000000f0df5946886a5259b9271444da9827f23569dca3",
+   "tipo": "address",
+   "tau_address": true
+  }
+ ],
+ "constantes": [
+  {
+   "construto": "imutavel:50",
+   "motivo": "immutable",
+   "tipo": "address",
+   "tau_address": true,
+   "regioes": 3,
+   "valores": [
+    "0xf0df5946886a5259b9271444da9827f23569dca3"
+   ],
+   "valores_distintos": 1
+  }
+ ],
+ "cobertura": 0.9325842696629214,
+ "bytes_nao_atestados": 96,
+ "indicador_equacao_2": 1,
+ "confronto_acervo": {
+  "so_no_acervo": [],
+  "so_no_verificador": [],
+  "coincide": true
+ },
+ "segundos": 0.1
+}
